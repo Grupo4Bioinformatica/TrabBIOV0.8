@@ -1,0 +1,557 @@
+ID   MURF_TREPA              Reviewed;         459 AA.
+AC   O83401;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 108.
+DE   RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase {ECO:0000255|HAMAP-Rule:MF_02019};
+DE            EC=6.3.2.10 {ECO:0000255|HAMAP-Rule:MF_02019};
+DE   AltName: Full=D-alanyl-D-alanine-adding enzyme {ECO:0000255|HAMAP-Rule:MF_02019};
+DE   AltName: Full=UDP-MurNAc-pentapeptide synthetase;
+GN   Name=murF {ECO:0000255|HAMAP-Rule:MF_02019};
+GN   OrderedLocusNames=TP_0386;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Involved in cell wall formation. Catalyzes the final
+CC       step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the
+CC       precursor of murein. {ECO:0000255|HAMAP-Rule:MF_02019}.
+CC   -!- CATALYTIC ACTIVITY: ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-
+CC       glutamyl-L-lysine + D-alanyl-D-alanine = ADP + phosphate + UDP-N-
+CC       acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-
+CC       alanine. {ECO:0000255|HAMAP-Rule:MF_02019}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_02019}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02019}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurF subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_02019}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65370.1; -; Genomic_DNA.
+DR   PIR; D71331; D71331.
+DR   RefSeq; WP_010881834.1; NC_021490.2.
+DR   ProteinModelPortal; O83401; -.
+DR   IntAct; O83401; 1.
+DR   STRING; 243276.TP0386; -.
+DR   EnsemblBacteria; AAC65370; AAC65370; TP_0386.
+DR   GeneID; 2611288; -.
+DR   KEGG; tpa:TP_0386; -.
+DR   PATRIC; 20530781; VBITrePal57110_0410.
+DR   eggNOG; ENOG4107EES; Bacteria.
+DR   eggNOG; COG0770; LUCA.
+DR   KO; K01929; -.
+DR   OMA; YTALHMP; -.
+DR   OrthoDB; EOG6PKFCR; -.
+DR   BioCyc; TPAL243276:GC1H-412-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047480; F:UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008766; F:UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate-D-alanyl-D-alanine ligase activity; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.40.1390.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_02019; MurF; 1.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005863; UDP-N-AcMur_synth.
+DR   PANTHER; PTHR23135:SF3; PTHR23135:SF3; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   SUPFAM; SSF63418; SSF63418; 1.
+DR   TIGRFAMs; TIGR01143; murF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell cycle; Cell division; Cell shape;
+KW   Cell wall biogenesis/degradation; Complete proteome; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Peptidoglycan synthesis;
+KW   Reference proteome.
+FT   CHAIN         1    459       UDP-N-acetylmuramoyl-tripeptide--D-
+FT                                alanyl-D-alanine ligase.
+FT                                /FTId=PRO_0000101707.
+FT   NP_BIND     121    127       ATP. {ECO:0000255|HAMAP-Rule:MF_02019}.
+SQ   SEQUENCE   459 AA;  50235 MW;  23EA5571ED95F332 CRC64;
+     MLLSFDEVCA AVQGARVCDA RGARGFDGVS FDSRAVVPRD LFIPLRGAHV DGHTFVEEAL
+     QKGAVATLID QRYPHAGEYV AWCTRFGAAC IAVHDTLRAL QDLASFYCKK FPALIRIGIT
+     GSSGKTTVKE MARAVFSERY RVVATPGNLN SEIGLPQSLF FVRAEHEVGI FELGMNRRGE
+     MRTLAQILVP HYAIITNVGC AHVGILGTQQ AIAEEKKEIF SQFTEHSVGF VPDDAYRVFL
+     SNIPYGRVVV YDQGGRGLAT EVIDEGLRGS RVLYQGRWIR VPLPGVHNAK NALAVIALAA
+     QVGLPAEEIQ RGMERVKPPF GRSHVVCASL TFLLDCYNAN PDSMAAALHL CAHISAVSKV
+     YVLGDMGELG VTAAEAHYRV CVLAAASDAR AVYVFGPEFC RAVRKVSWGR KRVYAFALEE
+     LSALQETLDA QLRRGDFVLV KGSRSVALER LEPLLRKER
+//
+ID   R9UVQ5_TREPA            Unreviewed;       459 AA.
+AC   R9UVQ5;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   20-JAN-2016, entry version 21.
+DE   RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE            EC=6.3.2.10 {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE   AltName: Full=D-alanyl-D-alanine-adding enzyme {ECO:0000256|HAMAP-Rule:MF_02019};
+GN   Name=murF {ECO:0000256|HAMAP-Rule:MF_02019,
+GN   ECO:0000313|EMBL:AGN75580.1};
+GN   ORFNames=TPANIC_0386 {ECO:0000313|EMBL:AGN75580.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75580.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75580.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75580.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Involved in cell wall formation. Catalyzes the final
+CC       step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the
+CC       precursor of murein. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- CATALYTIC ACTIVITY: ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-
+CC       glutamyl-L-lysine + D-alanyl-D-alanine = ADP + phosphate + UDP-N-
+CC       acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-
+CC       alanine. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurF subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75580.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881834.1; NC_021490.2.
+DR   ProteinModelPortal; R9UVQ5; -.
+DR   STRING; 243276.TP0386; -.
+DR   EnsemblBacteria; AGN75580; AGN75580; TPANIC_0386.
+DR   GeneID; 2611288; -.
+DR   KEGG; tpw:TPANIC_0386; -.
+DR   eggNOG; COG0770; LUCA.
+DR   eggNOG; ENOG4107EES; Bacteria.
+DR   KO; K01929; -.
+DR   OMA; YTALHMP; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047480; F:UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008766; F:UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate-D-alanyl-D-alanine ligase activity; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.40.1390.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_02019; MurF; 1.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005863; UDP-N-AcMur_synth.
+DR   PANTHER; PTHR23135:SF3; PTHR23135:SF3; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   SUPFAM; SSF63418; SSF63418; 1.
+DR   TIGRFAMs; TIGR01143; murF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}; Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630, ECO:0000313|EMBL:AGN75580.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}.
+FT   DOMAIN       28    105       Mur_ligase. {ECO:0000259|Pfam:PF01225}.
+FT   DOMAIN      119    299       Mur_ligase_M. {ECO:0000259|Pfam:PF08245}.
+FT   DOMAIN      321    397       Mur_ligase_C. {ECO:0000259|Pfam:PF02875}.
+FT   NP_BIND     121    127       ATP. {ECO:0000256|HAMAP-Rule:MF_02019}.
+FT   COILED      414    434       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   459 AA;  50235 MW;  23EA5571ED95F332 CRC64;
+     MLLSFDEVCA AVQGARVCDA RGARGFDGVS FDSRAVVPRD LFIPLRGAHV DGHTFVEEAL
+     QKGAVATLID QRYPHAGEYV AWCTRFGAAC IAVHDTLRAL QDLASFYCKK FPALIRIGIT
+     GSSGKTTVKE MARAVFSERY RVVATPGNLN SEIGLPQSLF FVRAEHEVGI FELGMNRRGE
+     MRTLAQILVP HYAIITNVGC AHVGILGTQQ AIAEEKKEIF SQFTEHSVGF VPDDAYRVFL
+     SNIPYGRVVV YDQGGRGLAT EVIDEGLRGS RVLYQGRWIR VPLPGVHNAK NALAVIALAA
+     QVGLPAEEIQ RGMERVKPPF GRSHVVCASL TFLLDCYNAN PDSMAAALHL CAHISAVSKV
+     YVLGDMGELG VTAAEAHYRV CVLAAASDAR AVYVFGPEFC RAVRKVSWGR KRVYAFALEE
+     LSALQETLDA QLRRGDFVLV KGSRSVALER LEPLLRKER
+//
+ID   H6KVA5_TREPD            Unreviewed;       459 AA.
+AC   H6KVA5;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   20-JAN-2016, entry version 29.
+DE   RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE            EC=6.3.2.10 {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE   AltName: Full=D-alanyl-D-alanine-adding enzyme {ECO:0000256|HAMAP-Rule:MF_02019};
+GN   Name=murF {ECO:0000256|HAMAP-Rule:MF_02019,
+GN   ECO:0000313|EMBL:AEZ58577.1};
+GN   OrderedLocusNames=TPECDC2_0386 {ECO:0000313|EMBL:AEZ58577.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58577.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Involved in cell wall formation. Catalyzes the final
+CC       step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the
+CC       precursor of murein. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- CATALYTIC ACTIVITY: ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-
+CC       glutamyl-L-lysine + D-alanyl-D-alanine = ADP + phosphate + UDP-N-
+CC       acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-
+CC       alanine. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurF subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58577.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881834.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVA5; -.
+DR   EnsemblBacteria; AEZ58577; AEZ58577; TPECDC2_0386.
+DR   GeneID; 2611288; -.
+DR   KEGG; tpc:TPECDC2_0386; -.
+DR   KO; K01929; -.
+DR   OMA; YTALHMP; -.
+DR   BioCyc; TPAL491079:GJCE-419-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047480; F:UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008766; F:UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate-D-alanyl-D-alanine ligase activity; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.40.1390.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_02019; MurF; 1.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005863; UDP-N-AcMur_synth.
+DR   PANTHER; PTHR23135:SF3; PTHR23135:SF3; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   SUPFAM; SSF63418; SSF63418; 1.
+DR   TIGRFAMs; TIGR01143; murF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}; Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630, ECO:0000313|EMBL:AEZ58577.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}.
+FT   DOMAIN       28    105       Mur_ligase. {ECO:0000259|Pfam:PF01225}.
+FT   DOMAIN      119    299       Mur_ligase_M. {ECO:0000259|Pfam:PF08245}.
+FT   DOMAIN      321    397       Mur_ligase_C. {ECO:0000259|Pfam:PF02875}.
+FT   NP_BIND     121    127       ATP. {ECO:0000256|HAMAP-Rule:MF_02019}.
+FT   COILED      414    434       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   459 AA;  50235 MW;  23EA5571ED95F332 CRC64;
+     MLLSFDEVCA AVQGARVCDA RGARGFDGVS FDSRAVVPRD LFIPLRGAHV DGHTFVEEAL
+     QKGAVATLID QRYPHAGEYV AWCTRFGAAC IAVHDTLRAL QDLASFYCKK FPALIRIGIT
+     GSSGKTTVKE MARAVFSERY RVVATPGNLN SEIGLPQSLF FVRAEHEVGI FELGMNRRGE
+     MRTLAQILVP HYAIITNVGC AHVGILGTQQ AIAEEKKEIF SQFTEHSVGF VPDDAYRVFL
+     SNIPYGRVVV YDQGGRGLAT EVIDEGLRGS RVLYQGRWIR VPLPGVHNAK NALAVIALAA
+     QVGLPAEEIQ RGMERVKPPF GRSHVVCASL TFLLDCYNAN PDSMAAALHL CAHISAVSKV
+     YVLGDMGELG VTAAEAHYRV CVLAAASDAR AVYVFGPEFC RAVRKVSWGR KRVYAFALEE
+     LSALQETLDA QLRRGDFVLV KGSRSVALER LEPLLRKER
+//
+ID   A0A0H3BJ28_TREPS        Unreviewed;       459 AA.
+AC   A0A0H3BJ28;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   20-JAN-2016, entry version 5.
+DE   RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE            EC=6.3.2.10 {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE   AltName: Full=D-alanyl-D-alanine-adding enzyme {ECO:0000256|HAMAP-Rule:MF_02019};
+GN   Name=murF {ECO:0000256|HAMAP-Rule:MF_02019,
+GN   ECO:0000313|EMBL:ACD70812.1};
+GN   OrderedLocusNames=TPASS_0386 {ECO:0000313|EMBL:ACD70812.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70812.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70812.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70812.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Involved in cell wall formation. Catalyzes the final
+CC       step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the
+CC       precursor of murein. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- CATALYTIC ACTIVITY: ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-
+CC       glutamyl-L-lysine + D-alanyl-D-alanine = ADP + phosphate + UDP-N-
+CC       acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-
+CC       alanine. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurF subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70812.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881834.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ28; -.
+DR   GeneID; 2611288; -.
+DR   KEGG; tpp:TPASS_0386; -.
+DR   KO; K01929; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047480; F:UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008766; F:UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate-D-alanyl-D-alanine ligase activity; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.40.1390.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_02019; MurF; 1.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005863; UDP-N-AcMur_synth.
+DR   PANTHER; PTHR23135:SF3; PTHR23135:SF3; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   SUPFAM; SSF63418; SSF63418; 1.
+DR   TIGRFAMs; TIGR01143; murF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}; Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}.
+FT   DOMAIN       28    105       Mur_ligase. {ECO:0000259|Pfam:PF01225}.
+FT   DOMAIN      119    299       Mur_ligase_M. {ECO:0000259|Pfam:PF08245}.
+FT   DOMAIN      321    397       Mur_ligase_C. {ECO:0000259|Pfam:PF02875}.
+FT   NP_BIND     121    127       ATP. {ECO:0000256|HAMAP-Rule:MF_02019}.
+FT   COILED      414    434       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   459 AA;  50235 MW;  23EA5571ED95F332 CRC64;
+     MLLSFDEVCA AVQGARVCDA RGARGFDGVS FDSRAVVPRD LFIPLRGAHV DGHTFVEEAL
+     QKGAVATLID QRYPHAGEYV AWCTRFGAAC IAVHDTLRAL QDLASFYCKK FPALIRIGIT
+     GSSGKTTVKE MARAVFSERY RVVATPGNLN SEIGLPQSLF FVRAEHEVGI FELGMNRRGE
+     MRTLAQILVP HYAIITNVGC AHVGILGTQQ AIAEEKKEIF SQFTEHSVGF VPDDAYRVFL
+     SNIPYGRVVV YDQGGRGLAT EVIDEGLRGS RVLYQGRWIR VPLPGVHNAK NALAVIALAA
+     QVGLPAEEIQ RGMERVKPPF GRSHVVCASL TFLLDCYNAN PDSMAAALHL CAHISAVSKV
+     YVLGDMGELG VTAAEAHYRV CVLAAASDAR AVYVFGPEFC RAVRKVSWGR KRVYAFALEE
+     LSALQETLDA QLRRGDFVLV KGSRSVALER LEPLLRKER
+//
+ID   A0A0A7X2H9_TREPL        Unreviewed;       459 AA.
+AC   A0A0A7X2H9;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   20-JAN-2016, entry version 9.
+DE   RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE            EC=6.3.2.10 {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136};
+DE   AltName: Full=D-alanyl-D-alanine-adding enzyme {ECO:0000256|HAMAP-Rule:MF_02019};
+GN   Name=murF {ECO:0000256|HAMAP-Rule:MF_02019,
+GN   ECO:0000313|EMBL:AJB40405.1};
+GN   ORFNames=TENDBA_0386 {ECO:0000313|EMBL:AJB40405.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40405.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40405.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40405.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Involved in cell wall formation. Catalyzes the final
+CC       step in the synthesis of UDP-N-acetylmuramoyl-pentapeptide, the
+CC       precursor of murein. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- CATALYTIC ACTIVITY: ATP + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-
+CC       glutamyl-L-lysine + D-alanyl-D-alanine = ADP + phosphate + UDP-N-
+CC       acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-
+CC       alanine. {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019, ECO:0000256|RuleBase:RU004136}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019,
+CC       ECO:0000256|RuleBase:RU004136}.
+CC   -!- SIMILARITY: Belongs to the MurCDEF family. MurF subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_02019}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40405.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881834.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2H9; -.
+DR   EnsemblBacteria; AJB40405; AJB40405; TENDBA_0386.
+DR   GeneID; 2611288; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0047480; F:UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008766; F:UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate-D-alanyl-D-alanine ligase activity; IEA:InterPro.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.1190.10; -; 1.
+DR   Gene3D; 3.40.1390.10; -; 1.
+DR   Gene3D; 3.90.190.20; -; 1.
+DR   HAMAP; MF_02019; MurF; 1.
+DR   InterPro; IPR004101; Mur_ligase_C.
+DR   InterPro; IPR013221; Mur_ligase_cen.
+DR   InterPro; IPR000713; Mur_ligase_N.
+DR   InterPro; IPR005863; UDP-N-AcMur_synth.
+DR   PANTHER; PTHR23135:SF3; PTHR23135:SF3; 1.
+DR   Pfam; PF01225; Mur_ligase; 1.
+DR   Pfam; PF02875; Mur_ligase_C; 1.
+DR   Pfam; PF08245; Mur_ligase_M; 1.
+DR   SUPFAM; SSF53244; SSF53244; 1.
+DR   SUPFAM; SSF53623; SSF53623; 1.
+DR   SUPFAM; SSF63418; SSF63418; 1.
+DR   TIGRFAMs; TIGR01143; murF; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}; Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02019};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630, ECO:0000313|EMBL:AJB40405.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU003630};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_02019,
+KW   ECO:0000256|RuleBase:RU004136}.
+FT   DOMAIN       28    105       Mur_ligase. {ECO:0000259|Pfam:PF01225}.
+FT   DOMAIN      119    299       Mur_ligase_M. {ECO:0000259|Pfam:PF08245}.
+FT   DOMAIN      321    397       Mur_ligase_C. {ECO:0000259|Pfam:PF02875}.
+FT   NP_BIND     121    127       ATP. {ECO:0000256|HAMAP-Rule:MF_02019}.
+FT   COILED      414    434       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   459 AA;  50235 MW;  23EA5571ED95F332 CRC64;
+     MLLSFDEVCA AVQGARVCDA RGARGFDGVS FDSRAVVPRD LFIPLRGAHV DGHTFVEEAL
+     QKGAVATLID QRYPHAGEYV AWCTRFGAAC IAVHDTLRAL QDLASFYCKK FPALIRIGIT
+     GSSGKTTVKE MARAVFSERY RVVATPGNLN SEIGLPQSLF FVRAEHEVGI FELGMNRRGE
+     MRTLAQILVP HYAIITNVGC AHVGILGTQQ AIAEEKKEIF SQFTEHSVGF VPDDAYRVFL
+     SNIPYGRVVV YDQGGRGLAT EVIDEGLRGS RVLYQGRWIR VPLPGVHNAK NALAVIALAA
+     QVGLPAEEIQ RGMERVKPPF GRSHVVCASL TFLLDCYNAN PDSMAAALHL CAHISAVSKV
+     YVLGDMGELG VTAAEAHYRV CVLAAASDAR AVYVFGPEFC RAVRKVSWGR KRVYAFALEE
+     LSALQETLDA QLRRGDFVLV KGSRSVALER LEPLLRKER
+//

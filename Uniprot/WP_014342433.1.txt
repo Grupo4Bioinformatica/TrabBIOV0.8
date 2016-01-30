@@ -1,0 +1,91 @@
+ID   H6KT74_TREPD            Unreviewed;       324 AA.
+AC   H6KT74;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 17.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AEZ58648.1};
+GN   OrderedLocusNames=TPECDC2_0455 {ECO:0000313|EMBL:AEZ58648.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58648.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58648.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342433.1; NC_016848.1.
+DR   EnsemblBacteria; AEZ58648; AEZ58648; TPECDC2_0455.
+DR   GeneID; 2611037; -.
+DR   KEGG; tpc:TPECDC2_0455; -.
+DR   OMA; FLYIDIE; -.
+DR   BioCyc; TPAL491079:GJCE-490-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     24       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        25    324       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5003604445.
+SQ   SEQUENCE   324 AA;  37583 MW;  D218C035EEB8EE4C CRC64;
+     MKLKRSLIVG GGLLLCCAHG YAQAKGARAS VHIAYHNRTI YFPGTHESEP IWVKVSLTNT
+     GKDTLRFKLA DDRTFSVDFS IRTMKNRALA HTDEWIRKRS THRPVYFREI SLEPGESYSF
+     VENVKHYLDV QSAGLYFLTL LFYPELKRER TGDEDHLASN TLTLEVQPAP AAAALGALPV
+     SPPVGEVLQP QRLSPDRVIE YVLNARQKSH WERFFLYLDL AKMLSRDAGR SRRFNAESEA
+     GRYNMIDTYK HELRQERVDK DIAAIPVEFR IEKTVYTATD AEVRVLEWFE YRDFREKKRF
+     TYHLSSRDGI WYVHDYVVEN LGTE
+//
+ID   A0A0A7X9W3_TREPL        Unreviewed;       324 AA.
+AC   A0A0A7X9W3;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   14-OCT-2015, entry version 4.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AJB40476.1};
+GN   ORFNames=TENDBA_0455 {ECO:0000313|EMBL:AJB40476.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40476.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40476.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40476.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40476.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342433.1; NZ_CP007548.1.
+DR   EnsemblBacteria; AJB40476; AJB40476; TENDBA_0455.
+DR   GeneID; 2611037; -.
+DR   Proteomes; UP000031112; Chromosome.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     24       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        25    324       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5002033333.
+SQ   SEQUENCE   324 AA;  37583 MW;  D218C035EEB8EE4C CRC64;
+     MKLKRSLIVG GGLLLCCAHG YAQAKGARAS VHIAYHNRTI YFPGTHESEP IWVKVSLTNT
+     GKDTLRFKLA DDRTFSVDFS IRTMKNRALA HTDEWIRKRS THRPVYFREI SLEPGESYSF
+     VENVKHYLDV QSAGLYFLTL LFYPELKRER TGDEDHLASN TLTLEVQPAP AAAALGALPV
+     SPPVGEVLQP QRLSPDRVIE YVLNARQKSH WERFFLYLDL AKMLSRDAGR SRRFNAESEA
+     GRYNMIDTYK HELRQERVDK DIAAIPVEFR IEKTVYTATD AEVRVLEWFE YRDFREKKRF
+     TYHLSSRDGI WYVHDYVVEN LGTE
+//

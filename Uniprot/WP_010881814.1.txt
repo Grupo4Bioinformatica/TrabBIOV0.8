@@ -1,0 +1,301 @@
+ID   CHEY_TREPA              Reviewed;         144 AA.
+AC   P96126;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   09-DEC-2015, entry version 105.
+DE   RecName: Full=Chemotaxis protein CheY;
+GN   Name=cheY; OrderedLocusNames=TP_0366;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9255518;
+RA   Greene S.R., Stamm L.V., Hardham J.M., Young N.R., Frye J.G.;
+RT   "Identification, sequences, and expression of Treponema pallidum
+RT   chemotaxis genes.";
+RL   DNA Seq. 7:267-284(1997).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Involved in the transmission of sensory signals from the
+CC       chemoreceptors to the flagellar motors. CheY seems to regulate the
+CC       clockwise (CW) rotation (By similarity). {ECO:0000250}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC       Note=Binds 1 Mg(2+) ion per subunit. {ECO:0000250};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm.
+CC   -!- PTM: Phosphorylated by CheA. {ECO:0000250}.
+CC   -!- SIMILARITY: Contains 1 response regulatory domain.
+CC       {ECO:0000255|PROSITE-ProRule:PRU00169}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U61851; AAC45558.1; -; Genomic_DNA.
+DR   EMBL; AE000520; AAC65351.1; -; Genomic_DNA.
+DR   PIR; D71335; D71335.
+DR   RefSeq; WP_010881814.1; NC_021490.2.
+DR   ProteinModelPortal; P96126; -.
+DR   STRING; 243276.TP0366; -.
+DR   EnsemblBacteria; AAC65351; AAC65351; TP_0366.
+DR   GeneID; 2611166; -.
+DR   KEGG; tpa:TP_0366; -.
+DR   PATRIC; 20530733; VBITrePal57110_0387.
+DR   eggNOG; ENOG4107Z9R; Bacteria.
+DR   eggNOG; COG0784; LUCA.
+DR   KO; K03413; -.
+DR   OMA; LFMRKML; -.
+DR   OrthoDB; EOG6PKFC7; -.
+DR   BioCyc; TPAL243276:GC1H-391-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0097588; P:archaeal or bacterial-type flagellum-dependent cell motility; IEA:UniProtKB-KW.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:UniProtKB-KW.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   3: Inferred from homology;
+KW   Chemotaxis; Complete proteome; Cytoplasm; Flagellar rotation;
+KW   Magnesium; Metal-binding; Phosphoprotein; Reference proteome;
+KW   Two-component regulatory system.
+FT   CHAIN         1    144       Chemotaxis protein CheY.
+FT                                /FTId=PRO_0000081056.
+FT   DOMAIN       26    143       Response regulatory.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+FT   METAL        31     31       Magnesium. {ECO:0000250}.
+FT   METAL        32     32       Magnesium. {ECO:0000250}.
+FT   METAL        78     78       Magnesium. {ECO:0000250}.
+FT   METAL        80     80       Magnesium; via carbonyl oxygen.
+FT                                {ECO:0000250}.
+FT   MOD_RES      78     78       4-aspartylphosphate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00169}.
+SQ   SEQUENCE   144 AA;  15736 MW;  439BA06C877692AF CRC64;
+     MISKQDFPTI NDRVPAGQKP NGAPYRVLVV DDSMFVSKQI GQILTSEGYE VADTAVDGVD
+     GVEKYKAMSP GVDLVTMDIT MPKMDGITAL EKILEFDKNA KVVIISALGK EELVKKALLL
+     GAKNYIVKPL DRKKVLERIA SVLK
+//
+ID   R9UWG9_TREPA            Unreviewed;       144 AA.
+AC   R9UWG9;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   SubName: Full=Response regulator {ECO:0000313|EMBL:AGN75563.1};
+GN   Name=cheY {ECO:0000313|EMBL:AGN75563.1};
+GN   ORFNames=TPANIC_0366 {ECO:0000313|EMBL:AGN75563.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75563.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75563.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75563.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75563.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881814.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWG9; -.
+DR   STRING; 243276.TP0366; -.
+DR   EnsemblBacteria; AGN75563; AGN75563; TPANIC_0366.
+DR   GeneID; 2611166; -.
+DR   KEGG; tpw:TPANIC_0366; -.
+DR   eggNOG; COG0784; LUCA.
+DR   eggNOG; ENOG4107Z9R; Bacteria.
+DR   KO; K03413; -.
+DR   OMA; LFMRKML; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:InterPro.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259}.
+FT   DOMAIN       26    143       Response regulatory.
+FT                                {ECO:0000259|PROSITE:PS50110}.
+SQ   SEQUENCE   144 AA;  15736 MW;  439BA06C877692AF CRC64;
+     MISKQDFPTI NDRVPAGQKP NGAPYRVLVV DDSMFVSKQI GQILTSEGYE VADTAVDGVD
+     GVEKYKAMSP GVDLVTMDIT MPKMDGITAL EKILEFDKNA KVVIISALGK EELVKKALLL
+     GAKNYIVKPL DRKKVLERIA SVLK
+//
+ID   H6KV85_TREPD            Unreviewed;       144 AA.
+AC   H6KV85;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 25.
+DE   SubName: Full=Response regulator {ECO:0000313|EMBL:AEZ58557.1};
+GN   Name=cheY {ECO:0000313|EMBL:AEZ58557.1};
+GN   OrderedLocusNames=TPECDC2_0366 {ECO:0000313|EMBL:AEZ58557.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58557.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58557.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881814.1; NC_016848.1.
+DR   ProteinModelPortal; H6KV85; -.
+DR   EnsemblBacteria; AEZ58557; AEZ58557; TPECDC2_0366.
+DR   GeneID; 2611166; -.
+DR   KEGG; tpc:TPECDC2_0366; -.
+DR   KO; K03413; -.
+DR   OMA; LFMRKML; -.
+DR   BioCyc; TPAL491079:GJCE-398-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:InterPro.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193}.
+FT   DOMAIN       26    143       Response regulatory.
+FT                                {ECO:0000259|PROSITE:PS50110}.
+SQ   SEQUENCE   144 AA;  15736 MW;  439BA06C877692AF CRC64;
+     MISKQDFPTI NDRVPAGQKP NGAPYRVLVV DDSMFVSKQI GQILTSEGYE VADTAVDGVD
+     GVEKYKAMSP GVDLVTMDIT MPKMDGITAL EKILEFDKNA KVVIISALGK EELVKKALLL
+     GAKNYIVKPL DRKKVLERIA SVLK
+//
+ID   A0A0H3BJ14_TREPS        Unreviewed;       144 AA.
+AC   A0A0H3BJ14;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Chemotaxis response regulator {ECO:0000313|EMBL:ACD70792.1};
+GN   Name=cheY {ECO:0000313|EMBL:ACD70792.1};
+GN   OrderedLocusNames=TPASS_0366 {ECO:0000313|EMBL:ACD70792.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70792.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70792.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70792.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70792.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881814.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ14; -.
+DR   GeneID; 2611166; -.
+DR   KEGG; tpp:TPASS_0366; -.
+DR   KO; K03413; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:InterPro.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN       26    143       Response regulatory.
+FT                                {ECO:0000259|PROSITE:PS50110}.
+SQ   SEQUENCE   144 AA;  15736 MW;  439BA06C877692AF CRC64;
+     MISKQDFPTI NDRVPAGQKP NGAPYRVLVV DDSMFVSKQI GQILTSEGYE VADTAVDGVD
+     GVEKYKAMSP GVDLVTMDIT MPKMDGITAL EKILEFDKNA KVVIISALGK EELVKKALLL
+     GAKNYIVKPL DRKKVLERIA SVLK
+//
+ID   A0A0A7X9M3_TREPL        Unreviewed;       144 AA.
+AC   A0A0A7X9M3;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   SubName: Full=Response regulator {ECO:0000313|EMBL:AJB40386.1};
+GN   Name=cheY {ECO:0000313|EMBL:AJB40386.1};
+GN   ORFNames=TENDBA_0366 {ECO:0000313|EMBL:AJB40386.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40386.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40386.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40386.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40386.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881814.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X9M3; -.
+DR   EnsemblBacteria; AJB40386; AJB40386; TENDBA_0366.
+DR   GeneID; 2611166; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0000160; P:phosphorelay signal transduction system; IEA:InterPro.
+DR   InterPro; IPR011006; CheY-like_superfamily.
+DR   InterPro; IPR001789; Sig_transdc_resp-reg_receiver.
+DR   Pfam; PF00072; Response_reg; 1.
+DR   SMART; SM00448; REC; 1.
+DR   SUPFAM; SSF52172; SSF52172; 1.
+DR   PROSITE; PS50110; RESPONSE_REGULATORY; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112}.
+FT   DOMAIN       26    143       Response regulatory.
+FT                                {ECO:0000259|PROSITE:PS50110}.
+SQ   SEQUENCE   144 AA;  15736 MW;  439BA06C877692AF CRC64;
+     MISKQDFPTI NDRVPAGQKP NGAPYRVLVV DDSMFVSKQI GQILTSEGYE VADTAVDGVD
+     GVEKYKAMSP GVDLVTMDIT MPKMDGITAL EKILEFDKNA KVVIISALGK EELVKKALLL
+     GAKNYIVKPL DRKKVLERIA SVLK
+//

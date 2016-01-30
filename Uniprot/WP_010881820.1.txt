@@ -1,0 +1,406 @@
+ID   RL25_TREPA              Reviewed;         196 AA.
+AC   O83387;
+DT   21-JUN-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 91.
+DE   RecName: Full=50S ribosomal protein L25 {ECO:0000255|HAMAP-Rule:MF_01334};
+DE   AltName: Full=General stress protein CTC {ECO:0000255|HAMAP-Rule:MF_01334};
+GN   Name=rplY {ECO:0000255|HAMAP-Rule:MF_01334};
+GN   Synonyms=ctc {ECO:0000255|HAMAP-Rule:MF_01334};
+GN   OrderedLocusNames=TP_0372;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: This is one of the proteins that binds to the 5S RNA in
+CC       the ribosome where it forms part of the central protuberance.
+CC       {ECO:0000255|HAMAP-Rule:MF_01334}.
+CC   -!- SUBUNIT: Part of the 50S ribosomal subunit; part of the 5S
+CC       rRNA/L5/L18/L25 subcomplex. Contacts the 5S rRNA. Binds to the 5S
+CC       rRNA independently of L5 and L18. {ECO:0000255|HAMAP-
+CC       Rule:MF_01334}.
+CC   -!- SIMILARITY: Belongs to the ribosomal protein L25P family. CTC
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01334}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65357.1; -; Genomic_DNA.
+DR   PIR; C71333; C71333.
+DR   RefSeq; WP_010881820.1; NC_021490.2.
+DR   ProteinModelPortal; O83387; -.
+DR   IntAct; O83387; 5.
+DR   STRING; 243276.TP0372; -.
+DR   EnsemblBacteria; AAC65357; AAC65357; TP_0372.
+DR   GeneID; 2611254; -.
+DR   KEGG; tpa:TP_0372; -.
+DR   PATRIC; 20530749; VBITrePal57110_0394.
+DR   eggNOG; ENOG4107TVT; Bacteria.
+DR   eggNOG; COG1825; LUCA.
+DR   KO; K02897; -.
+DR   OMA; VQRHPIK; -.
+DR   OrthoDB; EOG6SZ1PC; -.
+DR   BioCyc; TPAL243276:GC1H-398-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0008097; F:5S rRNA binding; IEA:InterPro.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.170.120.20; -; 1.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   HAMAP; MF_01334; Ribosomal_L25_CTC; 1.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_b-brl.
+DR   InterPro; IPR029751; Ribosomal_L25.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR020057; Ribosomal_L25_b-dom.
+DR   InterPro; IPR001021; Ribosomal_L25_long.
+DR   Pfam; PF01386; Ribosomal_L25p; 1.
+DR   Pfam; PF14693; Ribosomal_TL5_C; 1.
+DR   ProDom; PD012503; Ribosomal_L25; 1.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00731; bL25_bact_ctc; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Reference proteome; Ribonucleoprotein;
+KW   Ribosomal protein; RNA-binding; rRNA-binding.
+FT   CHAIN         1    196       50S ribosomal protein L25.
+FT                                /FTId=PRO_0000181612.
+SQ   SEQUENCE   196 AA;  21619 MW;  7E4375DFCFC64065 CRC64;
+     MDERRLKGKR RVQLGKYAAV RGRKEGRLPA VMYDHRGVSV PLELAQQDFD RLFRALTRST
+     VLSLELDGGE VFCVFVKDYQ HNMVSDRVEH VDFYAVEESV PLRMRIRLQL CGSPEGVRYG
+     ARLEKGLSYI EVESLPRNLP DRVVLDISGL GAGDVRRVRD VPLPASVVVL SDPDAVIVAL
+     SSSASEAGSP AGARTG
+//
+ID   RL25_TREPS              Reviewed;         196 AA.
+AC   B2S2W9;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 57.
+DE   RecName: Full=50S ribosomal protein L25 {ECO:0000255|HAMAP-Rule:MF_01334};
+DE   AltName: Full=General stress protein CTC {ECO:0000255|HAMAP-Rule:MF_01334};
+GN   Name=rplY {ECO:0000255|HAMAP-Rule:MF_01334};
+GN   Synonyms=ctc {ECO:0000255|HAMAP-Rule:MF_01334};
+GN   OrderedLocusNames=TPASS_0372;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: This is one of the proteins that binds to the 5S RNA in
+CC       the ribosome where it forms part of the central protuberance.
+CC       {ECO:0000255|HAMAP-Rule:MF_01334}.
+CC   -!- SUBUNIT: Part of the 50S ribosomal subunit; part of the 5S
+CC       rRNA/L5/L18/L25 subcomplex. Contacts the 5S rRNA. Binds to the 5S
+CC       rRNA independently of L5 and L18. {ECO:0000255|HAMAP-
+CC       Rule:MF_01334}.
+CC   -!- SIMILARITY: Belongs to the ribosomal protein L25P family. CTC
+CC       subfamily. {ECO:0000255|HAMAP-Rule:MF_01334}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70798.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881820.1; NC_021508.1.
+DR   ProteinModelPortal; B2S2W9; -.
+DR   EnsemblBacteria; ACD70798; ACD70798; TPASS_0372.
+DR   GeneID; 2611254; -.
+DR   KEGG; tpp:TPASS_0372; -.
+DR   PATRIC; 20528453; VBITrePal10923_0397.
+DR   HOGENOM; HOG000214906; -.
+DR   KO; K02897; -.
+DR   OMA; VQRHPIK; -.
+DR   OrthoDB; EOG6SZ1PC; -.
+DR   BioCyc; TPAL455434:GJ9E-397-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0008097; F:5S rRNA binding; IEA:InterPro.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.170.120.20; -; 1.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   HAMAP; MF_01334; Ribosomal_L25_CTC; 1.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_b-brl.
+DR   InterPro; IPR029751; Ribosomal_L25.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR020057; Ribosomal_L25_b-dom.
+DR   InterPro; IPR001021; Ribosomal_L25_long.
+DR   Pfam; PF01386; Ribosomal_L25p; 1.
+DR   Pfam; PF14693; Ribosomal_TL5_C; 1.
+DR   ProDom; PD012503; Ribosomal_L25; 1.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00731; bL25_bact_ctc; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Ribonucleoprotein; Ribosomal protein; RNA-binding;
+KW   rRNA-binding.
+FT   CHAIN         1    196       50S ribosomal protein L25.
+FT                                /FTId=PRO_1000142560.
+SQ   SEQUENCE   196 AA;  21619 MW;  7E4375DFCFC64065 CRC64;
+     MDERRLKGKR RVQLGKYAAV RGRKEGRLPA VMYDHRGVSV PLELAQQDFD RLFRALTRST
+     VLSLELDGGE VFCVFVKDYQ HNMVSDRVEH VDFYAVEESV PLRMRIRLQL CGSPEGVRYG
+     ARLEKGLSYI EVESLPRNLP DRVVLDISGL GAGDVRRVRD VPLPASVVVL SDPDAVIVAL
+     SSSASEAGSP AGARTG
+//
+ID   R9USX9_TREPA            Unreviewed;       196 AA.
+AC   R9USX9;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 24.
+DE   RecName: Full=50S ribosomal protein L25 {ECO:0000256|HAMAP-Rule:MF_01334, ECO:0000256|SAAS:SAAS00337231};
+DE   AltName: Full=General stress protein CTC {ECO:0000256|HAMAP-Rule:MF_01334, ECO:0000256|SAAS:SAAS00337229};
+GN   Name=rplY {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   Synonyms=ctc {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   ORFNames=TPANIC_0372 {ECO:0000313|EMBL:AGN75569.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75569.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75569.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75569.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: This is one of the proteins that binds to the 5S RNA in
+CC       the ribosome where it forms part of the central protuberance.
+CC       {ECO:0000256|HAMAP-Rule:MF_01334, ECO:0000256|SAAS:SAAS00337221}.
+CC   -!- SUBUNIT: Part of the 50S ribosomal subunit; part of the 5S
+CC       rRNA/L5/L18/L25 subcomplex. Contacts the 5S rRNA. Binds to the 5S
+CC       rRNA independently of L5 and L18. {ECO:0000256|HAMAP-
+CC       Rule:MF_01334, ECO:0000256|SAAS:SAAS00337226}.
+CC   -!- SIMILARITY: Belongs to the ribosomal protein L25P family. CTC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01334}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75569.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881820.1; NC_021490.2.
+DR   ProteinModelPortal; R9USX9; -.
+DR   STRING; 243276.TP0372; -.
+DR   EnsemblBacteria; AGN75569; AGN75569; TPANIC_0372.
+DR   GeneID; 2611254; -.
+DR   KEGG; tpw:TPANIC_0372; -.
+DR   eggNOG; COG1825; LUCA.
+DR   eggNOG; ENOG4107TVT; Bacteria.
+DR   KO; K02897; -.
+DR   OMA; VQRHPIK; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0008097; F:5S rRNA binding; IEA:InterPro.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.170.120.20; -; 1.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   HAMAP; MF_01334; Ribosomal_L25_CTC; 1.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_b-brl.
+DR   InterPro; IPR029751; Ribosomal_L25.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR020057; Ribosomal_L25_b-dom.
+DR   InterPro; IPR001021; Ribosomal_L25_long.
+DR   Pfam; PF01386; Ribosomal_L25p; 1.
+DR   Pfam; PF14693; Ribosomal_TL5_C; 1.
+DR   ProDom; PD012503; Ribosomal_L25; 1.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00731; bL25_bact_ctc; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Ribonucleoprotein {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147502};
+KW   Ribosomal protein {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147502};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147503};
+KW   rRNA-binding {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147503}.
+FT   DOMAIN      102    181       Ribosomal_TL5_C.
+FT                                {ECO:0000259|Pfam:PF14693}.
+SQ   SEQUENCE   196 AA;  21619 MW;  7E4375DFCFC64065 CRC64;
+     MDERRLKGKR RVQLGKYAAV RGRKEGRLPA VMYDHRGVSV PLELAQQDFD RLFRALTRST
+     VLSLELDGGE VFCVFVKDYQ HNMVSDRVEH VDFYAVEESV PLRMRIRLQL CGSPEGVRYG
+     ARLEKGLSYI EVESLPRNLP DRVVLDISGL GAGDVRRVRD VPLPASVVVL SDPDAVIVAL
+     SSSASEAGSP AGARTG
+//
+ID   H6KV92_TREPD            Unreviewed;       196 AA.
+AC   H6KV92;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 32.
+DE   RecName: Full=50S ribosomal protein L25 {ECO:0000256|HAMAP-Rule:MF_01334};
+DE   AltName: Full=General stress protein CTC {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   Name=rplY {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   Synonyms=ctc {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   OrderedLocusNames=TPECDC2_0372 {ECO:0000313|EMBL:AEZ58564.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58564.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: This is one of the proteins that binds to the 5S RNA in
+CC       the ribosome where it forms part of the central protuberance.
+CC       {ECO:0000256|HAMAP-Rule:MF_01334, ECO:0000256|SAAS:SAAS00337221}.
+CC   -!- SUBUNIT: Part of the 50S ribosomal subunit; part of the 5S
+CC       rRNA/L5/L18/L25 subcomplex. Contacts the 5S rRNA. Binds to the 5S
+CC       rRNA independently of L5 and L18. {ECO:0000256|HAMAP-
+CC       Rule:MF_01334, ECO:0000256|SAAS:SAAS00337226}.
+CC   -!- SIMILARITY: Belongs to the ribosomal protein L25P family. CTC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01334}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58564.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881820.1; NC_016848.1.
+DR   ProteinModelPortal; H6KV92; -.
+DR   EnsemblBacteria; AEZ58564; AEZ58564; TPECDC2_0372.
+DR   GeneID; 2611254; -.
+DR   KEGG; tpc:TPECDC2_0372; -.
+DR   KO; K02897; -.
+DR   OMA; VQRHPIK; -.
+DR   BioCyc; TPAL491079:GJCE-406-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0008097; F:5S rRNA binding; IEA:InterPro.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.170.120.20; -; 1.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   HAMAP; MF_01334; Ribosomal_L25_CTC; 1.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_b-brl.
+DR   InterPro; IPR029751; Ribosomal_L25.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR020057; Ribosomal_L25_b-dom.
+DR   InterPro; IPR001021; Ribosomal_L25_long.
+DR   Pfam; PF01386; Ribosomal_L25p; 1.
+DR   Pfam; PF14693; Ribosomal_TL5_C; 1.
+DR   ProDom; PD012503; Ribosomal_L25; 1.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00731; bL25_bact_ctc; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Ribonucleoprotein {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147502};
+KW   Ribosomal protein {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147502};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147503};
+KW   rRNA-binding {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147503}.
+FT   DOMAIN      102    181       Ribosomal_TL5_C.
+FT                                {ECO:0000259|Pfam:PF14693}.
+SQ   SEQUENCE   196 AA;  21619 MW;  7E4375DFCFC64065 CRC64;
+     MDERRLKGKR RVQLGKYAAV RGRKEGRLPA VMYDHRGVSV PLELAQQDFD RLFRALTRST
+     VLSLELDGGE VFCVFVKDYQ HNMVSDRVEH VDFYAVEESV PLRMRIRLQL CGSPEGVRYG
+     ARLEKGLSYI EVESLPRNLP DRVVLDISGL GAGDVRRVRD VPLPASVVVL SDPDAVIVAL
+     SSSASEAGSP AGARTG
+//
+ID   A0A0A7X4H8_TREPL        Unreviewed;       196 AA.
+AC   A0A0A7X4H8;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   RecName: Full=50S ribosomal protein L25 {ECO:0000256|HAMAP-Rule:MF_01334};
+DE   AltName: Full=General stress protein CTC {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   Name=rplY {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   Synonyms=ctc {ECO:0000256|HAMAP-Rule:MF_01334};
+GN   ORFNames=TENDBA_0372 {ECO:0000313|EMBL:AJB40392.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40392.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40392.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40392.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: This is one of the proteins that binds to the 5S RNA in
+CC       the ribosome where it forms part of the central protuberance.
+CC       {ECO:0000256|HAMAP-Rule:MF_01334, ECO:0000256|SAAS:SAAS00337221}.
+CC   -!- SUBUNIT: Part of the 50S ribosomal subunit; part of the 5S
+CC       rRNA/L5/L18/L25 subcomplex. Contacts the 5S rRNA. Binds to the 5S
+CC       rRNA independently of L5 and L18. {ECO:0000256|HAMAP-
+CC       Rule:MF_01334, ECO:0000256|SAAS:SAAS00337226}.
+CC   -!- SIMILARITY: Belongs to the ribosomal protein L25P family. CTC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01334}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40392.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881820.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X4H8; -.
+DR   EnsemblBacteria; AJB40392; AJB40392; TENDBA_0372.
+DR   GeneID; 2611254; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005840; C:ribosome; IEA:UniProtKB-KW.
+DR   GO; GO:0008097; F:5S rRNA binding; IEA:InterPro.
+DR   GO; GO:0003735; F:structural constituent of ribosome; IEA:InterPro.
+DR   GO; GO:0006412; P:translation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.170.120.20; -; 1.
+DR   Gene3D; 2.40.240.10; -; 1.
+DR   HAMAP; MF_01334; Ribosomal_L25_CTC; 1.
+DR   InterPro; IPR020056; Rbsml_L25/Gln-tRNA_synth_b-brl.
+DR   InterPro; IPR029751; Ribosomal_L25.
+DR   InterPro; IPR011035; Ribosomal_L25/Gln-tRNA_synth.
+DR   InterPro; IPR020057; Ribosomal_L25_b-dom.
+DR   InterPro; IPR001021; Ribosomal_L25_long.
+DR   Pfam; PF01386; Ribosomal_L25p; 1.
+DR   Pfam; PF14693; Ribosomal_TL5_C; 1.
+DR   ProDom; PD012503; Ribosomal_L25; 1.
+DR   SUPFAM; SSF50715; SSF50715; 1.
+DR   TIGRFAMs; TIGR00731; bL25_bact_ctc; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Ribonucleoprotein {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147502};
+KW   Ribosomal protein {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147502};
+KW   RNA-binding {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147503};
+KW   rRNA-binding {ECO:0000256|HAMAP-Rule:MF_01334,
+KW   ECO:0000256|SAAS:SAAS00147503}.
+FT   DOMAIN      102    181       Ribosomal_TL5_C.
+FT                                {ECO:0000259|Pfam:PF14693}.
+SQ   SEQUENCE   196 AA;  21619 MW;  7E4375DFCFC64065 CRC64;
+     MDERRLKGKR RVQLGKYAAV RGRKEGRLPA VMYDHRGVSV PLELAQQDFD RLFRALTRST
+     VLSLELDGGE VFCVFVKDYQ HNMVSDRVEH VDFYAVEESV PLRMRIRLQL CGSPEGVRYG
+     ARLEKGLSYI EVESLPRNLP DRVVLDISGL GAGDVRRVRD VPLPASVVVL SDPDAVIVAL
+     SSSASEAGSP AGARTG
+//

@@ -1,0 +1,91 @@
+ID   H6KV81_TREPD            Unreviewed;       138 AA.
+AC   H6KV81;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 17.
+DE   SubName: Full=Putative membrane protein {ECO:0000313|EMBL:AEZ58553.1};
+GN   OrderedLocusNames=TPECDC2_0362a {ECO:0000313|EMBL:AEZ58553.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58553.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58553.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342393.1; NC_016848.1.
+DR   EnsemblBacteria; AEZ58553; AEZ58553; TPECDC2_0362a.
+DR   GeneID; 23365989; -.
+DR   KEGG; tpc:TPECDC2_0362a; -.
+DR   OMA; LWSAASY; -.
+DR   BioCyc; TPAL491079:GJCE-394-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     12     38       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     58     76       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    110    130       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   138 AA;  15003 MW;  EC2808F5347E3ED1 CRC64;
+     MARAQVRLSG RFLALGGYSL YAAGLVLLLY RAVGVYVWIH FYQNQTLSQL STHARSSWVS
+     IGGHASLFLG AVLLTVRDVR TFRDDSTMWI APVVLWSAAT YSSMGACGFS LRAVASGACG
+     VLLFAVWSLA SELGRRRP
+//
+ID   A0A0A7X4H0_TREPL        Unreviewed;       138 AA.
+AC   A0A0A7X4H0;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 5.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AJB40382.1};
+GN   ORFNames=TENDBA_0362a {ECO:0000313|EMBL:AJB40382.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40382.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40382.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40382.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40382.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342393.1; NZ_CP007548.1.
+DR   EnsemblBacteria; AJB40382; AJB40382; TENDBA_0362a.
+DR   GeneID; 23365989; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     12     38       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     58     76       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    110    130       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   138 AA;  15003 MW;  EC2808F5347E3ED1 CRC64;
+     MARAQVRLSG RFLALGGYSL YAAGLVLLLY RAVGVYVWIH FYQNQTLSQL STHARSSWVS
+     IGGHASLFLG AVLLTVRDVR TFRDDSTMWI APVVLWSAAT YSSMGACGFS LRAVASGACG
+     VLLFAVWSLA SELGRRRP
+//

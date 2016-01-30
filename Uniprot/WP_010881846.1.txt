@@ -1,0 +1,259 @@
+ID   FLIE_TREPA              Reviewed;         124 AA.
+AC   O83413;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 89.
+DE   RecName: Full=Flagellar hook-basal body complex protein FliE;
+GN   Name=fliE; OrderedLocusNames=TP_0398;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- INTERACTION:
+CC       O83089:TP_0050; NbExp=3; IntAct=EBI-1198218, EBI-1198251;
+CC       O83542:TP_0530; NbExp=3; IntAct=EBI-1198218, EBI-1198334;
+CC       P45685:tpl; NbExp=3; IntAct=EBI-1198218, EBI-1198212;
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the FliE family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65386.1; -; Genomic_DNA.
+DR   PIR; E71328; E71328.
+DR   RefSeq; WP_010881846.1; NC_021490.2.
+DR   ProteinModelPortal; O83413; -.
+DR   IntAct; O83413; 133.
+DR   MINT; MINT-6478985; -.
+DR   STRING; 243276.TP0398; -.
+DR   EnsemblBacteria; AAC65386; AAC65386; TP_0398.
+DR   GeneID; 2610792; -.
+DR   KEGG; tpa:TP_0398; -.
+DR   PATRIC; 20530805; VBITrePal57110_0422.
+DR   eggNOG; ENOG41069WH; Bacteria.
+DR   eggNOG; COG1677; LUCA.
+DR   KO; K02408; -.
+DR   OMA; VRIDAFF; -.
+DR   OrthoDB; EOG6742XR; -.
+DR   BioCyc; TPAL243276:GC1H-424-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   HAMAP; MF_00724; FliE; 1.
+DR   InterPro; IPR001624; FliE.
+DR   Pfam; PF02049; FliE; 1.
+DR   PRINTS; PR01006; FLGHOOKFLIE.
+DR   TIGRFAMs; TIGR00205; fliE; 1.
+PE   1: Evidence at protein level;
+KW   Bacterial flagellum; Complete proteome; Reference proteome.
+FT   CHAIN         1    124       Flagellar hook-basal body complex protein
+FT                                FliE.
+FT                                /FTId=PRO_0000105569.
+SQ   SEQUENCE   124 AA;  13703 MW;  A7A366675CFD773A CRC64;
+     MTPVGTITNS ANVYKVPSLR KVPEIGPVSV ESVRQRMRGN TDAVDQAVNK KAMSFEQTLL
+     RAFDQVNQKQ QKTAELTEQM IVDPESVDVH DVTVAMAEAS MSLKIAQTVI DKVLKSWNDV
+     TTAR
+//
+ID   FLIE_TREPS              Reviewed;         124 AA.
+AC   B2S2Z5;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 51.
+DE   RecName: Full=Flagellar hook-basal body complex protein FliE {ECO:0000255|HAMAP-Rule:MF_00724};
+GN   Name=fliE {ECO:0000255|HAMAP-Rule:MF_00724};
+GN   OrderedLocusNames=TPASS_0398;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000255|HAMAP-Rule:MF_00724}.
+CC   -!- SIMILARITY: Belongs to the FliE family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00724}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70824.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881846.1; NC_021508.1.
+DR   ProteinModelPortal; B2S2Z5; -.
+DR   EnsemblBacteria; ACD70824; ACD70824; TPASS_0398.
+DR   GeneID; 2610792; -.
+DR   KEGG; tpp:TPASS_0398; -.
+DR   PATRIC; 20528509; VBITrePal10923_0425.
+DR   HOGENOM; HOG000112608; -.
+DR   KO; K02408; -.
+DR   OMA; VRIDAFF; -.
+DR   OrthoDB; EOG6742XR; -.
+DR   BioCyc; TPAL455434:GJ9E-423-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   HAMAP; MF_00724; FliE; 1.
+DR   InterPro; IPR001624; FliE.
+DR   Pfam; PF02049; FliE; 1.
+DR   PRINTS; PR01006; FLGHOOKFLIE.
+DR   TIGRFAMs; TIGR00205; fliE; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum; Complete proteome.
+FT   CHAIN         1    124       Flagellar hook-basal body complex protein
+FT                                FliE.
+FT                                /FTId=PRO_1000132677.
+SQ   SEQUENCE   124 AA;  13703 MW;  A7A366675CFD773A CRC64;
+     MTPVGTITNS ANVYKVPSLR KVPEIGPVSV ESVRQRMRGN TDAVDQAVNK KAMSFEQTLL
+     RAFDQVNQKQ QKTAELTEQM IVDPESVDVH DVTVAMAEAS MSLKIAQTVI DKVLKSWNDV
+     TTAR
+//
+ID   R9USV9_TREPA            Unreviewed;       124 AA.
+AC   R9USV9;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 21.
+DE   RecName: Full=Flagellar hook-basal body complex protein FliE {ECO:0000256|HAMAP-Rule:MF_00724, ECO:0000256|SAAS:SAAS00398128};
+GN   Name=fliE {ECO:0000256|HAMAP-Rule:MF_00724,
+GN   ECO:0000313|EMBL:AGN75592.1};
+GN   ORFNames=TPANIC_0398 {ECO:0000313|EMBL:AGN75592.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75592.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75592.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75592.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|HAMAP-Rule:MF_00724, ECO:0000256|SAAS:SAAS00398120}.
+CC   -!- SIMILARITY: Belongs to the FliE family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00724}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75592.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881846.1; NC_021490.2.
+DR   ProteinModelPortal; R9USV9; -.
+DR   STRING; 243276.TP0398; -.
+DR   EnsemblBacteria; AGN75592; AGN75592; TPANIC_0398.
+DR   GeneID; 2610792; -.
+DR   KEGG; tpw:TPANIC_0398; -.
+DR   eggNOG; COG1677; LUCA.
+DR   eggNOG; ENOG41069WH; Bacteria.
+DR   KO; K02408; -.
+DR   OMA; VRIDAFF; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   HAMAP; MF_00724; FliE; 1.
+DR   InterPro; IPR001624; FliE.
+DR   Pfam; PF02049; FliE; 1.
+DR   PRINTS; PR01006; FLGHOOKFLIE.
+DR   TIGRFAMs; TIGR00205; fliE; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|HAMAP-Rule:MF_00724,
+KW   ECO:0000256|SAAS:SAAS00116620};
+KW   Cell projection {ECO:0000313|EMBL:AGN75592.1};
+KW   Cilium {ECO:0000313|EMBL:AGN75592.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Flagellum {ECO:0000313|EMBL:AGN75592.1}.
+SQ   SEQUENCE   124 AA;  13703 MW;  A7A366675CFD773A CRC64;
+     MTPVGTITNS ANVYKVPSLR KVPEIGPVSV ESVRQRMRGN TDAVDQAVNK KAMSFEQTLL
+     RAFDQVNQKQ QKTAELTEQM IVDPESVDVH DVTVAMAEAS MSLKIAQTVI DKVLKSWNDV
+     TTAR
+//
+ID   H6KVB7_TREPD            Unreviewed;       124 AA.
+AC   H6KVB7;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 27.
+DE   RecName: Full=Flagellar hook-basal body complex protein FliE {ECO:0000256|HAMAP-Rule:MF_00724, ECO:0000256|SAAS:SAAS00398128};
+GN   Name=fliE {ECO:0000256|HAMAP-Rule:MF_00724,
+GN   ECO:0000313|EMBL:AEZ58589.1};
+GN   OrderedLocusNames=TPECDC2_0398 {ECO:0000313|EMBL:AEZ58589.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58589.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|HAMAP-Rule:MF_00724, ECO:0000256|SAAS:SAAS00398120}.
+CC   -!- SIMILARITY: Belongs to the FliE family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00724}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58589.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881846.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVB7; -.
+DR   EnsemblBacteria; AEZ58589; AEZ58589; TPECDC2_0398.
+DR   GeneID; 2610792; -.
+DR   KEGG; tpc:TPECDC2_0398; -.
+DR   KO; K02408; -.
+DR   OMA; VRIDAFF; -.
+DR   BioCyc; TPAL491079:GJCE-431-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   HAMAP; MF_00724; FliE; 1.
+DR   InterPro; IPR001624; FliE.
+DR   Pfam; PF02049; FliE; 1.
+DR   PRINTS; PR01006; FLGHOOKFLIE.
+DR   TIGRFAMs; TIGR00205; fliE; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|HAMAP-Rule:MF_00724,
+KW   ECO:0000256|SAAS:SAAS00116620};
+KW   Cell projection {ECO:0000313|EMBL:AEZ58589.1};
+KW   Cilium {ECO:0000313|EMBL:AEZ58589.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Flagellum {ECO:0000313|EMBL:AEZ58589.1}.
+SQ   SEQUENCE   124 AA;  13703 MW;  A7A366675CFD773A CRC64;
+     MTPVGTITNS ANVYKVPSLR KVPEIGPVSV ESVRQRMRGN TDAVDQAVNK KAMSFEQTLL
+     RAFDQVNQKQ QKTAELTEQM IVDPESVDVH DVTVAMAEAS MSLKIAQTVI DKVLKSWNDV
+     TTAR
+//

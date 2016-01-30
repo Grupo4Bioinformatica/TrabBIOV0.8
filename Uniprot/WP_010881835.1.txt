@@ -1,0 +1,173 @@
+ID   O83402_TREPA            Unreviewed;       384 AA.
+AC   O83402;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 89.
+DE   SubName: Full=Cell division protein (FtsW) {ECO:0000313|EMBL:AAC65371.1};
+DE   SubName: Full=Cell division protein FtsW {ECO:0000313|EMBL:AGN75581.1};
+GN   Name=ftsW {ECO:0000313|EMBL:AGN75581.1};
+GN   OrderedLocusNames=TP_0387 {ECO:0000313|EMBL:AAC65371.1};
+GN   ORFNames=TPANIC_0387 {ECO:0000313|EMBL:AGN75581.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65371.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65371.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65371.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75581.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75581.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65371.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75581.1; -; Genomic_DNA.
+DR   PIR; E71331; E71331.
+DR   RefSeq; WP_010881835.1; NC_021490.2.
+DR   STRING; 243276.TP0387; -.
+DR   EnsemblBacteria; AAC65371; AAC65371; TP_0387.
+DR   EnsemblBacteria; AGN75581; AGN75581; TPANIC_0387.
+DR   GeneID; 2611289; -.
+DR   KEGG; tpa:TP_0387; -.
+DR   KEGG; tpw:TPANIC_0387; -.
+DR   PATRIC; 20530783; VBITrePal57110_0411.
+DR   eggNOG; COG0772; LUCA.
+DR   eggNOG; ENOG4105CNI; Bacteria.
+DR   KO; K03588; -.
+DR   OMA; RTERHQP; -.
+DR   OrthoDB; EOG68M4JQ; -.
+DR   BioCyc; TPAL243276:GC1H-413-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:InterPro.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   InterPro; IPR001182; Cell_cycle_FtsW/RodA.
+DR   InterPro; IPR013437; Cell_div_FtsW.
+DR   PANTHER; PTHR30474; PTHR30474; 1.
+DR   Pfam; PF01098; FTSW_RODA_SPOVE; 1.
+DR   TIGRFAMs; TIGR02614; ftsW; 1.
+PE   4: Predicted;
+KW   Cell cycle {ECO:0000313|EMBL:AAC65371.1};
+KW   Cell division {ECO:0000313|EMBL:AAC65371.1};
+KW   Cell membrane {ECO:0000256|SAAS:SAAS00169496};
+KW   Cell shape {ECO:0000256|SAAS:SAAS00169500};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Membrane {ECO:0000256|SAAS:SAAS00169496,
+KW   ECO:0000256|SAAS:SAAS00176861, ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Transmembrane {ECO:0000256|SAAS:SAAS00176861,
+KW   ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAAS:SAAS00176861,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     16     38       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     58     76       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     83    102       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    151    169       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    175    195       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    281    305       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    314    335       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    347    368       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   384 AA;  42715 MW;  01DF27E5E30B4F2E CRC64;
+     MRPMISIEKN VHQERYSFVF ILLVALMVGV GFVTLYSGSV HYAQRFFRYP GYFLVRQGVS
+     IGIGLVCLLF FTFVRLASLR KALSPLILVA FALCVCTFFP GIGSTRNGAT RWIKVFDINF
+     QPSEFVKLVL IVFLANFFDK HREHFDTPIR SIFPPFVVSV IFVSVVFFQN DFSTAMFLLF
+     ITVVMFFIAG APLWWFLRGI MVLAPIAVLM IVTSTNRLRR VLSFLYPDRD PLGAGYQVNA
+     ALEALMDGGL WGRGIGNGVR KIASVPEVYS DFIFVVIGEE MGFIGVCLYL MLLFAFTLTG
+     ISIALRCANR FNTFLAFGAS AAIVLQSILN VAVVVRLVPA TGIPLPFFSS GGSSIVVTLS
+     LCGLIINVSG DEKIRREREE TVFV
+//
+ID   A0A0A7X9P0_TREPL        Unreviewed;       384 AA.
+AC   A0A0A7X9P0;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   14-OCT-2015, entry version 6.
+DE   SubName: Full=Cell division protein FtsW {ECO:0000313|EMBL:AJB40406.1};
+GN   Name=ftsW {ECO:0000313|EMBL:AJB40406.1};
+GN   ORFNames=TENDBA_0387 {ECO:0000313|EMBL:AJB40406.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40406.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40406.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40406.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40406.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881835.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X9P0; -.
+DR   EnsemblBacteria; AJB40406; AJB40406; TENDBA_0387.
+DR   GeneID; 2611289; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:InterPro.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   InterPro; IPR001182; Cell_cycle_FtsW/RodA.
+DR   InterPro; IPR013437; Cell_div_FtsW.
+DR   PANTHER; PTHR30474; PTHR30474; 1.
+DR   Pfam; PF01098; FTSW_RODA_SPOVE; 1.
+DR   TIGRFAMs; TIGR02614; ftsW; 1.
+PE   4: Predicted;
+KW   Cell cycle {ECO:0000313|EMBL:AJB40406.1};
+KW   Cell division {ECO:0000313|EMBL:AJB40406.1};
+KW   Cell membrane {ECO:0000256|SAAS:SAAS00169496};
+KW   Cell shape {ECO:0000256|SAAS:SAAS00169500};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|SAAS:SAAS00169496,
+KW   ECO:0000256|SAAS:SAAS00176861, ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAAS:SAAS00176861,
+KW   ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAAS:SAAS00176861,
+KW   ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     16     38       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     58     76       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     83    102       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    151    169       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    175    195       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    281    305       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    314    335       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    347    368       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   384 AA;  42715 MW;  01DF27E5E30B4F2E CRC64;
+     MRPMISIEKN VHQERYSFVF ILLVALMVGV GFVTLYSGSV HYAQRFFRYP GYFLVRQGVS
+     IGIGLVCLLF FTFVRLASLR KALSPLILVA FALCVCTFFP GIGSTRNGAT RWIKVFDINF
+     QPSEFVKLVL IVFLANFFDK HREHFDTPIR SIFPPFVVSV IFVSVVFFQN DFSTAMFLLF
+     ITVVMFFIAG APLWWFLRGI MVLAPIAVLM IVTSTNRLRR VLSFLYPDRD PLGAGYQVNA
+     ALEALMDGGL WGRGIGNGVR KIASVPEVYS DFIFVVIGEE MGFIGVCLYL MLLFAFTLTG
+     ISIALRCANR FNTFLAFGAS AAIVLQSILN VAVVVRLVPA TGIPLPFFSS GGSSIVVTLS
+     LCGLIINVSG DEKIRREREE TVFV
+//

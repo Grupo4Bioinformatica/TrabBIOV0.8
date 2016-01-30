@@ -1,0 +1,276 @@
+ID   RSMH_TREPA              Reviewed;         379 AA.
+AC   O83399;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 98.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000255|HAMAP-Rule:MF_01007};
+GN   Name=rsmH {ECO:0000255|HAMAP-Rule:MF_01007}; Synonyms=mraW;
+GN   OrderedLocusNames=TP_0384;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + cytosine(1402) in
+CC       16S rRNA = S-adenosyl-L-homocysteine + N(4)-methylcytosine(1402)
+CC       in 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65368.1; -; Genomic_DNA.
+DR   PIR; B71331; B71331.
+DR   RefSeq; WP_010881832.1; NC_021490.2.
+DR   ProteinModelPortal; O83399; -.
+DR   IntAct; O83399; 3.
+DR   STRING; 243276.TP0384; -.
+DR   EnsemblBacteria; AAC65368; AAC65368; TP_0384.
+DR   GeneID; 2611280; -.
+DR   KEGG; tpa:TP_0384; -.
+DR   PATRIC; 20530777; VBITrePal57110_0408.
+DR   eggNOG; ENOG4105CGJ; Bacteria.
+DR   eggNOG; COG0275; LUCA.
+DR   KO; K03438; -.
+DR   OMA; QRPAHIA; -.
+DR   OrthoDB; EOG6X9MQ1; -.
+DR   BioCyc; TPAL243276:GC1H-410-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.170; -; 1.
+DR   Gene3D; 3.40.50.150; -; 2.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11265; PTHR11265; 2.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   SUPFAM; SSF53335; SSF53335; 2.
+DR   SUPFAM; SSF81799; SSF81799; 1.
+DR   TIGRFAMs; TIGR00006; TIGR00006; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   rRNA processing; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    379       Ribosomal RNA small subunit
+FT                                methyltransferase H.
+FT                                /FTId=PRO_0000108737.
+FT   REGION       71     73       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+FT   BINDING      90     90       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+FT   BINDING     157    157       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+FT   BINDING     164    164       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+SQ   SEQUENCE   379 AA;  40937 MW;  AA7DD603FC12CB74 CRC64;
+     MSLSGHTHTK EEVQAEVEAG EVQCPALCHQ PVLVQECLTL LEPAIVGISR GADSTRDGAG
+     AFFIDGTLGD GGHTQAFLHA YPALRALGVE IDPSMLARAR ARLTPFGKRL RYVLGWSDVF
+     FASAYASAPA SPATGRTAAG AAGVPGAYPA PQAVLLDLGI SFFHYRGAMR GFSFAEEHML
+     DMRLDPQASQ TAADLLNRLP QARLAQLFFE GGEERYARRI AQAVCAQRRQ APFCSARAFA
+     EVVARVVPPM RTARFGKRRG VLGVLPKLHP ATKAFQALRI AVNRELERLP RLLTAAFTAL
+     APGGRLAVIS FHSREDRIVK VHFRHWAKRC SCPARVPICS CGGVARASLI TKKPLVPSCV
+     ERAANAASRS ATLRVIEKR
+//
+ID   RSMH_TREPS              Reviewed;         379 AA.
+AC   B2S2Y1;
+DT   03-NOV-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 53.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000255|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000255|HAMAP-Rule:MF_01007};
+GN   Name=rsmH {ECO:0000255|HAMAP-Rule:MF_01007}; Synonyms=mraW;
+GN   OrderedLocusNames=TPASS_0384;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + cytosine(1402) in
+CC       16S rRNA = S-adenosyl-L-homocysteine + N(4)-methylcytosine(1402)
+CC       in 16S rRNA. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH
+CC       family. {ECO:0000255|HAMAP-Rule:MF_01007}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70810.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881832.1; NC_021508.1.
+DR   ProteinModelPortal; B2S2Y1; -.
+DR   EnsemblBacteria; ACD70810; ACD70810; TPASS_0384.
+DR   GeneID; 2611280; -.
+DR   KEGG; tpp:TPASS_0384; -.
+DR   PATRIC; 20528481; VBITrePal10923_0411.
+DR   HOGENOM; HOG000049778; -.
+DR   KO; K03438; -.
+DR   OMA; QRPAHIA; -.
+DR   OrthoDB; EOG6X9MQ1; -.
+DR   BioCyc; TPAL455434:GJ9E-409-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.170; -; 1.
+DR   Gene3D; 3.40.50.150; -; 2.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11265; PTHR11265; 2.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   SUPFAM; SSF53335; SSF53335; 2.
+DR   SUPFAM; SSF81799; SSF81799; 1.
+DR   TIGRFAMs; TIGR00006; TIGR00006; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; rRNA processing;
+KW   S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    379       Ribosomal RNA small subunit
+FT                                methyltransferase H.
+FT                                /FTId=PRO_0000387200.
+FT   REGION       71     73       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+FT   BINDING      90     90       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+FT   BINDING     121    121       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01007}.
+FT   BINDING     157    157       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+FT   BINDING     164    164       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01007}.
+SQ   SEQUENCE   379 AA;  40937 MW;  AA7DD603FC12CB74 CRC64;
+     MSLSGHTHTK EEVQAEVEAG EVQCPALCHQ PVLVQECLTL LEPAIVGISR GADSTRDGAG
+     AFFIDGTLGD GGHTQAFLHA YPALRALGVE IDPSMLARAR ARLTPFGKRL RYVLGWSDVF
+     FASAYASAPA SPATGRTAAG AAGVPGAYPA PQAVLLDLGI SFFHYRGAMR GFSFAEEHML
+     DMRLDPQASQ TAADLLNRLP QARLAQLFFE GGEERYARRI AQAVCAQRRQ APFCSARAFA
+     EVVARVVPPM RTARFGKRRG VLGVLPKLHP ATKAFQALRI AVNRELERLP RLLTAAFTAL
+     APGGRLAVIS FHSREDRIVK VHFRHWAKRC SCPARVPICS CGGVARASLI TKKPLVPSCV
+     ERAANAASRS ATLRVIEKR
+//
+ID   R9UWI9_TREPA            Unreviewed;       379 AA.
+AC   R9UWI9;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 17.
+DE   RecName: Full=Ribosomal RNA small subunit methyltransferase H {ECO:0000256|HAMAP-Rule:MF_01007};
+DE            EC=2.1.1.199 {ECO:0000256|HAMAP-Rule:MF_01007};
+DE   AltName: Full=16S rRNA m(4)C1402 methyltransferase {ECO:0000256|HAMAP-Rule:MF_01007};
+DE   AltName: Full=rRNA (cytosine-N(4)-)-methyltransferase RsmH {ECO:0000256|HAMAP-Rule:MF_01007};
+GN   Name=mraW {ECO:0000313|EMBL:AGN75578.1};
+GN   Synonyms=rsmH {ECO:0000256|HAMAP-Rule:MF_01007};
+GN   ORFNames=TPANIC_0384 {ECO:0000313|EMBL:AGN75578.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75578.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75578.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75578.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Specifically methylates the N4 position of cytidine in
+CC       position 1402 (C1402) of 16S rRNA. {ECO:0000256|HAMAP-
+CC       Rule:MF_01007}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + cytosine(1402) in
+CC       16S rRNA = S-adenosyl-L-homocysteine + N(4)-methylcytosine(1402)
+CC       in 16S rRNA. {ECO:0000256|HAMAP-Rule:MF_01007}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01007}.
+CC   -!- SIMILARITY: Belongs to the methyltransferase superfamily. RsmH
+CC       family. {ECO:0000256|HAMAP-Rule:MF_01007}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75578.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881832.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWI9; -.
+DR   STRING; 243276.TP0384; -.
+DR   EnsemblBacteria; AGN75578; AGN75578; TPANIC_0384.
+DR   GeneID; 2611280; -.
+DR   KEGG; tpw:TPANIC_0384; -.
+DR   eggNOG; COG0275; LUCA.
+DR   eggNOG; ENOG4105CGJ; Bacteria.
+DR   KO; K03438; -.
+DR   OMA; QRPAHIA; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0071424; F:rRNA (cytosine-N4-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0070475; P:rRNA base methylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.170; -; 1.
+DR   Gene3D; 3.40.50.150; -; 2.
+DR   HAMAP; MF_01007; 16SrRNA_methyltr_H; 1.
+DR   InterPro; IPR002903; RsmH.
+DR   InterPro; IPR023397; SAM-dep_MeTrfase_MraW_recog.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR11265; PTHR11265; 2.
+DR   Pfam; PF01795; Methyltransf_5; 1.
+DR   SUPFAM; SSF53335; SSF53335; 2.
+DR   SUPFAM; SSF81799; SSF81799; 1.
+DR   TIGRFAMs; TIGR00006; TIGR00006; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01007};
+KW   Methyltransferase {ECO:0000256|HAMAP-Rule:MF_01007,
+KW   ECO:0000313|EMBL:AGN75578.1};
+KW   rRNA processing {ECO:0000256|HAMAP-Rule:MF_01007};
+KW   S-adenosyl-L-methionine {ECO:0000256|HAMAP-Rule:MF_01007};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01007,
+KW   ECO:0000313|EMBL:AGN75578.1}.
+FT   REGION       71     73       S-adenosyl-L-methionine binding.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01007}.
+FT   BINDING      90     90       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01007}.
+FT   BINDING     157    157       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01007}.
+FT   BINDING     164    164       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01007}.
+SQ   SEQUENCE   379 AA;  40937 MW;  AA7DD603FC12CB74 CRC64;
+     MSLSGHTHTK EEVQAEVEAG EVQCPALCHQ PVLVQECLTL LEPAIVGISR GADSTRDGAG
+     AFFIDGTLGD GGHTQAFLHA YPALRALGVE IDPSMLARAR ARLTPFGKRL RYVLGWSDVF
+     FASAYASAPA SPATGRTAAG AAGVPGAYPA PQAVLLDLGI SFFHYRGAMR GFSFAEEHML
+     DMRLDPQASQ TAADLLNRLP QARLAQLFFE GGEERYARRI AQAVCAQRRQ APFCSARAFA
+     EVVARVVPPM RTARFGKRRG VLGVLPKLHP ATKAFQALRI AVNRELERLP RLLTAAFTAL
+     APGGRLAVIS FHSREDRIVK VHFRHWAKRC SCPARVPICS CGGVARASLI TKKPLVPSCV
+     ERAANAASRS ATLRVIEKR
+//

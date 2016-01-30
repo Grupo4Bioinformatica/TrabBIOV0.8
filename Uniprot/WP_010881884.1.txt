@@ -1,0 +1,319 @@
+ID   O83450_TREPA            Unreviewed;       360 AA.
+AC   O83450;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 81.
+DE   SubName: Full=DHH superfamily phosphoesterase {ECO:0000313|EMBL:AGN75629.1};
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AAC65424.1};
+GN   OrderedLocusNames=TP_0436 {ECO:0000313|EMBL:AAC65424.1};
+GN   ORFNames=TPANIC_0436 {ECO:0000313|EMBL:AGN75629.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65424.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65424.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65424.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75629.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75629.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65424.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75629.1; -; Genomic_DNA.
+DR   PIR; D71323; D71323.
+DR   RefSeq; WP_010881884.1; NC_021490.2.
+DR   STRING; 243276.TP0436; -.
+DR   EnsemblBacteria; AAC65424; AAC65424; TP_0436.
+DR   EnsemblBacteria; AGN75629; AGN75629; TPANIC_0436.
+DR   GeneID; 2610965; -.
+DR   KEGG; tpa:TP_0436; -.
+DR   KEGG; tpw:TPANIC_0436; -.
+DR   PATRIC; 20530887; VBITrePal57110_0463.
+DR   eggNOG; COG0618; LUCA.
+DR   eggNOG; ENOG4107YAW; Bacteria.
+DR   KO; K06881; -.
+DR   OMA; DTHPFGW; -.
+DR   OrthoDB; EOG6FBX0G; -.
+DR   BioCyc; TPAL243276:GC1H-462-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN       44    185       DHH. {ECO:0000259|Pfam:PF01368}.
+FT   DOMAIN      286    342       DHHA1. {ECO:0000259|Pfam:PF02272}.
+SQ   SEQUENCE   360 AA;  38168 MW;  3B8D0F2EB8DAEC71 CRC64;
+     MFSSSPPSSL PKSVSSPSPC AARTGDRGRG LSGLIEFIDA HRAFAVVGHE KPDGDCVGSS
+     LALASFLRRI GKEVELLSAG PFKRREIAAY ATLFRPSLSA QIRPSDQTAV IVVDCSELSR
+     VGAELASQLA PFARAFIDHH ETCGDHCAHS FVVKTAPSTT TLVQTLIETM AGSLEAAEAR
+     ALFLGLATDT GFFRHLDEHS ADTFASAARL VRAGANPKDT FLAMNGGRSL ASRMLIARVL
+     SRLTPYYGGA LMTSYETCED AVQLGLDVRD SDALYQLIQS IQGVEAIVVV RQESPTHCSV
+     GFRSRGSIDV SVIAARFGGG GHRCAAGLRI EGTVDELLPR FVAAFEAQMR APAAGAQVRS
+//
+ID   H6KT54_TREPD            Unreviewed;       360 AA.
+AC   H6KT54;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 23.
+DE   SubName: Full=DHH superfamily phosphoesterase {ECO:0000313|EMBL:AEZ58628.1};
+GN   OrderedLocusNames=TPECDC2_0436 {ECO:0000313|EMBL:AEZ58628.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58628.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58628.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881884.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT54; -.
+DR   EnsemblBacteria; AEZ58628; AEZ58628; TPECDC2_0436.
+DR   GeneID; 2610965; -.
+DR   KEGG; tpc:TPECDC2_0436; -.
+DR   KO; K06881; -.
+DR   OMA; DTHPFGW; -.
+DR   BioCyc; TPAL491079:GJCE-470-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193}.
+FT   DOMAIN       44    185       DHH. {ECO:0000259|Pfam:PF01368}.
+FT   DOMAIN      286    342       DHHA1. {ECO:0000259|Pfam:PF02272}.
+SQ   SEQUENCE   360 AA;  38168 MW;  3B8D0F2EB8DAEC71 CRC64;
+     MFSSSPPSSL PKSVSSPSPC AARTGDRGRG LSGLIEFIDA HRAFAVVGHE KPDGDCVGSS
+     LALASFLRRI GKEVELLSAG PFKRREIAAY ATLFRPSLSA QIRPSDQTAV IVVDCSELSR
+     VGAELASQLA PFARAFIDHH ETCGDHCAHS FVVKTAPSTT TLVQTLIETM AGSLEAAEAR
+     ALFLGLATDT GFFRHLDEHS ADTFASAARL VRAGANPKDT FLAMNGGRSL ASRMLIARVL
+     SRLTPYYGGA LMTSYETCED AVQLGLDVRD SDALYQLIQS IQGVEAIVVV RQESPTHCSV
+     GFRSRGSIDV SVIAARFGGG GHRCAAGLRI EGTVDELLPR FVAAFEAQMR APAAGAQVRS
+//
+ID   E5FNQ4_TREPG            Unreviewed;       360 AA.
+AC   E5FNQ4;
+DT   08-FEB-2011, integrated into UniProtKB/TrEMBL.
+DT   08-FEB-2011, sequence version 1.
+DT   09-DEC-2015, entry version 24.
+DE   SubName: Full=DHH superfamily phosphoesterase {ECO:0000313|EMBL:ADR64305.1};
+OS   Treponema pallidum subsp. pertenue (strain Gauthier).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491080 {ECO:0000313|EMBL:ADR64305.1};
+RN   [1] {ECO:0000313|EMBL:ADR64305.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Gauthier {ECO:0000313|EMBL:ADR64305.1};
+RX   PubMed=21209953; DOI=10.1371/journal.pone.0015713;
+RA   Mikalova L., Strouhal M., Cejkova D., Zobanikova M., Pospisilova P.,
+RA   Norris S.J., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Genome analysis of Treponema pallidum subsp. pallidum and subsp.
+RT   pertenue strains: most of the genetic differences are localized in six
+RT   regions.";
+RL   PLoS ONE 5:E15713-E15713(2010).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; HM585239; ADR64305.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881884.1; NC_016843.1.
+DR   ProteinModelPortal; E5FNQ4; -.
+DR   GeneID; 2610965; -.
+DR   KEGG; tpg:TPEGAU_0436; -.
+DR   KO; K06881; -.
+DR   BioCyc; TPAL491080:GJ7X-470-MONOMER; -.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+PE   4: Predicted;
+FT   DOMAIN       44    185       DHH. {ECO:0000259|Pfam:PF01368}.
+FT   DOMAIN      286    342       DHHA1. {ECO:0000259|Pfam:PF02272}.
+SQ   SEQUENCE   360 AA;  38168 MW;  3B8D0F2EB8DAEC71 CRC64;
+     MFSSSPPSSL PKSVSSPSPC AARTGDRGRG LSGLIEFIDA HRAFAVVGHE KPDGDCVGSS
+     LALASFLRRI GKEVELLSAG PFKRREIAAY ATLFRPSLSA QIRPSDQTAV IVVDCSELSR
+     VGAELASQLA PFARAFIDHH ETCGDHCAHS FVVKTAPSTT TLVQTLIETM AGSLEAAEAR
+     ALFLGLATDT GFFRHLDEHS ADTFASAARL VRAGANPKDT FLAMNGGRSL ASRMLIARVL
+     SRLTPYYGGA LMTSYETCED AVQLGLDVRD SDALYQLIQS IQGVEAIVVV RQESPTHCSV
+     GFRSRGSIDV SVIAARFGGG GHRCAAGLRI EGTVDELLPR FVAAFEAQMR APAAGAQVRS
+//
+ID   A0A0H3BJ73_TREPS        Unreviewed;       360 AA.
+AC   A0A0H3BJ73;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:ACD70861.1};
+GN   OrderedLocusNames=TPASS_0436 {ECO:0000313|EMBL:ACD70861.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70861.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70861.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70861.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70861.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881884.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ73; -.
+DR   GeneID; 2610965; -.
+DR   KEGG; tpp:TPASS_0436; -.
+DR   KO; K06881; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN       44    185       DHH. {ECO:0000259|Pfam:PF01368}.
+FT   DOMAIN      286    342       DHHA1. {ECO:0000259|Pfam:PF02272}.
+SQ   SEQUENCE   360 AA;  38168 MW;  3B8D0F2EB8DAEC71 CRC64;
+     MFSSSPPSSL PKSVSSPSPC AARTGDRGRG LSGLIEFIDA HRAFAVVGHE KPDGDCVGSS
+     LALASFLRRI GKEVELLSAG PFKRREIAAY ATLFRPSLSA QIRPSDQTAV IVVDCSELSR
+     VGAELASQLA PFARAFIDHH ETCGDHCAHS FVVKTAPSTT TLVQTLIETM AGSLEAAEAR
+     ALFLGLATDT GFFRHLDEHS ADTFASAARL VRAGANPKDT FLAMNGGRSL ASRMLIARVL
+     SRLTPYYGGA LMTSYETCED AVQLGLDVRD SDALYQLIQS IQGVEAIVVV RQESPTHCSV
+     GFRSRGSIDV SVIAARFGGG GHRCAAGLRI EGTVDELLPR FVAAFEAQMR APAAGAQVRS
+//
+ID   E5FNX5_TREPL            Unreviewed;       360 AA.
+AC   E5FNX5;
+DT   08-FEB-2011, integrated into UniProtKB/TrEMBL.
+DT   08-FEB-2011, sequence version 1.
+DT   09-DEC-2015, entry version 20.
+DE   SubName: Full=DHH superfamily phosphoesterase {ECO:0000313|EMBL:ADR64376.1};
+OS   Treponema pallidum subsp. pallidum str. Mexico A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=686990 {ECO:0000313|EMBL:ADR64376.1};
+RN   [1] {ECO:0000313|EMBL:ADR64376.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Mexico A {ECO:0000313|EMBL:ADR64376.1};
+RX   PubMed=21209953; DOI=10.1371/journal.pone.0015713;
+RA   Mikalova L., Strouhal M., Cejkova D., Zobanikova M., Pospisilova P.,
+RA   Norris S.J., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Genome analysis of Treponema pallidum subsp. pallidum and subsp.
+RT   pertenue strains: most of the genetic differences are localized in six
+RT   regions.";
+RL   PLoS ONE 5:E15713-E15713(2010).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; HM585249; ADR64376.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881884.1; NC_018722.1.
+DR   ProteinModelPortal; E5FNX5; -.
+DR   GeneID; 2610965; -.
+DR   KEGG; tpo:TPAMA_0436; -.
+DR   KO; K06881; -.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+PE   4: Predicted;
+FT   DOMAIN       44    185       DHH. {ECO:0000259|Pfam:PF01368}.
+FT   DOMAIN      286    342       DHHA1. {ECO:0000259|Pfam:PF02272}.
+SQ   SEQUENCE   360 AA;  38168 MW;  3B8D0F2EB8DAEC71 CRC64;
+     MFSSSPPSSL PKSVSSPSPC AARTGDRGRG LSGLIEFIDA HRAFAVVGHE KPDGDCVGSS
+     LALASFLRRI GKEVELLSAG PFKRREIAAY ATLFRPSLSA QIRPSDQTAV IVVDCSELSR
+     VGAELASQLA PFARAFIDHH ETCGDHCAHS FVVKTAPSTT TLVQTLIETM AGSLEAAEAR
+     ALFLGLATDT GFFRHLDEHS ADTFASAARL VRAGANPKDT FLAMNGGRSL ASRMLIARVL
+     SRLTPYYGGA LMTSYETCED AVQLGLDVRD SDALYQLIQS IQGVEAIVVV RQESPTHCSV
+     GFRSRGSIDV SVIAARFGGG GHRCAAGLRI EGTVDELLPR FVAAFEAQMR APAAGAQVRS
+//
+ID   A0A0A7X9U0_TREPL        Unreviewed;       360 AA.
+AC   A0A0A7X9U0;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 6.
+DE   SubName: Full=DHH superfamily phosphoesterase {ECO:0000313|EMBL:AJB40456.1};
+GN   ORFNames=TENDBA_0436 {ECO:0000313|EMBL:AJB40456.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40456.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40456.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40456.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40456.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881884.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X9U0; -.
+DR   EnsemblBacteria; AJB40456; AJB40456; TENDBA_0436.
+DR   GeneID; 2610965; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0003676; F:nucleic acid binding; IEA:InterPro.
+DR   InterPro; IPR001667; DDH_dom.
+DR   InterPro; IPR003156; DHHA1_dom.
+DR   Pfam; PF01368; DHH; 1.
+DR   Pfam; PF02272; DHHA1; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112}.
+FT   DOMAIN       44    185       DHH. {ECO:0000259|Pfam:PF01368}.
+FT   DOMAIN      286    342       DHHA1. {ECO:0000259|Pfam:PF02272}.
+SQ   SEQUENCE   360 AA;  38168 MW;  3B8D0F2EB8DAEC71 CRC64;
+     MFSSSPPSSL PKSVSSPSPC AARTGDRGRG LSGLIEFIDA HRAFAVVGHE KPDGDCVGSS
+     LALASFLRRI GKEVELLSAG PFKRREIAAY ATLFRPSLSA QIRPSDQTAV IVVDCSELSR
+     VGAELASQLA PFARAFIDHH ETCGDHCAHS FVVKTAPSTT TLVQTLIETM AGSLEAAEAR
+     ALFLGLATDT GFFRHLDEHS ADTFASAARL VRAGANPKDT FLAMNGGRSL ASRMLIARVL
+     SRLTPYYGGA LMTSYETCED AVQLGLDVRD SDALYQLIQS IQGVEAIVVV RQESPTHCSV
+     GFRSRGSIDV SVIAARFGGG GHRCAAGLRI EGTVDELLPR FVAAFEAQMR APAAGAQVRS
+//

@@ -1,0 +1,361 @@
+ID   FLIF_TREPA              Reviewed;         567 AA.
+AC   O83414;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 98.
+DE   RecName: Full=Flagellar M-ring protein;
+GN   Name=fliF; OrderedLocusNames=TP_0399;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: The M ring may be actively involved in energy
+CC       transduction. {ECO:0000250}.
+CC   -!- SUBUNIT: The basal body constitutes a major portion of the
+CC       flagellar organelle and consists of five rings (E,L,P,S, and M)
+CC       mounted on a central rod. The M ring is integral to the inner
+CC       membrane of the cell and may be connected to the flagellar rod via
+CC       the S ring. The S (supramembrane ring) lies just distal to the M
+CC       ring. The L and P rings lie in the outer membrane and the
+CC       periplasmic space, respectively (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000250}. Bacterial flagellum basal
+CC       body {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the FliF family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65387.1; -; Genomic_DNA.
+DR   PIR; F71328; F71328.
+DR   RefSeq; WP_010881847.1; NC_021490.2.
+DR   ProteinModelPortal; O83414; -.
+DR   IntAct; O83414; 6.
+DR   MINT; MINT-6479275; -.
+DR   STRING; 243276.TP0399; -.
+DR   EnsemblBacteria; AAC65387; AAC65387; TP_0399.
+DR   GeneID; 2610804; -.
+DR   KEGG; tpa:TP_0399; -.
+DR   PATRIC; 20530807; VBITrePal57110_0423.
+DR   eggNOG; ENOG4107U2N; Bacteria.
+DR   eggNOG; COG1766; LUCA.
+DR   KO; K02409; -.
+DR   OMA; LIRTWIV; -.
+DR   OrthoDB; EOG6KMB3J; -.
+DR   BioCyc; TPAL243276:GC1H-425-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0009431; C:bacterial-type flagellum basal body, MS ring; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   InterPro; IPR013556; Flag_M-ring_C.
+DR   InterPro; IPR000067; FlgMring_FliF.
+DR   InterPro; IPR006182; YscJ_FliF.
+DR   Pfam; PF01514; YscJ_FliF; 1.
+DR   Pfam; PF08345; YscJ_FliF_C; 1.
+DR   PRINTS; PR01009; FLGMRINGFLIF.
+DR   TIGRFAMs; TIGR00206; fliF; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum; Cell inner membrane; Cell membrane;
+KW   Complete proteome; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    567       Flagellar M-ring protein.
+FT                                /FTId=PRO_0000180887.
+FT   TRANSMEM     26     46       Helical. {ECO:0000255}.
+FT   TRANSMEM    469    489       Helical. {ECO:0000255}.
+SQ   SEQUENCE   567 AA;  64639 MW;  16344A3FB94281EE CRC64;
+     MGEWLGQLGV KLKTQWKKWT LVQKSVLAGA ALVSVMGVVV LLTWSAKPTL VPLIDTPITD
+     ETVREKIILR LNEENVRATV SSVGLISVSD EKTARRMRSI LIREDLIPKN VDPWAIFDVE
+     RWTRTDFERR VDVRRAINNT VTNHIKALDD IDDAHVVINV PEDALFQADQ KPITASVVIF
+     PKPSSTIASE RKKIEGIQKL LKLAVPGLKD ENITIVDSDA TVLNDFEGFK DADRLSLIEK
+     QQKMIAKLES QYEAKVLALL QKTYGKDRVR DLNIKIEMDL SEKTSQTTKY LPIEIRQDNP
+     DTPWDDSQVV PSVTSISETA TTTWQGTGLN PEGPPGVEGQ TPPAYKDMSN QVGLSNQSVV
+     KKQEAISKSE INEVVSPVLG RRTVSVNIDG EWRKKRDEHG RFIVKEGHIE REYIPISAEE
+     LREATKAVQD AIGFDAGRKD SVSVLNIKFD RTSEFDREDE HYLRVQQRNM IILYSLASVA
+     IVLFIFMVYK VISKEVERRR RLREEELLRQ QQLMRERALW EAEQAGMNVS MSVEERKRLE
+     LQENVLNMAR EHPEDVALLV RTWLMEE
+//
+ID   R9UWL6_TREPA            Unreviewed;       567 AA.
+AC   R9UWL6;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   SubName: Full=IIISP family Type III (Virulence-related) secretory pathway protein {ECO:0000313|EMBL:AGN75593.1};
+GN   Name=fliF {ECO:0000313|EMBL:AGN75593.1};
+GN   ORFNames=TPANIC_0399 {ECO:0000313|EMBL:AGN75593.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75593.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75593.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75593.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75593.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881847.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWL6; -.
+DR   STRING; 243276.TP0399; -.
+DR   EnsemblBacteria; AGN75593; AGN75593; TPANIC_0399.
+DR   GeneID; 2610804; -.
+DR   KEGG; tpw:TPANIC_0399; -.
+DR   eggNOG; COG1766; LUCA.
+DR   eggNOG; ENOG4107U2N; Bacteria.
+DR   KO; K02409; -.
+DR   OMA; LIRTWIV; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0009431; C:bacterial-type flagellum basal body, MS ring; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   InterPro; IPR013556; Flag_M-ring_C.
+DR   InterPro; IPR000067; FlgMring_FliF.
+DR   InterPro; IPR006182; YscJ_FliF.
+DR   Pfam; PF01514; YscJ_FliF; 1.
+DR   Pfam; PF08345; YscJ_FliF_C; 1.
+DR   PRINTS; PR01009; FLGMRINGFLIF.
+DR   TIGRFAMs; TIGR00206; fliF; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     21     44       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    471    492       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       31    224       YscJ_FliF. {ECO:0000259|Pfam:PF01514}.
+FT   DOMAIN      260    449       YscJ_FliF_C. {ECO:0000259|Pfam:PF08345}.
+SQ   SEQUENCE   567 AA;  64639 MW;  16344A3FB94281EE CRC64;
+     MGEWLGQLGV KLKTQWKKWT LVQKSVLAGA ALVSVMGVVV LLTWSAKPTL VPLIDTPITD
+     ETVREKIILR LNEENVRATV SSVGLISVSD EKTARRMRSI LIREDLIPKN VDPWAIFDVE
+     RWTRTDFERR VDVRRAINNT VTNHIKALDD IDDAHVVINV PEDALFQADQ KPITASVVIF
+     PKPSSTIASE RKKIEGIQKL LKLAVPGLKD ENITIVDSDA TVLNDFEGFK DADRLSLIEK
+     QQKMIAKLES QYEAKVLALL QKTYGKDRVR DLNIKIEMDL SEKTSQTTKY LPIEIRQDNP
+     DTPWDDSQVV PSVTSISETA TTTWQGTGLN PEGPPGVEGQ TPPAYKDMSN QVGLSNQSVV
+     KKQEAISKSE INEVVSPVLG RRTVSVNIDG EWRKKRDEHG RFIVKEGHIE REYIPISAEE
+     LREATKAVQD AIGFDAGRKD SVSVLNIKFD RTSEFDREDE HYLRVQQRNM IILYSLASVA
+     IVLFIFMVYK VISKEVERRR RLREEELLRQ QQLMRERALW EAEQAGMNVS MSVEERKRLE
+     LQENVLNMAR EHPEDVALLV RTWLMEE
+//
+ID   H6KVB8_TREPD            Unreviewed;       567 AA.
+AC   H6KVB8;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 24.
+DE   SubName: Full=IIISP family Type III (Virulence-related) secretory pathway protein {ECO:0000313|EMBL:AEZ58590.1};
+GN   Name=fliF {ECO:0000313|EMBL:AEZ58590.1};
+GN   OrderedLocusNames=TPECDC2_0399 {ECO:0000313|EMBL:AEZ58590.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58590.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58590.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881847.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVB8; -.
+DR   EnsemblBacteria; AEZ58590; AEZ58590; TPECDC2_0399.
+DR   GeneID; 2610804; -.
+DR   KEGG; tpc:TPECDC2_0399; -.
+DR   KO; K02409; -.
+DR   OMA; LIRTWIV; -.
+DR   BioCyc; TPAL491079:GJCE-432-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0009431; C:bacterial-type flagellum basal body, MS ring; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   InterPro; IPR013556; Flag_M-ring_C.
+DR   InterPro; IPR000067; FlgMring_FliF.
+DR   InterPro; IPR006182; YscJ_FliF.
+DR   Pfam; PF01514; YscJ_FliF; 1.
+DR   Pfam; PF08345; YscJ_FliF_C; 1.
+DR   PRINTS; PR01009; FLGMRINGFLIF.
+DR   TIGRFAMs; TIGR00206; fliF; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     21     44       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    471    492       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       31    224       YscJ_FliF. {ECO:0000259|Pfam:PF01514}.
+FT   DOMAIN      260    449       YscJ_FliF_C. {ECO:0000259|Pfam:PF08345}.
+SQ   SEQUENCE   567 AA;  64639 MW;  16344A3FB94281EE CRC64;
+     MGEWLGQLGV KLKTQWKKWT LVQKSVLAGA ALVSVMGVVV LLTWSAKPTL VPLIDTPITD
+     ETVREKIILR LNEENVRATV SSVGLISVSD EKTARRMRSI LIREDLIPKN VDPWAIFDVE
+     RWTRTDFERR VDVRRAINNT VTNHIKALDD IDDAHVVINV PEDALFQADQ KPITASVVIF
+     PKPSSTIASE RKKIEGIQKL LKLAVPGLKD ENITIVDSDA TVLNDFEGFK DADRLSLIEK
+     QQKMIAKLES QYEAKVLALL QKTYGKDRVR DLNIKIEMDL SEKTSQTTKY LPIEIRQDNP
+     DTPWDDSQVV PSVTSISETA TTTWQGTGLN PEGPPGVEGQ TPPAYKDMSN QVGLSNQSVV
+     KKQEAISKSE INEVVSPVLG RRTVSVNIDG EWRKKRDEHG RFIVKEGHIE REYIPISAEE
+     LREATKAVQD AIGFDAGRKD SVSVLNIKFD RTSEFDREDE HYLRVQQRNM IILYSLASVA
+     IVLFIFMVYK VISKEVERRR RLREEELLRQ QQLMRERALW EAEQAGMNVS MSVEERKRLE
+     LQENVLNMAR EHPEDVALLV RTWLMEE
+//
+ID   A0A0H3BKG8_TREPS        Unreviewed;       567 AA.
+AC   A0A0H3BKG8;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Flagellar basal-body M ring protein {ECO:0000313|EMBL:ACD70825.1};
+GN   Name=fliF {ECO:0000313|EMBL:ACD70825.1};
+GN   OrderedLocusNames=TPASS_0399 {ECO:0000313|EMBL:ACD70825.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70825.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70825.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70825.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70825.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881847.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKG8; -.
+DR   GeneID; 2610804; -.
+DR   KEGG; tpp:TPASS_0399; -.
+DR   KO; K02409; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0009431; C:bacterial-type flagellum basal body, MS ring; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   InterPro; IPR013556; Flag_M-ring_C.
+DR   InterPro; IPR000067; FlgMring_FliF.
+DR   InterPro; IPR006182; YscJ_FliF.
+DR   Pfam; PF01514; YscJ_FliF; 1.
+DR   Pfam; PF08345; YscJ_FliF_C; 1.
+DR   PRINTS; PR01009; FLGMRINGFLIF.
+DR   TIGRFAMs; TIGR00206; fliF; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:ACD70825.1};
+KW   Cilium {ECO:0000313|EMBL:ACD70825.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Flagellum {ECO:0000313|EMBL:ACD70825.1};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     21     44       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    471    492       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       31    224       YscJ_FliF. {ECO:0000259|Pfam:PF01514}.
+FT   DOMAIN      260    449       YscJ_FliF_C. {ECO:0000259|Pfam:PF08345}.
+SQ   SEQUENCE   567 AA;  64639 MW;  16344A3FB94281EE CRC64;
+     MGEWLGQLGV KLKTQWKKWT LVQKSVLAGA ALVSVMGVVV LLTWSAKPTL VPLIDTPITD
+     ETVREKIILR LNEENVRATV SSVGLISVSD EKTARRMRSI LIREDLIPKN VDPWAIFDVE
+     RWTRTDFERR VDVRRAINNT VTNHIKALDD IDDAHVVINV PEDALFQADQ KPITASVVIF
+     PKPSSTIASE RKKIEGIQKL LKLAVPGLKD ENITIVDSDA TVLNDFEGFK DADRLSLIEK
+     QQKMIAKLES QYEAKVLALL QKTYGKDRVR DLNIKIEMDL SEKTSQTTKY LPIEIRQDNP
+     DTPWDDSQVV PSVTSISETA TTTWQGTGLN PEGPPGVEGQ TPPAYKDMSN QVGLSNQSVV
+     KKQEAISKSE INEVVSPVLG RRTVSVNIDG EWRKKRDEHG RFIVKEGHIE REYIPISAEE
+     LREATKAVQD AIGFDAGRKD SVSVLNIKFD RTSEFDREDE HYLRVQQRNM IILYSLASVA
+     IVLFIFMVYK VISKEVERRR RLREEELLRQ QQLMRERALW EAEQAGMNVS MSVEERKRLE
+     LQENVLNMAR EHPEDVALLV RTWLMEE
+//
+ID   A0A0A7X2Z4_TREPL        Unreviewed;       567 AA.
+AC   A0A0A7X2Z4;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   SubName: Full=IIISP family Type III (Virulence-related) secretory pathway protein {ECO:0000313|EMBL:AJB40418.1};
+GN   Name=fliF {ECO:0000313|EMBL:AJB40418.1};
+GN   ORFNames=TENDBA_0399 {ECO:0000313|EMBL:AJB40418.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40418.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40418.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40418.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40418.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881847.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2Z4; -.
+DR   EnsemblBacteria; AJB40418; AJB40418; TENDBA_0399.
+DR   GeneID; 2610804; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0009431; C:bacterial-type flagellum basal body, MS ring; IEA:InterPro.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   InterPro; IPR013556; Flag_M-ring_C.
+DR   InterPro; IPR000067; FlgMring_FliF.
+DR   InterPro; IPR006182; YscJ_FliF.
+DR   Pfam; PF01514; YscJ_FliF; 1.
+DR   Pfam; PF08345; YscJ_FliF_C; 1.
+DR   PRINTS; PR01009; FLGMRINGFLIF.
+DR   TIGRFAMs; TIGR00206; fliF; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     21     44       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    471    492       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       31    224       YscJ_FliF. {ECO:0000259|Pfam:PF01514}.
+FT   DOMAIN      260    449       YscJ_FliF_C. {ECO:0000259|Pfam:PF08345}.
+SQ   SEQUENCE   567 AA;  64639 MW;  16344A3FB94281EE CRC64;
+     MGEWLGQLGV KLKTQWKKWT LVQKSVLAGA ALVSVMGVVV LLTWSAKPTL VPLIDTPITD
+     ETVREKIILR LNEENVRATV SSVGLISVSD EKTARRMRSI LIREDLIPKN VDPWAIFDVE
+     RWTRTDFERR VDVRRAINNT VTNHIKALDD IDDAHVVINV PEDALFQADQ KPITASVVIF
+     PKPSSTIASE RKKIEGIQKL LKLAVPGLKD ENITIVDSDA TVLNDFEGFK DADRLSLIEK
+     QQKMIAKLES QYEAKVLALL QKTYGKDRVR DLNIKIEMDL SEKTSQTTKY LPIEIRQDNP
+     DTPWDDSQVV PSVTSISETA TTTWQGTGLN PEGPPGVEGQ TPPAYKDMSN QVGLSNQSVV
+     KKQEAISKSE INEVVSPVLG RRTVSVNIDG EWRKKRDEHG RFIVKEGHIE REYIPISAEE
+     LREATKAVQD AIGFDAGRKD SVSVLNIKFD RTSEFDREDE HYLRVQQRNM IILYSLASVA
+     IVLFIFMVYK VISKEVERRR RLREEELLRQ QQLMRERALW EAEQAGMNVS MSVEERKRLE
+     LQENVLNMAR EHPEDVALLV RTWLMEE
+//

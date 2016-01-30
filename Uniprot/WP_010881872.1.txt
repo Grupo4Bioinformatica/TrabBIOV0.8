@@ -1,0 +1,117 @@
+ID   VATE_TREPA              Reviewed;         232 AA.
+AC   O83439;
+DT   24-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 80.
+DE   RecName: Full=V-type ATP synthase subunit E;
+DE   AltName: Full=V-ATPase subunit E;
+GN   Name=atpE; OrderedLocusNames=TP_0424;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase E subunit family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65411.1; -; Genomic_DNA.
+DR   PIR; E71325; E71325.
+DR   RefSeq; WP_010881872.1; NC_000919.1.
+DR   ProteinModelPortal; O83439; -.
+DR   IntAct; O83439; 2.
+DR   STRING; 243276.TP0424; -.
+DR   EnsemblBacteria; AAC65411; AAC65411; TP_0424.
+DR   GeneID; 2610920; -.
+DR   KEGG; tpa:TP_0424; -.
+DR   PATRIC; 20530863; VBITrePal57110_0451.
+DR   eggNOG; ENOG4108RY1; Bacteria.
+DR   eggNOG; ENOG4111I9P; LUCA.
+DR   KO; K02121; -.
+DR   OMA; MQFEVKD; -.
+DR   OrthoDB; EOG6BKJ6S; -.
+DR   BioCyc; TPAL243276:GC1H-450-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0006754; P:ATP biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0015992; P:proton transport; IEA:UniProtKB-KW.
+PE   3: Inferred from homology;
+KW   ATP synthesis; Complete proteome; Hydrogen ion transport;
+KW   Ion transport; Reference proteome; Transport.
+FT   CHAIN         1    232       V-type ATP synthase subunit E.
+FT                                /FTId=PRO_0000117335.
+SQ   SEQUENCE   232 AA;  24977 MW;  CA8184EC3B642D1E CRC64;
+     MLGESREEAE RIVRAAREEA ERIVRAAREE AERIESSSLA ALSQASRNVL LSFQDSVTRS
+     LRAIISMETA QAYDAGVLRE LIPRVVSAWV QAEGDKLELI LSPADLRTLE GVFCAALQEQ
+     LSAGVELRSD DCLTAGFRIV PAEGGSYYDF SAAAVAQLFS SYVSARVAEV LSLLRRSCDV
+     FLLLPYNAAT ISSMRRGASF ALSGFFGLCA TFLGSAGCCG AWKYLVVSRA GA
+//
+ID   VATE_TREPS              Reviewed;         232 AA.
+AC   B2S321;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 41.
+DE   RecName: Full=V-type proton ATPase subunit E;
+DE   AltName: Full=V-ATPase subunit E;
+GN   Name=atpE; OrderedLocusNames=TPASS_0424;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase E subunit family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70850.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881872.1; NC_010741.1.
+DR   ProteinModelPortal; B2S321; -.
+DR   EnsemblBacteria; ACD70850; ACD70850; TPASS_0424.
+DR   GeneID; 2610920; -.
+DR   KEGG; tpp:TPASS_0424; -.
+DR   PATRIC; 20528567; VBITrePal10923_0454.
+DR   KO; K02121; -.
+DR   OMA; MQFEVKD; -.
+DR   OrthoDB; EOG6BKJ6S; -.
+DR   BioCyc; TPAL455434:GJ9E-449-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0006754; P:ATP biosynthetic process; IEA:UniProtKB-KW.
+DR   GO; GO:0015992; P:proton transport; IEA:UniProtKB-KW.
+PE   3: Inferred from homology;
+KW   ATP synthesis; Complete proteome; Hydrogen ion transport;
+KW   Ion transport; Transport.
+FT   CHAIN         1    232       V-type proton ATPase subunit E.
+FT                                /FTId=PRO_1000115684.
+SQ   SEQUENCE   232 AA;  24977 MW;  CA8184EC3B642D1E CRC64;
+     MLGESREEAE RIVRAAREEA ERIVRAAREE AERIESSSLA ALSQASRNVL LSFQDSVTRS
+     LRAIISMETA QAYDAGVLRE LIPRVVSAWV QAEGDKLELI LSPADLRTLE GVFCAALQEQ
+     LSAGVELRSD DCLTAGFRIV PAEGGSYYDF SAAAVAQLFS SYVSARVAEV LSLLRRSCDV
+     FLLLPYNAAT ISSMRRGASF ALSGFFGLCA TFLGSAGCCG AWKYLVVSRA GA
+//

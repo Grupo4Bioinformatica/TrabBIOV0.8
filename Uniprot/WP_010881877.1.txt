@@ -1,0 +1,205 @@
+ID   VATI1_TREPA             Reviewed;         622 AA.
+AC   O83444;
+DT   24-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 101.
+DE   RecName: Full=V-type ATP synthase subunit I 1;
+DE   AltName: Full=V-ATPase subunit I 1;
+GN   Name=atpI1; OrderedLocusNames=TP_0429;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase 116 kDa subunit family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65415.1; -; Genomic_DNA.
+DR   PIR; B71326; B71326.
+DR   RefSeq; WP_010881877.1; NC_021490.2.
+DR   ProteinModelPortal; O83444; -.
+DR   STRING; 243276.TP0429; -.
+DR   TCDB; 3.A.2.3.3; the h(+)- or na(+)-translocating f-type, v-type and a-type atpase (f-atpase) superfamily.
+DR   EnsemblBacteria; AAC65415; AAC65415; TP_0429.
+DR   GeneID; 2610939; -.
+DR   KEGG; tpa:TP_0429; -.
+DR   PATRIC; 20530873; VBITrePal57110_0456.
+DR   eggNOG; ENOG4107U1W; Bacteria.
+DR   eggNOG; COG1269; LUCA.
+DR   KO; K02123; -.
+DR   OMA; GMEWTGI; -.
+DR   OrthoDB; EOG6FBWTD; -.
+DR   BioCyc; TPAL243276:GC1H-455-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015992; P:proton transport; IEA:UniProtKB-KW.
+PE   3: Inferred from homology;
+KW   Cell membrane; Complete proteome; Hydrogen ion transport;
+KW   Ion transport; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    622       V-type ATP synthase subunit I 1.
+FT                                /FTId=PRO_0000119242.
+FT   TRANSMEM    306    326       Helical. {ECO:0000255}.
+FT   TRANSMEM    328    348       Helical. {ECO:0000255}.
+FT   TRANSMEM    373    393       Helical. {ECO:0000255}.
+FT   TRANSMEM    428    448       Helical. {ECO:0000255}.
+FT   TRANSMEM    459    479       Helical. {ECO:0000255}.
+FT   TRANSMEM    485    505       Helical. {ECO:0000255}.
+FT   TRANSMEM    532    552       Helical. {ECO:0000255}.
+FT   TRANSMEM    562    582       Helical. {ECO:0000255}.
+SQ   SEQUENCE   622 AA;  69077 MW;  2AECAD4E47821C91 CRC64;
+     MIVPMKKVTL LVLGSEQERS LQALRSFGAV HVQLRECASE QLAELHALDA RCVQAIALVT
+     DAQTKNVTRG EECRVAGQVV EAAEAVEQIV RTHSDRVELA QRIAQCIAHL ERCEPWGDFD
+     PADVRALAQR GIHLIPVELS ERSYRCLPDE LQTLCLARRG GLVRCVLVAD KPGLPPSLPA
+     DARALELPDV SPADLFVRLR QLREECATLT QRLLAYSEYQ GAIRALRQKI AADIEFERVH
+     LSMVSVDVSQ WRETGETLRI AHVSGYLPVS RVRAFSECAR KEAWAYCCVD PMPEDPVPTQ
+     LRNNRWVNLI SPLMNFLGTV PGYWEVDISG FFLLFFGVFF SIIFADAGYG AVLTLVSLGG
+     IVLSKRKHAV VSPAWCLGLY LGTLTMVWGA LVCNWFGVPV QYVPASLARI AVWEISGFAD
+     AAQRNKNQMH VCFFLGLLHL CLGHLIVVRR TFRSLRVLAE FGSLLMLGGM YVVVLNLIVD
+     KERYPLTGMI VGSIIAGFVL NFIFVNYRVS VRQSVADSMK NVINALLGIV NVFADVMSYI
+     RLWAVGLAGG AISATVNEMT HPLFANFLAF LGIVLLLFGH GLNYVMSILS VIVHGVRLNT
+     LEFSNHVGLM WTGIRYTPFR ER
+//
+ID   R9UWN7_TREPA            Unreviewed;       622 AA.
+AC   R9UWN7;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 17.
+DE   SubName: Full=Two-sector ATPase, V(0) subunit I {ECO:0000313|EMBL:AGN75623.1};
+GN   Name=ntpI1 {ECO:0000313|EMBL:AGN75623.1};
+GN   ORFNames=TPANIC_0429 {ECO:0000313|EMBL:AGN75623.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75623.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75623.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75623.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75623.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881877.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWN7; -.
+DR   STRING; 243276.TP0429; -.
+DR   EnsemblBacteria; AGN75623; AGN75623; TPANIC_0429.
+DR   GeneID; 2610939; -.
+DR   KEGG; tpw:TPANIC_0429; -.
+DR   eggNOG; COG1269; LUCA.
+DR   eggNOG; ENOG4107U1W; Bacteria.
+DR   KO; K02123; -.
+DR   OMA; GMEWTGI; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    330    363       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    375    397       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    428    448       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    457    478       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    484    504       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    525    544       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    564    585       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   622 AA;  69077 MW;  2AECAD4E47821C91 CRC64;
+     MIVPMKKVTL LVLGSEQERS LQALRSFGAV HVQLRECASE QLAELHALDA RCVQAIALVT
+     DAQTKNVTRG EECRVAGQVV EAAEAVEQIV RTHSDRVELA QRIAQCIAHL ERCEPWGDFD
+     PADVRALAQR GIHLIPVELS ERSYRCLPDE LQTLCLARRG GLVRCVLVAD KPGLPPSLPA
+     DARALELPDV SPADLFVRLR QLREECATLT QRLLAYSEYQ GAIRALRQKI AADIEFERVH
+     LSMVSVDVSQ WRETGETLRI AHVSGYLPVS RVRAFSECAR KEAWAYCCVD PMPEDPVPTQ
+     LRNNRWVNLI SPLMNFLGTV PGYWEVDISG FFLLFFGVFF SIIFADAGYG AVLTLVSLGG
+     IVLSKRKHAV VSPAWCLGLY LGTLTMVWGA LVCNWFGVPV QYVPASLARI AVWEISGFAD
+     AAQRNKNQMH VCFFLGLLHL CLGHLIVVRR TFRSLRVLAE FGSLLMLGGM YVVVLNLIVD
+     KERYPLTGMI VGSIIAGFVL NFIFVNYRVS VRQSVADSMK NVINALLGIV NVFADVMSYI
+     RLWAVGLAGG AISATVNEMT HPLFANFLAF LGIVLLLFGH GLNYVMSILS VIVHGVRLNT
+     LEFSNHVGLM WTGIRYTPFR ER
+//
+ID   A0A0H3BJ68_TREPS        Unreviewed;       622 AA.
+AC   A0A0H3BJ68;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 3.
+DE   SubName: Full=V-type ATPase, subunit I {ECO:0000313|EMBL:ACD70855.1};
+GN   Name=atpI1 {ECO:0000313|EMBL:ACD70855.1};
+GN   OrderedLocusNames=TPASS_0429 {ECO:0000313|EMBL:ACD70855.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70855.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70855.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70855.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70855.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881877.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ68; -.
+DR   GeneID; 2610939; -.
+DR   KEGG; tpp:TPASS_0429; -.
+DR   KO; K02123; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    330    363       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    375    397       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    428    448       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    457    478       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    484    504       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    525    544       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    564    585       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   622 AA;  69077 MW;  2AECAD4E47821C91 CRC64;
+     MIVPMKKVTL LVLGSEQERS LQALRSFGAV HVQLRECASE QLAELHALDA RCVQAIALVT
+     DAQTKNVTRG EECRVAGQVV EAAEAVEQIV RTHSDRVELA QRIAQCIAHL ERCEPWGDFD
+     PADVRALAQR GIHLIPVELS ERSYRCLPDE LQTLCLARRG GLVRCVLVAD KPGLPPSLPA
+     DARALELPDV SPADLFVRLR QLREECATLT QRLLAYSEYQ GAIRALRQKI AADIEFERVH
+     LSMVSVDVSQ WRETGETLRI AHVSGYLPVS RVRAFSECAR KEAWAYCCVD PMPEDPVPTQ
+     LRNNRWVNLI SPLMNFLGTV PGYWEVDISG FFLLFFGVFF SIIFADAGYG AVLTLVSLGG
+     IVLSKRKHAV VSPAWCLGLY LGTLTMVWGA LVCNWFGVPV QYVPASLARI AVWEISGFAD
+     AAQRNKNQMH VCFFLGLLHL CLGHLIVVRR TFRSLRVLAE FGSLLMLGGM YVVVLNLIVD
+     KERYPLTGMI VGSIIAGFVL NFIFVNYRVS VRQSVADSMK NVINALLGIV NVFADVMSYI
+     RLWAVGLAGG AISATVNEMT HPLFANFLAF LGIVLLLFGH GLNYVMSILS VIVHGVRLNT
+     LEFSNHVGLM WTGIRYTPFR ER
+//

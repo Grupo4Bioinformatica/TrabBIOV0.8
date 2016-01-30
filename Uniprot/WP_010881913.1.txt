@@ -1,0 +1,277 @@
+ID   TRMB_TREPA              Reviewed;         250 AA.
+AC   O83477;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 102.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   OrderedLocusNames=TP_0464;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at
+CC       position 46 (m7G46) in tRNA. {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(46) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(7)-methylguanine(46) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding
+CC       methyltransferase superfamily. TrmB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01057}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65448.1; -; Genomic_DNA.
+DR   PIR; B71321; B71321.
+DR   RefSeq; WP_010881913.1; NC_021490.2.
+DR   ProteinModelPortal; O83477; -.
+DR   IntAct; O83477; 4.
+DR   MINT; MINT-6479630; -.
+DR   STRING; 243276.TP0464; -.
+DR   EnsemblBacteria; AAC65448; AAC65448; TP_0464.
+DR   GeneID; 2611075; -.
+DR   KEGG; tpa:TP_0464; -.
+DR   PATRIC; 20530953; VBITrePal57110_0496.
+DR   eggNOG; ENOG4107W7Y; Bacteria.
+DR   eggNOG; COG0220; LUCA.
+DR   KO; K03439; -.
+DR   OMA; IKLGHGV; -.
+DR   OrthoDB; EOG6K6VBC; -.
+DR   BioCyc; TPAL243276:GC1H-491-MONOMER; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0008176; F:tRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00091; TIGR00091; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Methyltransferase; Reference proteome;
+KW   S-adenosyl-L-methionine; Transferase; tRNA processing.
+FT   CHAIN         1    250       tRNA (guanine-N(7)-)-methyltransferase.
+FT                                /FTId=PRO_0000171416.
+FT   REGION      229    232       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01057}.
+FT   ACT_SITE    161    161       {ECO:0000250}.
+FT   BINDING      86     86       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     111    111       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     138    138       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     161    161       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     165    165       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01057}.
+FT   BINDING     197    197       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01057}.
+SQ   SEQUENCE   250 AA;  28068 MW;  C5A227F4E4D15CC0 CRC64;
+     MTNDSARMRK VLTFTRRSNR MTACQKRDYQ HLASRWIIPY QNTVFDYAAV FCSPAAPSAP
+     AGAFPAPQGK TDAVAPACAP APLVVEIGFG MGSATAAIAA RNPHLSYLGI EVYRAGIGRL
+     LRKIEAERLH NLRIIEHDAL DVLRTMIAPQ TLAGLHIFFP DPWPKTRHHK RRLLYRPRTD
+     LLARALAPGG YLYAVTDWAE YARRAQEELA RTPSLTWAPQ GARPWRPATE FERKAQTQGR
+     AIHELFFIKA
+//
+ID   TRMB_TREPS              Reviewed;         250 AA.
+AC   B2S360;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 54.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000255|HAMAP-Rule:MF_01057};
+GN   OrderedLocusNames=TPASS_0464;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at
+CC       position 46 (m7G46) in tRNA. {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(46) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(7)-methylguanine(46) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding
+CC       methyltransferase superfamily. TrmB family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01057}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70889.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881913.1; NC_021508.1.
+DR   ProteinModelPortal; B2S360; -.
+DR   EnsemblBacteria; ACD70889; ACD70889; TPASS_0464.
+DR   GeneID; 2611075; -.
+DR   KEGG; tpp:TPASS_0464; -.
+DR   PATRIC; 20528659; VBITrePal10923_0500.
+DR   HOGENOM; HOG000073968; -.
+DR   KO; K03439; -.
+DR   OMA; IKLGHGV; -.
+DR   OrthoDB; EOG6K6VBC; -.
+DR   BioCyc; TPAL455434:GJ9E-488-MONOMER; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0008176; F:tRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00091; TIGR00091; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Methyltransferase; S-adenosyl-L-methionine;
+KW   Transferase; tRNA processing.
+FT   CHAIN         1    250       tRNA (guanine-N(7)-)-methyltransferase.
+FT                                /FTId=PRO_1000136373.
+FT   REGION      229    232       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01057}.
+FT   ACT_SITE    161    161       {ECO:0000250}.
+FT   BINDING      86     86       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     111    111       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     138    138       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     161    161       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01057}.
+FT   BINDING     165    165       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01057}.
+FT   BINDING     197    197       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01057}.
+SQ   SEQUENCE   250 AA;  28068 MW;  C5A227F4E4D15CC0 CRC64;
+     MTNDSARMRK VLTFTRRSNR MTACQKRDYQ HLASRWIIPY QNTVFDYAAV FCSPAAPSAP
+     AGAFPAPQGK TDAVAPACAP APLVVEIGFG MGSATAAIAA RNPHLSYLGI EVYRAGIGRL
+     LRKIEAERLH NLRIIEHDAL DVLRTMIAPQ TLAGLHIFFP DPWPKTRHHK RRLLYRPRTD
+     LLARALAPGG YLYAVTDWAE YARRAQEELA RTPSLTWAPQ GARPWRPATE FERKAQTQGR
+     AIHELFFIKA
+//
+ID   R9UT26_TREPA            Unreviewed;       250 AA.
+AC   R9UT26;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   RecName: Full=tRNA (guanine-N(7)-)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+DE            EC=2.1.1.33 {ECO:0000256|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA (guanine(46)-N(7))-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+DE   AltName: Full=tRNA(m7G46)-methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057};
+GN   Name=trmB {ECO:0000256|HAMAP-Rule:MF_01057,
+GN   ECO:0000313|EMBL:AGN75657.1};
+GN   ORFNames=TPANIC_0464 {ECO:0000313|EMBL:AGN75657.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75657.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75657.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75657.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Catalyzes the formation of N(7)-methylguanine at
+CC       position 46 (m7G46) in tRNA. {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + guanine(46) in tRNA
+CC       = S-adenosyl-L-homocysteine + N(7)-methylguanine(46) in tRNA.
+CC       {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   -!- PATHWAY: tRNA modification; N(7)-methylguanine-tRNA biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_01057}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding
+CC       methyltransferase superfamily. TrmB family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01057}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75657.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881913.1; NC_021490.2.
+DR   ProteinModelPortal; R9UT26; -.
+DR   STRING; 243276.TP0464; -.
+DR   EnsemblBacteria; AGN75657; AGN75657; TPANIC_0464.
+DR   GeneID; 2611075; -.
+DR   KEGG; tpw:TPANIC_0464; -.
+DR   eggNOG; COG0220; LUCA.
+DR   eggNOG; ENOG4107W7Y; Bacteria.
+DR   KO; K03439; -.
+DR   OMA; IKLGHGV; -.
+DR   UniPathway; UPA00989; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0008176; F:tRNA (guanine-N7-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   HAMAP; MF_01057; tRNA_methyltr_TrmB; 1.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   InterPro; IPR003358; tRNA_(Gua-N-7)_MeTrfase_Trmb.
+DR   Pfam; PF02390; Methyltransf_4; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   TIGRFAMs; TIGR00091; TIGR00091; 1.
+DR   PROSITE; PS51625; SAM_MT_TRMB; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Methyltransferase {ECO:0000256|HAMAP-Rule:MF_01057,
+KW   ECO:0000256|SAAS:SAAS00097779, ECO:0000313|EMBL:AGN75657.1};
+KW   S-adenosyl-L-methionine {ECO:0000256|HAMAP-Rule:MF_01057,
+KW   ECO:0000256|SAAS:SAAS00097748};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01057,
+KW   ECO:0000256|SAAS:SAAS00097779, ECO:0000313|EMBL:AGN75657.1};
+KW   tRNA processing {ECO:0000256|HAMAP-Rule:MF_01057}.
+FT   REGION      229    232       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01057}.
+FT   BINDING      86     86       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01057}.
+FT   BINDING     111    111       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01057}.
+FT   BINDING     138    138       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01057}.
+FT   BINDING     161    161       S-adenosyl-L-methionine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01057}.
+FT   BINDING     165    165       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01057}.
+FT   BINDING     197    197       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01057}.
+SQ   SEQUENCE   250 AA;  28068 MW;  C5A227F4E4D15CC0 CRC64;
+     MTNDSARMRK VLTFTRRSNR MTACQKRDYQ HLASRWIIPY QNTVFDYAAV FCSPAAPSAP
+     AGAFPAPQGK TDAVAPACAP APLVVEIGFG MGSATAAIAA RNPHLSYLGI EVYRAGIGRL
+     LRKIEAERLH NLRIIEHDAL DVLRTMIAPQ TLAGLHIFFP DPWPKTRHHK RRLLYRPRTD
+     LLARALAPGG YLYAVTDWAE YARRAQEELA RTPSLTWAPQ GARPWRPATE FERKAQTQGR
+     AIHELFFIKA
+//

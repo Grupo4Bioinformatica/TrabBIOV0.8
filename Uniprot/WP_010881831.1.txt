@@ -1,0 +1,243 @@
+ID   MRAZ_TREPA              Reviewed;         149 AA.
+AC   O83398;
+DT   03-APR-2002, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 91.
+DE   RecName: Full=Transcriptional regulator MraZ;
+GN   Name=mraZ {ECO:0000255|HAMAP-Rule:MF_01008};
+GN   OrderedLocusNames=TP_0383;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- SUBUNIT: Forms oligomers. {ECO:0000255|HAMAP-Rule:MF_01008}.
+CC   -!- INTERACTION:
+CC       P21992:flaB3; NbExp=2; IntAct=EBI-1198346, EBI-1198854;
+CC       O83413:fliE; NbExp=2; IntAct=EBI-1198346, EBI-1198218;
+CC       O83666:TP_0660; NbExp=2; IntAct=EBI-1198346, EBI-1198601;
+CC       O83913:TP_0943; NbExp=2; IntAct=EBI-1198346, EBI-1198847;
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, nucleoid {ECO:0000255|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SIMILARITY: Belongs to the MraZ family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SIMILARITY: Contains 2 SpoVT-AbrB domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01076}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65367.1; -; Genomic_DNA.
+DR   PIR; A71331; A71331.
+DR   RefSeq; WP_010881831.1; NC_021490.2.
+DR   ProteinModelPortal; O83398; -.
+DR   IntAct; O83398; 67.
+DR   MINT; MINT-6479263; -.
+DR   STRING; 243276.TP0383; -.
+DR   EnsemblBacteria; AAC65367; AAC65367; TP_0383.
+DR   GeneID; 2611276; -.
+DR   KEGG; tpa:TP_0383; -.
+DR   PATRIC; 20530775; VBITrePal57110_0407.
+DR   eggNOG; ENOG4107YM1; Bacteria.
+DR   eggNOG; COG2001; LUCA.
+DR   KO; K03925; -.
+DR   OMA; SNRVEIW; -.
+DR   OrthoDB; EOG6G4W1C; -.
+DR   BioCyc; TPAL243276:GC1H-409-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009295; C:nucleoid; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003700; F:transcription factor activity, sequence-specific DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01008; MraZ; 1.
+DR   InterPro; IPR003444; MraZ.
+DR   InterPro; IPR020603; MraZ_dom.
+DR   InterPro; IPR007159; SpoVT-AbrB_dom.
+DR   Pfam; PF02381; MraZ; 2.
+DR   ProDom; PD006745; MraZ; 1.
+DR   TIGRFAMs; TIGR00242; TIGR00242; 1.
+DR   PROSITE; PS51740; SPOVT_ABRB; 2.
+PE   1: Evidence at protein level;
+KW   Complete proteome; Cytoplasm; DNA-binding; Reference proteome; Repeat;
+KW   Transcription; Transcription regulation.
+FT   CHAIN         1    149       Transcriptional regulator MraZ.
+FT                                /FTId=PRO_0000108552.
+FT   DOMAIN        9     52       SpoVT-AbrB 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01076}.
+FT   DOMAIN       82    125       SpoVT-AbrB 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01076}.
+SQ   SEQUENCE   149 AA;  17096 MW;  9CA9465EC5AAE850 CRC64;
+     MEDNAFTGAY SYNLDEKGRL MLPARLRVAL SDTRLVLTCA IESCLWVFPR AQWDRFSSQI
+     SARASLFHAP SRAVLRRLIA PAQEVELDRA WRLFIPPSLR EYAALEKDCL ILGLSHCLEI
+     WDRARYRAYL AESEADFRAG TETLQDLCL
+//
+ID   MRAZ_TREPS              Reviewed;         149 AA.
+AC   B2S2Y0;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 50.
+DE   RecName: Full=Transcriptional regulator MraZ;
+GN   Name=mraZ {ECO:0000255|HAMAP-Rule:MF_01008};
+GN   OrderedLocusNames=TPASS_0383;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- SUBUNIT: Forms oligomers. {ECO:0000255|HAMAP-Rule:MF_01008}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, nucleoid {ECO:0000255|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SIMILARITY: Belongs to the MraZ family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SIMILARITY: Contains 2 SpoVT-AbrB domains. {ECO:0000255|PROSITE-
+CC       ProRule:PRU01076}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70809.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881831.1; NC_021508.1.
+DR   ProteinModelPortal; B2S2Y0; -.
+DR   EnsemblBacteria; ACD70809; ACD70809; TPASS_0383.
+DR   GeneID; 2611276; -.
+DR   KEGG; tpp:TPASS_0383; -.
+DR   PATRIC; 20528479; VBITrePal10923_0410.
+DR   HOGENOM; HOG000283908; -.
+DR   KO; K03925; -.
+DR   OMA; SNRVEIW; -.
+DR   OrthoDB; EOG6G4W1C; -.
+DR   BioCyc; TPAL455434:GJ9E-408-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009295; C:nucleoid; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003700; F:transcription factor activity, sequence-specific DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01008; MraZ; 1.
+DR   InterPro; IPR003444; MraZ.
+DR   InterPro; IPR020603; MraZ_dom.
+DR   InterPro; IPR007159; SpoVT-AbrB_dom.
+DR   Pfam; PF02381; MraZ; 2.
+DR   ProDom; PD006745; MraZ; 1.
+DR   TIGRFAMs; TIGR00242; TIGR00242; 1.
+DR   PROSITE; PS51740; SPOVT_ABRB; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; DNA-binding; Repeat; Transcription;
+KW   Transcription regulation.
+FT   CHAIN         1    149       Transcriptional regulator MraZ.
+FT                                /FTId=PRO_1000191340.
+FT   DOMAIN        9     52       SpoVT-AbrB 1. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01076}.
+FT   DOMAIN       82    125       SpoVT-AbrB 2. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU01076}.
+SQ   SEQUENCE   149 AA;  17096 MW;  9CA9465EC5AAE850 CRC64;
+     MEDNAFTGAY SYNLDEKGRL MLPARLRVAL SDTRLVLTCA IESCLWVFPR AQWDRFSSQI
+     SARASLFHAP SRAVLRRLIA PAQEVELDRA WRLFIPPSLR EYAALEKDCL ILGLSHCLEI
+     WDRARYRAYL AESEADFRAG TETLQDLCL
+//
+ID   R9USU7_TREPA            Unreviewed;       149 AA.
+AC   R9USU7;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 23.
+DE   RecName: Full=Transcriptional regulator MraZ {ECO:0000256|HAMAP-Rule:MF_01008, ECO:0000256|SAAS:SAAS00348697};
+GN   Name=mraZ {ECO:0000256|HAMAP-Rule:MF_01008,
+GN   ECO:0000313|EMBL:AGN75577.1};
+GN   ORFNames=TPANIC_0383 {ECO:0000313|EMBL:AGN75577.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75577.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75577.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75577.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- SUBUNIT: Forms oligomers. {ECO:0000256|HAMAP-Rule:MF_01008,
+CC       ECO:0000256|SAAS:SAAS00348680}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm, nucleoid {ECO:0000256|HAMAP-
+CC       Rule:MF_01008, ECO:0000256|SAAS:SAAS00348718}.
+CC   -!- SIMILARITY: Belongs to the MraZ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01008}.
+CC   -!- SIMILARITY: Contains 2 SpoVT-AbrB domains. {ECO:0000256|HAMAP-
+CC       Rule:MF_01008}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75577.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881831.1; NC_021490.2.
+DR   ProteinModelPortal; R9USU7; -.
+DR   STRING; 243276.TP0383; -.
+DR   EnsemblBacteria; AGN75577; AGN75577; TPANIC_0383.
+DR   GeneID; 2611276; -.
+DR   KEGG; tpw:TPANIC_0383; -.
+DR   eggNOG; COG2001; LUCA.
+DR   eggNOG; ENOG4107YM1; Bacteria.
+DR   KO; K03925; -.
+DR   OMA; SNRVEIW; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009295; C:nucleoid; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003700; F:transcription factor activity, sequence-specific DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006351; P:transcription, DNA-templated; IEA:UniProtKB-KW.
+DR   HAMAP; MF_01008; MraZ; 1.
+DR   InterPro; IPR003444; MraZ.
+DR   InterPro; IPR020603; MraZ_dom.
+DR   InterPro; IPR007159; SpoVT-AbrB_dom.
+DR   Pfam; PF02381; MraZ; 2.
+DR   ProDom; PD006745; MraZ; 1.
+DR   TIGRFAMs; TIGR00242; TIGR00242; 1.
+DR   PROSITE; PS51740; SPOVT_ABRB; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01008,
+KW   ECO:0000256|SAAS:SAAS00217755};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01008,
+KW   ECO:0000256|SAAS:SAAS00239318};
+KW   Repeat {ECO:0000256|HAMAP-Rule:MF_01008,
+KW   ECO:0000256|SAAS:SAAS00217765};
+KW   Transcription {ECO:0000256|HAMAP-Rule:MF_01008,
+KW   ECO:0000256|SAAS:SAAS00217774};
+KW   Transcription regulation {ECO:0000256|HAMAP-Rule:MF_01008,
+KW   ECO:0000256|SAAS:SAAS00217774}.
+FT   DOMAIN        9     52       SpoVT-AbrB.
+FT                                {ECO:0000259|PROSITE:PS51740}.
+FT   DOMAIN        9     52       SpoVT-AbrB 1. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01008}.
+FT   DOMAIN       82    125       SpoVT-AbrB.
+FT                                {ECO:0000259|PROSITE:PS51740}.
+FT   DOMAIN       82    125       SpoVT-AbrB 2. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01008}.
+SQ   SEQUENCE   149 AA;  17096 MW;  9CA9465EC5AAE850 CRC64;
+     MEDNAFTGAY SYNLDEKGRL MLPARLRVAL SDTRLVLTCA IESCLWVFPR AQWDRFSSQI
+     SARASLFHAP SRAVLRRLIA PAQEVELDRA WRLFIPPSLR EYAALEKDCL ILGLSHCLEI
+     WDRARYRAYL AESEADFRAG TETLQDLCL
+//

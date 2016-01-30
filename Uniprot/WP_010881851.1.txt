@@ -1,0 +1,305 @@
+ID   O83418_TREPA            Unreviewed;       150 AA.
+AC   O83418;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 88.
+DE   SubName: Full=Flagellar protein FliJ {ECO:0000313|EMBL:AGN75597.1};
+DE   SubName: Full=Flagellar protein, putative {ECO:0000313|EMBL:AAC65391.1};
+GN   Name=fliJ {ECO:0000313|EMBL:AGN75597.1};
+GN   OrderedLocusNames=TP_0403 {ECO:0000313|EMBL:AAC65391.1};
+GN   ORFNames=TPANIC_0403 {ECO:0000313|EMBL:AGN75597.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65391.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65391.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65391.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75597.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75597.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65391.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75597.1; -; Genomic_DNA.
+DR   PIR; B71329; B71329.
+DR   RefSeq; WP_010881851.1; NC_021490.2.
+DR   MINT; MINT-6479007; -.
+DR   STRING; 243276.TP0403; -.
+DR   EnsemblBacteria; AAC65391; AAC65391; TP_0403.
+DR   EnsemblBacteria; AGN75597; AGN75597; TPANIC_0403.
+DR   GeneID; 2610830; -.
+DR   KEGG; tpa:TP_0403; -.
+DR   KEGG; tpw:TPANIC_0403; -.
+DR   PATRIC; 20530815; VBITrePal57110_0427.
+DR   eggNOG; COG2882; LUCA.
+DR   KO; K02413; -.
+DR   OMA; ENSAAMI; -.
+DR   OrthoDB; EOG680X98; -.
+DR   BioCyc; TPAL243276:GC1H-429-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0009288; C:bacterial-type flagellum; IEA:InterPro.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   InterPro; IPR012823; Flagell_FliJ.
+DR   Pfam; PF02050; FliJ; 1.
+DR   TIGRFAMs; TIGR02473; flagell_FliJ; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:AAC65391.1};
+KW   Cilium {ECO:0000313|EMBL:AAC65391.1};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Flagellum {ECO:0000313|EMBL:AAC65391.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   COILED       67     87       {ECO:0000256|SAM:Coils}.
+FT   COILED       95    115       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   150 AA;  17540 MW;  142F5BCB0423CAB1 CRC64;
+     MKRFCFSLER VRRLRAFRVR ELEVELSKVL AEYGSIDTQI RSIAGEYRAR MQDVAPKRGA
+     VFSAASVSAV QDQIDVLQLR REQLLHKQAH LSFTLEQLRE RYAHARRAHE ALLMLEEKEK
+     TRWREQRLRA EDRACDDLVS ARVPGAPSKH
+//
+ID   H6KVC2_TREPD            Unreviewed;       150 AA.
+AC   H6KVC2;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 27.
+DE   SubName: Full=Flagellar protein FliJ {ECO:0000313|EMBL:AEZ58594.1};
+GN   Name=fliJ {ECO:0000313|EMBL:AEZ58594.1};
+GN   OrderedLocusNames=TPECDC2_0403 {ECO:0000313|EMBL:AEZ58594.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58594.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58594.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881851.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVC2; -.
+DR   EnsemblBacteria; AEZ58594; AEZ58594; TPECDC2_0403.
+DR   GeneID; 2610830; -.
+DR   KEGG; tpc:TPECDC2_0403; -.
+DR   KO; K02413; -.
+DR   OMA; ENSAAMI; -.
+DR   BioCyc; TPAL491079:GJCE-436-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0009288; C:bacterial-type flagellum; IEA:InterPro.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   InterPro; IPR012823; Flagell_FliJ.
+DR   Pfam; PF02050; FliJ; 1.
+DR   TIGRFAMs; TIGR02473; flagell_FliJ; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:AEZ58594.1};
+KW   Cilium {ECO:0000313|EMBL:AEZ58594.1};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Flagellum {ECO:0000313|EMBL:AEZ58594.1}.
+FT   COILED       67     87       {ECO:0000256|SAM:Coils}.
+FT   COILED       95    115       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   150 AA;  17540 MW;  142F5BCB0423CAB1 CRC64;
+     MKRFCFSLER VRRLRAFRVR ELEVELSKVL AEYGSIDTQI RSIAGEYRAR MQDVAPKRGA
+     VFSAASVSAV QDQIDVLQLR REQLLHKQAH LSFTLEQLRE RYAHARRAHE ALLMLEEKEK
+     TRWREQRLRA EDRACDDLVS ARVPGAPSKH
+//
+ID   F7XSL5_TREPU            Unreviewed;       150 AA.
+AC   F7XSL5;
+DT   21-SEP-2011, integrated into UniProtKB/TrEMBL.
+DT   21-SEP-2011, sequence version 1.
+DT   09-DEC-2015, entry version 27.
+DE   SubName: Full=Flagellar protein FliJ {ECO:0000313|EMBL:AEH40346.1};
+GN   Name=fliJ {ECO:0000313|EMBL:AEH40346.1};
+GN   OrderedLocusNames=TPCCA_0403 {ECO:0000313|EMBL:AEH40346.1};
+OS   Treponema paraluiscuniculi (strain Cuniculi A).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=545776 {ECO:0000313|EMBL:AEH40346.1, ECO:0000313|Proteomes:UP000008317};
+RN   [1] {ECO:0000313|EMBL:AEH40346.1, ECO:0000313|Proteomes:UP000008317}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Cuniculi A {ECO:0000313|EMBL:AEH40346.1,
+RC   ECO:0000313|Proteomes:UP000008317};
+RX   PubMed=21655244; DOI=10.1371/journal.pone.0020415;
+RA   Smajs D., Zobanikova M., Strouhal M., Cejkova D., Dugan-Rocha S.,
+RA   Pospisilova P., Norris S.J., Albert T., Qin X., Hallsworth-Pepin K.,
+RA   Buhay C., Muzny D.M., Chen L., Gibbs R.A., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema paraluiscuniculi, strain
+RT   Cuniculi A: the loss of infectivity to humans is associated with
+RT   genome decay.";
+RL   PLoS ONE 6:E20415-E20415(2011).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002103; AEH40346.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881851.1; NC_015714.1.
+DR   ProteinModelPortal; F7XSL5; -.
+DR   EnsemblBacteria; AEH40346; AEH40346; TPCCA_0403.
+DR   GeneID; 2610830; -.
+DR   KEGG; tpl:TPCCA_0403; -.
+DR   KO; K02413; -.
+DR   OMA; ENSAAMI; -.
+DR   BioCyc; TPAR545776:GJC6-418-MONOMER; -.
+DR   Proteomes; UP000008317; Chromosome.
+DR   GO; GO:0009288; C:bacterial-type flagellum; IEA:InterPro.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   InterPro; IPR012823; Flagell_FliJ.
+DR   Pfam; PF02050; FliJ; 1.
+DR   TIGRFAMs; TIGR02473; flagell_FliJ; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:AEH40346.1};
+KW   Cilium {ECO:0000313|EMBL:AEH40346.1};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008317};
+KW   Flagellum {ECO:0000313|EMBL:AEH40346.1}.
+FT   COILED       67     87       {ECO:0000256|SAM:Coils}.
+FT   COILED       95    115       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   150 AA;  17540 MW;  142F5BCB0423CAB1 CRC64;
+     MKRFCFSLER VRRLRAFRVR ELEVELSKVL AEYGSIDTQI RSIAGEYRAR MQDVAPKRGA
+     VFSAASVSAV QDQIDVLQLR REQLLHKQAH LSFTLEQLRE RYAHARRAHE ALLMLEEKEK
+     TRWREQRLRA EDRACDDLVS ARVPGAPSKH
+//
+ID   A0A0A7X4K3_TREPL        Unreviewed;       150 AA.
+AC   A0A0A7X4K3;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   SubName: Full=Flagellar protein FliJ {ECO:0000313|EMBL:AJB40422.1};
+GN   Name=fliJ {ECO:0000313|EMBL:AJB40422.1};
+GN   ORFNames=TENDBA_0403 {ECO:0000313|EMBL:AJB40422.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40422.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40422.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40422.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40422.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881851.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X4K3; -.
+DR   EnsemblBacteria; AJB40422; AJB40422; TENDBA_0403.
+DR   GeneID; 2610830; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0009288; C:bacterial-type flagellum; IEA:InterPro.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   InterPro; IPR012823; Flagell_FliJ.
+DR   Pfam; PF02050; FliJ; 1.
+DR   TIGRFAMs; TIGR02473; flagell_FliJ; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:AJB40422.1};
+KW   Cilium {ECO:0000313|EMBL:AJB40422.1};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Flagellum {ECO:0000313|EMBL:AJB40422.1}.
+FT   COILED       67     87       {ECO:0000256|SAM:Coils}.
+FT   COILED       95    115       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   150 AA;  17540 MW;  142F5BCB0423CAB1 CRC64;
+     MKRFCFSLER VRRLRAFRVR ELEVELSKVL AEYGSIDTQI RSIAGEYRAR MQDVAPKRGA
+     VFSAASVSAV QDQIDVLQLR REQLLHKQAH LSFTLEQLRE RYAHARRAHE ALLMLEEKEK
+     TRWREQRLRA EDRACDDLVS ARVPGAPSKH
+//
+ID   A0A0H3BKE8_TREPS        Unreviewed;       150 AA.
+AC   A0A0H3BKE8;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Possible flagellar protein {ECO:0000313|EMBL:ACD70829.1};
+GN   OrderedLocusNames=TPASS_0403 {ECO:0000313|EMBL:ACD70829.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70829.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70829.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70829.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70829.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881851.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKE8; -.
+DR   GeneID; 2610830; -.
+DR   KEGG; tpp:TPASS_0403; -.
+DR   KO; K02413; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0009288; C:bacterial-type flagellum; IEA:InterPro.
+DR   GO; GO:0016020; C:membrane; IEA:InterPro.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   InterPro; IPR012823; Flagell_FliJ.
+DR   Pfam; PF02050; FliJ; 1.
+DR   TIGRFAMs; TIGR02473; flagell_FliJ; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:ACD70829.1};
+KW   Cilium {ECO:0000313|EMBL:ACD70829.1};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Flagellum {ECO:0000313|EMBL:ACD70829.1}.
+FT   COILED       67     87       {ECO:0000256|SAM:Coils}.
+FT   COILED       95    115       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   150 AA;  17540 MW;  142F5BCB0423CAB1 CRC64;
+     MKRFCFSLER VRRLRAFRVR ELEVELSKVL AEYGSIDTQI RSIAGEYRAR MQDVAPKRGA
+     VFSAASVSAV QDQIDVLQLR REQLLHKQAH LSFTLEQLRE RYAHARRAHE ALLMLEEKEK
+     TRWREQRLRA EDRACDDLVS ARVPGAPSKH
+//

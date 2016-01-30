@@ -1,0 +1,123 @@
+ID   A0A0H3BKK9_TREPS        Unreviewed;       209 AA.
+AC   A0A0H3BKK9;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=4-methyl-5(B-hydroxyethyl)-thiazole monophosphate biosynthesis enzyme {ECO:0000313|EMBL:ACD70870.1};
+GN   Name=thiJ {ECO:0000313|EMBL:ACD70870.1};
+GN   OrderedLocusNames=TPASS_0445 {ECO:0000313|EMBL:ACD70870.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70870.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70870.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70870.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70870.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881893.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKK9; -.
+DR   GeneID; 2610998; -.
+DR   KEGG; tpp:TPASS_0445; -.
+DR   KO; K03152; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR002818; DJ-1/PfpI.
+DR   Pfam; PF01965; DJ-1_PfpI; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN        4    191       DJ-1_PfpI. {ECO:0000259|Pfam:PF01965}.
+SQ   SEQUENCE   209 AA;  22045 MW;  CD210179DC45347E CRC64;
+     MSVRVYLFVA HGFEEVETIT PLDYLRRAGI ALTLVGVGAE QVVSTRGLRV SCDCSLEALC
+     ASPGIADAAC AADAVLLPGG LENCHTLAAC AAVRDFVMRV HLRGGLVAAL CAAPARVLSA
+     WNLLGSRRYT CYPGMEPAVF SAHDDGVGKR TEEEKSRALR KPERARVVRD GNLLTACAAG
+     AAEEFSFAVI EALCGVEVAQ SVRAQVVAR
+//
+ID   O83459_TREPA            Unreviewed;       209 AA.
+AC   O83459;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 73.
+DE   SubName: Full=4-methyl-5(B-hydroxyethyl)-thiazole monophosphate biosynthesis enzyme (ThiJ) {ECO:0000313|EMBL:AAC65432.1};
+DE   SubName: Full=DJ-1 family protein {ECO:0000313|EMBL:AGN75638.1};
+GN   OrderedLocusNames=TP_0445 {ECO:0000313|EMBL:AAC65432.1};
+GN   ORFNames=TPANIC_0445 {ECO:0000313|EMBL:AGN75638.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65432.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65432.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65432.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75638.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75638.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65432.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75638.1; -; Genomic_DNA.
+DR   PIR; E71324; E71324.
+DR   RefSeq; WP_010881893.1; NC_021490.2.
+DR   STRING; 243276.TP0445; -.
+DR   EnsemblBacteria; AAC65432; AAC65432; TP_0445.
+DR   EnsemblBacteria; AGN75638; AGN75638; TPANIC_0445.
+DR   GeneID; 2610998; -.
+DR   KEGG; tpa:TP_0445; -.
+DR   KEGG; tpw:TPANIC_0445; -.
+DR   PATRIC; 20530909; VBITrePal57110_0474.
+DR   eggNOG; COG0693; LUCA.
+DR   eggNOG; ENOG4107S0N; Bacteria.
+DR   KO; K03152; -.
+DR   OMA; NIRMFAD; -.
+DR   OrthoDB; EOG6ND0NP; -.
+DR   BioCyc; TPAL243276:GC1H-471-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   Gene3D; 3.40.50.880; -; 1.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR002818; DJ-1/PfpI.
+DR   Pfam; PF01965; DJ-1_PfpI; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN        4    191       DJ-1_PfpI. {ECO:0000259|Pfam:PF01965}.
+SQ   SEQUENCE   209 AA;  22045 MW;  CD210179DC45347E CRC64;
+     MSVRVYLFVA HGFEEVETIT PLDYLRRAGI ALTLVGVGAE QVVSTRGLRV SCDCSLEALC
+     ASPGIADAAC AADAVLLPGG LENCHTLAAC AAVRDFVMRV HLRGGLVAAL CAAPARVLSA
+     WNLLGSRRYT CYPGMEPAVF SAHDDGVGKR TEEEKSRALR KPERARVVRD GNLLTACAAG
+     AAEEFSFAVI EALCGVEVAQ SVRAQVVAR
+//

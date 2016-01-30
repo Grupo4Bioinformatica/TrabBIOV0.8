@@ -1,0 +1,265 @@
+ID   F7IVK2_TREPA            Unreviewed;       154 AA.
+AC   F7IVK2;
+DT   27-JUL-2011, integrated into UniProtKB/TrEMBL.
+DT   27-JUL-2011, sequence version 1.
+DT   09-DEC-2015, entry version 33.
+DE   SubName: Full=Chemotaxis protein (CheX) {ECO:0000313|EMBL:AAC65350.1};
+DE   SubName: Full=Putative chemotaxis protein CheX {ECO:0000313|EMBL:AGN75562.1};
+GN   Name=cheX {ECO:0000313|EMBL:AGN75562.1};
+GN   OrderedLocusNames=TP_0365 {ECO:0000313|EMBL:AAC65350.1};
+GN   ORFNames=TPANIC_0365 {ECO:0000313|EMBL:AGN75562.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65350.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65350.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65350.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75562.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75562.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65350.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75562.1; -; Genomic_DNA.
+DR   PIR; C71335; C71335.
+DR   RefSeq; WP_010881813.1; NC_021490.2.
+DR   STRING; 243276.TP0365; -.
+DR   EnsemblBacteria; AAC65350; AAC65350; TP_0365.
+DR   EnsemblBacteria; AGN75562; AGN75562; TPANIC_0365.
+DR   GeneID; 2611150; -.
+DR   KEGG; tpa:TP_0365; -.
+DR   KEGG; tpw:TPANIC_0365; -.
+DR   eggNOG; COG1406; LUCA.
+DR   eggNOG; ENOG4108W5Z; Bacteria.
+DR   KO; K03409; -.
+DR   OMA; NVEYINP; -.
+DR   OrthoDB; EOG683S91; -.
+DR   BioCyc; TPAL243276:GC1H-390-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   Gene3D; 3.40.1550.10; -; 1.
+DR   InterPro; IPR028976; CheC-like_dom.
+DR   InterPro; IPR028051; CheX-like_dom.
+DR   Pfam; PF13690; CheX; 1.
+DR   SUPFAM; SSF103039; SSF103039; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN       42    137       CheX. {ECO:0000259|Pfam:PF13690}.
+SQ   SEQUENCE   154 AA;  16612 MW;  EEC72267CFEB2834 CRC64;
+     MRVEYINPFS EAAYVVLSEV LAGETKRGDL YLKSTCMPVM GVAAIVGLAG DVEGRVVFDM
+     TLDTALKIAS SMNEEKLAAF DELARATITE LANLITAKAV TTLHELGFKF DLTPPALFTG
+     DNMEISSSDI EALIVPMETP QGKVEINVAI RDKV
+//
+ID   H6KV84_TREPD            Unreviewed;       154 AA.
+AC   H6KV84;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   SubName: Full=Putative chemotaxis protein CheX {ECO:0000313|EMBL:AEZ58556.1};
+GN   Name=cheX {ECO:0000313|EMBL:AEZ58556.1};
+GN   OrderedLocusNames=TPECDC2_0365 {ECO:0000313|EMBL:AEZ58556.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58556.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58556.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881813.1; NC_016848.1.
+DR   ProteinModelPortal; H6KV84; -.
+DR   EnsemblBacteria; AEZ58556; AEZ58556; TPECDC2_0365.
+DR   GeneID; 2611150; -.
+DR   KEGG; tpc:TPECDC2_0365; -.
+DR   KO; K03409; -.
+DR   OMA; NVEYINP; -.
+DR   BioCyc; TPAL491079:GJCE-397-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   Gene3D; 3.40.1550.10; -; 1.
+DR   InterPro; IPR028976; CheC-like_dom.
+DR   InterPro; IPR028051; CheX-like_dom.
+DR   Pfam; PF13690; CheX; 1.
+DR   SUPFAM; SSF103039; SSF103039; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193}.
+FT   DOMAIN       42    137       CheX. {ECO:0000259|Pfam:PF13690}.
+SQ   SEQUENCE   154 AA;  16612 MW;  EEC72267CFEB2834 CRC64;
+     MRVEYINPFS EAAYVVLSEV LAGETKRGDL YLKSTCMPVM GVAAIVGLAG DVEGRVVFDM
+     TLDTALKIAS SMNEEKLAAF DELARATITE LANLITAKAV TTLHELGFKF DLTPPALFTG
+     DNMEISSSDI EALIVPMETP QGKVEINVAI RDKV
+//
+ID   F7XSH8_TREPU            Unreviewed;       154 AA.
+AC   F7XSH8;
+DT   21-SEP-2011, integrated into UniProtKB/TrEMBL.
+DT   21-SEP-2011, sequence version 1.
+DT   09-DEC-2015, entry version 21.
+DE   SubName: Full=Probable chemotaxis protein CheX {ECO:0000313|EMBL:AEH40309.1};
+GN   Name=cheX {ECO:0000313|EMBL:AEH40309.1};
+GN   OrderedLocusNames=TPCCA_0365 {ECO:0000313|EMBL:AEH40309.1};
+OS   Treponema paraluiscuniculi (strain Cuniculi A).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=545776 {ECO:0000313|EMBL:AEH40309.1, ECO:0000313|Proteomes:UP000008317};
+RN   [1] {ECO:0000313|EMBL:AEH40309.1, ECO:0000313|Proteomes:UP000008317}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Cuniculi A {ECO:0000313|EMBL:AEH40309.1,
+RC   ECO:0000313|Proteomes:UP000008317};
+RX   PubMed=21655244; DOI=10.1371/journal.pone.0020415;
+RA   Smajs D., Zobanikova M., Strouhal M., Cejkova D., Dugan-Rocha S.,
+RA   Pospisilova P., Norris S.J., Albert T., Qin X., Hallsworth-Pepin K.,
+RA   Buhay C., Muzny D.M., Chen L., Gibbs R.A., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema paraluiscuniculi, strain
+RT   Cuniculi A: the loss of infectivity to humans is associated with
+RT   genome decay.";
+RL   PLoS ONE 6:E20415-E20415(2011).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002103; AEH40309.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881813.1; NC_015714.1.
+DR   ProteinModelPortal; F7XSH8; -.
+DR   EnsemblBacteria; AEH40309; AEH40309; TPCCA_0365.
+DR   GeneID; 2611150; -.
+DR   KEGG; tpl:TPCCA_0365; -.
+DR   KO; K03409; -.
+DR   OMA; NVEYINP; -.
+DR   BioCyc; TPAR545776:GJC6-380-MONOMER; -.
+DR   Proteomes; UP000008317; Chromosome.
+DR   Gene3D; 3.40.1550.10; -; 1.
+DR   InterPro; IPR028976; CheC-like_dom.
+DR   InterPro; IPR028051; CheX-like_dom.
+DR   Pfam; PF13690; CheX; 1.
+DR   SUPFAM; SSF103039; SSF103039; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008317}.
+FT   DOMAIN       42    137       CheX. {ECO:0000259|Pfam:PF13690}.
+SQ   SEQUENCE   154 AA;  16612 MW;  EEC72267CFEB2834 CRC64;
+     MRVEYINPFS EAAYVVLSEV LAGETKRGDL YLKSTCMPVM GVAAIVGLAG DVEGRVVFDM
+     TLDTALKIAS SMNEEKLAAF DELARATITE LANLITAKAV TTLHELGFKF DLTPPALFTG
+     DNMEISSSDI EALIVPMETP QGKVEINVAI RDKV
+//
+ID   A0A0H3BI88_TREPS        Unreviewed;       154 AA.
+AC   A0A0H3BI88;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Chemotaxis protein {ECO:0000313|EMBL:ACD70791.1};
+GN   Name=cheX {ECO:0000313|EMBL:ACD70791.1};
+GN   OrderedLocusNames=TPASS_0365 {ECO:0000313|EMBL:ACD70791.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70791.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70791.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70791.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70791.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881813.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BI88; -.
+DR   GeneID; 2611150; -.
+DR   KEGG; tpp:TPASS_0365; -.
+DR   KO; K03409; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   Gene3D; 3.40.1550.10; -; 1.
+DR   InterPro; IPR028976; CheC-like_dom.
+DR   InterPro; IPR028051; CheX-like_dom.
+DR   Pfam; PF13690; CheX; 1.
+DR   SUPFAM; SSF103039; SSF103039; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN       42    137       CheX. {ECO:0000259|Pfam:PF13690}.
+SQ   SEQUENCE   154 AA;  16612 MW;  EEC72267CFEB2834 CRC64;
+     MRVEYINPFS EAAYVVLSEV LAGETKRGDL YLKSTCMPVM GVAAIVGLAG DVEGRVVFDM
+     TLDTALKIAS SMNEEKLAAF DELARATITE LANLITAKAV TTLHELGFKF DLTPPALFTG
+     DNMEISSSDI EALIVPMETP QGKVEINVAI RDKV
+//
+ID   A0A0A7X2G2_TREPL        Unreviewed;       154 AA.
+AC   A0A0A7X2G2;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 6.
+DE   SubName: Full=Putative chemotaxis protein CheX {ECO:0000313|EMBL:AJB40385.1};
+GN   Name=cheX {ECO:0000313|EMBL:AJB40385.1};
+GN   ORFNames=TENDBA_0365 {ECO:0000313|EMBL:AJB40385.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40385.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40385.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40385.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40385.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881813.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2G2; -.
+DR   EnsemblBacteria; AJB40385; AJB40385; TENDBA_0365.
+DR   GeneID; 2611150; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   Gene3D; 3.40.1550.10; -; 1.
+DR   InterPro; IPR028976; CheC-like_dom.
+DR   InterPro; IPR028051; CheX-like_dom.
+DR   Pfam; PF13690; CheX; 1.
+DR   SUPFAM; SSF103039; SSF103039; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112}.
+FT   DOMAIN       42    137       CheX. {ECO:0000259|Pfam:PF13690}.
+SQ   SEQUENCE   154 AA;  16612 MW;  EEC72267CFEB2834 CRC64;
+     MRVEYINPFS EAAYVVLSEV LAGETKRGDL YLKSTCMPVM GVAAIVGLAG DVEGRVVFDM
+     TLDTALKIAS SMNEEKLAAF DELARATITE LANLITAKAV TTLHELGFKF DLTPPALFTG
+     DNMEISSSDI EALIVPMETP QGKVEINVAI RDKV
+//

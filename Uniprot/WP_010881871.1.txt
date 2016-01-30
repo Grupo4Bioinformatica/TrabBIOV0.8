@@ -1,0 +1,204 @@
+ID   O83438_TREPA            Unreviewed;       268 AA.
+AC   O83438;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 68.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AAC65410.1};
+GN   OrderedLocusNames=TP_0423 {ECO:0000313|EMBL:AAC65410.1};
+GN   ORFNames=TPANIC_0423 {ECO:0000313|EMBL:AGN75617.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65410.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AAC65410.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65410.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75617.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75617.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65410.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75617.1; -; Genomic_DNA.
+DR   PIR; D71325; D71325.
+DR   RefSeq; WP_010881871.1; NC_021490.2.
+DR   STRING; 243276.TP0423; -.
+DR   EnsemblBacteria; AAC65410; AAC65410; TP_0423.
+DR   EnsemblBacteria; AGN75617; AGN75617; TPANIC_0423.
+DR   GeneID; 2610914; -.
+DR   KEGG; tpa:TP_0423; -.
+DR   KEGG; tpw:TPANIC_0423; -.
+DR   PATRIC; 20530861; VBITrePal57110_0450.
+DR   eggNOG; ENOG4108RVQ; Bacteria.
+DR   eggNOG; ENOG410XQVC; LUCA.
+DR   OMA; RYEEGMH; -.
+DR   OrthoDB; EOG6QVRKZ; -.
+DR   BioCyc; TPAL243276:GC1H-449-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+SQ   SEQUENCE   268 AA;  30084 MW;  994341CD8813F722 CRC64;
+     MRVFVSWHKQ KDKGERERAG ALQGACIGTP EHRQVFALVG RSGSGKSFRA QIVMRRFDIA
+     FVIDDGLLIR EDKIIAGRSA KQERTLLAAI RVALFENTMH RRVVARVLTY FLCGSQNKKV
+     LILGTSERMV RRIALRVGLP EPGHIIRIED IASSEEIACA LRTRHVEGTH VIPVPSGEVR
+     KSYPKIFYER IKLLLRREAG AERIGRWAHA IWHEGLKRAC SGAHAHVFEK SIVRPPFSCN
+     LRVVAATEGT QDASPVVVPP HEELALQQ
+//
+ID   H6KT41_TREPD            Unreviewed;       268 AA.
+AC   H6KT41;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 18.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AEZ58615.1};
+GN   OrderedLocusNames=TPECDC2_0423 {ECO:0000313|EMBL:AEZ58615.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58615.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58615.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881871.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT41; -.
+DR   EnsemblBacteria; AEZ58615; AEZ58615; TPECDC2_0423.
+DR   GeneID; 2610914; -.
+DR   KEGG; tpc:TPECDC2_0423; -.
+DR   OMA; RYEEGMH; -.
+DR   BioCyc; TPAL491079:GJCE-457-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193}.
+SQ   SEQUENCE   268 AA;  30084 MW;  994341CD8813F722 CRC64;
+     MRVFVSWHKQ KDKGERERAG ALQGACIGTP EHRQVFALVG RSGSGKSFRA QIVMRRFDIA
+     FVIDDGLLIR EDKIIAGRSA KQERTLLAAI RVALFENTMH RRVVARVLTY FLCGSQNKKV
+     LILGTSERMV RRIALRVGLP EPGHIIRIED IASSEEIACA LRTRHVEGTH VIPVPSGEVR
+     KSYPKIFYER IKLLLRREAG AERIGRWAHA IWHEGLKRAC SGAHAHVFEK SIVRPPFSCN
+     LRVVAATEGT QDASPVVVPP HEELALQQ
+//
+ID   A0A0A7X316_TREPL        Unreviewed;       268 AA.
+AC   A0A0A7X316;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   16-SEP-2015, entry version 5.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AJB40443.1};
+GN   ORFNames=TENDBA_0423 {ECO:0000313|EMBL:AJB40443.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40443.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40443.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40443.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40443.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881871.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X316; -.
+DR   EnsemblBacteria; AJB40443; AJB40443; TENDBA_0423.
+DR   GeneID; 2610914; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112}.
+SQ   SEQUENCE   268 AA;  30084 MW;  994341CD8813F722 CRC64;
+     MRVFVSWHKQ KDKGERERAG ALQGACIGTP EHRQVFALVG RSGSGKSFRA QIVMRRFDIA
+     FVIDDGLLIR EDKIIAGRSA KQERTLLAAI RVALFENTMH RRVVARVLTY FLCGSQNKKV
+     LILGTSERMV RRIALRVGLP EPGHIIRIED IASSEEIACA LRTRHVEGTH VIPVPSGEVR
+     KSYPKIFYER IKLLLRREAG AERIGRWAHA IWHEGLKRAC SGAHAHVFEK SIVRPPFSCN
+     LRVVAATEGT QDASPVVVPP HEELALQQ
+//
+ID   A0A0H3BJ65_TREPS        Unreviewed;       268 AA.
+AC   A0A0H3BJ65;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:ACD70849.1};
+GN   OrderedLocusNames=TPASS_0423 {ECO:0000313|EMBL:ACD70849.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70849.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70849.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70849.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70849.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881871.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ65; -.
+DR   GeneID; 2610914; -.
+DR   KEGG; tpp:TPASS_0423; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+SQ   SEQUENCE   268 AA;  30084 MW;  994341CD8813F722 CRC64;
+     MRVFVSWHKQ KDKGERERAG ALQGACIGTP EHRQVFALVG RSGSGKSFRA QIVMRRFDIA
+     FVIDDGLLIR EDKIIAGRSA KQERTLLAAI RVALFENTMH RRVVARVLTY FLCGSQNKKV
+     LILGTSERMV RRIALRVGLP EPGHIIRIED IASSEEIACA LRTRHVEGTH VIPVPSGEVR
+     KSYPKIFYER IKLLLRREAG AERIGRWAHA IWHEGLKRAC SGAHAHVFEK SIVRPPFSCN
+     LRVVAATEGT QDASPVVVPP HEELALQQ
+//

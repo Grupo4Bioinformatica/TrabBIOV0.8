@@ -1,0 +1,12 @@
+<script type="text/javascript">
+
+    function link() {
+        var link_s = document.getElementById('link_id').value;
+        document.getElementById('link_str').innerHTML = link_s.link()
+    }
+
+    </script>
+
+<h2> Search box </h2>
+    <input type='text' id='link_id'>
+        <input type='button' id='link_str' value='Search' onClick='link()'>

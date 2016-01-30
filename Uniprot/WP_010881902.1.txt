@@ -1,0 +1,352 @@
+ID   TP453_TREPA             Reviewed;         287 AA.
+AC   O67998; F7IW75; Q7DFP5;
+DT   09-DEC-2015, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1998, sequence version 1.
+DT   20-JAN-2016, entry version 72.
+DE   RecName: Full=Outer membrane protein TP0453 {ECO:0000303|PubMed:16159783};
+DE   AltName: Full=30kLP {ECO:0000303|Ref.1};
+DE   Flags: Precursor;
+GN   OrderedLocusNames=TP_0453; ORFNames=TPANIC_0453;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Nichols-Farmington;
+RA   Shevchenko D.V., Akins D.R., Robinson E.J., Shevchenko O.V.,
+RA   Radolf J.D.;
+RL   Submitted (JUN-1997) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+RN   [4]
+RP   BIOTECHNOLOGY.
+RX   PubMed=12904373; DOI=10.1128/JCM.41.8.3668-3674.2003;
+RA   Van Voorhis W.C., Barrett L.K., Lukehart S.A., Schmidt B.,
+RA   Schriefer M., Cameron C.E.;
+RT   "Serodiagnosis of syphilis: antibodies to recombinant Tp0453, Tp92,
+RT   and Gpd proteins are sensitive and specific indicators of infection by
+RT   Treponema pallidum.";
+RL   J. Clin. Microbiol. 41:3668-3674(2003).
+RN   [5]
+RP   FUNCTION, SUBUNIT, SUBCELLULAR LOCATION, DOMAIN, PALMITOYLATION,
+RP   MUTAGENESIS OF ILE-277, AND EXPRESSION IN E.COLI.
+RC   STRAIN=Nichols-Farmington;
+RX   PubMed=16159783; DOI=10.1128/JB.187.18.6499-6508.2005;
+RA   Hazlett K.R., Cox D.L., Decaffmeyer M., Bennett M.P., Desrosiers D.C.,
+RA   La Vake C.J., La Vake M.E., Bourell K.W., Robinson E.J., Brasseur R.,
+RA   Radolf J.D.;
+RT   "TP0453, a concealed outer membrane protein of Treponema pallidum,
+RT   enhances membrane permeability.";
+RL   J. Bacteriol. 187:6499-6508(2005).
+RN   [6]
+RP   BIOTECHNOLOGY.
+RC   STRAIN=Nichols;
+RX   PubMed=23100335; DOI=10.1128/JCM.01390-12;
+RA   Smith B.C., Simpson Y., Morshed M.G., Cowen L.L., Hof R.,
+RA   Wetherell C., Cameron C.E.;
+RT   "New proteins for a new perspective on syphilis diagnosis.";
+RL   J. Clin. Microbiol. 51:105-111(2013).
+RN   [7]
+RP   X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 27-287, FUNCTION, SUBUNIT,
+RP   SUBCELLULAR LOCATION, DOMAIN, AND MUTAGENESIS OF ILE-62; LEU-162;
+RP   LEU-201; VAL-249 AND ILE-277.
+RC   STRAIN=Nichols-Farmington;
+RX   PubMed=21965687; DOI=10.1074/jbc.M111.305284;
+RA   Luthra A., Zhu G., Desrosiers D.C., Eggers C.H., Mulay V., Anand A.,
+RA   McArthur F.A., Romano F.B., Caimano M.J., Heuck A.P., Malkowski M.G.,
+RA   Radolf J.D.;
+RT   "The transition from closed to open conformation of Treponema pallidum
+RT   outer membrane-associated lipoprotein TP0453 involves membrane sensing
+RT   and integration by two amphipathic helices.";
+RL   J. Biol. Chem. 286:41656-41668(2011).
+CC   -!- FUNCTION: Might be involved in ligand transport, alters membrane
+CC       permeability at acidic pH (4.0 to 5.5) (PubMed:21965687).
+CC       Incubation of the non-lipidated form with lipid vesicles increases
+CC       their permeability (PubMed:16159783).
+CC       {ECO:0000269|PubMed:16159783, ECO:0000269|PubMed:21965687}.
+CC   -!- SUBUNIT: A mix of monomer and dimers; may integrate into the
+CC       membrane as a dimer. {ECO:0000269|PubMed:21965687,
+CC       ECO:0000305|PubMed:16159783}.
+CC   -!- SUBCELLULAR LOCATION: Cell outer membrane {ECO:0000255|PROSITE-
+CC       ProRule:PRU00303, ECO:0000269|PubMed:16159783,
+CC       ECO:0000305|PubMed:21965687}; Lipid-anchor {ECO:0000255|PROSITE-
+CC       ProRule:PRU00303, ECO:0000305|PubMed:16159783}; Periplasmic side
+CC       {ECO:0000305|PubMed:16159783, ECO:0000305|PubMed:21965687}.
+CC       Note=An amphitropic protein able to integrate into the inner
+CC       leaflet of the outer membrane, probably via amphipathic helices 7
+CC       and 8 (PubMed:21965687). It has no suface exposed domains
+CC       (PubMed:16159783). {ECO:0000269|PubMed:16159783,
+CC       ECO:0000305|PubMed:21965687}.
+CC   -!- DOMAIN: Forms a U-shaped beta-half-barrel with a large hydrophobic
+CC       cavity (3549 Angstroms(3)). The cavity is opened when amphipathic
+CC       helices 2, 3 and 9 move away from helices 7 and 8
+CC       (PubMed:21965687). Has 5 potential amphipathic helices (P1 to P5,
+CC       residues 56 to 63, 155 to 162, 194 to 202, 240 to 250, and 270 to
+CC       279 respectively); P2, P3 and P5 form helices in the presence of
+CC       lipid vesicles (PubMed:16159783). {ECO:0000269|PubMed:16159783,
+CC       ECO:0000269|PubMed:21965687}.
+CC   -!- PTM: Palmitoylated upon expression of a fusion protein with first
+CC       46 residues fused to PhoA in E.coli.
+CC       {ECO:0000269|PubMed:16159783}.
+CC   -!- BIOTECHNOLOGY: Recognized by sera from 43/43 syphilis patients, it
+CC       shows promise as a diagnostic antigen (PubMed:12904373). In
+CC       diagnostic tests for syphilis this protein exhibits a sensitivity
+CC       of 98% and a specificity of 100%. A fusion with TP0453 (residues
+CC       32-287 of TP0453 fused N-terminally to residues 38-450 of TP0326)
+CC       exhibits a sensitivity of 98% and a specificity of 99%, and both
+CC       proteins exhibit superior accuracy in classifying analytical
+CC       false-positive samples than a commericially available test, making
+CC       them candiates for diagnosis (PubMed:23100335).
+CC       {ECO:0000269|PubMed:12904373, ECO:0000269|PubMed:23100335}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AF007220; AAC18996.1; -; Genomic_DNA.
+DR   EMBL; AE000520; AAC65443.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75647.1; -; Genomic_DNA.
+DR   PIR; F71322; F71322.
+DR   RefSeq; WP_010881902.1; NC_021490.2.
+DR   PDB; 3K8G; X-ray; 1.95 A; A/B=27-287.
+DR   PDB; 3K8H; X-ray; 2.39 A; A/B=27-287.
+DR   PDB; 3K8I; X-ray; 2.20 A; A=27-287.
+DR   PDB; 3K8J; X-ray; 2.20 A; A=27-287.
+DR   PDBsum; 3K8G; -.
+DR   PDBsum; 3K8H; -.
+DR   PDBsum; 3K8I; -.
+DR   PDBsum; 3K8J; -.
+DR   ProteinModelPortal; O67998; -.
+DR   IntAct; O67998; 4.
+DR   STRING; 243276.TP0453; -.
+DR   TCDB; 1.B.45.1.1; the treponema porin (t-por) family.
+DR   EnsemblBacteria; AAC65443; AAC65443; TP_0453.
+DR   EnsemblBacteria; AGN75647; AGN75647; TPANIC_0453.
+DR   GeneID; 2611031; -.
+DR   KEGG; tpa:TP_0453; -.
+DR   KEGG; tpw:TPANIC_0453; -.
+DR   PATRIC; 20530925; VBITrePal57110_0482.
+DR   OMA; PEVENEY; -.
+DR   OrthoDB; EOG6XQ3HQ; -.
+DR   BioCyc; TPAL243276:GC1H-480-MONOMER; -.
+DR   EvolutionaryTrace; O67998; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0009279; C:cell outer membrane; IEA:UniProtKB-SubCell.
+DR   PROSITE; PS51257; PROKAR_LIPOPROTEIN; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell outer membrane; Complete proteome; Lipoprotein;
+KW   Membrane; Palmitate; Reference proteome; Signal.
+FT   SIGNAL        1     24       {ECO:0000255|PROSITE-ProRule:PRU00303}.
+FT   CHAIN        25    287       Outer membrane protein TP0453.
+FT                                /FTId=PRO_0000434873.
+FT   REGION       36     40       Amphipathic helix 1.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION       56     63       Amphipathic helix 2.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION       69     77       Amphipathic helix 3.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION      103    112       Amphipathic helix 4.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION      155    162       Amphipathic helix 5.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION      172    179       Amphipathic helix 6.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION      194    202       Amphipathic helix 7.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION      240    250       Amphipathic helix 8.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   REGION      270    279       Amphipathic helix 9.
+FT                                {ECO:0000305|PubMed:21965687}.
+FT   LIPID        25     25       N-palmitoyl cysteine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00303}.
+FT   LIPID        25     25       S-diacylglycerol cysteine.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00303}.
+FT   MUTAGEN      62     62       I->E: No change in detergent
+FT                                partitioning, vesicle associated.
+FT                                {ECO:0000269|PubMed:21965687}.
+FT   MUTAGEN     162    162       L->E: No change in detergent
+FT                                partitioning, vesicle associated.
+FT                                {ECO:0000269|PubMed:21965687}.
+FT   MUTAGEN     201    201       L->E: Partitions into detergent and
+FT                                aqueous phase, decreased vesicle
+FT                                association.
+FT                                {ECO:0000269|PubMed:21965687}.
+FT   MUTAGEN     249    249       V->E: No longer partitions into
+FT                                detergent, no vesicle association,
+FT                                decreased dimer formation.
+FT                                {ECO:0000269|PubMed:21965687}.
+FT   MUTAGEN     277    277       I->E: No change in detergent
+FT                                partitioning, vesicle associated,
+FT                                decreased dimer formation. Amphipathic
+FT                                peptide (residues 270 to 280) no longer
+FT                                forms alpha helices in the presence of
+FT                                lipid vesicles.
+FT                                {ECO:0000269|PubMed:16159783,
+FT                                ECO:0000269|PubMed:21965687}.
+SQ   SEQUENCE   287 AA;  32000 MW;  692712D8891CC03F CRC64;
+     MIRRRYRGCT QGAWIVSVGM LFASCTSGAW KASVDPLGVV GSGADVYLYF PVAGNENLIS
+     RIIENHESKA DIKKIVDRTT AVYGAFFARS KEFRLFGSGS YPYAFTNLIF SRSDGWASTK
+     TEHGITYYES EHTDVSIPAP HFSCVIFGSS KRERMSKMLS RLVNPDRPQL PPRFEKECTS
+     EGTSQTVALY IKNGGHFITK LLNFPQLNLP LGAMELYLTA RRNEYLYTLS LQLGNAKINF
+     PIQFLISRVL NAHIHVEGDR LIIEDGTISA ERLASVISSL YSKKGSS
+//
+ID   H6KT71_TREPD            Unreviewed;       287 AA.
+AC   H6KT71;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 18.
+DE   SubName: Full=Putative membrane protein {ECO:0000313|EMBL:AEZ58645.1};
+GN   OrderedLocusNames=TPECDC2_0453 {ECO:0000313|EMBL:AEZ58645.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58645.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58645.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881902.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT71; -.
+DR   EnsemblBacteria; AEZ58645; AEZ58645; TPECDC2_0453.
+DR   GeneID; 2611031; -.
+DR   KEGG; tpc:TPECDC2_0453; -.
+DR   OMA; PEVENEY; -.
+DR   BioCyc; TPAL491079:GJCE-487-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     12     30       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   287 AA;  32000 MW;  692712D8891CC03F CRC64;
+     MIRRRYRGCT QGAWIVSVGM LFASCTSGAW KASVDPLGVV GSGADVYLYF PVAGNENLIS
+     RIIENHESKA DIKKIVDRTT AVYGAFFARS KEFRLFGSGS YPYAFTNLIF SRSDGWASTK
+     TEHGITYYES EHTDVSIPAP HFSCVIFGSS KRERMSKMLS RLVNPDRPQL PPRFEKECTS
+     EGTSQTVALY IKNGGHFITK LLNFPQLNLP LGAMELYLTA RRNEYLYTLS LQLGNAKINF
+     PIQFLISRVL NAHIHVEGDR LIIEDGTISA ERLASVISSL YSKKGSS
+//
+ID   A0A0A7X345_TREPL        Unreviewed;       287 AA.
+AC   A0A0A7X345;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 6.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AJB40473.1};
+GN   ORFNames=TENDBA_0453 {ECO:0000313|EMBL:AJB40473.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40473.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40473.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40473.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40473.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881902.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X345; -.
+DR   EnsemblBacteria; AJB40473; AJB40473; TENDBA_0453.
+DR   GeneID; 2611031; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     12     30       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   287 AA;  32000 MW;  692712D8891CC03F CRC64;
+     MIRRRYRGCT QGAWIVSVGM LFASCTSGAW KASVDPLGVV GSGADVYLYF PVAGNENLIS
+     RIIENHESKA DIKKIVDRTT AVYGAFFARS KEFRLFGSGS YPYAFTNLIF SRSDGWASTK
+     TEHGITYYES EHTDVSIPAP HFSCVIFGSS KRERMSKMLS RLVNPDRPQL PPRFEKECTS
+     EGTSQTVALY IKNGGHFITK LLNFPQLNLP LGAMELYLTA RRNEYLYTLS LQLGNAKINF
+     PIQFLISRVL NAHIHVEGDR LIIEDGTISA ERLASVISSL YSKKGSS
+//
+ID   A0A0H3BIF4_TREPS        Unreviewed;       287 AA.
+AC   A0A0H3BIF4;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 3.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:ACD70878.1};
+GN   OrderedLocusNames=TPASS_0453 {ECO:0000313|EMBL:ACD70878.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70878.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70878.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70878.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70878.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881902.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIF4; -.
+DR   GeneID; 2611031; -.
+DR   KEGG; tpp:TPASS_0453; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     12     30       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   287 AA;  32000 MW;  692712D8891CC03F CRC64;
+     MIRRRYRGCT QGAWIVSVGM LFASCTSGAW KASVDPLGVV GSGADVYLYF PVAGNENLIS
+     RIIENHESKA DIKKIVDRTT AVYGAFFARS KEFRLFGSGS YPYAFTNLIF SRSDGWASTK
+     TEHGITYYES EHTDVSIPAP HFSCVIFGSS KRERMSKMLS RLVNPDRPQL PPRFEKECTS
+     EGTSQTVALY IKNGGHFITK LLNFPQLNLP LGAMELYLTA RRNEYLYTLS LQLGNAKINF
+     PIQFLISRVL NAHIHVEGDR LIIEDGTISA ERLASVISSL YSKKGSS
+//

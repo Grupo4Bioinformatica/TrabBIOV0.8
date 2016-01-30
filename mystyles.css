@@ -1,0 +1,56 @@
+<style>
+
+#erro{}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:286px;
+    width:200px;
+    float:left;
+    padding:5px; 
+    border-style: double;
+}
+#section1 {
+    text-align:center;
+    float:top;
+    padding:10px; 
+    border-style: double;
+}
+#abstract {
+    
+    float:top;
+    padding:10px; 
+    border-style: solid;
+}
+#abstract {
+    
+    float:top;
+    padding:10px; 
+    border-style: solid;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+.titulo {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+a, u {
+    text-decoration: none;
+}
+</style>

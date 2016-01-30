@@ -1,0 +1,296 @@
+ID   O83429_TREPA            Unreviewed;       451 AA.
+AC   O83429;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 88.
+DE   SubName: Full=AGCS family alanine or glycine:sodium (Na+) or proton (H+) symporter {ECO:0000313|EMBL:AGN75609.1};
+DE   SubName: Full=D-alanine glycine permease (DagA) {ECO:0000313|EMBL:AAC65402.1};
+GN   Name=alsT1 {ECO:0000313|EMBL:AGN75609.1};
+GN   OrderedLocusNames=TP_0414 {ECO:0000313|EMBL:AAC65402.1};
+GN   ORFNames=TPANIC_0414 {ECO:0000313|EMBL:AGN75609.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65402.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65402.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65402.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75609.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75609.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65402.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75609.1; -; Genomic_DNA.
+DR   PIR; D71327; D71327.
+DR   RefSeq; WP_010881862.1; NC_021490.2.
+DR   STRING; 243276.TP0414; -.
+DR   EnsemblBacteria; AAC65402; AAC65402; TP_0414.
+DR   EnsemblBacteria; AGN75609; AGN75609; TPANIC_0414.
+DR   GeneID; 2610880; -.
+DR   KEGG; tpa:TP_0414; -.
+DR   KEGG; tpw:TPANIC_0414; -.
+DR   PATRIC; 20530841; VBITrePal57110_0440.
+DR   eggNOG; COG1115; LUCA.
+DR   eggNOG; ENOG4105BZG; Bacteria.
+DR   KO; K03310; -.
+DR   OMA; FWMWVTG; -.
+DR   OrthoDB; EOG6D2KVD; -.
+DR   BioCyc; TPAL243276:GC1H-440-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015655; F:alanine:sodium symporter activity; IEA:InterPro.
+DR   InterPro; IPR001463; Na/Ala_symport.
+DR   PANTHER; PTHR30330; PTHR30330; 1.
+DR   Pfam; PF01235; Na_Ala_symp; 1.
+DR   PRINTS; PR00175; NAALASMPORT.
+DR   TIGRFAMs; TIGR00835; agcS; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     20     45       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     66     92       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     98    122       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    143    167       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    187    209       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    221    240       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    246    265       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    310    333       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    353    376       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    396    413       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    419    435       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   451 AA;  47349 MW;  D0F029B27CF71C47 CRC64;
+     MGVVEWVGEW MHAVVWSFPM VVLLLGTGCY VTVCMKFFPV VRLWYVLRQT IGGRGGKKGG
+     SGEVSAFRAV STALAATLGS GNIVGVATAI AIGGPGAIFW IWVTGIFGMG TKFVEVVLAV
+     YYRRQTGDGR FVGGPMYYLK DGVGVPGAGV LASLFCIFSV IASFGIGNMT QSNSVALVFE
+     DVFCVDVRVT GAVLMVLVGL VSVGGLKSIS WVTGVMVPGM AILYVCVGVV LVCCNTRQLV
+     PVCWDIVSGA FAGTAAVGGF AGSVVRQAIA VGISRGVAVN EAGLGTAPIA HAAAITDHPV
+     RQGLWGIFEV FVGTMVVSSV TAFAILLTGV WQGGASGAAL TVQSFERGLP FGIGQYVVGV
+     SVPLFAFTTM LGWLYYGERC AEFLCGPRVC PLYRAVWLPF VYVGAVGSLS SVWNISDAFN
+     GLMALPNLVG LLFLARQGMR LREEFFAQQE G
+//
+ID   H6KT33_TREPD            Unreviewed;       451 AA.
+AC   H6KT33;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 23.
+DE   SubName: Full=AGCS family alanine or glycine:sodium (Na+) or proton (H+) symporter {ECO:0000313|EMBL:AEZ58607.1};
+GN   Name=alsT1 {ECO:0000313|EMBL:AEZ58607.1};
+GN   OrderedLocusNames=TPECDC2_0414 {ECO:0000313|EMBL:AEZ58607.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58607.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58607.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881862.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT33; -.
+DR   EnsemblBacteria; AEZ58607; AEZ58607; TPECDC2_0414.
+DR   GeneID; 2610880; -.
+DR   KEGG; tpc:TPECDC2_0414; -.
+DR   KO; K03310; -.
+DR   OMA; FWMWVTG; -.
+DR   BioCyc; TPAL491079:GJCE-449-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015655; F:alanine:sodium symporter activity; IEA:InterPro.
+DR   InterPro; IPR001463; Na/Ala_symport.
+DR   PANTHER; PTHR30330; PTHR30330; 1.
+DR   Pfam; PF01235; Na_Ala_symp; 1.
+DR   PRINTS; PR00175; NAALASMPORT.
+DR   TIGRFAMs; TIGR00835; agcS; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     20     45       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     66     92       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     98    122       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    143    167       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    187    209       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    221    240       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    246    265       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    310    333       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    353    376       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    396    413       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    419    435       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   451 AA;  47349 MW;  D0F029B27CF71C47 CRC64;
+     MGVVEWVGEW MHAVVWSFPM VVLLLGTGCY VTVCMKFFPV VRLWYVLRQT IGGRGGKKGG
+     SGEVSAFRAV STALAATLGS GNIVGVATAI AIGGPGAIFW IWVTGIFGMG TKFVEVVLAV
+     YYRRQTGDGR FVGGPMYYLK DGVGVPGAGV LASLFCIFSV IASFGIGNMT QSNSVALVFE
+     DVFCVDVRVT GAVLMVLVGL VSVGGLKSIS WVTGVMVPGM AILYVCVGVV LVCCNTRQLV
+     PVCWDIVSGA FAGTAAVGGF AGSVVRQAIA VGISRGVAVN EAGLGTAPIA HAAAITDHPV
+     RQGLWGIFEV FVGTMVVSSV TAFAILLTGV WQGGASGAAL TVQSFERGLP FGIGQYVVGV
+     SVPLFAFTTM LGWLYYGERC AEFLCGPRVC PLYRAVWLPF VYVGAVGSLS SVWNISDAFN
+     GLMALPNLVG LLFLARQGMR LREEFFAQQE G
+//
+ID   A0A0H3BKF8_TREPS        Unreviewed;       451 AA.
+AC   A0A0H3BKF8;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=D-alanine glycine permease {ECO:0000313|EMBL:ACD70840.1};
+GN   Name=dagA {ECO:0000313|EMBL:ACD70840.1};
+GN   OrderedLocusNames=TPASS_0414 {ECO:0000313|EMBL:ACD70840.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70840.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70840.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70840.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70840.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881862.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKF8; -.
+DR   GeneID; 2610880; -.
+DR   KEGG; tpp:TPASS_0414; -.
+DR   KO; K03310; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015655; F:alanine:sodium symporter activity; IEA:InterPro.
+DR   InterPro; IPR001463; Na/Ala_symport.
+DR   PANTHER; PTHR30330; PTHR30330; 1.
+DR   Pfam; PF01235; Na_Ala_symp; 1.
+DR   PRINTS; PR00175; NAALASMPORT.
+DR   TIGRFAMs; TIGR00835; agcS; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     20     45       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     66     92       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     98    122       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    143    167       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    187    209       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    221    240       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    246    265       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    310    333       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    353    376       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    396    413       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    419    435       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   451 AA;  47349 MW;  D0F029B27CF71C47 CRC64;
+     MGVVEWVGEW MHAVVWSFPM VVLLLGTGCY VTVCMKFFPV VRLWYVLRQT IGGRGGKKGG
+     SGEVSAFRAV STALAATLGS GNIVGVATAI AIGGPGAIFW IWVTGIFGMG TKFVEVVLAV
+     YYRRQTGDGR FVGGPMYYLK DGVGVPGAGV LASLFCIFSV IASFGIGNMT QSNSVALVFE
+     DVFCVDVRVT GAVLMVLVGL VSVGGLKSIS WVTGVMVPGM AILYVCVGVV LVCCNTRQLV
+     PVCWDIVSGA FAGTAAVGGF AGSVVRQAIA VGISRGVAVN EAGLGTAPIA HAAAITDHPV
+     RQGLWGIFEV FVGTMVVSSV TAFAILLTGV WQGGASGAAL TVQSFERGLP FGIGQYVVGV
+     SVPLFAFTTM LGWLYYGERC AEFLCGPRVC PLYRAVWLPF VYVGAVGSLS SVWNISDAFN
+     GLMALPNLVG LLFLARQGMR LREEFFAQQE G
+//
+ID   A0A0A7X2L4_TREPL        Unreviewed;       451 AA.
+AC   A0A0A7X2L4;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   SubName: Full=AGCS family alanine or glycine:sodium (Na+) or proton (H+) symporter {ECO:0000313|EMBL:AJB40435.1};
+GN   Name=alsT1 {ECO:0000313|EMBL:AJB40435.1};
+GN   ORFNames=TENDBA_0414 {ECO:0000313|EMBL:AJB40435.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40435.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40435.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40435.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40435.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881862.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2L4; -.
+DR   EnsemblBacteria; AJB40435; AJB40435; TENDBA_0414.
+DR   GeneID; 2610880; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0015655; F:alanine:sodium symporter activity; IEA:InterPro.
+DR   InterPro; IPR001463; Na/Ala_symport.
+DR   PANTHER; PTHR30330; PTHR30330; 1.
+DR   Pfam; PF01235; Na_Ala_symp; 1.
+DR   PRINTS; PR00175; NAALASMPORT.
+DR   TIGRFAMs; TIGR00835; agcS; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     20     45       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     66     92       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     98    122       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    143    167       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    187    209       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    221    240       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    246    265       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    310    333       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    353    376       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    396    413       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    419    435       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   451 AA;  47349 MW;  D0F029B27CF71C47 CRC64;
+     MGVVEWVGEW MHAVVWSFPM VVLLLGTGCY VTVCMKFFPV VRLWYVLRQT IGGRGGKKGG
+     SGEVSAFRAV STALAATLGS GNIVGVATAI AIGGPGAIFW IWVTGIFGMG TKFVEVVLAV
+     YYRRQTGDGR FVGGPMYYLK DGVGVPGAGV LASLFCIFSV IASFGIGNMT QSNSVALVFE
+     DVFCVDVRVT GAVLMVLVGL VSVGGLKSIS WVTGVMVPGM AILYVCVGVV LVCCNTRQLV
+     PVCWDIVSGA FAGTAAVGGF AGSVVRQAIA VGISRGVAVN EAGLGTAPIA HAAAITDHPV
+     RQGLWGIFEV FVGTMVVSSV TAFAILLTGV WQGGASGAAL TVQSFERGLP FGIGQYVVGV
+     SVPLFAFTTM LGWLYYGERC AEFLCGPRVC PLYRAVWLPF VYVGAVGSLS SVWNISDAFN
+     GLMALPNLVG LLFLARQGMR LREEFFAQQE G
+//

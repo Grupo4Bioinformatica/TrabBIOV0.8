@@ -1,0 +1,170 @@
+ID   O83431_TREPA            Unreviewed;       452 AA.
+AC   O83431;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 114.
+DE   SubName: Full=Sec family Type I general secretory pathway protein {ECO:0000313|EMBL:AGN75611.1};
+DE   SubName: Full=Signal recognition particle protein (Ffh) {ECO:0000313|EMBL:AAC65403.1};
+GN   Name=ffh {ECO:0000313|EMBL:AGN75611.1};
+GN   OrderedLocusNames=TP_0416 {ECO:0000313|EMBL:AAC65403.1};
+GN   ORFNames=TPANIC_0416 {ECO:0000313|EMBL:AGN75611.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65403.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65403.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65403.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75611.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75611.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65403.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75611.1; -; Genomic_DNA.
+DR   PIR; F71327; F71327.
+DR   RefSeq; WP_010881864.1; NC_021490.2.
+DR   STRING; 243276.TP0416; -.
+DR   EnsemblBacteria; AAC65403; AAC65403; TP_0416.
+DR   EnsemblBacteria; AGN75611; AGN75611; TPANIC_0416.
+DR   GeneID; 2610887; -.
+DR   KEGG; tpa:TP_0416; -.
+DR   KEGG; tpw:TPANIC_0416; -.
+DR   PATRIC; 20530845; VBITrePal57110_0442.
+DR   eggNOG; COG0541; LUCA.
+DR   eggNOG; ENOG4105CB9; Bacteria.
+DR   KO; K03106; -.
+DR   OMA; MLPGMGQ; -.
+DR   OrthoDB; EOG62K1ZH; -.
+DR   BioCyc; TPAL243276:GC1H-442-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0048500; C:signal recognition particle; IEA:InterPro.
+DR   GO; GO:0008312; F:7S RNA binding; IEA:InterPro.
+DR   GO; GO:0005525; F:GTP binding; IEA:InterPro.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0006614; P:SRP-dependent cotranslational protein targeting to membrane; IEA:InterPro.
+DR   Gene3D; 1.10.260.30; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR013822; Signal_recog_particl_SRP54_hlx.
+DR   InterPro; IPR004125; Signal_recog_particle_SRP54_M.
+DR   InterPro; IPR000897; SRP54_GTPase_dom.
+DR   InterPro; IPR004780; SRP_Ffh.
+DR   PANTHER; PTHR11564:SF7; PTHR11564:SF7; 1.
+DR   Pfam; PF00448; SRP54; 1.
+DR   Pfam; PF02881; SRP54_N; 1.
+DR   Pfam; PF02978; SRP_SPB; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00962; SRP54; 1.
+DR   SMART; SM00963; SRP54_N; 1.
+DR   SUPFAM; SSF47446; SSF47446; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00959; ffh; 1.
+DR   PROSITE; PS00300; SRP54; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN      273    286       SRP54. {ECO:0000259|PROSITE:PS00300}.
+SQ   SEQUENCE   452 AA;  49258 MW;  CBCA66F80AD77583 CRC64;
+     MFEQLSASFK RIVGALGGRA TISERNIQEA VESIKRALLD ADVHVRVVRR FVNQTIQHAQ
+     GQTVLASVSP AQQFIKIVHE RLTAFLGEHT RSLHLKGPDT QSIILLLGLQ GSGKTTSAAK
+     LAAYLKDAGR SPLLAACDHV RAAASAQLAV LGTHIGVPVY QHALPHEQQP CALDTARGAL
+     QYARSHGNDV LIIDTAGRLH VDAALMQELI LLKETLVPVE TLLVADALTG QTVVRIAEEF
+     HAAVGISGVV LSKFDSDTRG GAALSLKSIT GQPLLFVGTG ERPQDFEPFH PERAAGRILG
+     MGDIVSLVEK AQKAFDAQEH ARAQKKTQSH ERFTLSDMLD HLQTIEKMGP LHSLVEMIPG
+     LAVAVSADAL DARAFKRQKA IIQSMTVQER DNFLIIGPSR RRRIAAGSGT SVADVNRLIK
+     NFERMRTLMR KTAWQSRRAH PKGDTPYGWP HR
+//
+ID   A0A0H3BIU4_TREPS        Unreviewed;       452 AA.
+AC   A0A0H3BIU4;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Signal recognition particle protein {ECO:0000313|EMBL:ACD70842.1};
+GN   Name=ffh {ECO:0000313|EMBL:ACD70842.1};
+GN   OrderedLocusNames=TPASS_0416 {ECO:0000313|EMBL:ACD70842.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70842.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70842.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70842.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70842.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881864.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIU4; -.
+DR   GeneID; 2610887; -.
+DR   KEGG; tpp:TPASS_0416; -.
+DR   KO; K03106; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0048500; C:signal recognition particle; IEA:InterPro.
+DR   GO; GO:0008312; F:7S RNA binding; IEA:InterPro.
+DR   GO; GO:0005525; F:GTP binding; IEA:InterPro.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0006614; P:SRP-dependent cotranslational protein targeting to membrane; IEA:InterPro.
+DR   Gene3D; 1.10.260.30; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR013822; Signal_recog_particl_SRP54_hlx.
+DR   InterPro; IPR004125; Signal_recog_particle_SRP54_M.
+DR   InterPro; IPR000897; SRP54_GTPase_dom.
+DR   InterPro; IPR004780; SRP_Ffh.
+DR   PANTHER; PTHR11564:SF7; PTHR11564:SF7; 1.
+DR   Pfam; PF00448; SRP54; 1.
+DR   Pfam; PF02881; SRP54_N; 1.
+DR   Pfam; PF02978; SRP_SPB; 1.
+DR   SMART; SM00382; AAA; 1.
+DR   SMART; SM00962; SRP54; 1.
+DR   SMART; SM00963; SRP54_N; 1.
+DR   SUPFAM; SSF47446; SSF47446; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00959; ffh; 1.
+DR   PROSITE; PS00300; SRP54; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN      273    286       SRP54. {ECO:0000259|PROSITE:PS00300}.
+SQ   SEQUENCE   452 AA;  49258 MW;  CBCA66F80AD77583 CRC64;
+     MFEQLSASFK RIVGALGGRA TISERNIQEA VESIKRALLD ADVHVRVVRR FVNQTIQHAQ
+     GQTVLASVSP AQQFIKIVHE RLTAFLGEHT RSLHLKGPDT QSIILLLGLQ GSGKTTSAAK
+     LAAYLKDAGR SPLLAACDHV RAAASAQLAV LGTHIGVPVY QHALPHEQQP CALDTARGAL
+     QYARSHGNDV LIIDTAGRLH VDAALMQELI LLKETLVPVE TLLVADALTG QTVVRIAEEF
+     HAAVGISGVV LSKFDSDTRG GAALSLKSIT GQPLLFVGTG ERPQDFEPFH PERAAGRILG
+     MGDIVSLVEK AQKAFDAQEH ARAQKKTQSH ERFTLSDMLD HLQTIEKMGP LHSLVEMIPG
+     LAVAVSADAL DARAFKRQKA IIQSMTVQER DNFLIIGPSR RRRIAAGSGT SVADVNRLIK
+     NFERMRTLMR KTAWQSRRAH PKGDTPYGWP HR
+//

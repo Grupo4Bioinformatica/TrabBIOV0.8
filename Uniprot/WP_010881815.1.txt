@@ -1,0 +1,216 @@
+ID   O83382_TREPA            Unreviewed;       941 AA.
+AC   O83382;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 105.
+DE   RecName: Full=Chromosome partition protein Smc {ECO:0000256|HAMAP-Rule:MF_01894};
+GN   Name=smc {ECO:0000256|HAMAP-Rule:MF_01894,
+GN   ECO:0000313|EMBL:AGN75564.1};
+GN   OrderedLocusNames=TP_0367 {ECO:0000313|EMBL:AAC65355.1};
+GN   ORFNames=TPANIC_0367 {ECO:0000313|EMBL:AGN75564.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65355.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65355.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65355.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75564.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75564.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Required for chromosome condensation and partitioning.
+CC       {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- DOMAIN: Contains large globular domains required for ATP
+CC       hydrolysis at each terminus and a third globular domain forming a
+CC       flexible hinge near the middle of the molecule. These domains are
+CC       separated by coiled-coil structures. {ECO:0000256|HAMAP-
+CC       Rule:MF_01894}.
+CC   -!- SIMILARITY: Belongs to the SMC family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01894}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65355.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75564.1; -; Genomic_DNA.
+DR   PIR; F71332; F71332.
+DR   RefSeq; WP_010881815.1; NC_021490.2.
+DR   STRING; 243276.TP0367; -.
+DR   EnsemblBacteria; AAC65355; AAC65355; TP_0367.
+DR   EnsemblBacteria; AGN75564; AGN75564; TPANIC_0367.
+DR   GeneID; 2611167; -.
+DR   KEGG; tpa:TP_0367; -.
+DR   KEGG; tpw:TPANIC_0367; -.
+DR   PATRIC; 20530737; VBITrePal57110_0389.
+DR   eggNOG; COG1196; LUCA.
+DR   eggNOG; ENOG4105CDB; Bacteria.
+DR   KO; K03529; -.
+DR   OMA; YERTSTE; -.
+DR   OrthoDB; EOG6WQD34; -.
+DR   BioCyc; TPAL243276:GC1H-392-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030261; P:chromosome condensation; IEA:InterPro.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007062; P:sister chromatid cohesion; IEA:InterPro.
+DR   Gene3D; 3.40.50.300; -; 3.
+DR   HAMAP; MF_01894; Smc_prok; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003395; RecF/RecN/SMC_N.
+DR   InterPro; IPR011890; SMC_prok.
+DR   Pfam; PF02463; SMC_N; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Coiled coil {ECO:0000256|HAMAP-Rule:MF_01894, ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN        3    918       SMC_N. {ECO:0000259|Pfam:PF02463}.
+FT   NP_BIND      33     40       ATP. {ECO:0000256|HAMAP-Rule:MF_01894}.
+FT   COILED      182    202       {ECO:0000256|SAM:Coils}.
+FT   COILED      249    297       {ECO:0000256|SAM:Coils}.
+FT   COILED      319    339       {ECO:0000256|SAM:Coils}.
+FT   COILED      382    402       {ECO:0000256|SAM:Coils}.
+FT   COILED      516    543       {ECO:0000256|SAM:Coils}.
+FT   COILED      551    578       {ECO:0000256|SAM:Coils}.
+FT   COILED      593    627       {ECO:0000256|SAM:Coils}.
+FT   COILED      656    690       {ECO:0000256|SAM:Coils}.
+FT   COILED      741    778       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   941 AA;  105926 MW;  AFBC8BE6ADA79B99 CRC64;
+     MLFLKTLEVF GFKSFADRVR VEFADGVTAL LGPNGCGKSN VVDAIKWVLG EQSSRALRAD
+     RMEDVIFNGT ESRRSLNVAE ASLTVCDEAG ILSLDVPEIL IKRRLYRSGE SEYFLNGNAV
+     RLKEIRELFW DTGIGKVAYS VMEQGKIDQI LSNKPEERRY LFEEAAGVTR FKVRGAEAAR
+     KLEKTAENLR HLEVILQEVE KSYESSKLQA AQTQRYRMLK EEIFARDRDL GLLRLRGFLE
+     NQARADGALQ RNRARRDALQ TQVEEAQQTL SARIGEINDM EKRVDALQKE IYGLAIEQKA
+     KQNEASLHRK HLSELKESIG QIEMRKIGVE SRVQNLEEEV AEQDAHVYQL GSALSSVEEH
+     IESFARSLHV ASEHVSENDQ TLRDIQGQMQ EISAACVELE ASLRDVAEDI AAELDTRLSA
+     AGYSARNRAE AERTLVAGVQ RLRTFVEGRA RIVSDFLVVD THTEGELCRM LTTVVDAFNE
+     AVKIVHCVES DIAEYARVSA RFIDEFVAPQ GIMTKKREFE RQLEQHRAQL ERHAARQRTL
+     QEENKLLVGK IEACRKTLES LRVDQARLRA EAEAGQKQAA GTRGEVARQR AVIKELEGEL
+     FTEGERVAAL EERLLEVEGE IGQLEQRGVL LTKSLENCEG EIRVRNAAVT SEEHALQEAR
+     VELAQVGRQL EQAHRELMQC ETEIRNLREH FREQHTRDLS EFEDLIPGIE KTASDLRQER
+     GELQARVKEI GAVNFMAVEE FQEVKERYEF LVAQVADLEK ARADLQRVTD KIKAESAELF
+     LATYRRIRKN FHEVFRRLFG GGRAEIRLSD PAAVLSCGIE ILAQPPGKKL EHIGLLSGGE
+     KAMTAVALLF ATYMVKPAPF CLLDEIDAAL DEHNVARFVG MLDEFSDVSQ YIVITHNRRT
+     VLGARTMLGV TMEEPGVSKV VSIALESASE RPANGEAGGA I
+//
+ID   A0A0H3BKB7_TREPS        Unreviewed;       941 AA.
+AC   A0A0H3BKB7;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Chromosome partition protein Smc {ECO:0000256|HAMAP-Rule:MF_01894};
+GN   Name=smc {ECO:0000256|HAMAP-Rule:MF_01894};
+GN   OrderedLocusNames=TPASS_0367 {ECO:0000313|EMBL:ACD70793.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70793.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70793.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70793.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Required for chromosome condensation and partitioning.
+CC       {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894}.
+CC   -!- DOMAIN: Contains large globular domains required for ATP
+CC       hydrolysis at each terminus and a third globular domain forming a
+CC       flexible hinge near the middle of the molecule. These domains are
+CC       separated by coiled-coil structures. {ECO:0000256|HAMAP-
+CC       Rule:MF_01894}.
+CC   -!- SIMILARITY: Belongs to the SMC family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01894}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70793.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881815.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKB7; -.
+DR   GeneID; 2611167; -.
+DR   KEGG; tpp:TPASS_0367; -.
+DR   KO; K03529; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030261; P:chromosome condensation; IEA:InterPro.
+DR   GO; GO:0006260; P:DNA replication; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007062; P:sister chromatid cohesion; IEA:InterPro.
+DR   Gene3D; 3.40.50.300; -; 3.
+DR   HAMAP; MF_01894; Smc_prok; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR003395; RecF/RecN/SMC_N.
+DR   InterPro; IPR011890; SMC_prok.
+DR   Pfam; PF02463; SMC_N; 1.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Coiled coil {ECO:0000256|HAMAP-Rule:MF_01894, ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01894};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01894}.
+FT   DOMAIN        3    918       SMC_N. {ECO:0000259|Pfam:PF02463}.
+FT   NP_BIND      33     40       ATP. {ECO:0000256|HAMAP-Rule:MF_01894}.
+FT   COILED      182    202       {ECO:0000256|SAM:Coils}.
+FT   COILED      249    297       {ECO:0000256|SAM:Coils}.
+FT   COILED      319    339       {ECO:0000256|SAM:Coils}.
+FT   COILED      382    402       {ECO:0000256|SAM:Coils}.
+FT   COILED      516    543       {ECO:0000256|SAM:Coils}.
+FT   COILED      551    578       {ECO:0000256|SAM:Coils}.
+FT   COILED      593    627       {ECO:0000256|SAM:Coils}.
+FT   COILED      656    690       {ECO:0000256|SAM:Coils}.
+FT   COILED      741    778       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   941 AA;  105926 MW;  AFBC8BE6ADA79B99 CRC64;
+     MLFLKTLEVF GFKSFADRVR VEFADGVTAL LGPNGCGKSN VVDAIKWVLG EQSSRALRAD
+     RMEDVIFNGT ESRRSLNVAE ASLTVCDEAG ILSLDVPEIL IKRRLYRSGE SEYFLNGNAV
+     RLKEIRELFW DTGIGKVAYS VMEQGKIDQI LSNKPEERRY LFEEAAGVTR FKVRGAEAAR
+     KLEKTAENLR HLEVILQEVE KSYESSKLQA AQTQRYRMLK EEIFARDRDL GLLRLRGFLE
+     NQARADGALQ RNRARRDALQ TQVEEAQQTL SARIGEINDM EKRVDALQKE IYGLAIEQKA
+     KQNEASLHRK HLSELKESIG QIEMRKIGVE SRVQNLEEEV AEQDAHVYQL GSALSSVEEH
+     IESFARSLHV ASEHVSENDQ TLRDIQGQMQ EISAACVELE ASLRDVAEDI AAELDTRLSA
+     AGYSARNRAE AERTLVAGVQ RLRTFVEGRA RIVSDFLVVD THTEGELCRM LTTVVDAFNE
+     AVKIVHCVES DIAEYARVSA RFIDEFVAPQ GIMTKKREFE RQLEQHRAQL ERHAARQRTL
+     QEENKLLVGK IEACRKTLES LRVDQARLRA EAEAGQKQAA GTRGEVARQR AVIKELEGEL
+     FTEGERVAAL EERLLEVEGE IGQLEQRGVL LTKSLENCEG EIRVRNAAVT SEEHALQEAR
+     VELAQVGRQL EQAHRELMQC ETEIRNLREH FREQHTRDLS EFEDLIPGIE KTASDLRQER
+     GELQARVKEI GAVNFMAVEE FQEVKERYEF LVAQVADLEK ARADLQRVTD KIKAESAELF
+     LATYRRIRKN FHEVFRRLFG GGRAEIRLSD PAAVLSCGIE ILAQPPGKKL EHIGLLSGGE
+     KAMTAVALLF ATYMVKPAPF CLLDEIDAAL DEHNVARFVG MLDEFSDVSQ YIVITHNRRT
+     VLGARTMLGV TMEEPGVSKV VSIALESASE RPANGEAGGA I
+//

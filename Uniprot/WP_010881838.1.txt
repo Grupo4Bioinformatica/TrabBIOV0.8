@@ -1,0 +1,652 @@
+ID   FTSZ_TREPA              Reviewed;         418 AA.
+AC   O83405;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 103.
+DE   RecName: Full=Cell division protein FtsZ {ECO:0000255|HAMAP-Rule:MF_00909};
+GN   Name=ftsZ {ECO:0000255|HAMAP-Rule:MF_00909};
+GN   OrderedLocusNames=TP_0390;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Essential cell division protein that forms a contractile
+CC       ring structure (Z ring) at the future cell division site. The
+CC       regulation of the ring assembly controls the timing and the
+CC       location of cell division. One of the functions of the FtsZ ring
+CC       is to recruit other cell division proteins to the septum to
+CC       produce a new cell wall between the dividing cells. Binds GTP and
+CC       shows GTPase activity. {ECO:0000255|HAMAP-Rule:MF_00909}.
+CC   -!- SUBUNIT: Homodimer. Polymerizes to form a dynamic ring structure
+CC       in a strictly GTP-dependent manner. Interacts directly with
+CC       several other division proteins. {ECO:0000255|HAMAP-
+CC       Rule:MF_00909}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00909}.
+CC       Note=Assembles at midcell at the inner surface of the cytoplasmic
+CC       membrane. {ECO:0000255|HAMAP-Rule:MF_00909}.
+CC   -!- SIMILARITY: Belongs to the FtsZ family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00909}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65374.1; -; Genomic_DNA.
+DR   PIR; H71331; H71331.
+DR   RefSeq; WP_010881838.1; NC_021490.2.
+DR   ProteinModelPortal; O83405; -.
+DR   SMR; O83405; 19-322.
+DR   IntAct; O83405; 6.
+DR   STRING; 243276.TP0390; -.
+DR   EnsemblBacteria; AAC65374; AAC65374; TP_0390.
+DR   GeneID; 2610732; -.
+DR   KEGG; tpa:TP_0390; -.
+DR   PATRIC; 20530789; VBITrePal57110_0414.
+DR   eggNOG; ENOG4105CDK; Bacteria.
+DR   eggNOG; COG0206; LUCA.
+DR   KO; K03531; -.
+DR   OMA; AQVIWGI; -.
+DR   OrthoDB; EOG6S7XZG; -.
+DR   BioCyc; TPAL243276:GC1H-416-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0032153; C:cell division site; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-KW.
+DR   GO; GO:0043093; P:FtsZ-dependent cytokinesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051258; P:protein polymerization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   HAMAP; MF_00909; FtsZ; 1.
+DR   InterPro; IPR000158; Cell_div_FtsZ.
+DR   InterPro; IPR020805; Cell_div_FtsZ_CS.
+DR   InterPro; IPR024757; FtsZ_C.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   Pfam; PF12327; FtsZ_C; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   PRINTS; PR00423; CELLDVISFTSZ.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   TIGRFAMs; TIGR00065; ftsZ; 1.
+DR   PROSITE; PS01134; FTSZ_1; 1.
+DR   PROSITE; PS01135; FTSZ_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle; Cell division; Complete proteome; Cytoplasm; GTP-binding;
+KW   Nucleotide-binding; Reference proteome; Septation.
+FT   CHAIN         1    418       Cell division protein FtsZ.
+FT                                /FTId=PRO_0000114392.
+FT   NP_BIND      27     31       GTP. {ECO:0000255|HAMAP-Rule:MF_00909}.
+FT   NP_BIND     114    116       GTP. {ECO:0000255|HAMAP-Rule:MF_00909}.
+FT   BINDING     145    145       GTP. {ECO:0000255|HAMAP-Rule:MF_00909}.
+FT   BINDING     149    149       GTP. {ECO:0000255|HAMAP-Rule:MF_00909}.
+FT   BINDING     193    193       GTP. {ECO:0000255|HAMAP-Rule:MF_00909}.
+SQ   SEQUENCE   418 AA;  43839 MW;  40187993E34CADEE CRC64;
+     MMNIELAPSG EEFTLSPTVI KVIGAGGGGS NAVNRMMSCG LQCVEFIAAN TDVQALSYST
+     APKKLAIGTK VTRGLGAGGD PEIGEKAAME DAEAIASALQ GANMVFITAG MGGGTGTGAA
+     PVIAKIAREL GALTVAVVTK PFRFEGRAKM MLAERGIEKL RTHSDTVIVI PNQNLLSVVD
+     KRCPIKETYL VADDLLRKSV QSISDLITLP GEVNLDFMDV KNTMEGQGYA LIGVGEGEGE
+     NRAVDAATAA INNPLLEETR IEGATRLLVA VRGSENLSMG EVDGVMSVVA KTIDPDAIII
+     HGTSIDASMQ DRVRVTVIAT GVPQASISIA GDTHSSQKIK TSSYGAVSTG VYISSDEWNR
+     AKSSKQPNLP GLATRNSAVQ ETRMEKNGVK GHTFGVPLPS VNEDLDEPTF LRNRNKGL
+//
+ID   R9USZ1_TREPA            Unreviewed;       418 AA.
+AC   R9USZ1;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   20-JAN-2016, entry version 24.
+DE   RecName: Full=Cell division protein FtsZ {ECO:0000256|HAMAP-Rule:MF_00909, ECO:0000256|RuleBase:RU000631};
+GN   Name=ftsZ {ECO:0000256|HAMAP-Rule:MF_00909,
+GN   ECO:0000313|EMBL:AGN75584.1};
+GN   ORFNames=TPANIC_0390 {ECO:0000313|EMBL:AGN75584.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75584.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75584.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75584.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Essential cell division protein that forms a contractile
+CC       ring structure (Z ring) at the future cell division site. The
+CC       regulation of the ring assembly controls the timing and the
+CC       location of cell division. One of the functions of the FtsZ ring
+CC       is to recruit other cell division proteins to the septum to
+CC       produce a new cell wall between the dividing cells. Binds GTP and
+CC       shows GTPase activity. {ECO:0000256|HAMAP-Rule:MF_00909,
+CC       ECO:0000256|RuleBase:RU000631}.
+CC   -!- SUBUNIT: Homodimer. Polymerizes to form a dynamic ring structure
+CC       in a strictly GTP-dependent manner. Interacts directly with
+CC       several other division proteins. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC       Note=Assembles at midcell at the inner surface of the cytoplasmic
+CC       membrane. {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC   -!- SIMILARITY: Belongs to the FtsZ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909, ECO:0000256|RuleBase:RU000631}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75584.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881838.1; NC_021490.2.
+DR   ProteinModelPortal; R9USZ1; -.
+DR   SMR; R9USZ1; 19-322.
+DR   STRING; 243276.TP0390; -.
+DR   EnsemblBacteria; AGN75584; AGN75584; TPANIC_0390.
+DR   GeneID; 2610732; -.
+DR   KEGG; tpw:TPANIC_0390; -.
+DR   eggNOG; COG0206; LUCA.
+DR   eggNOG; ENOG4105CDK; Bacteria.
+DR   KO; K03531; -.
+DR   OMA; AQVIWGI; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0032153; C:cell division site; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-KW.
+DR   GO; GO:0043093; P:FtsZ-dependent cytokinesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051258; P:protein polymerization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   HAMAP; MF_00909; FtsZ; 1.
+DR   InterPro; IPR000158; Cell_div_FtsZ.
+DR   InterPro; IPR020805; Cell_div_FtsZ_CS.
+DR   InterPro; IPR024757; FtsZ_C.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   Pfam; PF12327; FtsZ_C; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   PRINTS; PR00423; CELLDVISFTSZ.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   TIGRFAMs; TIGR00065; ftsZ; 1.
+DR   PROSITE; PS01134; FTSZ_1; 1.
+DR   PROSITE; PS01135; FTSZ_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Septation {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631}.
+FT   DOMAIN       19    211       Tubulin. {ECO:0000259|SMART:SM00864}.
+FT   DOMAIN      213    331       Tubulin_C. {ECO:0000259|SMART:SM00865}.
+FT   NP_BIND      27     31       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   NP_BIND     114    116       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     145    145       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     149    149       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     193    193       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+SQ   SEQUENCE   418 AA;  43839 MW;  40187993E34CADEE CRC64;
+     MMNIELAPSG EEFTLSPTVI KVIGAGGGGS NAVNRMMSCG LQCVEFIAAN TDVQALSYST
+     APKKLAIGTK VTRGLGAGGD PEIGEKAAME DAEAIASALQ GANMVFITAG MGGGTGTGAA
+     PVIAKIAREL GALTVAVVTK PFRFEGRAKM MLAERGIEKL RTHSDTVIVI PNQNLLSVVD
+     KRCPIKETYL VADDLLRKSV QSISDLITLP GEVNLDFMDV KNTMEGQGYA LIGVGEGEGE
+     NRAVDAATAA INNPLLEETR IEGATRLLVA VRGSENLSMG EVDGVMSVVA KTIDPDAIII
+     HGTSIDASMQ DRVRVTVIAT GVPQASISIA GDTHSSQKIK TSSYGAVSTG VYISSDEWNR
+     AKSSKQPNLP GLATRNSAVQ ETRMEKNGVK GHTFGVPLPS VNEDLDEPTF LRNRNKGL
+//
+ID   H6KVA9_TREPD            Unreviewed;       418 AA.
+AC   H6KVA9;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   20-JAN-2016, entry version 34.
+DE   RecName: Full=Cell division protein FtsZ {ECO:0000256|HAMAP-Rule:MF_00909, ECO:0000256|RuleBase:RU000631};
+GN   Name=ftsZ {ECO:0000256|HAMAP-Rule:MF_00909,
+GN   ECO:0000313|EMBL:AEZ58581.1};
+GN   OrderedLocusNames=TPECDC2_0390 {ECO:0000313|EMBL:AEZ58581.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58581.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Essential cell division protein that forms a contractile
+CC       ring structure (Z ring) at the future cell division site. The
+CC       regulation of the ring assembly controls the timing and the
+CC       location of cell division. One of the functions of the FtsZ ring
+CC       is to recruit other cell division proteins to the septum to
+CC       produce a new cell wall between the dividing cells. Binds GTP and
+CC       shows GTPase activity. {ECO:0000256|HAMAP-Rule:MF_00909,
+CC       ECO:0000256|RuleBase:RU000631}.
+CC   -!- SUBUNIT: Homodimer. Polymerizes to form a dynamic ring structure
+CC       in a strictly GTP-dependent manner. Interacts directly with
+CC       several other division proteins. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC       Note=Assembles at midcell at the inner surface of the cytoplasmic
+CC       membrane. {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC   -!- SIMILARITY: Belongs to the FtsZ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909, ECO:0000256|RuleBase:RU000631}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58581.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881838.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVA9; -.
+DR   SMR; H6KVA9; 19-322.
+DR   EnsemblBacteria; AEZ58581; AEZ58581; TPECDC2_0390.
+DR   GeneID; 2610732; -.
+DR   KEGG; tpc:TPECDC2_0390; -.
+DR   KO; K03531; -.
+DR   OMA; AQVIWGI; -.
+DR   BioCyc; TPAL491079:GJCE-423-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0032153; C:cell division site; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-KW.
+DR   GO; GO:0043093; P:FtsZ-dependent cytokinesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051258; P:protein polymerization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   HAMAP; MF_00909; FtsZ; 1.
+DR   InterPro; IPR000158; Cell_div_FtsZ.
+DR   InterPro; IPR020805; Cell_div_FtsZ_CS.
+DR   InterPro; IPR024757; FtsZ_C.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   Pfam; PF12327; FtsZ_C; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   PRINTS; PR00423; CELLDVISFTSZ.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   TIGRFAMs; TIGR00065; ftsZ; 1.
+DR   PROSITE; PS01134; FTSZ_1; 1.
+DR   PROSITE; PS01135; FTSZ_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Septation {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631}.
+FT   DOMAIN       19    211       Tubulin. {ECO:0000259|SMART:SM00864}.
+FT   DOMAIN      213    331       Tubulin_C. {ECO:0000259|SMART:SM00865}.
+FT   NP_BIND      27     31       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   NP_BIND     114    116       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     145    145       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     149    149       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     193    193       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+SQ   SEQUENCE   418 AA;  43839 MW;  40187993E34CADEE CRC64;
+     MMNIELAPSG EEFTLSPTVI KVIGAGGGGS NAVNRMMSCG LQCVEFIAAN TDVQALSYST
+     APKKLAIGTK VTRGLGAGGD PEIGEKAAME DAEAIASALQ GANMVFITAG MGGGTGTGAA
+     PVIAKIAREL GALTVAVVTK PFRFEGRAKM MLAERGIEKL RTHSDTVIVI PNQNLLSVVD
+     KRCPIKETYL VADDLLRKSV QSISDLITLP GEVNLDFMDV KNTMEGQGYA LIGVGEGEGE
+     NRAVDAATAA INNPLLEETR IEGATRLLVA VRGSENLSMG EVDGVMSVVA KTIDPDAIII
+     HGTSIDASMQ DRVRVTVIAT GVPQASISIA GDTHSSQKIK TSSYGAVSTG VYISSDEWNR
+     AKSSKQPNLP GLATRNSAVQ ETRMEKNGVK GHTFGVPLPS VNEDLDEPTF LRNRNKGL
+//
+ID   F7XSK2_TREPU            Unreviewed;       418 AA.
+AC   F7XSK2;
+DT   21-SEP-2011, integrated into UniProtKB/TrEMBL.
+DT   21-SEP-2011, sequence version 1.
+DT   20-JAN-2016, entry version 36.
+DE   RecName: Full=Cell division protein FtsZ {ECO:0000256|HAMAP-Rule:MF_00909, ECO:0000256|RuleBase:RU000631};
+GN   Name=ftsZ {ECO:0000256|HAMAP-Rule:MF_00909,
+GN   ECO:0000313|EMBL:AEH40333.1};
+GN   OrderedLocusNames=TPCCA_0390 {ECO:0000313|EMBL:AEH40333.1};
+OS   Treponema paraluiscuniculi (strain Cuniculi A).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=545776 {ECO:0000313|EMBL:AEH40333.1, ECO:0000313|Proteomes:UP000008317};
+RN   [1] {ECO:0000313|EMBL:AEH40333.1, ECO:0000313|Proteomes:UP000008317}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Cuniculi A {ECO:0000313|EMBL:AEH40333.1,
+RC   ECO:0000313|Proteomes:UP000008317};
+RX   PubMed=21655244; DOI=10.1371/journal.pone.0020415;
+RA   Smajs D., Zobanikova M., Strouhal M., Cejkova D., Dugan-Rocha S.,
+RA   Pospisilova P., Norris S.J., Albert T., Qin X., Hallsworth-Pepin K.,
+RA   Buhay C., Muzny D.M., Chen L., Gibbs R.A., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema paraluiscuniculi, strain
+RT   Cuniculi A: the loss of infectivity to humans is associated with
+RT   genome decay.";
+RL   PLoS ONE 6:E20415-E20415(2011).
+CC   -!- FUNCTION: Essential cell division protein that forms a contractile
+CC       ring structure (Z ring) at the future cell division site. The
+CC       regulation of the ring assembly controls the timing and the
+CC       location of cell division. One of the functions of the FtsZ ring
+CC       is to recruit other cell division proteins to the septum to
+CC       produce a new cell wall between the dividing cells. Binds GTP and
+CC       shows GTPase activity. {ECO:0000256|HAMAP-Rule:MF_00909,
+CC       ECO:0000256|RuleBase:RU000631}.
+CC   -!- SUBUNIT: Homodimer. Polymerizes to form a dynamic ring structure
+CC       in a strictly GTP-dependent manner. Interacts directly with
+CC       several other division proteins. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC       Note=Assembles at midcell at the inner surface of the cytoplasmic
+CC       membrane. {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC   -!- SIMILARITY: Belongs to the FtsZ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909, ECO:0000256|RuleBase:RU000631}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002103; AEH40333.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881838.1; NC_015714.1.
+DR   ProteinModelPortal; F7XSK2; -.
+DR   SMR; F7XSK2; 19-322.
+DR   EnsemblBacteria; AEH40333; AEH40333; TPCCA_0390.
+DR   GeneID; 2610732; -.
+DR   KEGG; tpl:TPCCA_0390; -.
+DR   KO; K03531; -.
+DR   OMA; AQVIWGI; -.
+DR   BioCyc; TPAR545776:GJC6-405-MONOMER; -.
+DR   Proteomes; UP000008317; Chromosome.
+DR   GO; GO:0032153; C:cell division site; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-KW.
+DR   GO; GO:0043093; P:FtsZ-dependent cytokinesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051258; P:protein polymerization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   HAMAP; MF_00909; FtsZ; 1.
+DR   InterPro; IPR000158; Cell_div_FtsZ.
+DR   InterPro; IPR020805; Cell_div_FtsZ_CS.
+DR   InterPro; IPR024757; FtsZ_C.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   Pfam; PF12327; FtsZ_C; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   PRINTS; PR00423; CELLDVISFTSZ.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   TIGRFAMs; TIGR00065; ftsZ; 1.
+DR   PROSITE; PS01134; FTSZ_1; 1.
+DR   PROSITE; PS01135; FTSZ_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008317};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Septation {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631}.
+FT   DOMAIN       19    211       Tubulin. {ECO:0000259|SMART:SM00864}.
+FT   DOMAIN      213    331       Tubulin_C. {ECO:0000259|SMART:SM00865}.
+FT   NP_BIND      27     31       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   NP_BIND     114    116       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     145    145       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     149    149       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     193    193       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+SQ   SEQUENCE   418 AA;  43839 MW;  40187993E34CADEE CRC64;
+     MMNIELAPSG EEFTLSPTVI KVIGAGGGGS NAVNRMMSCG LQCVEFIAAN TDVQALSYST
+     APKKLAIGTK VTRGLGAGGD PEIGEKAAME DAEAIASALQ GANMVFITAG MGGGTGTGAA
+     PVIAKIAREL GALTVAVVTK PFRFEGRAKM MLAERGIEKL RTHSDTVIVI PNQNLLSVVD
+     KRCPIKETYL VADDLLRKSV QSISDLITLP GEVNLDFMDV KNTMEGQGYA LIGVGEGEGE
+     NRAVDAATAA INNPLLEETR IEGATRLLVA VRGSENLSMG EVDGVMSVVA KTIDPDAIII
+     HGTSIDASMQ DRVRVTVIAT GVPQASISIA GDTHSSQKIK TSSYGAVSTG VYISSDEWNR
+     AKSSKQPNLP GLATRNSAVQ ETRMEKNGVK GHTFGVPLPS VNEDLDEPTF LRNRNKGL
+//
+ID   A0A0H3BIA8_TREPS        Unreviewed;       418 AA.
+AC   A0A0H3BIA8;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   20-JAN-2016, entry version 5.
+DE   RecName: Full=Cell division protein FtsZ {ECO:0000256|HAMAP-Rule:MF_00909, ECO:0000256|RuleBase:RU000631};
+GN   Name=ftsZ {ECO:0000256|HAMAP-Rule:MF_00909,
+GN   ECO:0000313|EMBL:ACD70816.1};
+GN   OrderedLocusNames=TPASS_0390 {ECO:0000313|EMBL:ACD70816.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70816.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70816.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70816.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Essential cell division protein that forms a contractile
+CC       ring structure (Z ring) at the future cell division site. The
+CC       regulation of the ring assembly controls the timing and the
+CC       location of cell division. One of the functions of the FtsZ ring
+CC       is to recruit other cell division proteins to the septum to
+CC       produce a new cell wall between the dividing cells. Binds GTP and
+CC       shows GTPase activity. {ECO:0000256|HAMAP-Rule:MF_00909,
+CC       ECO:0000256|RuleBase:RU000631}.
+CC   -!- SUBUNIT: Homodimer. Polymerizes to form a dynamic ring structure
+CC       in a strictly GTP-dependent manner. Interacts directly with
+CC       several other division proteins. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC       Note=Assembles at midcell at the inner surface of the cytoplasmic
+CC       membrane. {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC   -!- SIMILARITY: Belongs to the FtsZ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909, ECO:0000256|RuleBase:RU000631}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70816.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881838.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIA8; -.
+DR   GeneID; 2610732; -.
+DR   KEGG; tpp:TPASS_0390; -.
+DR   KO; K03531; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0032153; C:cell division site; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-KW.
+DR   GO; GO:0043093; P:FtsZ-dependent cytokinesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051258; P:protein polymerization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   HAMAP; MF_00909; FtsZ; 1.
+DR   InterPro; IPR000158; Cell_div_FtsZ.
+DR   InterPro; IPR020805; Cell_div_FtsZ_CS.
+DR   InterPro; IPR024757; FtsZ_C.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   Pfam; PF12327; FtsZ_C; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   PRINTS; PR00423; CELLDVISFTSZ.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   TIGRFAMs; TIGR00065; ftsZ; 1.
+DR   PROSITE; PS01134; FTSZ_1; 1.
+DR   PROSITE; PS01135; FTSZ_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Septation {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631}.
+FT   DOMAIN       19    211       Tubulin. {ECO:0000259|SMART:SM00864}.
+FT   DOMAIN      213    331       Tubulin_C. {ECO:0000259|SMART:SM00865}.
+FT   NP_BIND      27     31       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   NP_BIND     114    116       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     145    145       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     149    149       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     193    193       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+SQ   SEQUENCE   418 AA;  43839 MW;  40187993E34CADEE CRC64;
+     MMNIELAPSG EEFTLSPTVI KVIGAGGGGS NAVNRMMSCG LQCVEFIAAN TDVQALSYST
+     APKKLAIGTK VTRGLGAGGD PEIGEKAAME DAEAIASALQ GANMVFITAG MGGGTGTGAA
+     PVIAKIAREL GALTVAVVTK PFRFEGRAKM MLAERGIEKL RTHSDTVIVI PNQNLLSVVD
+     KRCPIKETYL VADDLLRKSV QSISDLITLP GEVNLDFMDV KNTMEGQGYA LIGVGEGEGE
+     NRAVDAATAA INNPLLEETR IEGATRLLVA VRGSENLSMG EVDGVMSVVA KTIDPDAIII
+     HGTSIDASMQ DRVRVTVIAT GVPQASISIA GDTHSSQKIK TSSYGAVSTG VYISSDEWNR
+     AKSSKQPNLP GLATRNSAVQ ETRMEKNGVK GHTFGVPLPS VNEDLDEPTF LRNRNKGL
+//
+ID   A0A0A7X2K9_TREPL        Unreviewed;       418 AA.
+AC   A0A0A7X2K9;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   20-JAN-2016, entry version 8.
+DE   RecName: Full=Cell division protein FtsZ {ECO:0000256|HAMAP-Rule:MF_00909, ECO:0000256|RuleBase:RU000631};
+GN   Name=ftsZ {ECO:0000256|HAMAP-Rule:MF_00909,
+GN   ECO:0000313|EMBL:AJB40409.1};
+GN   ORFNames=TENDBA_0390 {ECO:0000313|EMBL:AJB40409.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40409.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40409.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40409.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Essential cell division protein that forms a contractile
+CC       ring structure (Z ring) at the future cell division site. The
+CC       regulation of the ring assembly controls the timing and the
+CC       location of cell division. One of the functions of the FtsZ ring
+CC       is to recruit other cell division proteins to the septum to
+CC       produce a new cell wall between the dividing cells. Binds GTP and
+CC       shows GTPase activity. {ECO:0000256|HAMAP-Rule:MF_00909,
+CC       ECO:0000256|RuleBase:RU000631}.
+CC   -!- SUBUNIT: Homodimer. Polymerizes to form a dynamic ring structure
+CC       in a strictly GTP-dependent manner. Interacts directly with
+CC       several other division proteins. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC       Note=Assembles at midcell at the inner surface of the cytoplasmic
+CC       membrane. {ECO:0000256|HAMAP-Rule:MF_00909}.
+CC   -!- SIMILARITY: Belongs to the FtsZ family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00909, ECO:0000256|RuleBase:RU000631}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40409.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881838.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2K9; -.
+DR   EnsemblBacteria; AJB40409; AJB40409; TENDBA_0390.
+DR   GeneID; 2610732; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0032153; C:cell division site; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000917; P:barrier septum assembly; IEA:UniProtKB-KW.
+DR   GO; GO:0043093; P:FtsZ-dependent cytokinesis; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0051258; P:protein polymerization; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.1330.20; -; 1.
+DR   Gene3D; 3.40.50.1440; -; 1.
+DR   HAMAP; MF_00909; FtsZ; 1.
+DR   InterPro; IPR000158; Cell_div_FtsZ.
+DR   InterPro; IPR020805; Cell_div_FtsZ_CS.
+DR   InterPro; IPR024757; FtsZ_C.
+DR   InterPro; IPR008280; Tub_FtsZ_C.
+DR   InterPro; IPR018316; Tubulin/FtsZ_2-layer-sand-dom.
+DR   InterPro; IPR003008; Tubulin_FtsZ_GTPase.
+DR   Pfam; PF12327; FtsZ_C; 1.
+DR   Pfam; PF00091; Tubulin; 1.
+DR   PRINTS; PR00423; CELLDVISFTSZ.
+DR   SMART; SM00864; Tubulin; 1.
+DR   SMART; SM00865; Tubulin_C; 1.
+DR   SUPFAM; SSF52490; SSF52490; 1.
+DR   SUPFAM; SSF55307; SSF55307; 1.
+DR   TIGRFAMs; TIGR00065; ftsZ; 1.
+DR   PROSITE; PS01134; FTSZ_1; 1.
+DR   PROSITE; PS01135; FTSZ_2; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00909};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631};
+KW   Septation {ECO:0000256|HAMAP-Rule:MF_00909,
+KW   ECO:0000256|RuleBase:RU000631}.
+FT   DOMAIN       19    211       Tubulin. {ECO:0000259|SMART:SM00864}.
+FT   DOMAIN      213    331       Tubulin_C. {ECO:0000259|SMART:SM00865}.
+FT   NP_BIND      27     31       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   NP_BIND     114    116       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     145    145       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     149    149       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+FT   BINDING     193    193       GTP. {ECO:0000256|HAMAP-Rule:MF_00909}.
+SQ   SEQUENCE   418 AA;  43839 MW;  40187993E34CADEE CRC64;
+     MMNIELAPSG EEFTLSPTVI KVIGAGGGGS NAVNRMMSCG LQCVEFIAAN TDVQALSYST
+     APKKLAIGTK VTRGLGAGGD PEIGEKAAME DAEAIASALQ GANMVFITAG MGGGTGTGAA
+     PVIAKIAREL GALTVAVVTK PFRFEGRAKM MLAERGIEKL RTHSDTVIVI PNQNLLSVVD
+     KRCPIKETYL VADDLLRKSV QSISDLITLP GEVNLDFMDV KNTMEGQGYA LIGVGEGEGE
+     NRAVDAATAA INNPLLEETR IEGATRLLVA VRGSENLSMG EVDGVMSVVA KTIDPDAIII
+     HGTSIDASMQ DRVRVTVIAT GVPQASISIA GDTHSSQKIK TSSYGAVSTG VYISSDEWNR
+     AKSSKQPNLP GLATRNSAVQ ETRMEKNGVK GHTFGVPLPS VNEDLDEPTF LRNRNKGL
+//

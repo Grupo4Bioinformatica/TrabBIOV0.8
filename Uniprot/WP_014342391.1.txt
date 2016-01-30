@@ -1,0 +1,96 @@
+ID   H6KV78_TREPD            Unreviewed;       267 AA.
+AC   H6KV78;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   SubName: Full=Acyltransferase family protein {ECO:0000313|EMBL:AEZ58550.1};
+GN   OrderedLocusNames=TPECDC2_0361 {ECO:0000313|EMBL:AEZ58550.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58550.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58550.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342391.1; NC_016848.1.
+DR   EnsemblBacteria; AEZ58550; AEZ58550; TPECDC2_0361.
+DR   GeneID; 2611788; -.
+DR   KEGG; tpc:TPECDC2_0361; -.
+DR   KO; K00655; -.
+DR   OMA; HEHAMIP; -.
+DR   BioCyc; TPAL491079:GJCE-391-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0016746; F:transferase activity, transferring acyl groups; IEA:UniProtKB-KW.
+DR   InterPro; IPR002123; Plipid/glycerol_acylTrfase.
+DR   Pfam; PF01553; Acyltransferase; 1.
+DR   SMART; SM00563; PlsC; 1.
+PE   4: Predicted;
+KW   Acyltransferase {ECO:0000313|EMBL:AEZ58550.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Transferase {ECO:0000313|EMBL:AEZ58550.1}.
+FT   DOMAIN       73    195       PlsC. {ECO:0000259|SMART:SM00563}.
+SQ   SEQUENCE   267 AA;  30004 MW;  A7B91BFE9694B756 CRC64;
+     MCGILSIVVS IAVLAPLAVA NTLCYALYRP GCRWVNHAVS TWGARTIFAV LHTYGRLKFY
+     SDYTHAEHLP TQYLVVSNHQ SVLDTPALMR YFGYIDAPRL RFVAKRELAR FVPLVSTMLK
+     SGRHCLVDRH QSGAQAMQAL ETFTHHVMRE RWLPVIFPEG TRSRNGALRI FHAAGFRALT
+     ARLPLPVVVC ALDGGWNLRP LLKIGQKLKG SAYRVKVLGV YPAPHNKDEQ LSLLREAKAL
+     IQAQLDVWRS ETTCPQDECL TRASKDS
+//
+ID   A0A0A7X2H8_TREPL        Unreviewed;       267 AA.
+AC   A0A0A7X2H8;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 5.
+DE   SubName: Full=Acyltransferase family protein {ECO:0000313|EMBL:AJB40379.1};
+GN   ORFNames=TENDBA_0361 {ECO:0000313|EMBL:AJB40379.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40379.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40379.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40379.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40379.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342391.1; NZ_CP007548.1.
+DR   EnsemblBacteria; AJB40379; AJB40379; TENDBA_0361.
+DR   GeneID; 2611788; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016746; F:transferase activity, transferring acyl groups; IEA:UniProtKB-KW.
+DR   InterPro; IPR002123; Plipid/glycerol_acylTrfase.
+DR   Pfam; PF01553; Acyltransferase; 1.
+DR   SMART; SM00563; PlsC; 1.
+PE   4: Predicted;
+KW   Acyltransferase {ECO:0000313|EMBL:AJB40379.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Transferase {ECO:0000313|EMBL:AJB40379.1}.
+FT   DOMAIN       73    195       PlsC. {ECO:0000259|SMART:SM00563}.
+SQ   SEQUENCE   267 AA;  30004 MW;  A7B91BFE9694B756 CRC64;
+     MCGILSIVVS IAVLAPLAVA NTLCYALYRP GCRWVNHAVS TWGARTIFAV LHTYGRLKFY
+     SDYTHAEHLP TQYLVVSNHQ SVLDTPALMR YFGYIDAPRL RFVAKRELAR FVPLVSTMLK
+     SGRHCLVDRH QSGAQAMQAL ETFTHHVMRE RWLPVIFPEG TRSRNGALRI FHAAGFRALT
+     ARLPLPVVVC ALDGGWNLRP LLKIGQKLKG SAYRVKVLGV YPAPHNKDEQ LSLLREAKAL
+     IQAQLDVWRS ETTCPQDECL TRASKDS
+//

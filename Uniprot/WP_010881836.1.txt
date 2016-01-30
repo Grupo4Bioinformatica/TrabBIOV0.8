@@ -1,0 +1,244 @@
+ID   O83403_TREPA            Unreviewed;       271 AA.
+AC   O83403;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 73.
+DE   SubName: Full=Cell division protein (FtsQ) {ECO:0000313|EMBL:AAC65372.1};
+DE   SubName: Full=Cell division protein FtsQ {ECO:0000313|EMBL:AGN75582.1};
+GN   Name=ftsQ {ECO:0000313|EMBL:AGN75582.1};
+GN   OrderedLocusNames=TP_0388 {ECO:0000313|EMBL:AAC65372.1};
+GN   ORFNames=TPANIC_0388 {ECO:0000313|EMBL:AGN75582.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65372.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65372.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65372.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75582.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75582.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65372.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75582.1; -; Genomic_DNA.
+DR   PIR; F71331; F71331.
+DR   RefSeq; WP_010881836.1; NC_021490.2.
+DR   STRING; 243276.TP0388; -.
+DR   EnsemblBacteria; AAC65372; AAC65372; TP_0388.
+DR   EnsemblBacteria; AGN75582; AGN75582; TPANIC_0388.
+DR   GeneID; 2611293; -.
+DR   KEGG; tpa:TP_0388; -.
+DR   KEGG; tpw:TPANIC_0388; -.
+DR   PATRIC; 20530785; VBITrePal57110_0412.
+DR   eggNOG; COG1589; LUCA.
+DR   eggNOG; ENOG4105NB9; Bacteria.
+DR   KO; K03589; -.
+DR   OMA; YYFIASD; -.
+DR   OrthoDB; EOG6CS02S; -.
+DR   BioCyc; TPAL243276:GC1H-414-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   InterPro; IPR013685; POTRA_FtsQ_type.
+DR   Pfam; PF08478; POTRA_1; 1.
+PE   4: Predicted;
+KW   Cell cycle {ECO:0000313|EMBL:AAC65372.1};
+KW   Cell division {ECO:0000313|EMBL:AAC65372.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     28     51       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       57    123       POTRA_1. {ECO:0000259|Pfam:PF08478}.
+SQ   SEQUENCE   271 AA;  30594 MW;  252AD14F847FE0DF CRC64;
+     MKKQFLCRNT EACKYPLVGY MSMRVRVAVL KVVIVILLLV LCVEFVFYLF VVPATSFAKV
+     EFSGNVTISP EYLMKAAGLT GKEKWMSLDG FTISERLASV PLLAQVEVLK KFPDTMHVHV
+     VERVAIALGF VHVQGRAMPV QIDKTGTVFS VGTAPLDTVL PVVSGLEFRN PRVGLRVHDQ
+     LVPLFVQLDN LSKRNPLLLG EISEISIEQK RHGGYDLALY LVRAPIRVRM DKNLSEEKLR
+     YVILLVDALR EWQTQRRIKE LDVRGGTAVY R
+//
+ID   H6KVA7_TREPD            Unreviewed;       271 AA.
+AC   H6KVA7;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 20.
+DE   SubName: Full=Cell division protein FtsQ {ECO:0000313|EMBL:AEZ58579.1};
+GN   Name=ftsQ {ECO:0000313|EMBL:AEZ58579.1};
+GN   OrderedLocusNames=TPECDC2_0388 {ECO:0000313|EMBL:AEZ58579.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58579.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58579.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881836.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVA7; -.
+DR   EnsemblBacteria; AEZ58579; AEZ58579; TPECDC2_0388.
+DR   GeneID; 2611293; -.
+DR   KEGG; tpc:TPECDC2_0388; -.
+DR   KO; K03589; -.
+DR   OMA; YYFIASD; -.
+DR   BioCyc; TPAL491079:GJCE-421-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   InterPro; IPR013685; POTRA_FtsQ_type.
+DR   Pfam; PF08478; POTRA_1; 1.
+PE   4: Predicted;
+KW   Cell cycle {ECO:0000313|EMBL:AEZ58579.1};
+KW   Cell division {ECO:0000313|EMBL:AEZ58579.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     28     51       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       57    123       POTRA_1. {ECO:0000259|Pfam:PF08478}.
+SQ   SEQUENCE   271 AA;  30594 MW;  252AD14F847FE0DF CRC64;
+     MKKQFLCRNT EACKYPLVGY MSMRVRVAVL KVVIVILLLV LCVEFVFYLF VVPATSFAKV
+     EFSGNVTISP EYLMKAAGLT GKEKWMSLDG FTISERLASV PLLAQVEVLK KFPDTMHVHV
+     VERVAIALGF VHVQGRAMPV QIDKTGTVFS VGTAPLDTVL PVVSGLEFRN PRVGLRVHDQ
+     LVPLFVQLDN LSKRNPLLLG EISEISIEQK RHGGYDLALY LVRAPIRVRM DKNLSEEKLR
+     YVILLVDALR EWQTQRRIKE LDVRGGTAVY R
+//
+ID   A0A0H3BKF7_TREPS        Unreviewed;       271 AA.
+AC   A0A0H3BKF7;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Cell division protein {ECO:0000313|EMBL:ACD70814.1};
+GN   Name=ftsQ {ECO:0000313|EMBL:ACD70814.1};
+GN   OrderedLocusNames=TPASS_0388 {ECO:0000313|EMBL:ACD70814.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70814.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70814.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70814.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70814.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881836.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKF7; -.
+DR   GeneID; 2611293; -.
+DR   KEGG; tpp:TPASS_0388; -.
+DR   KO; K03589; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   InterPro; IPR013685; POTRA_FtsQ_type.
+DR   Pfam; PF08478; POTRA_1; 1.
+PE   4: Predicted;
+KW   Cell cycle {ECO:0000313|EMBL:ACD70814.1};
+KW   Cell division {ECO:0000313|EMBL:ACD70814.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     28     51       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       57    123       POTRA_1. {ECO:0000259|Pfam:PF08478}.
+SQ   SEQUENCE   271 AA;  30594 MW;  252AD14F847FE0DF CRC64;
+     MKKQFLCRNT EACKYPLVGY MSMRVRVAVL KVVIVILLLV LCVEFVFYLF VVPATSFAKV
+     EFSGNVTISP EYLMKAAGLT GKEKWMSLDG FTISERLASV PLLAQVEVLK KFPDTMHVHV
+     VERVAIALGF VHVQGRAMPV QIDKTGTVFS VGTAPLDTVL PVVSGLEFRN PRVGLRVHDQ
+     LVPLFVQLDN LSKRNPLLLG EISEISIEQK RHGGYDLALY LVRAPIRVRM DKNLSEEKLR
+     YVILLVDALR EWQTQRRIKE LDVRGGTAVY R
+//
+ID   A0A0A7X4J0_TREPL        Unreviewed;       271 AA.
+AC   A0A0A7X4J0;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   SubName: Full=Cell division protein FtsQ {ECO:0000313|EMBL:AJB40407.1};
+GN   Name=ftsQ {ECO:0000313|EMBL:AJB40407.1};
+GN   ORFNames=TENDBA_0388 {ECO:0000313|EMBL:AJB40407.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40407.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40407.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40407.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40407.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881836.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X4J0; -.
+DR   EnsemblBacteria; AJB40407; AJB40407; TENDBA_0388.
+DR   GeneID; 2611293; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   InterPro; IPR013685; POTRA_FtsQ_type.
+DR   Pfam; PF08478; POTRA_1; 1.
+PE   4: Predicted;
+KW   Cell cycle {ECO:0000313|EMBL:AJB40407.1};
+KW   Cell division {ECO:0000313|EMBL:AJB40407.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     28     51       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN       57    123       POTRA_1. {ECO:0000259|Pfam:PF08478}.
+SQ   SEQUENCE   271 AA;  30594 MW;  252AD14F847FE0DF CRC64;
+     MKKQFLCRNT EACKYPLVGY MSMRVRVAVL KVVIVILLLV LCVEFVFYLF VVPATSFAKV
+     EFSGNVTISP EYLMKAAGLT GKEKWMSLDG FTISERLASV PLLAQVEVLK KFPDTMHVHV
+     VERVAIALGF VHVQGRAMPV QIDKTGTVFS VGTAPLDTVL PVVSGLEFRN PRVGLRVHDQ
+     LVPLFVQLDN LSKRNPLLLG EISEISIEQK RHGGYDLALY LVRAPIRVRM DKNLSEEKLR
+     YVILLVDALR EWQTQRRIKE LDVRGGTAVY R
+//

@@ -1,0 +1,450 @@
+ID   UVRC_TREPA              Reviewed;         691 AA.
+AC   O83485;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 97.
+DE   RecName: Full=UvrABC system protein C {ECO:0000255|HAMAP-Rule:MF_00203};
+DE            Short=Protein UvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   OrderedLocusNames=TP_0472;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides
+CC       of the lesion. The N-terminal half is responsible for the 3'
+CC       incision and the C-terminal half is responsible for the 5'
+CC       incision. {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 GIY-YIG domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 UVR domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65452.1; -; Genomic_DNA.
+DR   PIR; B71322; B71322.
+DR   RefSeq; WP_010881921.1; NC_021490.2.
+DR   ProteinModelPortal; O83485; -.
+DR   IntAct; O83485; 5.
+DR   STRING; 243276.TP0472; -.
+DR   EnsemblBacteria; AAC65452; AAC65452; TP_0472.
+DR   GeneID; 2611102; -.
+DR   KEGG; tpa:TP_0472; -.
+DR   PATRIC; 20530969; VBITrePal57110_0504.
+DR   eggNOG; ENOG4105CII; Bacteria.
+DR   eggNOG; COG0322; LUCA.
+DR   KO; K03703; -.
+DR   OMA; LFPIRQC; -.
+DR   OrthoDB; EOG6K13R9; -.
+DR   BioCyc; TPAL243276:GC1H-499-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   Gene3D; 4.10.860.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR027299; GIY-YIG_dom.
+DR   InterPro; IPR000305; GIY-YIG_SF.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; DNA damage; DNA excision; DNA repair;
+KW   Excision nuclease; Reference proteome; SOS response.
+FT   CHAIN         1    691       UvrABC system protein C.
+FT                                /FTId=PRO_0000138356.
+FT   DOMAIN       20     97       GIY-YIG. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00203}.
+FT   DOMAIN      204    239       UVR. {ECO:0000255|HAMAP-Rule:MF_00203}.
+SQ   SEQUENCE   691 AA;  78210 MW;  F19A2E7F78F8313D CRC64;
+     MRPSESLVET LRIQALSAPS TSGVYLWKDV HGVVIYVGKA KSLRTRLTSY FRCRHDPKTR
+     VLMSRAAALE YLQTQHEYEA LLLENTLIKK HTPRYNICLK DGKTYPLLKL TCEPFPRIFR
+     TRQFCQDGAR YFGPFPDVQI LDSFLKLILR TYKIRTCTTL RKRKNPCLYY HLKRCDAPCC
+     GWVSPRTYQK DIHEITLLLE GNIDATVARL EKRMKRAVRQ EAFEAAARIR DDIQAIRCIT
+     HKSLVQDMDE RARDYIAWSS TGAIVTFAVL RMRGGKLNGR ELFRTRSLKN EEEILSEFLI
+     TYYSDHTIPP HLFVHSSAGL AEHWLSHKAG TQCTVTLIPL HTFPTPQTPS STVTTNAPTL
+     AASQNSNAVQ DSGLRSCSET STMHTLQKAH DACTASEGTR ENTPHESAHT PHHRAILAMA
+     QLNAHEDITR YLKNRGADDA LKELQKQLHL ARIPTLIEGF DISHLGGKYT VASLICFKNG
+     APDTKNYRLF NLRAHDTRID DFASMREAIA RRYTHTPEGY TLPDLILVDG GIGHVSAAQH
+     VLDALGLSIP LVGLAKRAEE LFIPNSPTPL VLDRRNPALH MLQRIRDEAH RFAITRNRHL
+     RTKKELVLSF ERLPHVGKVR AHRLLAHFGS FRSLQSATPQ DIATAIHIPL TQAHTILHAA
+     TRSTTAPVRE EYKEHEHDPQ GESPGPGRKT D
+//
+ID   UVRC_TREPS              Reviewed;         691 AA.
+AC   B2S367;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 54.
+DE   RecName: Full=UvrABC system protein C {ECO:0000255|HAMAP-Rule:MF_00203};
+DE            Short=Protein UvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000255|HAMAP-Rule:MF_00203};
+GN   OrderedLocusNames=TPASS_0472;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides
+CC       of the lesion. The N-terminal half is responsible for the 3'
+CC       incision and the C-terminal half is responsible for the 5'
+CC       incision. {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00203}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 GIY-YIG domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 UVR domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00203}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70896.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881921.1; NC_021508.1.
+DR   ProteinModelPortal; B2S367; -.
+DR   EnsemblBacteria; ACD70896; ACD70896; TPASS_0472.
+DR   GeneID; 2611102; -.
+DR   KEGG; tpp:TPASS_0472; -.
+DR   PATRIC; 20528673; VBITrePal10923_0507.
+DR   HOGENOM; HOG000279960; -.
+DR   KO; K03703; -.
+DR   OMA; LFPIRQC; -.
+DR   OrthoDB; EOG6K13R9; -.
+DR   BioCyc; TPAL455434:GJ9E-495-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   Gene3D; 4.10.860.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR027299; GIY-YIG_dom.
+DR   InterPro; IPR000305; GIY-YIG_SF.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; DNA damage; DNA excision; DNA repair;
+KW   Excision nuclease; SOS response.
+FT   CHAIN         1    691       UvrABC system protein C.
+FT                                /FTId=PRO_1000099532.
+FT   DOMAIN       20     97       GIY-YIG. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00203}.
+FT   DOMAIN      204    239       UVR. {ECO:0000255|HAMAP-Rule:MF_00203}.
+SQ   SEQUENCE   691 AA;  78210 MW;  F19A2E7F78F8313D CRC64;
+     MRPSESLVET LRIQALSAPS TSGVYLWKDV HGVVIYVGKA KSLRTRLTSY FRCRHDPKTR
+     VLMSRAAALE YLQTQHEYEA LLLENTLIKK HTPRYNICLK DGKTYPLLKL TCEPFPRIFR
+     TRQFCQDGAR YFGPFPDVQI LDSFLKLILR TYKIRTCTTL RKRKNPCLYY HLKRCDAPCC
+     GWVSPRTYQK DIHEITLLLE GNIDATVARL EKRMKRAVRQ EAFEAAARIR DDIQAIRCIT
+     HKSLVQDMDE RARDYIAWSS TGAIVTFAVL RMRGGKLNGR ELFRTRSLKN EEEILSEFLI
+     TYYSDHTIPP HLFVHSSAGL AEHWLSHKAG TQCTVTLIPL HTFPTPQTPS STVTTNAPTL
+     AASQNSNAVQ DSGLRSCSET STMHTLQKAH DACTASEGTR ENTPHESAHT PHHRAILAMA
+     QLNAHEDITR YLKNRGADDA LKELQKQLHL ARIPTLIEGF DISHLGGKYT VASLICFKNG
+     APDTKNYRLF NLRAHDTRID DFASMREAIA RRYTHTPEGY TLPDLILVDG GIGHVSAAQH
+     VLDALGLSIP LVGLAKRAEE LFIPNSPTPL VLDRRNPALH MLQRIRDEAH RFAITRNRHL
+     RTKKELVLSF ERLPHVGKVR AHRLLAHFGS FRSLQSATPQ DIATAIHIPL TQAHTILHAA
+     TRSTTAPVRE EYKEHEHDPQ GESPGPGRKT D
+//
+ID   R9UT72_TREPA            Unreviewed;       691 AA.
+AC   R9UT72;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 22.
+DE   RecName: Full=UvrABC system protein C {ECO:0000256|HAMAP-Rule:MF_00203, ECO:0000256|SAAS:SAAS00383990};
+DE            Short=Protein UvrC {ECO:0000256|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000256|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000256|HAMAP-Rule:MF_00203,
+GN   ECO:0000313|EMBL:AGN75664.1};
+GN   ORFNames=TPANIC_0472 {ECO:0000313|EMBL:AGN75664.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75664.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75664.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75664.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides
+CC       of the lesion. The N-terminal half is responsible for the 3'
+CC       incision and the C-terminal half is responsible for the 5'
+CC       incision. {ECO:0000256|HAMAP-Rule:MF_00203,
+CC       ECO:0000256|SAAS:SAAS00384019}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000256|HAMAP-Rule:MF_00203, ECO:0000256|SAAS:SAAS00383962}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00203,
+CC       ECO:0000256|SAAS:SAAS00383975}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 GIY-YIG domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 UVR domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_00203}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75664.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881921.1; NC_021490.2.
+DR   ProteinModelPortal; R9UT72; -.
+DR   STRING; 243276.TP0472; -.
+DR   EnsemblBacteria; AGN75664; AGN75664; TPANIC_0472.
+DR   GeneID; 2611102; -.
+DR   KEGG; tpw:TPANIC_0472; -.
+DR   eggNOG; COG0322; LUCA.
+DR   eggNOG; ENOG4105CII; Bacteria.
+DR   KO; K03703; -.
+DR   OMA; LFPIRQC; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   Gene3D; 4.10.860.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR027299; GIY-YIG_dom.
+DR   InterPro; IPR000305; GIY-YIG_SF.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088148};
+KW   DNA damage {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088155, ECO:0000256|SAAS:SAAS00340500};
+KW   DNA excision {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088146};
+KW   DNA repair {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088155, ECO:0000256|SAAS:SAAS00340500};
+KW   Endonuclease {ECO:0000313|EMBL:AGN75664.1};
+KW   Excision nuclease {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088155};
+KW   Hydrolase {ECO:0000313|EMBL:AGN75664.1};
+KW   Nuclease {ECO:0000313|EMBL:AGN75664.1};
+KW   SOS response {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00340500}.
+FT   DOMAIN       20     97       GIY-YIG. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00203,
+FT                                ECO:0000259|PROSITE:PS50164}.
+FT   DOMAIN      204    239       UVR. {ECO:0000256|HAMAP-Rule:MF_00203,
+FT                                ECO:0000259|PROSITE:PS50151}.
+FT   DOMAIN      418    542       UVRC. {ECO:0000259|PROSITE:PS50165}.
+SQ   SEQUENCE   691 AA;  78210 MW;  F19A2E7F78F8313D CRC64;
+     MRPSESLVET LRIQALSAPS TSGVYLWKDV HGVVIYVGKA KSLRTRLTSY FRCRHDPKTR
+     VLMSRAAALE YLQTQHEYEA LLLENTLIKK HTPRYNICLK DGKTYPLLKL TCEPFPRIFR
+     TRQFCQDGAR YFGPFPDVQI LDSFLKLILR TYKIRTCTTL RKRKNPCLYY HLKRCDAPCC
+     GWVSPRTYQK DIHEITLLLE GNIDATVARL EKRMKRAVRQ EAFEAAARIR DDIQAIRCIT
+     HKSLVQDMDE RARDYIAWSS TGAIVTFAVL RMRGGKLNGR ELFRTRSLKN EEEILSEFLI
+     TYYSDHTIPP HLFVHSSAGL AEHWLSHKAG TQCTVTLIPL HTFPTPQTPS STVTTNAPTL
+     AASQNSNAVQ DSGLRSCSET STMHTLQKAH DACTASEGTR ENTPHESAHT PHHRAILAMA
+     QLNAHEDITR YLKNRGADDA LKELQKQLHL ARIPTLIEGF DISHLGGKYT VASLICFKNG
+     APDTKNYRLF NLRAHDTRID DFASMREAIA RRYTHTPEGY TLPDLILVDG GIGHVSAAQH
+     VLDALGLSIP LVGLAKRAEE LFIPNSPTPL VLDRRNPALH MLQRIRDEAH RFAITRNRHL
+     RTKKELVLSF ERLPHVGKVR AHRLLAHFGS FRSLQSATPQ DIATAIHIPL TQAHTILHAA
+     TRSTTAPVRE EYKEHEHDPQ GESPGPGRKT D
+//
+ID   H6KT90_TREPD            Unreviewed;       691 AA.
+AC   H6KT90;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 31.
+DE   RecName: Full=UvrABC system protein C {ECO:0000256|HAMAP-Rule:MF_00203, ECO:0000256|SAAS:SAAS00383990};
+DE            Short=Protein UvrC {ECO:0000256|HAMAP-Rule:MF_00203};
+DE   AltName: Full=Excinuclease ABC subunit C {ECO:0000256|HAMAP-Rule:MF_00203};
+GN   Name=uvrC {ECO:0000256|HAMAP-Rule:MF_00203,
+GN   ECO:0000313|EMBL:AEZ58664.1};
+GN   OrderedLocusNames=TPECDC2_0472 {ECO:0000313|EMBL:AEZ58664.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58664.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: The UvrABC repair system catalyzes the recognition and
+CC       processing of DNA lesions. UvrC both incises the 5' and 3' sides
+CC       of the lesion. The N-terminal half is responsible for the 3'
+CC       incision and the C-terminal half is responsible for the 5'
+CC       incision. {ECO:0000256|HAMAP-Rule:MF_00203,
+CC       ECO:0000256|SAAS:SAAS00384019}.
+CC   -!- SUBUNIT: Interacts with UvrB in an incision complex.
+CC       {ECO:0000256|HAMAP-Rule:MF_00203, ECO:0000256|SAAS:SAAS00383962}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00203,
+CC       ECO:0000256|SAAS:SAAS00383975}.
+CC   -!- SIMILARITY: Belongs to the UvrC family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 GIY-YIG domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_00203}.
+CC   -!- SIMILARITY: Contains 1 UVR domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_00203}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58664.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881921.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT90; -.
+DR   EnsemblBacteria; AEZ58664; AEZ58664; TPECDC2_0472.
+DR   GeneID; 2611102; -.
+DR   KEGG; tpc:TPECDC2_0472; -.
+DR   KO; K03703; -.
+DR   OMA; LFPIRQC; -.
+DR   BioCyc; TPAL491079:GJCE-506-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0009380; C:excinuclease repair complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009381; F:excinuclease ABC activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006289; P:nucleotide-excision repair; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009432; P:SOS response; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1440.10; -; 1.
+DR   Gene3D; 4.10.860.10; -; 1.
+DR   HAMAP; MF_00203; UvrC; 1.
+DR   InterPro; IPR027299; GIY-YIG_dom.
+DR   InterPro; IPR000305; GIY-YIG_SF.
+DR   InterPro; IPR010994; RuvA_2-like.
+DR   InterPro; IPR001943; UVR_dom.
+DR   InterPro; IPR004791; UvrC.
+DR   InterPro; IPR001162; UvrC_homol_region.
+DR   Pfam; PF01541; GIY-YIG; 1.
+DR   Pfam; PF02151; UVR; 1.
+DR   Pfam; PF08459; UvrC_HhH_N; 1.
+DR   SMART; SM00465; GIYc; 1.
+DR   SUPFAM; SSF46600; SSF46600; 1.
+DR   SUPFAM; SSF47781; SSF47781; 1.
+DR   SUPFAM; SSF82771; SSF82771; 1.
+DR   TIGRFAMs; TIGR00194; uvrC; 1.
+DR   PROSITE; PS50164; GIY_YIG; 1.
+DR   PROSITE; PS50151; UVR; 1.
+DR   PROSITE; PS50165; UVRC; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088148};
+KW   DNA damage {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088155, ECO:0000256|SAAS:SAAS00340500};
+KW   DNA excision {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088146};
+KW   DNA repair {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088155, ECO:0000256|SAAS:SAAS00340500};
+KW   Endonuclease {ECO:0000313|EMBL:AEZ58664.1};
+KW   Excision nuclease {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00088155};
+KW   Hydrolase {ECO:0000313|EMBL:AEZ58664.1};
+KW   Nuclease {ECO:0000313|EMBL:AEZ58664.1};
+KW   SOS response {ECO:0000256|HAMAP-Rule:MF_00203,
+KW   ECO:0000256|SAAS:SAAS00340500}.
+FT   DOMAIN       20     97       GIY-YIG. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00203,
+FT                                ECO:0000259|PROSITE:PS50164}.
+FT   DOMAIN      204    239       UVR. {ECO:0000256|HAMAP-Rule:MF_00203,
+FT                                ECO:0000259|PROSITE:PS50151}.
+FT   DOMAIN      418    542       UVRC. {ECO:0000259|PROSITE:PS50165}.
+SQ   SEQUENCE   691 AA;  78210 MW;  F19A2E7F78F8313D CRC64;
+     MRPSESLVET LRIQALSAPS TSGVYLWKDV HGVVIYVGKA KSLRTRLTSY FRCRHDPKTR
+     VLMSRAAALE YLQTQHEYEA LLLENTLIKK HTPRYNICLK DGKTYPLLKL TCEPFPRIFR
+     TRQFCQDGAR YFGPFPDVQI LDSFLKLILR TYKIRTCTTL RKRKNPCLYY HLKRCDAPCC
+     GWVSPRTYQK DIHEITLLLE GNIDATVARL EKRMKRAVRQ EAFEAAARIR DDIQAIRCIT
+     HKSLVQDMDE RARDYIAWSS TGAIVTFAVL RMRGGKLNGR ELFRTRSLKN EEEILSEFLI
+     TYYSDHTIPP HLFVHSSAGL AEHWLSHKAG TQCTVTLIPL HTFPTPQTPS STVTTNAPTL
+     AASQNSNAVQ DSGLRSCSET STMHTLQKAH DACTASEGTR ENTPHESAHT PHHRAILAMA
+     QLNAHEDITR YLKNRGADDA LKELQKQLHL ARIPTLIEGF DISHLGGKYT VASLICFKNG
+     APDTKNYRLF NLRAHDTRID DFASMREAIA RRYTHTPEGY TLPDLILVDG GIGHVSAAQH
+     VLDALGLSIP LVGLAKRAEE LFIPNSPTPL VLDRRNPALH MLQRIRDEAH RFAITRNRHL
+     RTKKELVLSF ERLPHVGKVR AHRLLAHFGS FRSLQSATPQ DIATAIHIPL TQAHTILHAA
+     TRSTTAPVRE EYKEHEHDPQ GESPGPGRKT D
+//

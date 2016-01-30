@@ -1,0 +1,503 @@
+ID   SYI_TREPA               Reviewed;        1091 AA.
+AC   O83466;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 103.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02003};
+DE            EC=6.1.1.5 {ECO:0000255|HAMAP-Rule:MF_02003};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02003};
+DE            Short=IleRS {ECO:0000255|HAMAP-Rule:MF_02003};
+GN   Name=ileS {ECO:0000255|HAMAP-Rule:MF_02003};
+GN   OrderedLocusNames=TP_0452;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As
+CC       IleRS can inadvertently accommodate and process structurally
+CC       similar amino acids such as valine, to avoid such errors it has
+CC       two additional distinct tRNA(Ile)-dependent editing activities.
+CC       One activity is designated as 'pretransfer' editing and involves
+CC       the hydrolysis of activated Val-AMP. The other activity is
+CC       designated 'posttransfer' editing and involves deacylation of
+CC       mischarged Val-tRNA(Ile). {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-isoleucine + tRNA(Ile) = AMP +
+CC       diphosphate + L-isoleucyl-tRNA(Ile). {ECO:0000255|HAMAP-
+CC       Rule:MF_02003}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02003};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for
+CC       aminoacylation and one for editing. The misactivated valine is
+CC       translocated from the active site to the editing site, which
+CC       sterically excludes the correctly activated isoleucine. The single
+CC       editing site contains two valyl binding pockets, one specific for
+CC       each substrate (Val-AMP or Val-tRNA(Ile)). {ECO:0000255|HAMAP-
+CC       Rule:MF_02003}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. IleS type 2 subfamily. {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65439.1; -; Genomic_DNA.
+DR   PIR; E71322; E71322.
+DR   RefSeq; WP_010881901.1; NC_021490.2.
+DR   ProteinModelPortal; O83466; -.
+DR   IntAct; O83466; 3.
+DR   STRING; 243276.TP0452; -.
+DR   EnsemblBacteria; AAC65439; AAC65439; TP_0452.
+DR   GeneID; 2611024; -.
+DR   KEGG; tpa:TP_0452; -.
+DR   PATRIC; 20530923; VBITrePal57110_0481.
+DR   eggNOG; ENOG4105C07; Bacteria.
+DR   eggNOG; COG0060; LUCA.
+DR   KO; K01870; -.
+DR   OMA; WGTPLNI; -.
+DR   OrthoDB; EOG644ZM1; -.
+DR   BioCyc; TPAL243276:GC1H-479-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 2.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_02003; Ile_tRNA_synth_type2; 1.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023586; Ile-tRNA-ligase_type2.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00392; ileS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Metal-binding; Nucleotide-binding; Protein biosynthesis;
+KW   Reference proteome; Zinc.
+FT   CHAIN         1   1091       Isoleucine--tRNA ligase.
+FT                                /FTId=PRO_0000098569.
+FT   MOTIF        48     58       "HIGH" region.
+FT   MOTIF       625    629       "KMSKS" region.
+FT   BINDING     628    628       ATP. {ECO:0000255|HAMAP-Rule:MF_02003}.
+SQ   SEQUENCE   1091 AA;  124242 MW;  30FCAE18C6F301A2 CRC64;
+     MYTPVDPKVD FVAQERRILA FWRERRVFEQ SVAQRAQGKS YVFFDGPPFA TGLPHFGHFV
+     PSTIKDIIPR YQTMRGAYVP RRFGWDCHGL PIEHLIEQEL NLNSKSDVES YGVSAFNAAC
+     RSSVLRYVKE WQRTLTRLGR WVDFDNDYKT MDVCYMESVW WVVAQLWQRK LLYEGYKILP
+     YCPRCATALS NHELNLGGYQ DVSDPAITVR FECTSVVPGS PAAREFCAAA SWGSASLPAH
+     TCFLAWTTTP WTLPCNAALA LGPQILYVLI EANDEHYILA RSRLEFYYPD SSAYRVVWEK
+     RGEHLAGIRY RPLFSYPVFG QGPDPSVQGD SEEGLFCTRV ADFVSTEDGT GVVHVAPAFG
+     EDDYEVFKDA GISIQCPLDA ECRFTAEVAD YQGLFVKAAD KAIIARVQKQ GALFRREQIS
+     HAYPHCWRCA SPLIYRAVHS WFVAVEKIKD KMLAANASIC WQPSHIRDGR FGKWLVCARD
+     WAISRDRYWG NPLPIWRCVH CGATDCIGSR TQLYERSGML LEDLHKHVVD MVTIPCACGS
+     VMRRVPEVLD CWFESGAMPY AQQHYPFEHA TDFERYFPAH FISEGLDQTR GWFYTLTILA
+     VALFERPAFE NCIVTGLVLA SDGKKMSKAL RNYADPNEVM DRYGADALRL FLVRSAVVRA
+     DDLKYSDEGV KDILKTVIIP LWNSYSFYVT YANIDGIDPP VCAKVDGMGQ AVTRLATHLN
+     NPLDRWILSL TEKLVQDIAC ALDAYDVSKV ADPIVSYVDQ LNNWYIRRSR RRFWKSINDE
+     DKRCAYNTLY CVLKRCVLAI APVVPFITES IWQNIRAADD VQSVHLADYP VCTPMVRDDA
+     LEFKMETVQR VVSMARAIRA QCNLKVRQPL KAMQVITRNP MERSALLEME EDVLDELNVK
+     ELVFHEKEDE IVEYRAKANF RVLGKELGSK TKRAALSIER LSSAEIQEIL EGTTLYLDVD
+     GDRLELTEEK ILVQRIERES LKAINEGTLT VALDTTLTED LLLEGAIRDL VRGVQNLRKE
+     RGFSLVDRIC LRVFSSDQDI VCARKAYDLH RSYIVGETLA AHVQWARVRD GASAVYVKSD
+     AVLWEVSIDK A
+//
+ID   SYI_TREPS               Reviewed;        1091 AA.
+AC   B2S348;
+DT   22-SEP-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 56.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_02003};
+DE            EC=6.1.1.5 {ECO:0000255|HAMAP-Rule:MF_02003};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_02003};
+DE            Short=IleRS {ECO:0000255|HAMAP-Rule:MF_02003};
+GN   Name=ileS {ECO:0000255|HAMAP-Rule:MF_02003};
+GN   OrderedLocusNames=TPASS_0452;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As
+CC       IleRS can inadvertently accommodate and process structurally
+CC       similar amino acids such as valine, to avoid such errors it has
+CC       two additional distinct tRNA(Ile)-dependent editing activities.
+CC       One activity is designated as 'pretransfer' editing and involves
+CC       the hydrolysis of activated Val-AMP. The other activity is
+CC       designated 'posttransfer' editing and involves deacylation of
+CC       mischarged Val-tRNA(Ile). {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-isoleucine + tRNA(Ile) = AMP +
+CC       diphosphate + L-isoleucyl-tRNA(Ile). {ECO:0000255|HAMAP-
+CC       Rule:MF_02003}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_02003};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for
+CC       aminoacylation and one for editing. The misactivated valine is
+CC       translocated from the active site to the editing site, which
+CC       sterically excludes the correctly activated isoleucine. The single
+CC       editing site contains two valyl binding pockets, one specific for
+CC       each substrate (Val-AMP or Val-tRNA(Ile)). {ECO:0000255|HAMAP-
+CC       Rule:MF_02003}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. IleS type 2 subfamily. {ECO:0000255|HAMAP-Rule:MF_02003}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70877.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881901.1; NC_021508.1.
+DR   ProteinModelPortal; B2S348; -.
+DR   EnsemblBacteria; ACD70877; ACD70877; TPASS_0452.
+DR   GeneID; 2611024; -.
+DR   KEGG; tpp:TPASS_0452; -.
+DR   PATRIC; 20528627; VBITrePal10923_0484.
+DR   HOGENOM; HOG000246403; -.
+DR   KO; K01870; -.
+DR   OMA; WGTPLNI; -.
+DR   OrthoDB; EOG644ZM1; -.
+DR   BioCyc; TPAL455434:GJ9E-476-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 2.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_02003; Ile_tRNA_synth_type2; 1.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023586; Ile-tRNA-ligase_type2.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00392; ileS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Metal-binding; Nucleotide-binding; Protein biosynthesis; Zinc.
+FT   CHAIN         1   1091       Isoleucine--tRNA ligase.
+FT                                /FTId=PRO_1000216260.
+FT   MOTIF        48     58       "HIGH" region.
+FT   MOTIF       625    629       "KMSKS" region.
+FT   BINDING     628    628       ATP. {ECO:0000255|HAMAP-Rule:MF_02003}.
+SQ   SEQUENCE   1091 AA;  124242 MW;  30FCAE18C6F301A2 CRC64;
+     MYTPVDPKVD FVAQERRILA FWRERRVFEQ SVAQRAQGKS YVFFDGPPFA TGLPHFGHFV
+     PSTIKDIIPR YQTMRGAYVP RRFGWDCHGL PIEHLIEQEL NLNSKSDVES YGVSAFNAAC
+     RSSVLRYVKE WQRTLTRLGR WVDFDNDYKT MDVCYMESVW WVVAQLWQRK LLYEGYKILP
+     YCPRCATALS NHELNLGGYQ DVSDPAITVR FECTSVVPGS PAAREFCAAA SWGSASLPAH
+     TCFLAWTTTP WTLPCNAALA LGPQILYVLI EANDEHYILA RSRLEFYYPD SSAYRVVWEK
+     RGEHLAGIRY RPLFSYPVFG QGPDPSVQGD SEEGLFCTRV ADFVSTEDGT GVVHVAPAFG
+     EDDYEVFKDA GISIQCPLDA ECRFTAEVAD YQGLFVKAAD KAIIARVQKQ GALFRREQIS
+     HAYPHCWRCA SPLIYRAVHS WFVAVEKIKD KMLAANASIC WQPSHIRDGR FGKWLVCARD
+     WAISRDRYWG NPLPIWRCVH CGATDCIGSR TQLYERSGML LEDLHKHVVD MVTIPCACGS
+     VMRRVPEVLD CWFESGAMPY AQQHYPFEHA TDFERYFPAH FISEGLDQTR GWFYTLTILA
+     VALFERPAFE NCIVTGLVLA SDGKKMSKAL RNYADPNEVM DRYGADALRL FLVRSAVVRA
+     DDLKYSDEGV KDILKTVIIP LWNSYSFYVT YANIDGIDPP VCAKVDGMGQ AVTRLATHLN
+     NPLDRWILSL TEKLVQDIAC ALDAYDVSKV ADPIVSYVDQ LNNWYIRRSR RRFWKSINDE
+     DKRCAYNTLY CVLKRCVLAI APVVPFITES IWQNIRAADD VQSVHLADYP VCTPMVRDDA
+     LEFKMETVQR VVSMARAIRA QCNLKVRQPL KAMQVITRNP MERSALLEME EDVLDELNVK
+     ELVFHEKEDE IVEYRAKANF RVLGKELGSK TKRAALSIER LSSAEIQEIL EGTTLYLDVD
+     GDRLELTEEK ILVQRIERES LKAINEGTLT VALDTTLTED LLLEGAIRDL VRGVQNLRKE
+     RGFSLVDRIC LRVFSSDQDI VCARKAYDLH RSYIVGETLA AHVQWARVRD GASAVYVKSD
+     AVLWEVSIDK A
+//
+ID   R9UUM9_TREPA            Unreviewed;      1091 AA.
+AC   R9UUM9;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 20.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_02003, ECO:0000256|SAAS:SAAS00393231};
+DE            EC=6.1.1.5 {ECO:0000256|HAMAP-Rule:MF_02003, ECO:0000256|SAAS:SAAS00393231};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_02003};
+GN   Name=ileS {ECO:0000256|HAMAP-Rule:MF_02003,
+GN   ECO:0000313|EMBL:AGN75646.1};
+GN   ORFNames=TPANIC_0452 {ECO:0000313|EMBL:AGN75646.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75646.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75646.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75646.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As
+CC       IleRS can inadvertently accommodate and process structurally
+CC       similar amino acids such as valine, to avoid such errors it has
+CC       two additional distinct tRNA(Ile)-dependent editing activities.
+CC       One activity is designated as 'pretransfer' editing and involves
+CC       the hydrolysis of activated Val-AMP. The other activity is
+CC       designated 'posttransfer' editing and involves deacylation of
+CC       mischarged Val-tRNA(Ile). {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-isoleucine + tRNA(Ile) = AMP +
+CC       diphosphate + L-isoleucyl-tRNA(Ile). {ECO:0000256|HAMAP-
+CC       Rule:MF_02003, ECO:0000256|SAAS:SAAS00393103}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_02003};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for
+CC       aminoacylation and one for editing. The misactivated valine is
+CC       translocated from the active site to the editing site, which
+CC       sterically excludes the correctly activated isoleucine. The single
+CC       editing site contains two valyl binding pockets, one specific for
+CC       each substrate (Val-AMP or Val-tRNA(Ile)). {ECO:0000256|HAMAP-
+CC       Rule:MF_02003}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. IleS type 2 subfamily. {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75646.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881901.1; NC_021490.2.
+DR   ProteinModelPortal; R9UUM9; -.
+DR   STRING; 243276.TP0452; -.
+DR   EnsemblBacteria; AGN75646; AGN75646; TPANIC_0452.
+DR   GeneID; 2611024; -.
+DR   KEGG; tpw:TPANIC_0452; -.
+DR   eggNOG; COG0060; LUCA.
+DR   eggNOG; ENOG4105C07; Bacteria.
+DR   KO; K01870; -.
+DR   OMA; WGTPLNI; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 2.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_02003; Ile_tRNA_synth_type2; 1.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023586; Ile-tRNA-ligase_type2.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00392; ileS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106011};
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106155};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02003};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106011};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_02003};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106155};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00105999};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_02003}.
+FT   DOMAIN       18    660       TRNA-synt_1. {ECO:0000259|Pfam:PF00133}.
+FT   DOMAIN      724    872       Anticodon_1. {ECO:0000259|Pfam:PF08264}.
+FT   MOTIF        48     58       "HIGH" region. {ECO:0000256|HAMAP-
+FT                                Rule:MF_02003}.
+FT   MOTIF       625    629       "KMSKS" region. {ECO:0000256|HAMAP-
+FT                                Rule:MF_02003}.
+FT   BINDING     628    628       ATP. {ECO:0000256|HAMAP-Rule:MF_02003}.
+SQ   SEQUENCE   1091 AA;  124242 MW;  30FCAE18C6F301A2 CRC64;
+     MYTPVDPKVD FVAQERRILA FWRERRVFEQ SVAQRAQGKS YVFFDGPPFA TGLPHFGHFV
+     PSTIKDIIPR YQTMRGAYVP RRFGWDCHGL PIEHLIEQEL NLNSKSDVES YGVSAFNAAC
+     RSSVLRYVKE WQRTLTRLGR WVDFDNDYKT MDVCYMESVW WVVAQLWQRK LLYEGYKILP
+     YCPRCATALS NHELNLGGYQ DVSDPAITVR FECTSVVPGS PAAREFCAAA SWGSASLPAH
+     TCFLAWTTTP WTLPCNAALA LGPQILYVLI EANDEHYILA RSRLEFYYPD SSAYRVVWEK
+     RGEHLAGIRY RPLFSYPVFG QGPDPSVQGD SEEGLFCTRV ADFVSTEDGT GVVHVAPAFG
+     EDDYEVFKDA GISIQCPLDA ECRFTAEVAD YQGLFVKAAD KAIIARVQKQ GALFRREQIS
+     HAYPHCWRCA SPLIYRAVHS WFVAVEKIKD KMLAANASIC WQPSHIRDGR FGKWLVCARD
+     WAISRDRYWG NPLPIWRCVH CGATDCIGSR TQLYERSGML LEDLHKHVVD MVTIPCACGS
+     VMRRVPEVLD CWFESGAMPY AQQHYPFEHA TDFERYFPAH FISEGLDQTR GWFYTLTILA
+     VALFERPAFE NCIVTGLVLA SDGKKMSKAL RNYADPNEVM DRYGADALRL FLVRSAVVRA
+     DDLKYSDEGV KDILKTVIIP LWNSYSFYVT YANIDGIDPP VCAKVDGMGQ AVTRLATHLN
+     NPLDRWILSL TEKLVQDIAC ALDAYDVSKV ADPIVSYVDQ LNNWYIRRSR RRFWKSINDE
+     DKRCAYNTLY CVLKRCVLAI APVVPFITES IWQNIRAADD VQSVHLADYP VCTPMVRDDA
+     LEFKMETVQR VVSMARAIRA QCNLKVRQPL KAMQVITRNP MERSALLEME EDVLDELNVK
+     ELVFHEKEDE IVEYRAKANF RVLGKELGSK TKRAALSIER LSSAEIQEIL EGTTLYLDVD
+     GDRLELTEEK ILVQRIERES LKAINEGTLT VALDTTLTED LLLEGAIRDL VRGVQNLRKE
+     RGFSLVDRIC LRVFSSDQDI VCARKAYDLH RSYIVGETLA AHVQWARVRD GASAVYVKSD
+     AVLWEVSIDK A
+//
+ID   A0A0A7X4P6_TREPL        Unreviewed;      1091 AA.
+AC   A0A0A7X4P6;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   RecName: Full=Isoleucine--tRNA ligase {ECO:0000256|HAMAP-Rule:MF_02003, ECO:0000256|SAAS:SAAS00393231};
+DE            EC=6.1.1.5 {ECO:0000256|HAMAP-Rule:MF_02003, ECO:0000256|SAAS:SAAS00393231};
+DE   AltName: Full=Isoleucyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_02003};
+GN   Name=ileS {ECO:0000256|HAMAP-Rule:MF_02003,
+GN   ECO:0000313|EMBL:AJB40472.1};
+GN   ORFNames=TENDBA_0452 {ECO:0000313|EMBL:AJB40472.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40472.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40472.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40472.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Catalyzes the attachment of isoleucine to tRNA(Ile). As
+CC       IleRS can inadvertently accommodate and process structurally
+CC       similar amino acids such as valine, to avoid such errors it has
+CC       two additional distinct tRNA(Ile)-dependent editing activities.
+CC       One activity is designated as 'pretransfer' editing and involves
+CC       the hydrolysis of activated Val-AMP. The other activity is
+CC       designated 'posttransfer' editing and involves deacylation of
+CC       mischarged Val-tRNA(Ile). {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-isoleucine + tRNA(Ile) = AMP +
+CC       diphosphate + L-isoleucyl-tRNA(Ile). {ECO:0000256|HAMAP-
+CC       Rule:MF_02003, ECO:0000256|SAAS:SAAS00393103}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_02003};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -!- DOMAIN: IleRS has two distinct active sites: one for
+CC       aminoacylation and one for editing. The misactivated valine is
+CC       translocated from the active site to the editing site, which
+CC       sterically excludes the correctly activated isoleucine. The single
+CC       editing site contains two valyl binding pockets, one specific for
+CC       each substrate (Val-AMP or Val-tRNA(Ile)). {ECO:0000256|HAMAP-
+CC       Rule:MF_02003}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. IleS type 2 subfamily. {ECO:0000256|HAMAP-Rule:MF_02003}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40472.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881901.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X4P6; -.
+DR   EnsemblBacteria; AJB40472; AJB40472; TENDBA_0452.
+DR   GeneID; 2611024; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0002161; F:aminoacyl-tRNA editing activity; IEA:InterPro.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004822; F:isoleucine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006428; P:isoleucyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.730.10; -; 1.
+DR   Gene3D; 3.40.50.620; -; 2.
+DR   Gene3D; 3.90.740.10; -; 1.
+DR   HAMAP; MF_02003; Ile_tRNA_synth_type2; 1.
+DR   InterPro; IPR002300; aa-tRNA-synth_Ia.
+DR   InterPro; IPR002301; Ile-tRNA-ligase.
+DR   InterPro; IPR023586; Ile-tRNA-ligase_type2.
+DR   InterPro; IPR013155; M/V/L/I-tRNA-synth_anticd-bd.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR009080; tRNAsynth_1a_anticodon-bd.
+DR   InterPro; IPR009008; Val/Leu/Ile-tRNA-synth_edit.
+DR   Pfam; PF08264; Anticodon_1; 1.
+DR   Pfam; PF00133; tRNA-synt_1; 1.
+DR   PRINTS; PR00984; TRNASYNTHILE.
+DR   SUPFAM; SSF47323; SSF47323; 1.
+DR   SUPFAM; SSF50677; SSF50677; 1.
+DR   TIGRFAMs; TIGR00392; ileS; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106011};
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106155};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_02003};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106011};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_02003};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00106155};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_02003,
+KW   ECO:0000256|SAAS:SAAS00105999};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_02003}.
+FT   DOMAIN       18    660       TRNA-synt_1. {ECO:0000259|Pfam:PF00133}.
+FT   DOMAIN      724    872       Anticodon_1. {ECO:0000259|Pfam:PF08264}.
+FT   MOTIF        48     58       "HIGH" region. {ECO:0000256|HAMAP-
+FT                                Rule:MF_02003}.
+FT   MOTIF       625    629       "KMSKS" region. {ECO:0000256|HAMAP-
+FT                                Rule:MF_02003}.
+FT   BINDING     628    628       ATP. {ECO:0000256|HAMAP-Rule:MF_02003}.
+SQ   SEQUENCE   1091 AA;  124242 MW;  30FCAE18C6F301A2 CRC64;
+     MYTPVDPKVD FVAQERRILA FWRERRVFEQ SVAQRAQGKS YVFFDGPPFA TGLPHFGHFV
+     PSTIKDIIPR YQTMRGAYVP RRFGWDCHGL PIEHLIEQEL NLNSKSDVES YGVSAFNAAC
+     RSSVLRYVKE WQRTLTRLGR WVDFDNDYKT MDVCYMESVW WVVAQLWQRK LLYEGYKILP
+     YCPRCATALS NHELNLGGYQ DVSDPAITVR FECTSVVPGS PAAREFCAAA SWGSASLPAH
+     TCFLAWTTTP WTLPCNAALA LGPQILYVLI EANDEHYILA RSRLEFYYPD SSAYRVVWEK
+     RGEHLAGIRY RPLFSYPVFG QGPDPSVQGD SEEGLFCTRV ADFVSTEDGT GVVHVAPAFG
+     EDDYEVFKDA GISIQCPLDA ECRFTAEVAD YQGLFVKAAD KAIIARVQKQ GALFRREQIS
+     HAYPHCWRCA SPLIYRAVHS WFVAVEKIKD KMLAANASIC WQPSHIRDGR FGKWLVCARD
+     WAISRDRYWG NPLPIWRCVH CGATDCIGSR TQLYERSGML LEDLHKHVVD MVTIPCACGS
+     VMRRVPEVLD CWFESGAMPY AQQHYPFEHA TDFERYFPAH FISEGLDQTR GWFYTLTILA
+     VALFERPAFE NCIVTGLVLA SDGKKMSKAL RNYADPNEVM DRYGADALRL FLVRSAVVRA
+     DDLKYSDEGV KDILKTVIIP LWNSYSFYVT YANIDGIDPP VCAKVDGMGQ AVTRLATHLN
+     NPLDRWILSL TEKLVQDIAC ALDAYDVSKV ADPIVSYVDQ LNNWYIRRSR RRFWKSINDE
+     DKRCAYNTLY CVLKRCVLAI APVVPFITES IWQNIRAADD VQSVHLADYP VCTPMVRDDA
+     LEFKMETVQR VVSMARAIRA QCNLKVRQPL KAMQVITRNP MERSALLEME EDVLDELNVK
+     ELVFHEKEDE IVEYRAKANF RVLGKELGSK TKRAALSIER LSSAEIQEIL EGTTLYLDVD
+     GDRLELTEEK ILVQRIERES LKAINEGTLT VALDTTLTED LLLEGAIRDL VRGVQNLRKE
+     RGFSLVDRIC LRVFSSDQDI VCARKAYDLH RSYIVGETLA AHVQWARVRD GASAVYVKSD
+     AVLWEVSIDK A
+//

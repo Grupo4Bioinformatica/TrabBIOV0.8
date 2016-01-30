@@ -1,0 +1,450 @@
+ID   MURI_TREPA              Reviewed;         268 AA.
+AC   O83421;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 100.
+DE   RecName: Full=Glutamate racemase {ECO:0000255|HAMAP-Rule:MF_00258};
+DE            EC=5.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00258};
+GN   Name=murI {ECO:0000255|HAMAP-Rule:MF_00258};
+GN   OrderedLocusNames=TP_0406;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Provides the (R)-glutamate required for cell wall
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamate = D-glutamate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00258}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -!- SIMILARITY: Belongs to the aspartate/glutamate racemases family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65392.1; -; Genomic_DNA.
+DR   PIR; E71329; E71329.
+DR   RefSeq; WP_010881854.1; NC_021490.2.
+DR   ProteinModelPortal; O83421; -.
+DR   STRING; 243276.TP0406; -.
+DR   EnsemblBacteria; AAC65392; AAC65392; TP_0406.
+DR   GeneID; 2610846; -.
+DR   KEGG; tpa:TP_0406; -.
+DR   PATRIC; 20530823; VBITrePal57110_0431.
+DR   eggNOG; ENOG4105F03; Bacteria.
+DR   eggNOG; COG0796; LUCA.
+DR   KO; K01776; -.
+DR   OMA; PKESIYY; -.
+DR   OrthoDB; EOG6B6296; -.
+DR   BioCyc; TPAL243276:GC1H-432-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0008881; F:glutamate racemase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1860; -; 1.
+DR   HAMAP; MF_00258; Glu_racemase; 1.
+DR   InterPro; IPR015942; Asp/Glu/hydantoin_racemase.
+DR   InterPro; IPR001920; Asp/Glu_race.
+DR   InterPro; IPR018187; Asp/Glu_racemase_AS.
+DR   InterPro; IPR004391; Glu_race.
+DR   Pfam; PF01177; Asp_Glu_race; 1.
+DR   SUPFAM; SSF53681; SSF53681; 2.
+DR   TIGRFAMs; TIGR00067; glut_race; 1.
+DR   PROSITE; PS00923; ASP_GLU_RACEMASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell shape; Cell wall biogenesis/degradation; Complete proteome;
+KW   Isomerase; Peptidoglycan synthesis; Reference proteome.
+FT   CHAIN         1    268       Glutamate racemase.
+FT                                /FTId=PRO_0000095529.
+FT   REGION       14     15       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       46     47       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       79     80       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION      191    192       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   ACT_SITE     78     78       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00258}.
+FT   ACT_SITE    190    190       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00258}.
+SQ   SEQUENCE   268 AA;  29449 MW;  AC224098FC8928E0 CRC64;
+     MSDRREQFQY AFLDSGIGGL PYAHALRVRV PEASLVYVAD RVYFPYGNKS SAQIIARASA
+     VLQKVQTNFS PHIVVLACNS MSVNALEFLR AQVSVPVVGV VPAIKQAVAC SHKKHIGVLA
+     TQCTITHPYT ACLRAQFGAG CVFQMRADAR LIECLERGLI FEVEDMQREA VARSVMPFQE
+     AGVDVLVLAC THFVHVRHLF QDCVGTSCTV VDSLEGVVRR TLRLCPPQSQ LRGNAACYVT
+     GARDAVCAAR YARYAQHFGL RWAGFLDV
+//
+ID   MURI_TREPS              Reviewed;         268 AA.
+AC   B2S303;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 54.
+DE   RecName: Full=Glutamate racemase {ECO:0000255|HAMAP-Rule:MF_00258};
+DE            EC=5.1.1.3 {ECO:0000255|HAMAP-Rule:MF_00258};
+GN   Name=murI {ECO:0000255|HAMAP-Rule:MF_00258};
+GN   OrderedLocusNames=TPASS_0406;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Provides the (R)-glutamate required for cell wall
+CC       biosynthesis. {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamate = D-glutamate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00258}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -!- SIMILARITY: Belongs to the aspartate/glutamate racemases family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00258}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70832.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881854.1; NC_021508.1.
+DR   ProteinModelPortal; B2S303; -.
+DR   EnsemblBacteria; ACD70832; ACD70832; TPASS_0406.
+DR   GeneID; 2610846; -.
+DR   KEGG; tpp:TPASS_0406; -.
+DR   PATRIC; 20528527; VBITrePal10923_0434.
+DR   HOGENOM; HOG000262397; -.
+DR   KO; K01776; -.
+DR   OMA; PKESIYY; -.
+DR   OrthoDB; EOG6B6296; -.
+DR   BioCyc; TPAL455434:GJ9E-431-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0008881; F:glutamate racemase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1860; -; 1.
+DR   HAMAP; MF_00258; Glu_racemase; 1.
+DR   InterPro; IPR015942; Asp/Glu/hydantoin_racemase.
+DR   InterPro; IPR001920; Asp/Glu_race.
+DR   InterPro; IPR018187; Asp/Glu_racemase_AS.
+DR   InterPro; IPR004391; Glu_race.
+DR   Pfam; PF01177; Asp_Glu_race; 1.
+DR   SUPFAM; SSF53681; SSF53681; 2.
+DR   TIGRFAMs; TIGR00067; glut_race; 1.
+DR   PROSITE; PS00923; ASP_GLU_RACEMASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell shape; Cell wall biogenesis/degradation; Complete proteome;
+KW   Isomerase; Peptidoglycan synthesis.
+FT   CHAIN         1    268       Glutamate racemase.
+FT                                /FTId=PRO_1000114073.
+FT   REGION       14     15       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       46     47       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       79     80       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION      191    192       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00258}.
+FT   ACT_SITE     78     78       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00258}.
+FT   ACT_SITE    190    190       Proton donor/acceptor.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00258}.
+SQ   SEQUENCE   268 AA;  29449 MW;  AC224098FC8928E0 CRC64;
+     MSDRREQFQY AFLDSGIGGL PYAHALRVRV PEASLVYVAD RVYFPYGNKS SAQIIARASA
+     VLQKVQTNFS PHIVVLACNS MSVNALEFLR AQVSVPVVGV VPAIKQAVAC SHKKHIGVLA
+     TQCTITHPYT ACLRAQFGAG CVFQMRADAR LIECLERGLI FEVEDMQREA VARSVMPFQE
+     AGVDVLVLAC THFVHVRHLF QDCVGTSCTV VDSLEGVVRR TLRLCPPQSQ LRGNAACYVT
+     GARDAVCAAR YARYAQHFGL RWAGFLDV
+//
+ID   R9UVT5_TREPA            Unreviewed;       268 AA.
+AC   R9UVT5;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 22.
+DE   RecName: Full=Glutamate racemase {ECO:0000256|HAMAP-Rule:MF_00258, ECO:0000256|SAAS:SAAS00353672};
+DE            EC=5.1.1.3 {ECO:0000256|HAMAP-Rule:MF_00258};
+GN   Name=murI {ECO:0000256|HAMAP-Rule:MF_00258,
+GN   ECO:0000313|EMBL:AGN75600.1};
+GN   ORFNames=TPANIC_0406 {ECO:0000313|EMBL:AGN75600.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75600.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75600.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75600.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Provides the (R)-glutamate required for cell wall
+CC       biosynthesis. {ECO:0000256|HAMAP-Rule:MF_00258,
+CC       ECO:0000256|SAAS:SAAS00353670}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamate = D-glutamate. {ECO:0000256|HAMAP-
+CC       Rule:MF_00258, ECO:0000256|SAAS:SAAS00358436}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00258, ECO:0000256|SAAS:SAAS00358449}.
+CC   -!- SIMILARITY: Belongs to the aspartate/glutamate racemases family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00258}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75600.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881854.1; NC_021490.2.
+DR   ProteinModelPortal; R9UVT5; -.
+DR   STRING; 243276.TP0406; -.
+DR   EnsemblBacteria; AGN75600; AGN75600; TPANIC_0406.
+DR   GeneID; 2610846; -.
+DR   KEGG; tpw:TPANIC_0406; -.
+DR   eggNOG; COG0796; LUCA.
+DR   eggNOG; ENOG4105F03; Bacteria.
+DR   KO; K01776; -.
+DR   OMA; PKESIYY; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0008881; F:glutamate racemase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1860; -; 1.
+DR   HAMAP; MF_00258; Glu_racemase; 1.
+DR   InterPro; IPR015942; Asp/Glu/hydantoin_racemase.
+DR   InterPro; IPR001920; Asp/Glu_race.
+DR   InterPro; IPR018187; Asp/Glu_racemase_AS.
+DR   InterPro; IPR004391; Glu_race.
+DR   Pfam; PF01177; Asp_Glu_race; 1.
+DR   SUPFAM; SSF53681; SSF53681; 2.
+DR   TIGRFAMs; TIGR00067; glut_race; 1.
+DR   PROSITE; PS00923; ASP_GLU_RACEMASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041221};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041303};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Isomerase {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00110366, ECO:0000313|EMBL:AGN75600.1};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041221}.
+FT   REGION       14     15       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       46     47       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       79     80       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION      191    192       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   ACT_SITE     78     78       Proton donor/acceptor.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00258}.
+FT   ACT_SITE    190    190       Proton donor/acceptor.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00258}.
+SQ   SEQUENCE   268 AA;  29449 MW;  AC224098FC8928E0 CRC64;
+     MSDRREQFQY AFLDSGIGGL PYAHALRVRV PEASLVYVAD RVYFPYGNKS SAQIIARASA
+     VLQKVQTNFS PHIVVLACNS MSVNALEFLR AQVSVPVVGV VPAIKQAVAC SHKKHIGVLA
+     TQCTITHPYT ACLRAQFGAG CVFQMRADAR LIECLERGLI FEVEDMQREA VARSVMPFQE
+     AGVDVLVLAC THFVHVRHLF QDCVGTSCTV VDSLEGVVRR TLRLCPPQSQ LRGNAACYVT
+     GARDAVCAAR YARYAQHFGL RWAGFLDV
+//
+ID   H6KT23_TREPD            Unreviewed;       268 AA.
+AC   H6KT23;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 32.
+DE   RecName: Full=Glutamate racemase {ECO:0000256|HAMAP-Rule:MF_00258, ECO:0000256|SAAS:SAAS00353672};
+DE            EC=5.1.1.3 {ECO:0000256|HAMAP-Rule:MF_00258};
+GN   Name=murI {ECO:0000256|HAMAP-Rule:MF_00258,
+GN   ECO:0000313|EMBL:AEZ58597.1};
+GN   OrderedLocusNames=TPECDC2_0406 {ECO:0000313|EMBL:AEZ58597.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58597.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Provides the (R)-glutamate required for cell wall
+CC       biosynthesis. {ECO:0000256|HAMAP-Rule:MF_00258,
+CC       ECO:0000256|SAAS:SAAS00353670}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamate = D-glutamate. {ECO:0000256|HAMAP-
+CC       Rule:MF_00258, ECO:0000256|SAAS:SAAS00358436}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00258, ECO:0000256|SAAS:SAAS00358449}.
+CC   -!- SIMILARITY: Belongs to the aspartate/glutamate racemases family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00258}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58597.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881854.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT23; -.
+DR   EnsemblBacteria; AEZ58597; AEZ58597; TPECDC2_0406.
+DR   GeneID; 2610846; -.
+DR   KEGG; tpc:TPECDC2_0406; -.
+DR   KO; K01776; -.
+DR   OMA; PKESIYY; -.
+DR   BioCyc; TPAL491079:GJCE-439-MONOMER; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0008881; F:glutamate racemase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1860; -; 1.
+DR   HAMAP; MF_00258; Glu_racemase; 1.
+DR   InterPro; IPR015942; Asp/Glu/hydantoin_racemase.
+DR   InterPro; IPR001920; Asp/Glu_race.
+DR   InterPro; IPR018187; Asp/Glu_racemase_AS.
+DR   InterPro; IPR004391; Glu_race.
+DR   Pfam; PF01177; Asp_Glu_race; 1.
+DR   SUPFAM; SSF53681; SSF53681; 2.
+DR   TIGRFAMs; TIGR00067; glut_race; 1.
+DR   PROSITE; PS00923; ASP_GLU_RACEMASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041221};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041303};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Isomerase {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00110366, ECO:0000313|EMBL:AEZ58597.1};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041221}.
+FT   REGION       14     15       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       46     47       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       79     80       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION      191    192       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   ACT_SITE     78     78       Proton donor/acceptor.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00258}.
+FT   ACT_SITE    190    190       Proton donor/acceptor.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00258}.
+SQ   SEQUENCE   268 AA;  29449 MW;  AC224098FC8928E0 CRC64;
+     MSDRREQFQY AFLDSGIGGL PYAHALRVRV PEASLVYVAD RVYFPYGNKS SAQIIARASA
+     VLQKVQTNFS PHIVVLACNS MSVNALEFLR AQVSVPVVGV VPAIKQAVAC SHKKHIGVLA
+     TQCTITHPYT ACLRAQFGAG CVFQMRADAR LIECLERGLI FEVEDMQREA VARSVMPFQE
+     AGVDVLVLAC THFVHVRHLF QDCVGTSCTV VDSLEGVVRR TLRLCPPQSQ LRGNAACYVT
+     GARDAVCAAR YARYAQHFGL RWAGFLDV
+//
+ID   A0A0A7X2K1_TREPL        Unreviewed;       268 AA.
+AC   A0A0A7X2K1;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 8.
+DE   RecName: Full=Glutamate racemase {ECO:0000256|HAMAP-Rule:MF_00258, ECO:0000256|SAAS:SAAS00353672};
+DE            EC=5.1.1.3 {ECO:0000256|HAMAP-Rule:MF_00258};
+GN   Name=murI {ECO:0000256|HAMAP-Rule:MF_00258,
+GN   ECO:0000313|EMBL:AJB40425.1};
+GN   ORFNames=TENDBA_0406 {ECO:0000313|EMBL:AJB40425.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40425.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40425.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40425.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Provides the (R)-glutamate required for cell wall
+CC       biosynthesis. {ECO:0000256|HAMAP-Rule:MF_00258,
+CC       ECO:0000256|SAAS:SAAS00353670}.
+CC   -!- CATALYTIC ACTIVITY: L-glutamate = D-glutamate. {ECO:0000256|HAMAP-
+CC       Rule:MF_00258, ECO:0000256|SAAS:SAAS00358436}.
+CC   -!- PATHWAY: Cell wall biogenesis; peptidoglycan biosynthesis.
+CC       {ECO:0000256|HAMAP-Rule:MF_00258, ECO:0000256|SAAS:SAAS00358449}.
+CC   -!- SIMILARITY: Belongs to the aspartate/glutamate racemases family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00258}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40425.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881854.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2K1; -.
+DR   EnsemblBacteria; AJB40425; AJB40425; TENDBA_0406.
+DR   GeneID; 2610846; -.
+DR   UniPathway; UPA00219; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0008881; F:glutamate racemase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0071555; P:cell wall organization; IEA:UniProtKB-KW.
+DR   GO; GO:0009252; P:peptidoglycan biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.1860; -; 1.
+DR   HAMAP; MF_00258; Glu_racemase; 1.
+DR   InterPro; IPR015942; Asp/Glu/hydantoin_racemase.
+DR   InterPro; IPR001920; Asp/Glu_race.
+DR   InterPro; IPR018187; Asp/Glu_racemase_AS.
+DR   InterPro; IPR004391; Glu_race.
+DR   Pfam; PF01177; Asp_Glu_race; 1.
+DR   SUPFAM; SSF53681; SSF53681; 2.
+DR   TIGRFAMs; TIGR00067; glut_race; 1.
+DR   PROSITE; PS00923; ASP_GLU_RACEMASE_1; 1.
+PE   3: Inferred from homology;
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041221};
+KW   Cell wall biogenesis/degradation {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041303};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Isomerase {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00110366, ECO:0000313|EMBL:AJB40425.1};
+KW   Peptidoglycan synthesis {ECO:0000256|HAMAP-Rule:MF_00258,
+KW   ECO:0000256|SAAS:SAAS00041221}.
+FT   REGION       14     15       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       46     47       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION       79     80       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   REGION      191    192       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00258}.
+FT   ACT_SITE     78     78       Proton donor/acceptor.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00258}.
+FT   ACT_SITE    190    190       Proton donor/acceptor.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00258}.
+SQ   SEQUENCE   268 AA;  29449 MW;  AC224098FC8928E0 CRC64;
+     MSDRREQFQY AFLDSGIGGL PYAHALRVRV PEASLVYVAD RVYFPYGNKS SAQIIARASA
+     VLQKVQTNFS PHIVVLACNS MSVNALEFLR AQVSVPVVGV VPAIKQAVAC SHKKHIGVLA
+     TQCTITHPYT ACLRAQFGAG CVFQMRADAR LIECLERGLI FEVEDMQREA VARSVMPFQE
+     AGVDVLVLAC THFVHVRHLF QDCVGTSCTV VDSLEGVVRR TLRLCPPQSQ LRGNAACYVT
+     GARDAVCAAR YARYAQHFGL RWAGFLDV
+//

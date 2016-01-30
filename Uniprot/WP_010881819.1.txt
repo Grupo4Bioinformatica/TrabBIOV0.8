@@ -1,0 +1,184 @@
+ID   ISPE_TREPA              Reviewed;         291 AA.
+AC   O83386;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 98.
+DE   RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase {ECO:0000255|HAMAP-Rule:MF_00061};
+DE            Short=CMK {ECO:0000255|HAMAP-Rule:MF_00061};
+DE            EC=2.7.1.148 {ECO:0000255|HAMAP-Rule:MF_00061};
+DE   AltName: Full=4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase {ECO:0000255|HAMAP-Rule:MF_00061};
+GN   Name=ispE {ECO:0000255|HAMAP-Rule:MF_00061};
+GN   OrderedLocusNames=TP_0371;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the position 2 hydroxy
+CC       group of 4-diphosphocytidyl-2C-methyl-D-erythritol.
+CC       {ECO:0000255|HAMAP-Rule:MF_00061}.
+CC   -!- CATALYTIC ACTIVITY: ATP + 4-(cytidine 5'-diphospho)-2-C-methyl-D-
+CC       erythritol = ADP + 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-
+CC       D-erythritol. {ECO:0000255|HAMAP-Rule:MF_00061}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate
+CC       biosynthesis via DXP pathway; isopentenyl diphosphate from 1-
+CC       deoxy-D-xylulose 5-phosphate: step 3/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00061}.
+CC   -!- SIMILARITY: Belongs to the GHMP kinase family. IspE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00061}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65356.1; -; Genomic_DNA.
+DR   PIR; B71333; B71333.
+DR   RefSeq; WP_010881819.1; NC_000919.1.
+DR   ProteinModelPortal; O83386; -.
+DR   IntAct; O83386; 3.
+DR   STRING; 243276.TP0371; -.
+DR   EnsemblBacteria; AAC65356; AAC65356; TP_0371.
+DR   GeneID; 2611620; -.
+DR   KEGG; tpa:TP_0371; -.
+DR   PATRIC; 20530745; VBITrePal57110_0393.
+DR   eggNOG; ENOG4107SJN; Bacteria.
+DR   eggNOG; COG1947; LUCA.
+DR   KO; K00919; -.
+DR   OMA; FFIENTP; -.
+DR   OrthoDB; EOG62VNQ2; -.
+DR   BioCyc; TPAL243276:GC1H-396-MONOMER; -.
+DR   UniPathway; UPA00056; UER00094.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0050515; F:4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.890; -; 1.
+DR   HAMAP; MF_00061; IspE; 1.
+DR   InterPro; IPR013750; GHMP_kinase_C_dom.
+DR   InterPro; IPR006204; GHMP_kinase_N_dom.
+DR   InterPro; IPR004424; IspE.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   PANTHER; PTHR20861:SF2; PTHR20861:SF2; 1.
+DR   Pfam; PF00288; GHMP_kinases_N; 1.
+DR   PIRSF; PIRSF010376; IspE; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF55060; SSF55060; 1.
+DR   TIGRFAMs; TIGR00154; ispE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Isoprene biosynthesis; Kinase;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN         1    291       4-diphosphocytidyl-2-C-methyl-D-
+FT                                erythritol kinase.
+FT                                /FTId=PRO_0000189282.
+FT   NP_BIND      94    104       ATP. {ECO:0000255|HAMAP-Rule:MF_00061}.
+FT   ACT_SITE     11     11       {ECO:0000255|HAMAP-Rule:MF_00061}.
+FT   ACT_SITE    136    136       {ECO:0000255|HAMAP-Rule:MF_00061}.
+SQ   SEQUENCE   291 AA;  31592 MW;  410EC57910C3B81C CRC64;
+     MQSLSLRAHA KVNMHLWVGA RRADGLHSIE SVMQRITLAD SLSLSRLDIP GRCEVCSPYM
+     ALPRENTLTR AYARFCQVTG VHDGVRVRVV KRIPAGSGLG GGSADAAALL CGLDTLFGTT
+     LSARVLREVA YSVGSDVPFF LASQAACVLG GGEQLVPLVP KTGYLGLLVW PGLHSGSAQA
+     YEDLDRLRAC GVHAADGEQY SLRGATALSA HYAQDCARWR FFNSLDAPVQ RRYPVVALAR
+     WDLARAGACF TAMSGSGSXV FGLYRDEEEL RRAHKLLAKR WCWCVRVRLC G
+//
+ID   ISPE_TREPS              Reviewed;         291 AA.
+AC   B2S2W8;
+DT   24-MAR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 52.
+DE   RecName: Full=4-diphosphocytidyl-2-C-methyl-D-erythritol kinase {ECO:0000255|HAMAP-Rule:MF_00061};
+DE            Short=CMK {ECO:0000255|HAMAP-Rule:MF_00061};
+DE            EC=2.7.1.148 {ECO:0000255|HAMAP-Rule:MF_00061};
+DE   AltName: Full=4-(cytidine-5'-diphospho)-2-C-methyl-D-erythritol kinase {ECO:0000255|HAMAP-Rule:MF_00061};
+GN   Name=ispE {ECO:0000255|HAMAP-Rule:MF_00061};
+GN   OrderedLocusNames=TPASS_0371;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of the position 2 hydroxy
+CC       group of 4-diphosphocytidyl-2C-methyl-D-erythritol.
+CC       {ECO:0000255|HAMAP-Rule:MF_00061}.
+CC   -!- CATALYTIC ACTIVITY: ATP + 4-(cytidine 5'-diphospho)-2-C-methyl-D-
+CC       erythritol = ADP + 2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-
+CC       D-erythritol. {ECO:0000255|HAMAP-Rule:MF_00061}.
+CC   -!- PATHWAY: Isoprenoid biosynthesis; isopentenyl diphosphate
+CC       biosynthesis via DXP pathway; isopentenyl diphosphate from 1-
+CC       deoxy-D-xylulose 5-phosphate: step 3/6. {ECO:0000255|HAMAP-
+CC       Rule:MF_00061}.
+CC   -!- SIMILARITY: Belongs to the GHMP kinase family. IspE subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00061}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70797.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881819.1; NC_010741.1.
+DR   ProteinModelPortal; B2S2W8; -.
+DR   EnsemblBacteria; ACD70797; ACD70797; TPASS_0371.
+DR   GeneID; 2611620; -.
+DR   KEGG; tpp:TPASS_0371; -.
+DR   PATRIC; 20528449; VBITrePal10923_0396.
+DR   HOGENOM; HOG000019600; -.
+DR   KO; K00919; -.
+DR   OMA; FFIENTP; -.
+DR   OrthoDB; EOG62VNQ2; -.
+DR   BioCyc; TPAL455434:GJ9E-395-MONOMER; -.
+DR   UniPathway; UPA00056; UER00094.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0050515; F:4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019288; P:isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0016114; P:terpenoid biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.890; -; 1.
+DR   HAMAP; MF_00061; IspE; 1.
+DR   InterPro; IPR013750; GHMP_kinase_C_dom.
+DR   InterPro; IPR006204; GHMP_kinase_N_dom.
+DR   InterPro; IPR004424; IspE.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   PANTHER; PTHR20861:SF2; PTHR20861:SF2; 1.
+DR   Pfam; PF00288; GHMP_kinases_N; 1.
+DR   PIRSF; PIRSF010376; IspE; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF55060; SSF55060; 1.
+DR   TIGRFAMs; TIGR00154; ispE; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Isoprene biosynthesis; Kinase;
+KW   Nucleotide-binding; Transferase.
+FT   CHAIN         1    291       4-diphosphocytidyl-2-C-methyl-D-
+FT                                erythritol kinase.
+FT                                /FTId=PRO_1000092121.
+FT   NP_BIND      94    104       ATP. {ECO:0000255|HAMAP-Rule:MF_00061}.
+FT   ACT_SITE     11     11       {ECO:0000255|HAMAP-Rule:MF_00061}.
+FT   ACT_SITE    136    136       {ECO:0000255|HAMAP-Rule:MF_00061}.
+SQ   SEQUENCE   291 AA;  31592 MW;  410EC57910C3B81C CRC64;
+     MQSLSLRAHA KVNMHLWVGA RRADGLHSIE SVMQRITLAD SLSLSRLDIP GRCEVCSPYM
+     ALPRENTLTR AYARFCQVTG VHDGVRVRVV KRIPAGSGLG GGSADAAALL CGLDTLFGTT
+     LSARVLREVA YSVGSDVPFF LASQAACVLG GGEQLVPLVP KTGYLGLLVW PGLHSGSAQA
+     YEDLDRLRAC GVHAADGEQY SLRGATALSA HYAQDCARWR FFNSLDAPVQ RRYPVVALAR
+     WDLARAGACF TAMSGSGSXV FGLYRDEEEL RRAHKLLAKR WCWCVRVRLC G
+//

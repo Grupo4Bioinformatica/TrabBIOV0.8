@@ -1,0 +1,116 @@
+ID   A0A0H3BIB9_TREPS        Unreviewed;       224 AA.
+AC   A0A0H3BIB9;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Phosphoglycolate phosphatase {ECO:0000313|EMBL:ACD70833.1};
+GN   Name=gph1 {ECO:0000313|EMBL:ACD70833.1};
+GN   OrderedLocusNames=TPASS_0407 {ECO:0000313|EMBL:ACD70833.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70833.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70833.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70833.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70833.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881855.1; NC_010741.1.
+DR   ProteinModelPortal; A0A0H3BIB9; -.
+DR   GeneID; 2610847; -.
+DR   KEGG; tpp:TPASS_0407; -.
+DR   KO; K07025; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:InterPro.
+DR   Gene3D; 3.40.50.1000; -; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR006439; HAD-SF_hydro_IA.
+DR   Pfam; PF13419; HAD_2; 1.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01549; HAD-SF-IA-v1; 1.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN        2    187       HAD_2. {ECO:0000259|Pfam:PF13419}.
+FT   COILED       26     46       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   224 AA;  25516 MW;  6644526B6F890C04 CRC64;
+     MAFDIDGTLY PGWRLALRVM PFMIRNARLM RAFRAVRQEL RREQRTALIP FEDFFFAQAT
+     RIAPRVGLSA EEVRAFLDTA LYRGWRRHFL HIKPFPHVLS SVLELRRHGL KIALLSDFPP
+     SQKGCLWGVR ALCDVTLGTE EIGSLKPSPR AFYALAQRLN LRCEEILYVG NSVHDVEGAH
+     AAGMRIACVR RPFTSLRVRR TRGLALFRLS HIVRICDSMS AGAG
+//
+ID   O83422_TREPA            Unreviewed;       224 AA.
+AC   O83422;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 84.
+DE   SubName: Full=Phosphoglycolate phosphatase (Gph-1) {ECO:0000313|EMBL:AAC65394.1};
+GN   OrderedLocusNames=TP_0407 {ECO:0000313|EMBL:AAC65394.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65394.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65394.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65394.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65394.1; -; Genomic_DNA.
+DR   PIR; F71329; F71329.
+DR   RefSeq; WP_010881855.1; NC_000919.1.
+DR   ProteinModelPortal; O83422; -.
+DR   IntAct; O83422; 2.
+DR   STRING; 243276.TP0407; -.
+DR   EnsemblBacteria; AAC65394; AAC65394; TP_0407.
+DR   GeneID; 2610847; -.
+DR   KEGG; tpa:TP_0407; -.
+DR   PATRIC; 20530825; VBITrePal57110_0432.
+DR   eggNOG; COG1011; LUCA.
+DR   eggNOG; ENOG4105N11; Bacteria.
+DR   KO; K07025; -.
+DR   OMA; FPIATRV; -.
+DR   OrthoDB; EOG61GG6W; -.
+DR   BioCyc; TPAL243276:GC1H-433-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016787; F:hydrolase activity; IEA:InterPro.
+DR   Gene3D; 3.40.50.1000; -; 1.
+DR   InterPro; IPR023214; HAD-like_dom.
+DR   InterPro; IPR006439; HAD-SF_hydro_IA.
+DR   Pfam; PF13419; HAD_2; 1.
+DR   SUPFAM; SSF56784; SSF56784; 1.
+DR   TIGRFAMs; TIGR01549; HAD-SF-IA-v1; 1.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN        2    187       HAD_2. {ECO:0000259|Pfam:PF13419}.
+FT   COILED       26     46       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   224 AA;  25516 MW;  6644526B6F890C04 CRC64;
+     MAFDIDGTLY PGWRLALRVM PFMIRNARLM RAFRAVRQEL RREQRTALIP FEDFFFAQAT
+     RIAPRVGLSA EEVRAFLDTA LYRGWRRHFL HIKPFPHVLS SVLELRRHGL KIALLSDFPP
+     SQKGCLWGVR ALCDVTLGTE EIGSLKPSPR AFYALAQRLN LRCEEILYVG NSVHDVEGAH
+     AAGMRIACVR RPFTSLRVRR TRGLALFRLS HIVRICDSMS AGAG
+//

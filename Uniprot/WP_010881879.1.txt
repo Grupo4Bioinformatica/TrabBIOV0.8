@@ -1,0 +1,518 @@
+ID   COAX_TREPA              Reviewed;         273 AA.
+AC   O83446;
+DT   12-DEC-2006, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 91.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000255|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000255|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000255|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000255|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000255|HAMAP-Rule:MF_01274};
+GN   OrderedLocusNames=TP_0431;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (R)-pantothenate = ADP + (R)-4'-
+CC       phosphopantothenate. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01274};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01274};
+CC       Note=A monovalent cation. Ammonium or potassium.
+CC       {ECO:0000255|HAMAP-Rule:MF_01274};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from
+CC       (R)-pantothenate: step 1/5. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01274}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65417.1; -; Genomic_DNA.
+DR   PIR; D71326; D71326.
+DR   RefSeq; WP_010881879.1; NC_021490.2.
+DR   ProteinModelPortal; O83446; -.
+DR   STRING; 243276.TP0431; -.
+DR   EnsemblBacteria; AAC65417; AAC65417; TP_0431.
+DR   GeneID; 2610946; -.
+DR   KEGG; tpa:TP_0431; -.
+DR   PATRIC; 20530877; VBITrePal57110_0458.
+DR   eggNOG; ENOG4107QNB; Bacteria.
+DR   eggNOG; COG1521; LUCA.
+DR   KO; K03525; -.
+DR   OMA; QRTSDEY; -.
+DR   OrthoDB; EOG6G20K0; -.
+DR   BioCyc; TPAL243276:GC1H-457-MONOMER; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   TIGRFAMs; TIGR00671; baf; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Coenzyme A biosynthesis; Complete proteome; Cytoplasm;
+KW   Kinase; Metal-binding; Nucleotide-binding; Potassium;
+KW   Reference proteome; Transferase.
+FT   CHAIN         1    273       Type III pantothenate kinase.
+FT                                /FTId=PRO_0000267602.
+FT   NP_BIND       5     12       ATP. {ECO:0000255|HAMAP-Rule:MF_01274}.
+FT   REGION      112    115       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01274}.
+FT   ACT_SITE    114    114       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01274}.
+FT   METAL       134    134       Monovalent cation. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01274}.
+FT   BINDING     137    137       ATP. {ECO:0000255|HAMAP-Rule:MF_01274}.
+FT   BINDING     189    189       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01274}.
+SQ   SEQUENCE   273 AA;  28472 MW;  439C9C77CB598BC0 CRC64;
+     MLLIDVGNSH VVFGIQGENG GRVCVRELFR LAPDARKTQD EYSLLIHALC ERAGVGRASL
+     RDAFISSVVP VLTKTIADAV AQISGVQPVV FGPWAYEHLP VRIPEPVRAE IGTDLVANAV
+     AAYVHFRSAC VVVDCGTALT FTAVDGTGLI QGVAIAPGLR TAVQSLHTGT AQLPLVPLAL
+     PDSVLGKDTT HAVQAGVVRG TLFVIRAMIA QCQKELGCRC AAVITGGLSR LFSSEVDFPP
+     IDAQLTLSGL AHIARLVPTS LLPPATVSGS SGN
+//
+ID   R9UVV3_TREPA            Unreviewed;       273 AA.
+AC   R9UVV3;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   ORFNames=TPANIC_0431 {ECO:0000313|EMBL:AGN75625.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75625.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75625.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75625.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384421}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (R)-pantothenate = ADP + (R)-4'-
+CC       phosphopantothenate. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384435}.
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Note=A monovalent cation. Ammonium or potassium.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274, ECO:0000256|SAAS:SAAS00384404};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from
+CC       (R)-pantothenate: step 1/5. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384485}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384470}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384519}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75625.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881879.1; NC_021490.2.
+DR   ProteinModelPortal; R9UVV3; -.
+DR   STRING; 243276.TP0431; -.
+DR   EnsemblBacteria; AGN75625; AGN75625; TPANIC_0431.
+DR   GeneID; 2610946; -.
+DR   KEGG; tpw:TPANIC_0431; -.
+DR   eggNOG; COG1521; LUCA.
+DR   eggNOG; ENOG4107QNB; Bacteria.
+DR   KO; K03525; -.
+DR   OMA; QRTSDEY; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   TIGRFAMs; TIGR00671; baf; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Coenzyme A biosynthesis {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088444};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088451};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01274};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Potassium {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00173372};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438}.
+FT   NP_BIND       5     12       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   REGION      112    115       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   ACT_SITE    114    114       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   METAL       134    134       Monovalent cation. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   BINDING     137    137       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   BINDING     189    189       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+SQ   SEQUENCE   273 AA;  28472 MW;  439C9C77CB598BC0 CRC64;
+     MLLIDVGNSH VVFGIQGENG GRVCVRELFR LAPDARKTQD EYSLLIHALC ERAGVGRASL
+     RDAFISSVVP VLTKTIADAV AQISGVQPVV FGPWAYEHLP VRIPEPVRAE IGTDLVANAV
+     AAYVHFRSAC VVVDCGTALT FTAVDGTGLI QGVAIAPGLR TAVQSLHTGT AQLPLVPLAL
+     PDSVLGKDTT HAVQAGVVRG TLFVIRAMIA QCQKELGCRC AAVITGGLSR LFSSEVDFPP
+     IDAQLTLSGL AHIARLVPTS LLPPATVSGS SGN
+//
+ID   H6KT49_TREPD            Unreviewed;       273 AA.
+AC   H6KT49;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 26.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   OrderedLocusNames=TPECDC2_0431 {ECO:0000313|EMBL:AEZ58623.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58623.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384421}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (R)-pantothenate = ADP + (R)-4'-
+CC       phosphopantothenate. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384435}.
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Note=A monovalent cation. Ammonium or potassium.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274, ECO:0000256|SAAS:SAAS00384404};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from
+CC       (R)-pantothenate: step 1/5. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384485}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384470}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384519}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58623.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881879.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT49; -.
+DR   EnsemblBacteria; AEZ58623; AEZ58623; TPECDC2_0431.
+DR   GeneID; 2610946; -.
+DR   KEGG; tpc:TPECDC2_0431; -.
+DR   KO; K03525; -.
+DR   OMA; QRTSDEY; -.
+DR   BioCyc; TPAL491079:GJCE-465-MONOMER; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   TIGRFAMs; TIGR00671; baf; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Coenzyme A biosynthesis {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088444};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088451};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01274};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Potassium {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00173372};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438}.
+FT   NP_BIND       5     12       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   REGION      112    115       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   ACT_SITE    114    114       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   METAL       134    134       Monovalent cation. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   BINDING     137    137       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   BINDING     189    189       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+SQ   SEQUENCE   273 AA;  28472 MW;  439C9C77CB598BC0 CRC64;
+     MLLIDVGNSH VVFGIQGENG GRVCVRELFR LAPDARKTQD EYSLLIHALC ERAGVGRASL
+     RDAFISSVVP VLTKTIADAV AQISGVQPVV FGPWAYEHLP VRIPEPVRAE IGTDLVANAV
+     AAYVHFRSAC VVVDCGTALT FTAVDGTGLI QGVAIAPGLR TAVQSLHTGT AQLPLVPLAL
+     PDSVLGKDTT HAVQAGVVRG TLFVIRAMIA QCQKELGCRC AAVITGGLSR LFSSEVDFPP
+     IDAQLTLSGL AHIARLVPTS LLPPATVSGS SGN
+//
+ID   E5FNQ0_TREPG            Unreviewed;       273 AA.
+AC   E5FNQ0;
+DT   08-FEB-2011, integrated into UniProtKB/TrEMBL.
+DT   08-FEB-2011, sequence version 1.
+DT   09-DEC-2015, entry version 32.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000256|HAMAP-Rule:MF_01274};
+OS   Treponema pallidum subsp. pertenue (strain Gauthier).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491080 {ECO:0000313|EMBL:ADR64301.1};
+RN   [1] {ECO:0000313|EMBL:ADR64301.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Gauthier {ECO:0000313|EMBL:ADR64301.1};
+RX   PubMed=21209953; DOI=10.1371/journal.pone.0015713;
+RA   Mikalova L., Strouhal M., Cejkova D., Zobanikova M., Pospisilova P.,
+RA   Norris S.J., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Genome analysis of Treponema pallidum subsp. pallidum and subsp.
+RT   pertenue strains: most of the genetic differences are localized in six
+RT   regions.";
+RL   PLoS ONE 5:E15713-E15713(2010).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384421}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (R)-pantothenate = ADP + (R)-4'-
+CC       phosphopantothenate. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384435}.
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Note=A monovalent cation. Ammonium or potassium.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274, ECO:0000256|SAAS:SAAS00384404};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from
+CC       (R)-pantothenate: step 1/5. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384485}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384470}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384519}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; HM585239; ADR64301.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881879.1; NC_016843.1.
+DR   ProteinModelPortal; E5FNQ0; -.
+DR   GeneID; 2610946; -.
+DR   KEGG; tpg:TPEGAU_0431; -.
+DR   KO; K03525; -.
+DR   BioCyc; TPAL491080:GJ7X-465-MONOMER; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   TIGRFAMs; TIGR00671; baf; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Coenzyme A biosynthesis {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088444};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088451};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01274};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Potassium {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00173372};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438}.
+FT   NP_BIND       5     12       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   REGION      112    115       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   ACT_SITE    114    114       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   METAL       134    134       Monovalent cation. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   BINDING     137    137       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   BINDING     189    189       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+SQ   SEQUENCE   273 AA;  28472 MW;  439C9C77CB598BC0 CRC64;
+     MLLIDVGNSH VVFGIQGENG GRVCVRELFR LAPDARKTQD EYSLLIHALC ERAGVGRASL
+     RDAFISSVVP VLTKTIADAV AQISGVQPVV FGPWAYEHLP VRIPEPVRAE IGTDLVANAV
+     AAYVHFRSAC VVVDCGTALT FTAVDGTGLI QGVAIAPGLR TAVQSLHTGT AQLPLVPLAL
+     PDSVLGKDTT HAVQAGVVRG TLFVIRAMIA QCQKELGCRC AAVITGGLSR LFSSEVDFPP
+     IDAQLTLSGL AHIARLVPTS LLPPATVSGS SGN
+//
+ID   A0A0A7X9T3_TREPL        Unreviewed;       273 AA.
+AC   A0A0A7X9T3;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   RecName: Full=Type III pantothenate kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+DE            EC=2.7.1.33 {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=PanK-III {ECO:0000256|HAMAP-Rule:MF_01274};
+DE   AltName: Full=Pantothenic acid kinase {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   Name=coaX {ECO:0000256|HAMAP-Rule:MF_01274};
+GN   ORFNames=TENDBA_0431 {ECO:0000313|EMBL:AJB40451.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40451.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40451.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40451.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Catalyzes the phosphorylation of pantothenate (Pan), the
+CC       first step in CoA biosynthesis. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384421}.
+CC   -!- CATALYTIC ACTIVITY: ATP + (R)-pantothenate = ADP + (R)-4'-
+CC       phosphopantothenate. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384435}.
+CC   -!- COFACTOR:
+CC       Name=NH4(+); Xref=ChEBI:CHEBI:28938;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Name=K(+); Xref=ChEBI:CHEBI:29103;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01274,
+CC         ECO:0000256|SAAS:SAAS00384404};
+CC       Note=A monovalent cation. Ammonium or potassium.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274, ECO:0000256|SAAS:SAAS00384404};
+CC   -!- PATHWAY: Cofactor biosynthesis; coenzyme A biosynthesis; CoA from
+CC       (R)-pantothenate: step 1/5. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384485}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384470}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+CC       ECO:0000256|SAAS:SAAS00384519}.
+CC   -!- SIMILARITY: Belongs to the type III pantothenate kinase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01274}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40451.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881879.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X9T3; -.
+DR   EnsemblBacteria; AJB40451; AJB40451; TENDBA_0431.
+DR   GeneID; 2610946; -.
+DR   UniPathway; UPA00241; UER00352.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004594; F:pantothenate kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0015937; P:coenzyme A biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01274; Pantothen_kinase_3; 1.
+DR   InterPro; IPR004619; Type_III_PanK.
+DR   Pfam; PF03309; Pan_kinase; 1.
+DR   TIGRFAMs; TIGR00671; baf; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Coenzyme A biosynthesis {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088444};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088451};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01274};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088442};
+KW   Potassium {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00173372};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01274,
+KW   ECO:0000256|SAAS:SAAS00088438}.
+FT   NP_BIND       5     12       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   REGION      112    115       Substrate binding. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   ACT_SITE    114    114       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   METAL       134    134       Monovalent cation. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+FT   BINDING     137    137       ATP. {ECO:0000256|HAMAP-Rule:MF_01274}.
+FT   BINDING     189    189       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01274}.
+SQ   SEQUENCE   273 AA;  28472 MW;  439C9C77CB598BC0 CRC64;
+     MLLIDVGNSH VVFGIQGENG GRVCVRELFR LAPDARKTQD EYSLLIHALC ERAGVGRASL
+     RDAFISSVVP VLTKTIADAV AQISGVQPVV FGPWAYEHLP VRIPEPVRAE IGTDLVANAV
+     AAYVHFRSAC VVVDCGTALT FTAVDGTGLI QGVAIAPGLR TAVQSLHTGT AQLPLVPLAL
+     PDSVLGKDTT HAVQAGVVRG TLFVIRAMIA QCQKELGCRC AAVITGGLSR LFSSEVDFPP
+     IDAQLTLSGL AHIARLVPTS LLPPATVSGS SGN
+//

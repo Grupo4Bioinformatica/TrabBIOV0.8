@@ -1,0 +1,222 @@
+ID   F7IU72_TREPA            Unreviewed;       455 AA.
+AC   F7IU72;
+DT   27-JUL-2011, integrated into UniProtKB/TrEMBL.
+DT   27-JUL-2011, sequence version 1.
+DT   09-DEC-2015, entry version 32.
+DE   SubName: Full=Chemotaxis protein CheW {ECO:0000313|EMBL:AGN75561.1};
+DE   SubName: Full=Purine-binding chemotaxis protein (CheW-1) {ECO:0000313|EMBL:AAC65349.1};
+GN   Name=cheW1 {ECO:0000313|EMBL:AGN75561.1};
+GN   OrderedLocusNames=TP_0364 {ECO:0000313|EMBL:AAC65349.1};
+GN   ORFNames=TPANIC_0364 {ECO:0000313|EMBL:AGN75561.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65349.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65349.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65349.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75561.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75561.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65349.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75561.1; -; Genomic_DNA.
+DR   PIR; B71335; B71335.
+DR   RefSeq; WP_010881812.1; NC_021490.2.
+DR   STRING; 243276.TP0364; -.
+DR   EnsemblBacteria; AAC65349; AAC65349; TP_0364.
+DR   EnsemblBacteria; AGN75561; AGN75561; TPANIC_0364.
+DR   GeneID; 2611149; -.
+DR   KEGG; tpa:TP_0364; -.
+DR   KEGG; tpw:TPANIC_0364; -.
+DR   eggNOG; COG0835; LUCA.
+DR   eggNOG; COG1352; LUCA.
+DR   eggNOG; ENOG4105H7C; Bacteria.
+DR   KO; K03408; -.
+DR   OMA; NFTYVPN; -.
+DR   OrthoDB; EOG60CWQ7; -.
+DR   BioCyc; TPAL243276:GC1H-389-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0004871; F:signal transducer activity; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   InterPro; IPR022642; CheR_C.
+DR   InterPro; IPR000780; CheR_MeTrfase.
+DR   InterPro; IPR002545; CheW.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF01739; CheR; 1.
+DR   Pfam; PF01584; CheW; 1.
+DR   PRINTS; PR00996; CHERMTFRASE.
+DR   SMART; SM00260; CheW; 1.
+DR   SMART; SM00138; MeTrc; 1.
+DR   SUPFAM; SSF50341; SSF50341; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS50123; CHER; 1.
+DR   PROSITE; PS50851; CHEW; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN       38    180       CheW-like. {ECO:0000259|PROSITE:PS50851}.
+FT   DOMAIN      246    455       CheR-type methyltransferase.
+FT                                {ECO:0000259|PROSITE:PS50123}.
+SQ   SEQUENCE   455 AA;  50047 MW;  3ECD9FF49C43195D CRC64;
+     MVGDLGHGLG TMIEHMEAEI GIRESFDGGV REPLAVIDFK MVTFSLAGKD YAVDIMQVKE
+     IAKAGSFTYV PNTSPFVLGV YNLRGDIIPI IDLRRFFNIP APRKSRQAIE NMVIVTVEDQ
+     TFGVVVDGID KVIGVSKTTI QPPHPIFGDI NIKYIRGVVE EAGKLYILLD VHRIFSFRLG
+     EEERTAVVDR GVVPSPSPPA VSVPPGDEEN LNVGFISDTL AAFGRFFTSA VNEGWLRSRY
+     LVWRDVRSGA EVQLQHEEDV AEFLSTFPSP DTGVFWSGEY AASVGSVLSR MQVGKVVTVW
+     NIGCGAGHES YSLAVLLRKT FPDAVVRVHA SDSDLFSISN APMLTVPEHV IGDWYKPYVV
+     KGVSGSYTFS QEIKEMVLFE YHDCTHPSAL PDVDLIVARD VLSSLAVPVQ HTLLKEFSEK
+     LKATGVVLLG QNEVMPKDTG WLRQIEGTVA VFSKE
+//
+ID   P96124_TREPL            Unreviewed;       455 AA.
+AC   P96124; Q7DFP7;
+DT   01-MAY-1997, integrated into UniProtKB/TrEMBL.
+DT   01-MAY-1997, sequence version 1.
+DT   09-DEC-2015, entry version 80.
+DE   SubName: Full=Chemotaxis protein CheW {ECO:0000313|EMBL:AAC45556.1};
+GN   Name=cheW {ECO:0000313|EMBL:AAC45556.1};
+OS   Treponema pallidum.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=160 {ECO:0000313|EMBL:AAC45556.1};
+RN   [1] {ECO:0000313|EMBL:AAC45556.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Nichols strain {ECO:0000313|EMBL:AAC45556.1};
+RX   PubMed=9255518;
+RA   Greene S.R., Stamm L.V., Hardham J.M., Young N.R., Frye J.G.;
+RT   "Identification, sequences, and expression of Treponema pallidum
+RT   chemotaxis genes.";
+RL   DNA Seq. 7:267-284(1997).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U61851; AAC45556.1; -; Genomic_DNA.
+DR   PIR; B71335; B71335.
+DR   ProteinModelPortal; P96124; -.
+DR   STRING; 243276.TP0364; -.
+DR   GeneID; 2611149; -.
+DR   PATRIC; 20530729; VBITrePal57110_0385.
+DR   eggNOG; COG0835; LUCA.
+DR   eggNOG; COG1352; LUCA.
+DR   eggNOG; ENOG4105H7C; Bacteria.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0004871; F:signal transducer activity; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   InterPro; IPR022642; CheR_C.
+DR   InterPro; IPR000780; CheR_MeTrfase.
+DR   InterPro; IPR002545; CheW.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF01739; CheR; 1.
+DR   Pfam; PF01584; CheW; 1.
+DR   PRINTS; PR00996; CHERMTFRASE.
+DR   SMART; SM00260; CheW; 1.
+DR   SMART; SM00138; MeTrc; 1.
+DR   SUPFAM; SSF50341; SSF50341; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS50123; CHER; 1.
+DR   PROSITE; PS50851; CHEW; 1.
+PE   4: Predicted;
+FT   DOMAIN       38    180       CheW-like. {ECO:0000259|PROSITE:PS50851}.
+FT   DOMAIN      246    455       CheR-type methyltransferase.
+FT                                {ECO:0000259|PROSITE:PS50123}.
+SQ   SEQUENCE   455 AA;  50047 MW;  3ECD9FF49C43195D CRC64;
+     MVGDLGHGLG TMIEHMEAEI GIRESFDGGV REPLAVIDFK MVTFSLAGKD YAVDIMQVKE
+     IAKAGSFTYV PNTSPFVLGV YNLRGDIIPI IDLRRFFNIP APRKSRQAIE NMVIVTVEDQ
+     TFGVVVDGID KVIGVSKTTI QPPHPIFGDI NIKYIRGVVE EAGKLYILLD VHRIFSFRLG
+     EEERTAVVDR GVVPSPSPPA VSVPPGDEEN LNVGFISDTL AAFGRFFTSA VNEGWLRSRY
+     LVWRDVRSGA EVQLQHEEDV AEFLSTFPSP DTGVFWSGEY AASVGSVLSR MQVGKVVTVW
+     NIGCGAGHES YSLAVLLRKT FPDAVVRVHA SDSDLFSISN APMLTVPEHV IGDWYKPYVV
+     KGVSGSYTFS QEIKEMVLFE YHDCTHPSAL PDVDLIVARD VLSSLAVPVQ HTLLKEFSEK
+     LKATGVVLLG QNEVMPKDTG WLRQIEGTVA VFSKE
+//
+ID   A0A0H3BIP6_TREPS        Unreviewed;       455 AA.
+AC   A0A0H3BIP6;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Purine-binding chemotaxis protein {ECO:0000313|EMBL:ACD70790.1};
+GN   Name=cheW1 {ECO:0000313|EMBL:ACD70790.1};
+GN   OrderedLocusNames=TPASS_0364 {ECO:0000313|EMBL:ACD70790.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70790.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70790.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70790.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70790.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881812.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIP6; -.
+DR   GeneID; 2611149; -.
+DR   KEGG; tpp:TPASS_0364; -.
+DR   KO; K03408; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0008757; F:S-adenosylmethionine-dependent methyltransferase activity; IEA:InterPro.
+DR   GO; GO:0004871; F:signal transducer activity; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:InterPro.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   InterPro; IPR022642; CheR_C.
+DR   InterPro; IPR000780; CheR_MeTrfase.
+DR   InterPro; IPR002545; CheW.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   Pfam; PF01739; CheR; 1.
+DR   Pfam; PF01584; CheW; 1.
+DR   PRINTS; PR00996; CHERMTFRASE.
+DR   SMART; SM00260; CheW; 1.
+DR   SMART; SM00138; MeTrc; 1.
+DR   SUPFAM; SSF50341; SSF50341; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+DR   PROSITE; PS50123; CHER; 1.
+DR   PROSITE; PS50851; CHEW; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+FT   DOMAIN       38    180       CheW-like. {ECO:0000259|PROSITE:PS50851}.
+FT   DOMAIN      246    455       CheR-type methyltransferase.
+FT                                {ECO:0000259|PROSITE:PS50123}.
+SQ   SEQUENCE   455 AA;  50047 MW;  3ECD9FF49C43195D CRC64;
+     MVGDLGHGLG TMIEHMEAEI GIRESFDGGV REPLAVIDFK MVTFSLAGKD YAVDIMQVKE
+     IAKAGSFTYV PNTSPFVLGV YNLRGDIIPI IDLRRFFNIP APRKSRQAIE NMVIVTVEDQ
+     TFGVVVDGID KVIGVSKTTI QPPHPIFGDI NIKYIRGVVE EAGKLYILLD VHRIFSFRLG
+     EEERTAVVDR GVVPSPSPPA VSVPPGDEEN LNVGFISDTL AAFGRFFTSA VNEGWLRSRY
+     LVWRDVRSGA EVQLQHEEDV AEFLSTFPSP DTGVFWSGEY AASVGSVLSR MQVGKVVTVW
+     NIGCGAGHES YSLAVLLRKT FPDAVVRVHA SDSDLFSISN APMLTVPEHV IGDWYKPYVV
+     KGVSGSYTFS QEIKEMVLFE YHDCTHPSAL PDVDLIVARD VLSSLAVPVQ HTLLKEFSEK
+     LKATGVVLLG QNEVMPKDTG WLRQIEGTVA VFSKE
+//

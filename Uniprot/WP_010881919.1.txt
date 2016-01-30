@@ -1,0 +1,87 @@
+ID   O83483_TREPA            Unreviewed;       369 AA.
+AC   O83483;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 94.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AAC65451.1};
+GN   OrderedLocusNames=TP_0470 {ECO:0000313|EMBL:AAC65451.1};
+GN   ORFNames=TPANIC_0470 {ECO:0000313|EMBL:AGN75662.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65451.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65451.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65451.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75662.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75662.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65451.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75662.1; -; Genomic_DNA.
+DR   PIR; H71321; H71321.
+DR   RefSeq; WP_010881919.1; NC_021490.2.
+DR   STRING; 243276.TP0470; -.
+DR   EnsemblBacteria; AAC65451; AAC65451; TP_0470.
+DR   EnsemblBacteria; AGN75662; AGN75662; TPANIC_0470.
+DR   GeneID; 2611095; -.
+DR   KEGG; tpa:TP_0470; -.
+DR   KEGG; tpw:TPANIC_0470; -.
+DR   PATRIC; 20530965; VBITrePal57110_0502.
+DR   eggNOG; ENOG410601M; Bacteria.
+DR   eggNOG; ENOG41122SI; LUCA.
+DR   OMA; YEYESEL; -.
+DR   OrthoDB; EOG6ZPT0H; -.
+DR   BioCyc; TPAL243276:GC1H-497-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   Gene3D; 1.25.40.10; -; 2.
+DR   InterPro; IPR013026; TPR-contain_dom.
+DR   InterPro; IPR011990; TPR-like_helical_dom.
+DR   InterPro; IPR019734; TPR_repeat.
+DR   Pfam; PF13414; TPR_11; 1.
+DR   SUPFAM; SSF48452; SSF48452; 1.
+DR   PROSITE; PS50005; TPR; 4.
+DR   PROSITE; PS50293; TPR_REGION; 1.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     35       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        36    369       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5005692281.
+FT   DOMAIN       38    174       TPR_REGION.
+FT                                {ECO:0000259|PROSITE:PS50293}.
+FT   COILED      180    347       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   369 AA;  43304 MW;  7798B1E8D9788D81 CRC64;
+     MCQKSSPCTY ARVRSLPSVR LFSFLALAFA SFLRAEDAFD HFREGERLLS LQQAQQAIGP
+     LHKAAQQKPA HPKAALYLGM AYLQTGRYTQ AIQWLQNPPV HSQEYAHLYA YNLGNVYFVQ
+     HRYEEAQHAY EQALALKHDY PPALLNRANT AMKRQAYAHA LADYKKYVSQ NPTASQHYEV
+     QRMIAALEQW LQRKEAEEAR RKEAEEARRK EAEEARRKEA EEARRKEAEE ARRKEAEEAR
+     RKEAEEARRK EAEEARRKEA EEARRKEAEE ARRKEAEEAR RKEAEEARRK EAEEARRKEA
+     EEARRKEAEE ARRKEAEEAR RKEAEEARRK EAEFEALKRA LRLKQAEDAR TLSTGSEDTV
+     PYQEEHNLE
+//

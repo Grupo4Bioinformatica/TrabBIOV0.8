@@ -1,0 +1,262 @@
+ID   SECA_TREPA              Reviewed;         916 AA.
+AC   O83394;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 107.
+DE   RecName: Full=Protein translocase subunit SecA {ECO:0000255|HAMAP-Rule:MF_01382};
+GN   Name=secA {ECO:0000255|HAMAP-Rule:MF_01382};
+GN   OrderedLocusNames=TP_0379;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. Has a central role
+CC       in coupling the hydrolysis of ATP to the transfer of proteins into
+CC       and across the cell membrane, serving as an ATP-driven molecular
+CC       motor driving the stepwise translocation of polypeptide chains
+CC       across the membrane. {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_01382};
+CC       Note=May bind 1 zinc ion per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_01382};
+CC   -!- SUBUNIT: Monomer and homodimer. Part of the essential Sec protein
+CC       translocation apparatus which comprises SecA, SecYEG and auxiliary
+CC       proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}; Peripheral membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}; Cytoplasmic side {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}. Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC       Note=Distribution is 50-50. {ECO:0000255|HAMAP-Rule:MF_01382}.
+CC   -!- SIMILARITY: Belongs to the SecA family. {ECO:0000255|HAMAP-
+CC       Rule:MF_01382}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65365.1; -; Genomic_DNA.
+DR   PIR; E71330; E71330.
+DR   RefSeq; WP_010881827.1; NC_000919.1.
+DR   ProteinModelPortal; O83394; -.
+DR   STRING; 243276.TP0379; -.
+DR   EnsemblBacteria; AAC65365; AAC65365; TP_0379.
+DR   GeneID; 2611270; -.
+DR   KEGG; tpa:TP_0379; -.
+DR   PATRIC; 20530763; VBITrePal57110_0401.
+DR   eggNOG; ENOG4105CI6; Bacteria.
+DR   eggNOG; COG0653; LUCA.
+DR   KO; K03070; -.
+DR   OMA; IATERHE; -.
+DR   OrthoDB; EOG654P48; -.
+DR   BioCyc; TPAL243276:GC1H-405-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0017038; P:protein import; IEA:InterPro.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.3060.10; -; 1.
+DR   Gene3D; 3.40.50.300; -; 3.
+DR   Gene3D; 3.90.1440.10; -; 1.
+DR   HAMAP; MF_01382; SecA; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004027; SEC_C_motif.
+DR   InterPro; IPR000185; SecA.
+DR   InterPro; IPR020937; SecA_CS.
+DR   InterPro; IPR011115; SecA_DEAD.
+DR   InterPro; IPR014018; SecA_motor_DEAD.
+DR   InterPro; IPR011130; SecA_preprotein_X-link_dom.
+DR   InterPro; IPR011116; SecA_Wing/Scaffold.
+DR   Pfam; PF02810; SEC-C; 1.
+DR   Pfam; PF07517; SecA_DEAD; 1.
+DR   Pfam; PF01043; SecA_PP_bind; 1.
+DR   Pfam; PF07516; SecA_SW; 1.
+DR   PRINTS; PR00906; SECA.
+DR   SMART; SM00957; SecA_DEAD; 1.
+DR   SMART; SM00958; SecA_PP_bind; 1.
+DR   SUPFAM; SSF52540; SSF52540; 3.
+DR   SUPFAM; SSF81767; SSF81767; 1.
+DR   SUPFAM; SSF81886; SSF81886; 2.
+DR   TIGRFAMs; TIGR00963; secA; 1.
+DR   PROSITE; PS01312; SECA; 1.
+DR   PROSITE; PS51196; SECA_MOTOR_DEAD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Cell inner membrane; Cell membrane; Complete proteome;
+KW   Cytoplasm; Membrane; Metal-binding; Nucleotide-binding;
+KW   Protein transport; Reference proteome; Translocation; Transport; Zinc.
+FT   CHAIN         1    916       Protein translocase subunit SecA.
+FT                                /FTId=PRO_0000109619.
+FT   NP_BIND     103    110       ATP. {ECO:0000255|HAMAP-Rule:MF_01382}.
+FT   METAL       902    902       Zinc. {ECO:0000255|HAMAP-Rule:MF_01382}.
+FT   METAL       904    904       Zinc. {ECO:0000255|HAMAP-Rule:MF_01382}.
+FT   METAL       913    913       Zinc. {ECO:0000255|HAMAP-Rule:MF_01382}.
+FT   METAL       914    914       Zinc. {ECO:0000255|HAMAP-Rule:MF_01382}.
+SQ   SEQUENCE   916 AA;  103780 MW;  EA5561F6EE7C65AE CRC64;
+     MLVRTALRLI FGSQHERDLK NLLPLLNAVN AQESWVLPLQ ESEFKQKTAE FKARAAAGEA
+     LDAFLPQAFA LAREAARRVL GERPYDVQIL GSLVLHHGKI VEMKTGEGKT LMSVAAAYLN
+     SLSGRGVHIV TVNDYLAERD ARWMRPVYDY LGVSVGVILS SMGSQERRCA YACDITYGTN
+     NELGFDYLRD NMQFLTEEKT QRDFYFAIID EIDSILIDEA RTPLIISGPA ENDTQHYAEV
+     DRLVGQLQEV ERNPATGDYP NEVDGEEVRG DYIVDEKNRK VSFSGPGMLH IQDVLTHAGL
+     IQGSLFDEEN FKYIHYFTQA LRAHLLYRAD VDYVVKDGQV QIVDEFTGRI LEGRRYSDGL
+     HQAIEAKEHI RIAQRNRTMA TITFQNFFRM YKKLSGMTGT ADTEALELNK IYKLEVVVLP
+     TNLPVARVDE HDVVYLSEEE KWSAICDEIK EAHTRGQPVL VGTISIEKSE KLSALLRTRG
+     VKHEVLNAKN HAREALIIAE AGAKGSVTIA TNMAGRGTDI KLGGNPEFRA RQSATAIASK
+     HGSSSVTVQE HMQACYEAEY TRWRADYEEV KQLGGLYVIG TERHESRRID NQLRGRSGRQ
+     GDPGRSKFFL SLDDDLMRIF GGERLKRFMS RVGMEPGEPI THSWLNKSIE RAQTKVEARN
+     FDVRKHLLEY DDVLNEQRSF IYAQRAQILI DEHVVERVYT TIEEYLNREI TALRQELKRR
+     GRLSLGAFQQ NLSTLFDYAL GGEDASGWNE TRLGTLKQEI LAHLKKNIES KYLLAGAQNM
+     DTFIRYQYVQ AIDKKWLDHL ELLEILRESV YLRSYGQKNP LTEYKLEGFD LFYTMLDDIR
+     LSIASQVVRV TVHMEEQRVP RPPHVAQAAH EFQALGQPGR GHGSLSALPI QAGAKVGRNT
+     PCPCGSGKKY KHCCGR
+//
+ID   A0A0H3BJ22_TREPS        Unreviewed;       916 AA.
+AC   A0A0H3BJ22;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Protein translocase subunit SecA {ECO:0000256|HAMAP-Rule:MF_01382, ECO:0000256|RuleBase:RU003874};
+GN   Name=secA {ECO:0000256|HAMAP-Rule:MF_01382,
+GN   ECO:0000313|EMBL:ACD70805.1};
+GN   OrderedLocusNames=TPASS_0379 {ECO:0000313|EMBL:ACD70805.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70805.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70805.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70805.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. Has a central role
+CC       in coupling the hydrolysis of ATP to the transfer of proteins into
+CC       and across the cell membrane, serving as an ATP-driven molecular
+CC       motor driving the stepwise translocation of polypeptide chains
+CC       across the membrane. {ECO:0000256|HAMAP-Rule:MF_01382}.
+CC   -!- COFACTOR:
+CC       Name=Zn(2+); Xref=ChEBI:CHEBI:29105;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_01382,
+CC         ECO:0000256|SAAS:SAAS00386865};
+CC       Note=May bind 1 zinc ion per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_01382, ECO:0000256|SAAS:SAAS00386865};
+CC   -!- SUBUNIT: Monomer and homodimer. Part of the essential Sec protein
+CC       translocation apparatus which comprises SecA, SecYEG and auxiliary
+CC       proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000256|HAMAP-Rule:MF_01382}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01382}; Peripheral membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01382}; Cytoplasmic side {ECO:0000256|HAMAP-
+CC       Rule:MF_01382}. Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01382}.
+CC       Note=Distribution is 50-50. {ECO:0000256|HAMAP-Rule:MF_01382}.
+CC   -!- SIMILARITY: Belongs to the SecA family. {ECO:0000256|HAMAP-
+CC       Rule:MF_01382, ECO:0000256|RuleBase:RU003874}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70805.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881827.1; NC_010741.1.
+DR   ProteinModelPortal; A0A0H3BJ22; -.
+DR   GeneID; 2611270; -.
+DR   KEGG; tpp:TPASS_0379; -.
+DR   KO; K03070; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0017038; P:protein import; IEA:InterPro.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.3060.10; -; 1.
+DR   Gene3D; 3.40.50.300; -; 3.
+DR   Gene3D; 3.90.1440.10; -; 1.
+DR   HAMAP; MF_01382; SecA; 1.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR004027; SEC_C_motif.
+DR   InterPro; IPR000185; SecA.
+DR   InterPro; IPR020937; SecA_CS.
+DR   InterPro; IPR011115; SecA_DEAD.
+DR   InterPro; IPR014018; SecA_motor_DEAD.
+DR   InterPro; IPR011130; SecA_preprotein_X-link_dom.
+DR   InterPro; IPR011116; SecA_Wing/Scaffold.
+DR   Pfam; PF02810; SEC-C; 1.
+DR   Pfam; PF07517; SecA_DEAD; 1.
+DR   Pfam; PF01043; SecA_PP_bind; 1.
+DR   Pfam; PF07516; SecA_SW; 1.
+DR   PRINTS; PR00906; SECA.
+DR   SMART; SM00957; SecA_DEAD; 1.
+DR   SMART; SM00958; SecA_PP_bind; 1.
+DR   SUPFAM; SSF52540; SSF52540; 3.
+DR   SUPFAM; SSF81767; SSF81767; 1.
+DR   SUPFAM; SSF81886; SSF81886; 2.
+DR   TIGRFAMs; TIGR00963; secA; 1.
+DR   PROSITE; PS01312; SECA; 1.
+DR   PROSITE; PS51196; SECA_MOTOR_DEAD; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|RuleBase:RU003874, ECO:0000256|SAAS:SAAS00246687};
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01382};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01382};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|SAAS:SAAS00246670};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01382};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|SAAS:SAAS00093234};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|RuleBase:RU003874, ECO:0000256|SAAS:SAAS00246687};
+KW   Protein transport {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|RuleBase:RU003874, ECO:0000256|SAAS:SAAS00246626};
+KW   Translocation {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|RuleBase:RU003874, ECO:0000256|SAAS:SAAS00246626};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_01382,
+KW   ECO:0000256|RuleBase:RU003874, ECO:0000256|SAAS:SAAS00246626};
+KW   Zinc {ECO:0000256|HAMAP-Rule:MF_01382, ECO:0000256|SAAS:SAAS00246619}.
+FT   DOMAIN        4    641       SECA_MOTOR_DEAD.
+FT                                {ECO:0000259|PROSITE:PS51196}.
+FT   NP_BIND     103    110       ATP. {ECO:0000256|HAMAP-Rule:MF_01382}.
+FT   METAL       902    902       Zinc. {ECO:0000256|HAMAP-Rule:MF_01382}.
+FT   METAL       904    904       Zinc. {ECO:0000256|HAMAP-Rule:MF_01382}.
+FT   METAL       913    913       Zinc. {ECO:0000256|HAMAP-Rule:MF_01382}.
+FT   METAL       914    914       Zinc. {ECO:0000256|HAMAP-Rule:MF_01382}.
+SQ   SEQUENCE   916 AA;  103780 MW;  EA5561F6EE7C65AE CRC64;
+     MLVRTALRLI FGSQHERDLK NLLPLLNAVN AQESWVLPLQ ESEFKQKTAE FKARAAAGEA
+     LDAFLPQAFA LAREAARRVL GERPYDVQIL GSLVLHHGKI VEMKTGEGKT LMSVAAAYLN
+     SLSGRGVHIV TVNDYLAERD ARWMRPVYDY LGVSVGVILS SMGSQERRCA YACDITYGTN
+     NELGFDYLRD NMQFLTEEKT QRDFYFAIID EIDSILIDEA RTPLIISGPA ENDTQHYAEV
+     DRLVGQLQEV ERNPATGDYP NEVDGEEVRG DYIVDEKNRK VSFSGPGMLH IQDVLTHAGL
+     IQGSLFDEEN FKYIHYFTQA LRAHLLYRAD VDYVVKDGQV QIVDEFTGRI LEGRRYSDGL
+     HQAIEAKEHI RIAQRNRTMA TITFQNFFRM YKKLSGMTGT ADTEALELNK IYKLEVVVLP
+     TNLPVARVDE HDVVYLSEEE KWSAICDEIK EAHTRGQPVL VGTISIEKSE KLSALLRTRG
+     VKHEVLNAKN HAREALIIAE AGAKGSVTIA TNMAGRGTDI KLGGNPEFRA RQSATAIASK
+     HGSSSVTVQE HMQACYEAEY TRWRADYEEV KQLGGLYVIG TERHESRRID NQLRGRSGRQ
+     GDPGRSKFFL SLDDDLMRIF GGERLKRFMS RVGMEPGEPI THSWLNKSIE RAQTKVEARN
+     FDVRKHLLEY DDVLNEQRSF IYAQRAQILI DEHVVERVYT TIEEYLNREI TALRQELKRR
+     GRLSLGAFQQ NLSTLFDYAL GGEDASGWNE TRLGTLKQEI LAHLKKNIES KYLLAGAQNM
+     DTFIRYQYVQ AIDKKWLDHL ELLEILRESV YLRSYGQKNP LTEYKLEGFD LFYTMLDDIR
+     LSIASQVVRV TVHMEEQRVP RPPHVAQAAH EFQALGQPGR GHGSLSALPI QAGAKVGRNT
+     PCPCGSGKKY KHCCGR
+//

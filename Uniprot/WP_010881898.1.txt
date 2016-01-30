@@ -1,0 +1,575 @@
+ID   EFG2_TREPA              Reviewed;         683 AA.
+AC   O83464;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 105.
+DE   RecName: Full=Elongation factor G 2;
+DE            Short=EF-G 2;
+GN   Name=fusB; Synonyms=fusA-1; OrderedLocusNames=TP_0450;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the GTP-dependent ribosomal translocation step
+CC       during translation elongation. During this step, the ribosome
+CC       changes from the pre-translocational (PRE) to the post-
+CC       translocational (POST) state as the newly formed A-site-bound
+CC       peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E
+CC       sites, respectively. Catalyzes the coordinated movement of the two
+CC       tRNA molecules, the mRNA and conformational changes in the
+CC       ribosome (By similarity). {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. EF-G/EF-2
+CC       subfamily. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 tr-type G (guanine nucleotide-binding)
+CC       domain. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65438.1; -; Genomic_DNA.
+DR   PIR; C71322; C71322.
+DR   RefSeq; WP_010881898.1; NC_021490.2.
+DR   ProteinModelPortal; O83464; -.
+DR   STRING; 243276.TP0450; -.
+DR   EnsemblBacteria; AAC65438; AAC65438; TP_0450.
+DR   GeneID; 2611018; -.
+DR   KEGG; tpa:TP_0450; -.
+DR   PATRIC; 20530919; VBITrePal57110_0479.
+DR   eggNOG; ENOG4105CEJ; Bacteria.
+DR   eggNOG; COG0480; LUCA.
+DR   KO; K02355; -.
+DR   OMA; HHYAEAP; -.
+DR   OrthoDB; EOG6X6RBF; -.
+DR   BioCyc; TPAL243276:GC1H-476-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.240; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00054_B; EF_G_EF_2_B; 1.
+DR   InterPro; IPR009022; EFG_III-V.
+DR   InterPro; IPR000640; EFG_V.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; TF_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel.
+DR   InterPro; IPR004540; Transl_elong_EFG/EF2.
+DR   InterPro; IPR005517; Transl_elong_EFG/EF2_IV.
+DR   InterPro; IPR004161; Transl_elong_EFTu/EF1A_2.
+DR   Pfam; PF00679; EFG_C; 1.
+DR   Pfam; PF14492; EFG_II; 1.
+DR   Pfam; PF03764; EFG_IV; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SMART; SM00838; EFG_C; 1.
+DR   SMART; SM00889; EFG_IV; 1.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF54980; SSF54980; 2.
+DR   TIGRFAMs; TIGR00484; EF-G; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Elongation factor; GTP-binding;
+KW   Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN         1    683       Elongation factor G 2.
+FT                                /FTId=PRO_0000091255.
+FT   DOMAIN        4    279       tr-type G.
+FT   NP_BIND      13     20       GTP. {ECO:0000250}.
+FT   NP_BIND      77     81       GTP. {ECO:0000250}.
+FT   NP_BIND     131    134       GTP. {ECO:0000250}.
+SQ   SEQUENCE   683 AA;  75802 MW;  E0543E02FAA72AF1 CRC64;
+     MRQQQMRNIG IMAHVDAGKT TTTERMLFYT GKIHRMGEID DGATTMDWMV QEQERGITIQ
+     SAATTVRWRE VDITIIDTPG HVDFTAEVER ALRVLDGVVV VLCAVGRVQP QTETVWYQAD
+     RYDIPRVCFV NKMDRIGADF FSVLDQVHNK FGIDAVALQI PIGSGTSFEG VIDLITMKEI
+     FWDAASSGEQ MEYRPIQSAR IAQAREAREK MLDVISIYSD EVTECVLAGE HVPVQLLHAE
+     IRKAVRERRY VPFLCGSSRH NLGVQPLLDA VVEYLPAPQE RKAVEGFHVQ KKEPVFIAPT
+     AEGPLLALVF KIQYEREAGL LCYVRMYSGK LRTGDSIVNI GKKKRERVYR ILRMHSNKSE
+     TVECIQAGDI AVIVGLKSAQ TGDSVGDGSC PVVLESMHFP EPVISVSLEP MDASSRDKLQ
+     ETLGILSRED PTFSVREDAE TGQLLISGMG ELHLDVLTTR MREDFNVQVR VGKPHVTYRE
+     SIRKTVERTL RVQRVIGGKE YMAGLTLRVE ARKRGAGNEF FCQVKELRGT VCTAHTAPAE
+     IIGAVEHAIR GAWDGGIQSG YPCVDVGVHL LSVEYQELTS SPFIFEAAAV QAFGEACVAA
+     EPYVLEPIMS VELSCAQENV GDVMNVIIQR GGIILGMDSK HGRELVHAQA PMKKMFGFST
+     DVRSASRGGA SFTMRFSHFE SCA
+//
+ID   R9UWQ4_TREPA            Unreviewed;       683 AA.
+AC   R9UWQ4;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 19.
+DE   RecName: Full=Elongation factor G {ECO:0000256|HAMAP-Rule:MF_00054};
+DE            Short=EF-G {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   Name=fusA1 {ECO:0000313|EMBL:AGN75643.1};
+GN   Synonyms=fusA {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   ORFNames=TPANIC_0450a {ECO:0000313|EMBL:AGN75643.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75643.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75643.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75643.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Catalyzes the GTP-dependent ribosomal translocation step
+CC       during translation elongation. During this step, the ribosome
+CC       changes from the pre-translocational (PRE) to the post-
+CC       translocational (POST) state as the newly formed A-site-bound
+CC       peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E
+CC       sites, respectively. Catalyzes the coordinated movement of the two
+CC       tRNA molecules, the mRNA and conformational changes in the
+CC       ribosome. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. EF-G/EF-2
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75643.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881898.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWQ4; -.
+DR   STRING; 243276.TP0450; -.
+DR   EnsemblBacteria; AGN75643; AGN75643; TPANIC_0450a.
+DR   GeneID; 2611018; -.
+DR   KEGG; tpw:TPANIC_0450a; -.
+DR   eggNOG; COG0480; LUCA.
+DR   eggNOG; ENOG4105CEJ; Bacteria.
+DR   KO; K02355; -.
+DR   OMA; HHYAEAP; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.240; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00054_B; EF_G_EF_2_B; 1.
+DR   InterPro; IPR009022; EFG_III-V.
+DR   InterPro; IPR000640; EFG_V.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; TF_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel.
+DR   InterPro; IPR004540; Transl_elong_EFG/EF2.
+DR   InterPro; IPR005517; Transl_elong_EFG/EF2_IV.
+DR   InterPro; IPR004161; Transl_elong_EFTu/EF1A_2.
+DR   Pfam; PF00679; EFG_C; 1.
+DR   Pfam; PF14492; EFG_II; 1.
+DR   Pfam; PF03764; EFG_IV; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SMART; SM00838; EFG_C; 1.
+DR   SMART; SM00889; EFG_IV; 1.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF54980; SSF54980; 2.
+DR   TIGRFAMs; TIGR00484; EF-G; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054};
+KW   Elongation factor {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:AGN75643.1};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Hydrolase {ECO:0000313|EMBL:AGN75643.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:AGN75643.1}.
+FT   DOMAIN        4    279       Tr-type G (guanine nucleotide-binding).
+FT                                {ECO:0000259|PROSITE:PS51722}.
+FT   NP_BIND      13     20       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND      77     81       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND     131    134       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+SQ   SEQUENCE   683 AA;  75802 MW;  E0543E02FAA72AF1 CRC64;
+     MRQQQMRNIG IMAHVDAGKT TTTERMLFYT GKIHRMGEID DGATTMDWMV QEQERGITIQ
+     SAATTVRWRE VDITIIDTPG HVDFTAEVER ALRVLDGVVV VLCAVGRVQP QTETVWYQAD
+     RYDIPRVCFV NKMDRIGADF FSVLDQVHNK FGIDAVALQI PIGSGTSFEG VIDLITMKEI
+     FWDAASSGEQ MEYRPIQSAR IAQAREAREK MLDVISIYSD EVTECVLAGE HVPVQLLHAE
+     IRKAVRERRY VPFLCGSSRH NLGVQPLLDA VVEYLPAPQE RKAVEGFHVQ KKEPVFIAPT
+     AEGPLLALVF KIQYEREAGL LCYVRMYSGK LRTGDSIVNI GKKKRERVYR ILRMHSNKSE
+     TVECIQAGDI AVIVGLKSAQ TGDSVGDGSC PVVLESMHFP EPVISVSLEP MDASSRDKLQ
+     ETLGILSRED PTFSVREDAE TGQLLISGMG ELHLDVLTTR MREDFNVQVR VGKPHVTYRE
+     SIRKTVERTL RVQRVIGGKE YMAGLTLRVE ARKRGAGNEF FCQVKELRGT VCTAHTAPAE
+     IIGAVEHAIR GAWDGGIQSG YPCVDVGVHL LSVEYQELTS SPFIFEAAAV QAFGEACVAA
+     EPYVLEPIMS VELSCAQENV GDVMNVIIQR GGIILGMDSK HGRELVHAQA PMKKMFGFST
+     DVRSASRGGA SFTMRFSHFE SCA
+//
+ID   H6KT68_TREPD            Unreviewed;       683 AA.
+AC   H6KT68;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 31.
+DE   RecName: Full=Elongation factor G {ECO:0000256|HAMAP-Rule:MF_00054};
+DE            Short=EF-G {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   Name=fusA {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   Synonyms=fusA1 {ECO:0000313|EMBL:AEZ58642.1};
+GN   OrderedLocusNames=TPECDC2_0450 {ECO:0000313|EMBL:AEZ58642.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58642.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Catalyzes the GTP-dependent ribosomal translocation step
+CC       during translation elongation. During this step, the ribosome
+CC       changes from the pre-translocational (PRE) to the post-
+CC       translocational (POST) state as the newly formed A-site-bound
+CC       peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E
+CC       sites, respectively. Catalyzes the coordinated movement of the two
+CC       tRNA molecules, the mRNA and conformational changes in the
+CC       ribosome. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. EF-G/EF-2
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58642.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881898.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT68; -.
+DR   EnsemblBacteria; AEZ58642; AEZ58642; TPECDC2_0450.
+DR   GeneID; 2611018; -.
+DR   KEGG; tpc:TPECDC2_0450; -.
+DR   KO; K02355; -.
+DR   OMA; HHYAEAP; -.
+DR   BioCyc; TPAL491079:GJCE-484-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.240; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00054_B; EF_G_EF_2_B; 1.
+DR   InterPro; IPR009022; EFG_III-V.
+DR   InterPro; IPR000640; EFG_V.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; TF_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel.
+DR   InterPro; IPR004540; Transl_elong_EFG/EF2.
+DR   InterPro; IPR005517; Transl_elong_EFG/EF2_IV.
+DR   InterPro; IPR004161; Transl_elong_EFTu/EF1A_2.
+DR   Pfam; PF00679; EFG_C; 1.
+DR   Pfam; PF14492; EFG_II; 1.
+DR   Pfam; PF03764; EFG_IV; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SMART; SM00838; EFG_C; 1.
+DR   SMART; SM00889; EFG_IV; 1.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF54980; SSF54980; 2.
+DR   TIGRFAMs; TIGR00484; EF-G; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054};
+KW   Elongation factor {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:AEZ58642.1};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Hydrolase {ECO:0000313|EMBL:AEZ58642.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:AEZ58642.1}.
+FT   DOMAIN        4    279       Tr-type G (guanine nucleotide-binding).
+FT                                {ECO:0000259|PROSITE:PS51722}.
+FT   NP_BIND      13     20       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND      77     81       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND     131    134       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+SQ   SEQUENCE   683 AA;  75802 MW;  E0543E02FAA72AF1 CRC64;
+     MRQQQMRNIG IMAHVDAGKT TTTERMLFYT GKIHRMGEID DGATTMDWMV QEQERGITIQ
+     SAATTVRWRE VDITIIDTPG HVDFTAEVER ALRVLDGVVV VLCAVGRVQP QTETVWYQAD
+     RYDIPRVCFV NKMDRIGADF FSVLDQVHNK FGIDAVALQI PIGSGTSFEG VIDLITMKEI
+     FWDAASSGEQ MEYRPIQSAR IAQAREAREK MLDVISIYSD EVTECVLAGE HVPVQLLHAE
+     IRKAVRERRY VPFLCGSSRH NLGVQPLLDA VVEYLPAPQE RKAVEGFHVQ KKEPVFIAPT
+     AEGPLLALVF KIQYEREAGL LCYVRMYSGK LRTGDSIVNI GKKKRERVYR ILRMHSNKSE
+     TVECIQAGDI AVIVGLKSAQ TGDSVGDGSC PVVLESMHFP EPVISVSLEP MDASSRDKLQ
+     ETLGILSRED PTFSVREDAE TGQLLISGMG ELHLDVLTTR MREDFNVQVR VGKPHVTYRE
+     SIRKTVERTL RVQRVIGGKE YMAGLTLRVE ARKRGAGNEF FCQVKELRGT VCTAHTAPAE
+     IIGAVEHAIR GAWDGGIQSG YPCVDVGVHL LSVEYQELTS SPFIFEAAAV QAFGEACVAA
+     EPYVLEPIMS VELSCAQENV GDVMNVIIQR GGIILGMDSK HGRELVHAQA PMKKMFGFST
+     DVRSASRGGA SFTMRFSHFE SCA
+//
+ID   A0A0H3BKL4_TREPS        Unreviewed;       683 AA.
+AC   A0A0H3BKL4;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Elongation factor G {ECO:0000256|HAMAP-Rule:MF_00054};
+DE            Short=EF-G {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   Name=fusA1 {ECO:0000313|EMBL:ACD70875.1};
+GN   Synonyms=fusA {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   OrderedLocusNames=TPASS_0450 {ECO:0000313|EMBL:ACD70875.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70875.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70875.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70875.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Catalyzes the GTP-dependent ribosomal translocation step
+CC       during translation elongation. During this step, the ribosome
+CC       changes from the pre-translocational (PRE) to the post-
+CC       translocational (POST) state as the newly formed A-site-bound
+CC       peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E
+CC       sites, respectively. Catalyzes the coordinated movement of the two
+CC       tRNA molecules, the mRNA and conformational changes in the
+CC       ribosome. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. EF-G/EF-2
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70875.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881898.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKL4; -.
+DR   GeneID; 2611018; -.
+DR   KEGG; tpp:TPASS_0450; -.
+DR   KO; K02355; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.240; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00054_B; EF_G_EF_2_B; 1.
+DR   InterPro; IPR009022; EFG_III-V.
+DR   InterPro; IPR000640; EFG_V.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; TF_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel.
+DR   InterPro; IPR004540; Transl_elong_EFG/EF2.
+DR   InterPro; IPR005517; Transl_elong_EFG/EF2_IV.
+DR   InterPro; IPR004161; Transl_elong_EFTu/EF1A_2.
+DR   Pfam; PF00679; EFG_C; 1.
+DR   Pfam; PF14492; EFG_II; 1.
+DR   Pfam; PF03764; EFG_IV; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SMART; SM00838; EFG_C; 1.
+DR   SMART; SM00889; EFG_IV; 1.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF54980; SSF54980; 2.
+DR   TIGRFAMs; TIGR00484; EF-G; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054};
+KW   Elongation factor {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:ACD70875.1};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:ACD70875.1}.
+FT   DOMAIN        4    279       Tr-type G (guanine nucleotide-binding).
+FT                                {ECO:0000259|PROSITE:PS51722}.
+FT   NP_BIND      13     20       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND      77     81       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND     131    134       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+SQ   SEQUENCE   683 AA;  75802 MW;  E0543E02FAA72AF1 CRC64;
+     MRQQQMRNIG IMAHVDAGKT TTTERMLFYT GKIHRMGEID DGATTMDWMV QEQERGITIQ
+     SAATTVRWRE VDITIIDTPG HVDFTAEVER ALRVLDGVVV VLCAVGRVQP QTETVWYQAD
+     RYDIPRVCFV NKMDRIGADF FSVLDQVHNK FGIDAVALQI PIGSGTSFEG VIDLITMKEI
+     FWDAASSGEQ MEYRPIQSAR IAQAREAREK MLDVISIYSD EVTECVLAGE HVPVQLLHAE
+     IRKAVRERRY VPFLCGSSRH NLGVQPLLDA VVEYLPAPQE RKAVEGFHVQ KKEPVFIAPT
+     AEGPLLALVF KIQYEREAGL LCYVRMYSGK LRTGDSIVNI GKKKRERVYR ILRMHSNKSE
+     TVECIQAGDI AVIVGLKSAQ TGDSVGDGSC PVVLESMHFP EPVISVSLEP MDASSRDKLQ
+     ETLGILSRED PTFSVREDAE TGQLLISGMG ELHLDVLTTR MREDFNVQVR VGKPHVTYRE
+     SIRKTVERTL RVQRVIGGKE YMAGLTLRVE ARKRGAGNEF FCQVKELRGT VCTAHTAPAE
+     IIGAVEHAIR GAWDGGIQSG YPCVDVGVHL LSVEYQELTS SPFIFEAAAV QAFGEACVAA
+     EPYVLEPIMS VELSCAQENV GDVMNVIIQR GGIILGMDSK HGRELVHAQA PMKKMFGFST
+     DVRSASRGGA SFTMRFSHFE SCA
+//
+ID   A0A0A7X2Q8_TREPL        Unreviewed;       683 AA.
+AC   A0A0A7X2Q8;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 8.
+DE   RecName: Full=Elongation factor G {ECO:0000256|HAMAP-Rule:MF_00054};
+DE            Short=EF-G {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   Name=fusA1 {ECO:0000313|EMBL:AJB40470.1};
+GN   Synonyms=fusA {ECO:0000256|HAMAP-Rule:MF_00054};
+GN   ORFNames=TENDBA_0450 {ECO:0000313|EMBL:AJB40470.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40470.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40470.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40470.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Catalyzes the GTP-dependent ribosomal translocation step
+CC       during translation elongation. During this step, the ribosome
+CC       changes from the pre-translocational (PRE) to the post-
+CC       translocational (POST) state as the newly formed A-site-bound
+CC       peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E
+CC       sites, respectively. Catalyzes the coordinated movement of the two
+CC       tRNA molecules, the mRNA and conformational changes in the
+CC       ribosome. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class translation factor GTPase
+CC       superfamily. Classic translation factor GTPase family. EF-G/EF-2
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_00054}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40470.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881898.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2Q8; -.
+DR   EnsemblBacteria; AJB40470; AJB40470; TENDBA_0450.
+DR   GeneID; 2611018; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003924; F:GTPase activity; IEA:InterPro.
+DR   GO; GO:0003746; F:translation elongation factor activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.30.230.10; -; 1.
+DR   Gene3D; 3.30.70.240; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00054_B; EF_G_EF_2_B; 1.
+DR   InterPro; IPR009022; EFG_III-V.
+DR   InterPro; IPR000640; EFG_V.
+DR   InterPro; IPR031157; G_TR_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR020568; Ribosomal_S5_D2-typ_fold.
+DR   InterPro; IPR014721; Ribosomal_S5_D2-typ_fold_subgr.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   InterPro; IPR000795; TF_GTP-bd_dom.
+DR   InterPro; IPR009000; Transl_B-barrel.
+DR   InterPro; IPR004540; Transl_elong_EFG/EF2.
+DR   InterPro; IPR005517; Transl_elong_EFG/EF2_IV.
+DR   InterPro; IPR004161; Transl_elong_EFTu/EF1A_2.
+DR   Pfam; PF00679; EFG_C; 1.
+DR   Pfam; PF14492; EFG_II; 1.
+DR   Pfam; PF03764; EFG_IV; 1.
+DR   Pfam; PF03144; GTP_EFTU_D2; 1.
+DR   PRINTS; PR00315; ELONGATNFCT.
+DR   SMART; SM00838; EFG_C; 1.
+DR   SMART; SM00889; EFG_IV; 1.
+DR   SUPFAM; SSF50447; SSF50447; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF54211; SSF54211; 1.
+DR   SUPFAM; SSF54980; SSF54980; 2.
+DR   TIGRFAMs; TIGR00484; EF-G; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00301; G_TR_1; 1.
+DR   PROSITE; PS51722; G_TR_2; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00054};
+KW   Elongation factor {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:AJB40470.1};
+KW   GTP-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Hydrolase {ECO:0000313|EMBL:AJB40470.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000256|RuleBase:RU000323};
+KW   Protein biosynthesis {ECO:0000256|HAMAP-Rule:MF_00054,
+KW   ECO:0000313|EMBL:AJB40470.1}.
+FT   DOMAIN        4    279       Tr-type G (guanine nucleotide-binding).
+FT                                {ECO:0000259|PROSITE:PS51722}.
+FT   NP_BIND      13     20       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND      77     81       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+FT   NP_BIND     131    134       GTP. {ECO:0000256|HAMAP-Rule:MF_00054}.
+SQ   SEQUENCE   683 AA;  75802 MW;  E0543E02FAA72AF1 CRC64;
+     MRQQQMRNIG IMAHVDAGKT TTTERMLFYT GKIHRMGEID DGATTMDWMV QEQERGITIQ
+     SAATTVRWRE VDITIIDTPG HVDFTAEVER ALRVLDGVVV VLCAVGRVQP QTETVWYQAD
+     RYDIPRVCFV NKMDRIGADF FSVLDQVHNK FGIDAVALQI PIGSGTSFEG VIDLITMKEI
+     FWDAASSGEQ MEYRPIQSAR IAQAREAREK MLDVISIYSD EVTECVLAGE HVPVQLLHAE
+     IRKAVRERRY VPFLCGSSRH NLGVQPLLDA VVEYLPAPQE RKAVEGFHVQ KKEPVFIAPT
+     AEGPLLALVF KIQYEREAGL LCYVRMYSGK LRTGDSIVNI GKKKRERVYR ILRMHSNKSE
+     TVECIQAGDI AVIVGLKSAQ TGDSVGDGSC PVVLESMHFP EPVISVSLEP MDASSRDKLQ
+     ETLGILSRED PTFSVREDAE TGQLLISGMG ELHLDVLTTR MREDFNVQVR VGKPHVTYRE
+     SIRKTVERTL RVQRVIGGKE YMAGLTLRVE ARKRGAGNEF FCQVKELRGT VCTAHTAPAE
+     IIGAVEHAIR GAWDGGIQSG YPCVDVGVHL LSVEYQELTS SPFIFEAAAV QAFGEACVAA
+     EPYVLEPIMS VELSCAQENV GDVMNVIIQR GGIILGMDSK HGRELVHAQA PMKKMFGFST
+     DVRSASRGGA SFTMRFSHFE SCA
+//

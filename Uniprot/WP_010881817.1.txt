@@ -1,0 +1,159 @@
+ID   Y369_TREPA              Reviewed;         516 AA.
+AC   O83384;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 77.
+DE   RecName: Full=Uncharacterized protein TP_0369;
+DE   Flags: Precursor;
+GN   OrderedLocusNames=TP_0369;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65360.1; -; Genomic_DNA.
+DR   PIR; H71332; H71332.
+DR   RefSeq; WP_010881817.1; NC_021490.2.
+DR   ProteinModelPortal; O83384; -.
+DR   STRING; 243276.TP0369; -.
+DR   EnsemblBacteria; AAC65360; AAC65360; TP_0369.
+DR   GeneID; 2611636; -.
+DR   KEGG; tpa:TP_0369; -.
+DR   PATRIC; 20530741; VBITrePal57110_0391.
+DR   eggNOG; ENOG4106GEY; Bacteria.
+DR   eggNOG; ENOG410Y7TR; LUCA.
+DR   OMA; GTGWVYL; -.
+DR   OrthoDB; EOG6BPDCN; -.
+DR   BioCyc; TPAL243276:GC1H-394-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   InterPro; IPR011990; TPR-like_helical_dom.
+DR   SUPFAM; SSF48452; SSF48452; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Reference proteome; Signal.
+FT   SIGNAL        1     17       {ECO:0000255}.
+FT   CHAIN        18    516       Uncharacterized protein TP_0369.
+FT                                /FTId=PRO_0000014246.
+SQ   SEQUENCE   516 AA;  55860 MW;  1FBC37CE5A0F0CCF CRC64;
+     MSVWVALALL GMCVSCTHVP PPRALIVSKE PPPALDSAPR PAIPEAVPLP SPVEEEIAGR
+     LPPAPAAAPE RVPESSQERE QKPESSKPQV VEPVSLASPV KPREAGSVPD VLPVPEVSSP
+     HVAPPAPPAP TAPRPHRPSP PPVSPSASKP KQRAVPPSPP PASEPPREAE VQAEPEPAED
+     SPRAMVPEEP PEDEVPRVSR AVQLAVGQKL EVLYPGEGWV YVGEHTAQPG LRYHQRKLEE
+     SHSLFTFSAE REGDFVLAFS YFDVFRGDFV SDALAVKVVP KREGLARVVR APEYRRTVSS
+     PPDTVVSELS PAGTGTERRA EESGTSGSQR AAAHTGAPVR QDQTDTAVAE KAQHGTPRPD
+     EKKDREPTVG GRDPVPSDAV AQGVSERYSP RKISPASQPS APSAAPIEAH VPASAHKEGQ
+     EKRDHLAEAR QFCAQGNARD ALASLGDFFA QFPSHERMDE AWFLRGQAYE INGAQRNVRL
+     ALEAYKTILE RFPHSPYWKK ADERARFIKN FFIKIS
+//
+ID   R9UUC1_TREPA            Unreviewed;       516 AA.
+AC   R9UUC1;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 15.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AGN75566.1};
+GN   ORFNames=TPANIC_0369 {ECO:0000313|EMBL:AGN75566.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75566.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75566.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75566.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75566.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881817.1; NC_021490.2.
+DR   ProteinModelPortal; R9UUC1; -.
+DR   STRING; 243276.TP0369; -.
+DR   EnsemblBacteria; AGN75566; AGN75566; TPANIC_0369.
+DR   GeneID; 2611636; -.
+DR   KEGG; tpw:TPANIC_0369; -.
+DR   eggNOG; ENOG4106GEY; Bacteria.
+DR   eggNOG; ENOG410Y7TR; LUCA.
+DR   OMA; GTGWVYL; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   InterPro; IPR011990; TPR-like_helical_dom.
+DR   SUPFAM; SSF48452; SSF48452; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259}.
+SQ   SEQUENCE   516 AA;  55860 MW;  1FBC37CE5A0F0CCF CRC64;
+     MSVWVALALL GMCVSCTHVP PPRALIVSKE PPPALDSAPR PAIPEAVPLP SPVEEEIAGR
+     LPPAPAAAPE RVPESSQERE QKPESSKPQV VEPVSLASPV KPREAGSVPD VLPVPEVSSP
+     HVAPPAPPAP TAPRPHRPSP PPVSPSASKP KQRAVPPSPP PASEPPREAE VQAEPEPAED
+     SPRAMVPEEP PEDEVPRVSR AVQLAVGQKL EVLYPGEGWV YVGEHTAQPG LRYHQRKLEE
+     SHSLFTFSAE REGDFVLAFS YFDVFRGDFV SDALAVKVVP KREGLARVVR APEYRRTVSS
+     PPDTVVSELS PAGTGTERRA EESGTSGSQR AAAHTGAPVR QDQTDTAVAE KAQHGTPRPD
+     EKKDREPTVG GRDPVPSDAV AQGVSERYSP RKISPASQPS APSAAPIEAH VPASAHKEGQ
+     EKRDHLAEAR QFCAQGNARD ALASLGDFFA QFPSHERMDE AWFLRGQAYE INGAQRNVRL
+     ALEAYKTILE RFPHSPYWKK ADERARFIKN FFIKIS
+//
+ID   A0A0H3BIQ1_TREPS        Unreviewed;       516 AA.
+AC   A0A0H3BIQ1;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 3.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:ACD70795.1};
+GN   OrderedLocusNames=TPASS_0369 {ECO:0000313|EMBL:ACD70795.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70795.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70795.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70795.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70795.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881817.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIQ1; -.
+DR   GeneID; 2611636; -.
+DR   KEGG; tpp:TPASS_0369; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   InterPro; IPR011990; TPR-like_helical_dom.
+DR   SUPFAM; SSF48452; SSF48452; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202}.
+SQ   SEQUENCE   516 AA;  55860 MW;  1FBC37CE5A0F0CCF CRC64;
+     MSVWVALALL GMCVSCTHVP PPRALIVSKE PPPALDSAPR PAIPEAVPLP SPVEEEIAGR
+     LPPAPAAAPE RVPESSQERE QKPESSKPQV VEPVSLASPV KPREAGSVPD VLPVPEVSSP
+     HVAPPAPPAP TAPRPHRPSP PPVSPSASKP KQRAVPPSPP PASEPPREAE VQAEPEPAED
+     SPRAMVPEEP PEDEVPRVSR AVQLAVGQKL EVLYPGEGWV YVGEHTAQPG LRYHQRKLEE
+     SHSLFTFSAE REGDFVLAFS YFDVFRGDFV SDALAVKVVP KREGLARVVR APEYRRTVSS
+     PPDTVVSELS PAGTGTERRA EESGTSGSQR AAAHTGAPVR QDQTDTAVAE KAQHGTPRPD
+     EKKDREPTVG GRDPVPSDAV AQGVSERYSP RKISPASQPS APSAAPIEAH VPASAHKEGQ
+     EKRDHLAEAR QFCAQGNARD ALASLGDFFA QFPSHERMDE AWFLRGQAYE INGAQRNVRL
+     ALEAYKTILE RFPHSPYWKK ADERARFIKN FFIKIS
+//

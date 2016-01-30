@@ -1,0 +1,108 @@
+ID   O83404_TREPA            Unreviewed;       414 AA.
+AC   O83404;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 81.
+DE   RecName: Full=Cell division protein FtsA {ECO:0000256|HAMAP-Rule:MF_02033};
+GN   Name=ftsA {ECO:0000256|HAMAP-Rule:MF_02033,
+GN   ECO:0000313|EMBL:AGN75583.1};
+GN   OrderedLocusNames=TP_0389 {ECO:0000313|EMBL:AAC65373.1};
+GN   ORFNames=TPANIC_0389 {ECO:0000313|EMBL:AGN75583.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65373.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65373.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65373.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75583.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75583.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Cell division protein that is involved in the assembly
+CC       of the Z ring. May serve as a membrane anchor for the Z ring.
+CC       {ECO:0000256|HAMAP-Rule:MF_02033, ECO:0000256|PIRNR:PIRNR003101}.
+CC   -!- SUBUNIT: Interacts with ftsZ. {ECO:0000256|PIRNR:PIRNR003101}.
+CC   -!- SUBUNIT: Self-interacts. Interacts with FtsZ. {ECO:0000256|HAMAP-
+CC       Rule:MF_02033}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_02033}; Peripheral membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_02033}; Cytoplasmic side {ECO:0000256|HAMAP-
+CC       Rule:MF_02033}. Note=Localizes to the Z ring in an FtsZ-dependent
+CC       manner. Targeted to the membrane through a conserved C-terminal
+CC       amphiphatic helix. {ECO:0000256|HAMAP-Rule:MF_02033}.
+CC   -!- SIMILARITY: Belongs to the FtsA/MreB family. {ECO:0000256|HAMAP-
+CC       Rule:MF_02033, ECO:0000256|PIRNR:PIRNR003101}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65373.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75583.1; -; Genomic_DNA.
+DR   PIR; G71331; G71331.
+DR   RefSeq; WP_010881837.1; NC_021490.2.
+DR   STRING; 243276.TP0389; -.
+DR   EnsemblBacteria; AAC65373; AAC65373; TP_0389.
+DR   EnsemblBacteria; AGN75583; AGN75583; TPANIC_0389.
+DR   GeneID; 2610731; -.
+DR   KEGG; tpa:TP_0389; -.
+DR   KEGG; tpw:TPANIC_0389; -.
+DR   PATRIC; 20530787; VBITrePal57110_0413.
+DR   eggNOG; COG0849; LUCA.
+DR   eggNOG; ENOG4105CIT; Bacteria.
+DR   KO; K03590; -.
+DR   OMA; HTAVIPF; -.
+DR   OrthoDB; EOG6TR0B6; -.
+DR   BioCyc; TPAL243276:GC1H-415-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0008360; P:regulation of cell shape; IEA:UniProtKB-KW.
+DR   HAMAP; MF_02033; FtsA; 1.
+DR   InterPro; IPR020823; Cell_div_FtsA.
+DR   InterPro; IPR003494; SHS2_FtsA.
+DR   Pfam; PF02491; SHS2_FTSA; 1.
+DR   PIRSF; PIRSF003101; FtsA; 1.
+DR   SMART; SM00842; FtsA; 1.
+DR   TIGRFAMs; TIGR01174; ftsA; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_02033,
+KW   ECO:0000256|PIRNR:PIRNR003101, ECO:0000313|EMBL:AAC65373.1};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_02033,
+KW   ECO:0000256|PIRNR:PIRNR003101, ECO:0000313|EMBL:AAC65373.1};
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_02033};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_02033};
+KW   Cell shape {ECO:0000256|HAMAP-Rule:MF_02033,
+KW   ECO:0000256|PIRNR:PIRNR003101};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_02033};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN        5    196       FtsA. {ECO:0000259|SMART:SM00842}.
+SQ   SEQUENCE   414 AA;  44235 MW;  D0FB22B0C49E903A CRC64;
+     MGEVIVGLDI GTESIRAVVA ERLEGGALQV VGVGVGHSKG LRRGVVVNIE NTVVGIHHAV
+     EAAEMMSGIE VAHCVVGLGG THIEGRNLKG VVAVADKGKG HREVDQSDID RVLEVACAVS
+     LPPDRKILHV IPKVYSVDDQ HGITDPRNII GVRLEGEVHM ITGSATCMRS VIDCVKRANL
+     HIDFLMHNGL AAVRSVLNDD ERNVGCVLIN IGGGTTDVIA MYKGSPVLIT SIPVGGSQVT
+     SDLAKVKNLP LETAERIKIK DGCCWIPLLE GEGSVLISSQ GNRIPVEISK REIAEIIEAR
+     MCEVFTIVRD RLSTVETQSG RGIIENIILC GGGAQLTGAV ELASAIFDTP RVHLGIPGTL
+     GGLAGEYRSP EFAVVLGLIL EYTHKQGQRA YQGRAEMERA GVFTKVKDIW RNLF
+//

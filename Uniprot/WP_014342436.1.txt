@@ -1,0 +1,131 @@
+ID   H6KT78_TREPD            Unreviewed;       265 AA.
+AC   H6KT78;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 22.
+DE   SubName: Full=RsuA family pseudouridine synthase {ECO:0000313|EMBL:AEZ58652.1};
+DE            EC=4.2.1.70 {ECO:0000313|EMBL:AEZ58652.1};
+GN   Name=rluB {ECO:0000313|EMBL:AEZ58652.1};
+GN   OrderedLocusNames=TPECDC2_0459 {ECO:0000313|EMBL:AEZ58652.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58652.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- SIMILARITY: Contains S4 RNA-binding domain.
+CC       {ECO:0000256|SAAS:SAAS00381350}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58652.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342436.1; NC_016848.1.
+DR   EnsemblBacteria; AEZ58652; AEZ58652; TPECDC2_0459.
+DR   GeneID; 2611055; -.
+DR   KEGG; tpc:TPECDC2_0459; -.
+DR   KO; K06178; -.
+DR   OMA; FAYKVTH; -.
+DR   BioCyc; TPAL491079:GJCE-494-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0009982; F:pseudouridine synthase activity; IEA:InterPro.
+DR   GO; GO:0004730; F:pseudouridylate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008270; F:zinc ion binding; IEA:InterPro.
+DR   Gene3D; 3.10.290.10; -; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom.
+DR   InterPro; IPR018496; PsdUridine_synth_RsuA/RluB_CS.
+DR   InterPro; IPR006145; PsdUridine_synth_RsuA/RluD.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   InterPro; IPR001878; Znf_CCHC.
+DR   Pfam; PF00849; PseudoU_synth_2; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   SMART; SM00363; S4; 1.
+DR   SMART; SM00343; ZnF_C2HC; 1.
+DR   SUPFAM; SSF55120; SSF55120; 1.
+DR   PROSITE; PS01149; PSI_RSU; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Isomerase {ECO:0000256|SAAS:SAAS00082931};
+KW   Lyase {ECO:0000313|EMBL:AEZ58652.1};
+KW   RNA-binding {ECO:0000256|SAAS:SAAS00082949}.
+FT   DOMAIN       14     81       S4 RNA-binding.
+FT                                {ECO:0000259|PROSITE:PS50889}.
+SQ   SEQUENCE   265 AA;  29657 MW;  5C93AD6AAD6FEE3B CRC64;
+     MQGRVCRLQP FFRLRLQVYL ARSGCASRRA CEALIASGRV TVDGQTVTTQ GRTVCAQNVV
+     CVDGTVVQLE RVQRYVLLYK PVGYICSLAP QFPAGYAHTQ VRAGPSKQEY ARAIDLVQPA
+     YQERLYHIGR LDVRSEGALL FTNDGSFAQA LGHPRSGIEK EYIVETREPV PAALLSSFVR
+     GVWVEGCRYR CVRARHLAAQ CVQLVLVEGK KREIRVVFEA WGQDVVRLVR VRIGRVRLGP
+     LRPGAFRTMR LQEVAQLLQC AGCAR
+//
+ID   A0A0A7X2S2_TREPL        Unreviewed;       265 AA.
+AC   A0A0A7X2S2;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 6.
+DE   SubName: Full=RsuA family pseudouridine synthase {ECO:0000313|EMBL:AJB40480.1};
+DE            EC=4.2.1.70 {ECO:0000313|EMBL:AJB40480.1};
+GN   Name=rluB {ECO:0000313|EMBL:AJB40480.1};
+GN   ORFNames=TENDBA_0459 {ECO:0000313|EMBL:AJB40480.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40480.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40480.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40480.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- SIMILARITY: Contains S4 RNA-binding domain.
+CC       {ECO:0000256|SAAS:SAAS00381350}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40480.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342436.1; NZ_CP007548.1.
+DR   EnsemblBacteria; AJB40480; AJB40480; TENDBA_0459.
+DR   GeneID; 2611055; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0009982; F:pseudouridine synthase activity; IEA:InterPro.
+DR   GO; GO:0004730; F:pseudouridylate synthase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-KW.
+DR   Gene3D; 3.10.290.10; -; 1.
+DR   InterPro; IPR020103; PsdUridine_synth_cat_dom.
+DR   InterPro; IPR018496; PsdUridine_synth_RsuA/RluB_CS.
+DR   InterPro; IPR006145; PsdUridine_synth_RsuA/RluD.
+DR   InterPro; IPR002942; S4_RNA-bd.
+DR   Pfam; PF00849; PseudoU_synth_2; 1.
+DR   Pfam; PF01479; S4; 1.
+DR   SMART; SM00363; S4; 1.
+DR   SUPFAM; SSF55120; SSF55120; 1.
+DR   PROSITE; PS01149; PSI_RSU; 1.
+DR   PROSITE; PS50889; S4; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Isomerase {ECO:0000256|SAAS:SAAS00082931};
+KW   Lyase {ECO:0000313|EMBL:AJB40480.1};
+KW   RNA-binding {ECO:0000256|SAAS:SAAS00082949}.
+FT   DOMAIN       14     81       S4 RNA-binding.
+FT                                {ECO:0000259|PROSITE:PS50889}.
+SQ   SEQUENCE   265 AA;  29657 MW;  5C93AD6AAD6FEE3B CRC64;
+     MQGRVCRLQP FFRLRLQVYL ARSGCASRRA CEALIASGRV TVDGQTVTTQ GRTVCAQNVV
+     CVDGTVVQLE RVQRYVLLYK PVGYICSLAP QFPAGYAHTQ VRAGPSKQEY ARAIDLVQPA
+     YQERLYHIGR LDVRSEGALL FTNDGSFAQA LGHPRSGIEK EYIVETREPV PAALLSSFVR
+     GVWVEGCRYR CVRARHLAAQ CVQLVLVEGK KREIRVVFEA WGQDVVRLVR VRIGRVRLGP
+     LRPGAFRTMR LQEVAQLLQC AGCAR
+//

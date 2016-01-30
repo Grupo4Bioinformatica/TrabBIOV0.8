@@ -1,0 +1,360 @@
+ID   TA17_TREPA              Reviewed;         156 AA.
+AC   P29722;
+DT   01-APR-1993, integrated into UniProtKB/Swiss-Prot.
+DT   01-APR-1993, sequence version 1.
+DT   09-DEC-2015, entry version 93.
+DE   RecName: Full=17 kDa lipoprotein;
+DE   Flags: Precursor;
+GN   Name=tpp17; OrderedLocusNames=TP_0435;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=8454324;
+RA   Akins D.R., Purcell B.K., Mitra M.M., Norgard M.V., Radolf J.D.;
+RT   "Lipid modification of the 17-kilodalton membrane immunogen of
+RT   Treponema pallidum determines macrophage activation as well as
+RT   amphiphilicity.";
+RL   Infect. Immun. 61:1202-1210(1993).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Lipid-anchor
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; M74825; AAA27472.1; -; Genomic_DNA.
+DR   EMBL; AE000520; AAC65423.1; -; Genomic_DNA.
+DR   PIR; C71323; C71323.
+DR   RefSeq; WP_010881883.1; NC_021490.2.
+DR   PDB; 4U3Q; X-ray; 2.40 A; A/B=33-154.
+DR   PDBsum; 4U3Q; -.
+DR   ProteinModelPortal; P29722; -.
+DR   IntAct; P29722; 18.
+DR   STRING; 243276.TP0435; -.
+DR   EnsemblBacteria; AAC65423; AAC65423; TP_0435.
+DR   GeneID; 2610960; -.
+DR   KEGG; tpa:TP_0435; -.
+DR   PATRIC; 20530885; VBITrePal57110_0462.
+DR   eggNOG; COG3015; LUCA.
+DR   OMA; GNSVRYM; -.
+DR   OrthoDB; EOG63VC6V; -.
+DR   BioCyc; TPAL243276:GC1H-461-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Complete proteome; Lipoprotein; Membrane;
+KW   Palmitate; Reference proteome; Signal.
+FT   SIGNAL        1     21
+FT   CHAIN        22    156       17 kDa lipoprotein.
+FT                                /FTId=PRO_0000018200.
+FT   LIPID        22     22       N-palmitoyl cysteine. {ECO:0000305}.
+FT   LIPID        22     22       S-diacylglycerol cysteine. {ECO:0000305}.
+FT   HELIX        35     44       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND       47     52       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND       62     67       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND       71     78       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND       89     97       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND       99    101       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND      103    108       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND      119    126       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND      129    136       {ECO:0000244|PDB:4U3Q}.
+FT   HELIX       146    149       {ECO:0000244|PDB:4U3Q}.
+FT   STRAND      150    153       {ECO:0000244|PDB:4U3Q}.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//
+ID   R9UWP1_TREPA            Unreviewed;       156 AA.
+AC   R9UWP1;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 14.
+DE   SubName: Full=Copper resistance lipoprotein NlpE {ECO:0000313|EMBL:AGN75628.1};
+GN   Name=nlpE {ECO:0000313|EMBL:AGN75628.1};
+GN   ORFNames=TPANIC_0435 {ECO:0000313|EMBL:AGN75628.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75628.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75628.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75628.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75628.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881883.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWP1; -.
+DR   STRING; 243276.TP0435; -.
+DR   EnsemblBacteria; AGN75628; AGN75628; TPANIC_0435.
+DR   GeneID; 2610960; -.
+DR   KEGG; tpw:TPANIC_0435; -.
+DR   eggNOG; COG3015; LUCA.
+DR   OMA; GNSVRYM; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Lipoprotein {ECO:0000313|EMBL:AGN75628.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    156       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5004481102.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//
+ID   H6KT52_TREPD            Unreviewed;       156 AA.
+AC   H6KT52;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 18.
+DE   SubName: Full=Copper resistance lipoprotein NlpE {ECO:0000313|EMBL:AEZ58626.1};
+GN   Name=nlpE {ECO:0000313|EMBL:AEZ58626.1};
+GN   OrderedLocusNames=TPECDC2_0435 {ECO:0000313|EMBL:AEZ58626.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58626.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58626.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881883.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT52; -.
+DR   EnsemblBacteria; AEZ58626; AEZ58626; TPECDC2_0435.
+DR   GeneID; 2610960; -.
+DR   KEGG; tpc:TPECDC2_0435; -.
+DR   OMA; GNSVRYM; -.
+DR   BioCyc; TPAL491079:GJCE-468-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Lipoprotein {ECO:0000313|EMBL:AEZ58626.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    156       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5003604569.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//
+ID   E5FNQ3_TREPG            Unreviewed;       156 AA.
+AC   E5FNQ3;
+DT   08-FEB-2011, integrated into UniProtKB/TrEMBL.
+DT   08-FEB-2011, sequence version 1.
+DT   09-DEC-2015, entry version 22.
+DE   SubName: Full=Copper resistance lipoprotein NlpE {ECO:0000313|EMBL:ADR64304.1};
+GN   Name=nlpE {ECO:0000313|EMBL:ADR64304.1};
+OS   Treponema pallidum subsp. pertenue (strain Gauthier).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491080 {ECO:0000313|EMBL:ADR64304.1};
+RN   [1] {ECO:0000313|EMBL:ADR64304.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Gauthier {ECO:0000313|EMBL:ADR64304.1};
+RX   PubMed=21209953; DOI=10.1371/journal.pone.0015713;
+RA   Mikalova L., Strouhal M., Cejkova D., Zobanikova M., Pospisilova P.,
+RA   Norris S.J., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Genome analysis of Treponema pallidum subsp. pallidum and subsp.
+RT   pertenue strains: most of the genetic differences are localized in six
+RT   regions.";
+RL   PLoS ONE 5:E15713-E15713(2010).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; HM585239; ADR64304.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881883.1; NC_016843.1.
+DR   ProteinModelPortal; E5FNQ3; -.
+DR   GeneID; 2610960; -.
+DR   KEGG; tpg:TPEGAU_0435; -.
+DR   BioCyc; TPAL491080:GJ7X-468-MONOMER; -.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   4: Predicted;
+KW   Lipoprotein {ECO:0000313|EMBL:ADR64304.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    156       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5003196622.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//
+ID   A0A0A7X2R6_TREPL        Unreviewed;       156 AA.
+AC   A0A0A7X2R6;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   14-OCT-2015, entry version 6.
+DE   SubName: Full=Copper resistance lipoprotein NlpE {ECO:0000313|EMBL:AJB40454.1};
+GN   Name=nlpE {ECO:0000313|EMBL:AJB40454.1};
+GN   ORFNames=TENDBA_0435 {ECO:0000313|EMBL:AJB40454.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40454.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40454.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40454.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40454.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881883.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2R6; -.
+DR   EnsemblBacteria; AJB40454; AJB40454; TENDBA_0435.
+DR   GeneID; 2610960; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Lipoprotein {ECO:0000313|EMBL:AJB40454.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    156       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5002046138.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//
+ID   A0A0H3BIE2_TREPS        Unreviewed;       156 AA.
+AC   A0A0H3BIE2;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   SubName: Full=Lipoprotein, 17 kDa {ECO:0000313|EMBL:ACD70860.1};
+GN   Name=tpp17 {ECO:0000313|EMBL:ACD70860.1};
+GN   OrderedLocusNames=TPASS_0435 {ECO:0000313|EMBL:ACD70860.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70860.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70860.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70860.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70860.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881883.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIE2; -.
+DR   GeneID; 2610960; -.
+DR   KEGG; tpp:TPASS_0435; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Lipoprotein {ECO:0000313|EMBL:ACD70860.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    156       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5002605106.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//
+ID   E5FNX4_TREPL            Unreviewed;       156 AA.
+AC   E5FNX4;
+DT   08-FEB-2011, integrated into UniProtKB/TrEMBL.
+DT   08-FEB-2011, sequence version 1.
+DT   09-DEC-2015, entry version 16.
+DE   SubName: Full=Copper resistance lipoprotein NlpE {ECO:0000313|EMBL:ADR64375.1};
+GN   Name=nlpE {ECO:0000313|EMBL:ADR64375.1};
+OS   Treponema pallidum subsp. pallidum str. Mexico A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=686990 {ECO:0000313|EMBL:ADR64375.1};
+RN   [1] {ECO:0000313|EMBL:ADR64375.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Mexico A {ECO:0000313|EMBL:ADR64375.1};
+RX   PubMed=21209953; DOI=10.1371/journal.pone.0015713;
+RA   Mikalova L., Strouhal M., Cejkova D., Zobanikova M., Pospisilova P.,
+RA   Norris S.J., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Genome analysis of Treponema pallidum subsp. pallidum and subsp.
+RT   pertenue strains: most of the genetic differences are localized in six
+RT   regions.";
+RL   PLoS ONE 5:E15713-E15713(2010).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; HM585249; ADR64375.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881883.1; NC_018722.1.
+DR   ProteinModelPortal; E5FNX4; -.
+DR   GeneID; 2610960; -.
+DR   KEGG; tpo:TPAMA_0435; -.
+DR   InterPro; IPR007298; Cu-R_lipoprotein_NlpE.
+DR   Pfam; PF04170; NlpE; 1.
+PE   4: Predicted;
+KW   Lipoprotein {ECO:0000313|EMBL:ADR64375.1};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    156       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5003196626.
+SQ   SEQUENCE   156 AA;  16467 MW;  03630A2AACEA13F7 CRC64;
+     MKGSVRALCA FLGVGALGSA LCVSCTTVCP HAGKAKAEKV ECALKGGIFR GTLPAADCPG
+     IDTTVTFNAD GTAQKVELAL EKKSAPSPLT YRGTWMVRED GIVELSLVSS EQSKAPHEKE
+     LYELIDSNSV RYMGAPGAGK PSKEMAPFYV LKKTKK
+//

@@ -1,0 +1,467 @@
+ID   NADK_TREPA              Reviewed;         305 AA.
+AC   O83455;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 98.
+DE   RecName: Full=NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000255|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   OrderedLocusNames=TP_0441;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance
+CC       of NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY: ATP + NAD(+) = ADP + NADP(+).
+CC       {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65428.1; -; Genomic_DNA.
+DR   PIR; A71324; A71324.
+DR   RefSeq; WP_010881889.1; NC_021490.2.
+DR   ProteinModelPortal; O83455; -.
+DR   IntAct; O83455; 1.
+DR   STRING; 243276.TP0441; -.
+DR   EnsemblBacteria; AAC65428; AAC65428; TP_0441.
+DR   GeneID; 2610985; -.
+DR   KEGG; tpa:TP_0441; -.
+DR   PATRIC; 20530901; VBITrePal57110_0470.
+DR   eggNOG; ENOG4105F91; Bacteria.
+DR   eggNOG; COG0061; LUCA.
+DR   KO; K00858; -.
+DR   OMA; LLWGESP; -.
+DR   OrthoDB; EOG6PZXDR; -.
+DR   BioCyc; TPAL243276:GC1H-467-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_dom_1.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_all-b.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; PTHR20275; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Kinase; NAD; NADP;
+KW   Nucleotide-binding; Reference proteome; Transferase.
+FT   CHAIN         1    305       NAD kinase.
+FT                                /FTId=PRO_0000120682.
+FT   NP_BIND      76     77       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+FT   NP_BIND     150    151       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+FT   ACT_SITE     76     76       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00361}.
+FT   BINDING     161    161       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+FT   BINDING     180    180       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+SQ   SEQUENCE   305 AA;  32634 MW;  4885B3DDE3C1CE58 CRC64;
+     MSSRVCPQRP VAKSSGDAKV LLIVSTYKPR AAVLAADVVN FLSIRGFQCH TIEYDGLNKE
+     SCARAGYMFA VSIGGDGTTL FAARCASPSG IPILAINLGR FGFIAPIEPR YWQQALSDYL
+     AGGVRPAERA LISCTVTRAG KEIASCLALN DVVLSSGRVA RLTRAEVCFN DISFGVYEAD
+     GIILATPTGS TAYSAACGGP ILDPDLDAFV LTPISALCLS NRPVVVPSSG VVRIKVLSMR
+     HKETVLSVDG HELCTLQEED QLLASRSSCS ARLVFCTPHV FYHALCSKLA WSGSIFSRRG
+     RRHDD
+//
+ID   A0A0A7X9U4_TREPL        Unreviewed;       305 AA.
+AC   A0A0A7X9U4;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 8.
+DE   RecName: Full=NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00357160};
+DE            EC=2.7.1.23 {ECO:0000256|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   Name=ppnK {ECO:0000313|EMBL:AJB40461.1};
+GN   Synonyms=nadK {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   ORFNames=TENDBA_0441 {ECO:0000313|EMBL:AJB40461.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40461.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40461.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40461.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance
+CC       of NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY: ATP + NAD(+) = ADP + NADP(+).
+CC       {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00357178}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00361,
+CC         ECO:0000256|SAAS:SAAS00357166};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361,
+CC       ECO:0000256|SAAS:SAAS00357205}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40461.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881889.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X9U4; -.
+DR   EnsemblBacteria; AJB40461; AJB40461; TENDBA_0441.
+DR   GeneID; 2610985; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_dom_1.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_all-b.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; PTHR20275; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318473};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318483};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00286907, ECO:0000313|EMBL:AJB40461.1};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00286898};
+KW   NADP {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00286932};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318473};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00286907, ECO:0000313|EMBL:AJB40461.1}.
+FT   NP_BIND      76     77       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   NP_BIND     150    151       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   ACT_SITE     76     76       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00361}.
+FT   BINDING     161    161       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   BINDING     180    180       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+SQ   SEQUENCE   305 AA;  32634 MW;  4885B3DDE3C1CE58 CRC64;
+     MSSRVCPQRP VAKSSGDAKV LLIVSTYKPR AAVLAADVVN FLSIRGFQCH TIEYDGLNKE
+     SCARAGYMFA VSIGGDGTTL FAARCASPSG IPILAINLGR FGFIAPIEPR YWQQALSDYL
+     AGGVRPAERA LISCTVTRAG KEIASCLALN DVVLSSGRVA RLTRAEVCFN DISFGVYEAD
+     GIILATPTGS TAYSAACGGP ILDPDLDAFV LTPISALCLS NRPVVVPSSG VVRIKVLSMR
+     HKETVLSVDG HELCTLQEED QLLASRSSCS ARLVFCTPHV FYHALCSKLA WSGSIFSRRG
+     RRHDD
+//
+ID   NADK_TREPS              Reviewed;         305 AA.
+AC   B2S337;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 54.
+DE   RecName: Full=NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+DE            EC=2.7.1.23 {ECO:0000255|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000255|HAMAP-Rule:MF_00361};
+GN   OrderedLocusNames=TPASS_0441;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance
+CC       of NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY: ATP + NAD(+) = ADP + NADP(+).
+CC       {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00361};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00361}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000255|HAMAP-
+CC       Rule:MF_00361}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70866.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881889.1; NC_021508.1.
+DR   ProteinModelPortal; B2S337; -.
+DR   EnsemblBacteria; ACD70866; ACD70866; TPASS_0441.
+DR   GeneID; 2610985; -.
+DR   KEGG; tpp:TPASS_0441; -.
+DR   PATRIC; 20528605; VBITrePal10923_0473.
+DR   HOGENOM; HOG000227222; -.
+DR   KO; K00858; -.
+DR   OMA; LLWGESP; -.
+DR   OrthoDB; EOG6PZXDR; -.
+DR   BioCyc; TPAL455434:GJ9E-465-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_dom_1.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_all-b.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; PTHR20275; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Kinase; NAD; NADP;
+KW   Nucleotide-binding; Transferase.
+FT   CHAIN         1    305       NAD kinase.
+FT                                /FTId=PRO_1000120897.
+FT   NP_BIND      76     77       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+FT   NP_BIND     150    151       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+FT   ACT_SITE     76     76       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00361}.
+FT   BINDING     161    161       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+FT   BINDING     180    180       NAD. {ECO:0000255|HAMAP-Rule:MF_00361}.
+SQ   SEQUENCE   305 AA;  32634 MW;  4885B3DDE3C1CE58 CRC64;
+     MSSRVCPQRP VAKSSGDAKV LLIVSTYKPR AAVLAADVVN FLSIRGFQCH TIEYDGLNKE
+     SCARAGYMFA VSIGGDGTTL FAARCASPSG IPILAINLGR FGFIAPIEPR YWQQALSDYL
+     AGGVRPAERA LISCTVTRAG KEIASCLALN DVVLSSGRVA RLTRAEVCFN DISFGVYEAD
+     GIILATPTGS TAYSAACGGP ILDPDLDAFV LTPISALCLS NRPVVVPSSG VVRIKVLSMR
+     HKETVLSVDG HELCTLQEED QLLASRSSCS ARLVFCTPHV FYHALCSKLA WSGSIFSRRG
+     RRHDD
+//
+ID   R9UT44_TREPA            Unreviewed;       305 AA.
+AC   R9UT44;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 22.
+DE   RecName: Full=NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00357160};
+DE            EC=2.7.1.23 {ECO:0000256|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   ORFNames=TPANIC_0441 {ECO:0000313|EMBL:AGN75634.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75634.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75634.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75634.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance
+CC       of NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY: ATP + NAD(+) = ADP + NADP(+).
+CC       {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00357178}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00361,
+CC         ECO:0000256|SAAS:SAAS00357166};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361,
+CC       ECO:0000256|SAAS:SAAS00357205}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75634.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881889.1; NC_021490.2.
+DR   ProteinModelPortal; R9UT44; -.
+DR   STRING; 243276.TP0441; -.
+DR   EnsemblBacteria; AGN75634; AGN75634; TPANIC_0441.
+DR   GeneID; 2610985; -.
+DR   KEGG; tpw:TPANIC_0441; -.
+DR   eggNOG; COG0061; LUCA.
+DR   eggNOG; ENOG4105F91; Bacteria.
+DR   KO; K00858; -.
+DR   OMA; LLWGESP; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_dom_1.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_all-b.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; PTHR20275; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318473};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318483};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00286907, ECO:0000313|EMBL:AGN75634.1};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00286898};
+KW   NADP {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00286932};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318473};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00286907, ECO:0000313|EMBL:AGN75634.1}.
+FT   NP_BIND      76     77       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   NP_BIND     150    151       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   ACT_SITE     76     76       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00361}.
+FT   BINDING     161    161       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   BINDING     180    180       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+SQ   SEQUENCE   305 AA;  32634 MW;  4885B3DDE3C1CE58 CRC64;
+     MSSRVCPQRP VAKSSGDAKV LLIVSTYKPR AAVLAADVVN FLSIRGFQCH TIEYDGLNKE
+     SCARAGYMFA VSIGGDGTTL FAARCASPSG IPILAINLGR FGFIAPIEPR YWQQALSDYL
+     AGGVRPAERA LISCTVTRAG KEIASCLALN DVVLSSGRVA RLTRAEVCFN DISFGVYEAD
+     GIILATPTGS TAYSAACGGP ILDPDLDAFV LTPISALCLS NRPVVVPSSG VVRIKVLSMR
+     HKETVLSVDG HELCTLQEED QLLASRSSCS ARLVFCTPHV FYHALCSKLA WSGSIFSRRG
+     RRHDD
+//
+ID   E5FNY0_TREPL            Unreviewed;       305 AA.
+AC   E5FNY0;
+DT   08-FEB-2011, integrated into UniProtKB/TrEMBL.
+DT   08-FEB-2011, sequence version 1.
+DT   09-DEC-2015, entry version 32.
+DE   RecName: Full=NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00357160};
+DE            EC=2.7.1.23 {ECO:0000256|HAMAP-Rule:MF_00361};
+DE   AltName: Full=ATP-dependent NAD kinase {ECO:0000256|HAMAP-Rule:MF_00361};
+GN   Name=nadK {ECO:0000256|HAMAP-Rule:MF_00361};
+OS   Treponema pallidum subsp. pallidum str. Mexico A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=686990 {ECO:0000313|EMBL:ADR64381.1};
+RN   [1] {ECO:0000313|EMBL:ADR64381.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Mexico A {ECO:0000313|EMBL:ADR64381.1};
+RX   PubMed=21209953; DOI=10.1371/journal.pone.0015713;
+RA   Mikalova L., Strouhal M., Cejkova D., Zobanikova M., Pospisilova P.,
+RA   Norris S.J., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Genome analysis of Treponema pallidum subsp. pallidum and subsp.
+RT   pertenue strains: most of the genetic differences are localized in six
+RT   regions.";
+RL   PLoS ONE 5:E15713-E15713(2010).
+CC   -!- FUNCTION: Involved in the regulation of the intracellular balance
+CC       of NAD and NADP, and is a key enzyme in the biosynthesis of NADP.
+CC       Catalyzes specifically the phosphorylation on 2'-hydroxyl of the
+CC       adenosine moiety of NAD to yield NADP. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -!- CATALYTIC ACTIVITY: ATP + NAD(+) = ADP + NADP(+).
+CC       {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00357178}.
+CC   -!- COFACTOR:
+CC       Name=a divalent metal cation; Xref=ChEBI:CHEBI:60240;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00361,
+CC         ECO:0000256|SAAS:SAAS00357166};
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361,
+CC       ECO:0000256|SAAS:SAAS00357205}.
+CC   -!- SIMILARITY: Belongs to the NAD kinase family. {ECO:0000256|HAMAP-
+CC       Rule:MF_00361}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; HM585249; ADR64381.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881889.1; NC_018722.1.
+DR   ProteinModelPortal; E5FNY0; -.
+DR   GeneID; 2610985; -.
+DR   KEGG; tpo:TPAMA_0441; -.
+DR   KO; K00858; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0046872; F:metal ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0003951; F:NAD+ kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0019674; P:NAD metabolic process; IEA:InterPro.
+DR   GO; GO:0006741; P:NADP biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 2.60.200.30; -; 1.
+DR   Gene3D; 3.40.50.10330; -; 1.
+DR   HAMAP; MF_00361; NAD_kinase; 1.
+DR   InterPro; IPR017438; ATP-NAD_kinase_dom_1.
+DR   InterPro; IPR017437; ATP-NAD_kinase_PpnK-typ_all-b.
+DR   InterPro; IPR016064; NAD/diacylglycerol_kinase.
+DR   InterPro; IPR002504; NADK.
+DR   PANTHER; PTHR20275; PTHR20275; 1.
+DR   Pfam; PF01513; NAD_kinase; 1.
+DR   SUPFAM; SSF111331; SSF111331; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318473};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318483};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00286907};
+KW   NAD {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00286898};
+KW   NADP {ECO:0000256|HAMAP-Rule:MF_00361, ECO:0000256|SAAS:SAAS00286932};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00318473};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00361,
+KW   ECO:0000256|SAAS:SAAS00286907}.
+FT   NP_BIND      76     77       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   NP_BIND     150    151       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   ACT_SITE     76     76       Proton acceptor. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00361}.
+FT   BINDING     161    161       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+FT   BINDING     180    180       NAD. {ECO:0000256|HAMAP-Rule:MF_00361}.
+SQ   SEQUENCE   305 AA;  32634 MW;  4885B3DDE3C1CE58 CRC64;
+     MSSRVCPQRP VAKSSGDAKV LLIVSTYKPR AAVLAADVVN FLSIRGFQCH TIEYDGLNKE
+     SCARAGYMFA VSIGGDGTTL FAARCASPSG IPILAINLGR FGFIAPIEPR YWQQALSDYL
+     AGGVRPAERA LISCTVTRAG KEIASCLALN DVVLSSGRVA RLTRAEVCFN DISFGVYEAD
+     GIILATPTGS TAYSAACGGP ILDPDLDAFV LTPISALCLS NRPVVVPSSG VVRIKVLSMR
+     HKETVLSVDG HELCTLQEED QLLASRSSCS ARLVFCTPHV FYHALCSKLA WSGSIFSRRG
+     RRHDD
+//

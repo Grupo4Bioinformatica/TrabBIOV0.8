@@ -1,0 +1,81 @@
+ID   H6KT22_TREPD            Unreviewed;       174 AA.
+AC   H6KT22;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 18.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AEZ58596.1};
+GN   OrderedLocusNames=TPECDC2_0405 {ECO:0000313|EMBL:AEZ58596.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58596.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58596.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342410.1; NC_016848.1.
+DR   EnsemblBacteria; AEZ58596; AEZ58596; TPECDC2_0405.
+DR   GeneID; 2610837; -.
+DR   KEGG; tpc:TPECDC2_0405; -.
+DR   OMA; NDEDAYF; -.
+DR   BioCyc; TPAL491079:GJCE-438-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   InterPro; IPR001646; 5peptide_repeat.
+DR   Pfam; PF13599; Pentapeptide_4; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193}.
+SQ   SEQUENCE   174 AA;  19939 MW;  5F859CE2851EFA1F CRC64;
+     MFEPTPYCST SDFAKLMHTS THIHGVYAPR MRLNRVDFSG FHFVGCNFFN TVFNACVFAN
+     VVMRMCFFER CYLVNSSFTE ADIQFSSFEG SILHTVSFAH AVLLSDNFNR IHAQDVSFQE
+     SDLSHTRFLH ATLATVRFEN CTVQHTHFMP SHTTHCTFKG SSTEHARIYL SDLP
+//
+ID   A0A0A7X2M7_TREPL        Unreviewed;       174 AA.
+AC   A0A0A7X2M7;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   16-SEP-2015, entry version 4.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AJB40424.1};
+GN   ORFNames=TENDBA_0405 {ECO:0000313|EMBL:AJB40424.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40424.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40424.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40424.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40424.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342410.1; NZ_CP007548.1.
+DR   EnsemblBacteria; AJB40424; AJB40424; TENDBA_0405.
+DR   GeneID; 2610837; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   InterPro; IPR001646; 5peptide_repeat.
+DR   Pfam; PF13599; Pentapeptide_4; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112}.
+SQ   SEQUENCE   174 AA;  19939 MW;  5F859CE2851EFA1F CRC64;
+     MFEPTPYCST SDFAKLMHTS THIHGVYAPR MRLNRVDFSG FHFVGCNFFN TVFNACVFAN
+     VVMRMCFFER CYLVNSSFTE ADIQFSSFEG SILHTVSFAH AVLLSDNFNR IHAQDVSFQE
+     SDLSHTRFLH ATLATVRFEN CTVQHTHFMP SHTTHCTFKG SSTEHARIYL SDLP
+//

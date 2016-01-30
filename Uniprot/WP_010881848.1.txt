@@ -1,0 +1,369 @@
+ID   O83415_TREPA            Unreviewed;       352 AA.
+AC   O83415;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 91.
+DE   RecName: Full=Flagellar motor switch protein FliG {ECO:0000256|PIRNR:PIRNR003161};
+GN   Name=fliG2 {ECO:0000313|EMBL:AGN75594.1};
+GN   OrderedLocusNames=TP_0400 {ECO:0000313|EMBL:AAC65388.1};
+GN   ORFNames=TPANIC_0400 {ECO:0000313|EMBL:AGN75594.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65388.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65388.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65388.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75594.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75594.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: FliG is one of three proteins (FliG, FliN, FliM) that
+CC       forms the rotor-mounted switch complex (C ring), located at the
+CC       base of the basal body. This complex interacts with the CheY and
+CC       CheZ chemotaxis proteins, in addition to contacting components of
+CC       the motor that determine the direction of flagellar rotation.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Peripheral membrane protein
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Cytoplasmic side
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SIMILARITY: Belongs to the FliG family.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65388.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75594.1; -; Genomic_DNA.
+DR   PIR; G71328; G71328.
+DR   RefSeq; WP_010881848.1; NC_021490.2.
+DR   MINT; MINT-6479325; -.
+DR   STRING; 243276.TP0400; -.
+DR   EnsemblBacteria; AAC65388; AAC65388; TP_0400.
+DR   EnsemblBacteria; AGN75594; AGN75594; TPANIC_0400.
+DR   GeneID; 2610805; -.
+DR   KEGG; tpa:TP_0400; -.
+DR   KEGG; tpw:TPANIC_0400; -.
+DR   PATRIC; 20530809; VBITrePal57110_0424.
+DR   eggNOG; COG1536; LUCA.
+DR   eggNOG; ENOG4105CS3; Bacteria.
+DR   KO; K02410; -.
+DR   OMA; TLQVRPF; -.
+DR   OrthoDB; EOG683S79; -.
+DR   BioCyc; TPAL243276:GC1H-426-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.220.30; -; 3.
+DR   InterPro; IPR000090; Flg_Motor_Flig.
+DR   InterPro; IPR011002; FliG_a-hlx.
+DR   InterPro; IPR032779; FliG_M.
+DR   InterPro; IPR028263; FliG_N.
+DR   PANTHER; PTHR30534; PTHR30534; 1.
+DR   Pfam; PF14841; FliG_M; 1.
+DR   Pfam; PF14842; FliG_N; 1.
+DR   PIRSF; PIRSF003161; FliG; 1.
+DR   PRINTS; PR00954; FLGMOTORFLIG.
+DR   SUPFAM; SSF48029; SSF48029; 2.
+DR   TIGRFAMs; TIGR00207; fliG; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell inner membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell projection {ECO:0000313|EMBL:AAC65388.1};
+KW   Chemotaxis {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cilium {ECO:0000313|EMBL:AAC65388.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Flagellar rotation {ECO:0000256|PIRNR:PIRNR003161};
+KW   Flagellum {ECO:0000313|EMBL:AAC65388.1};
+KW   Membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN       23    125       FliG_N. {ECO:0000259|Pfam:PF14842}.
+SQ   SEQUENCE   352 AA;  39822 MW;  1DA9CC7E4FBE2794 CRC64;
+     MAVTSVKDKL ATGEKKQRDI KSLNGRQKAA IFLVSIGEEI SAKVMGELKE DEIEKLVFEI
+     ARTESVDAEL KDAVLEEFQE LMTAQNFITS GGIDYARGLL EKSLGSQKAI EIINRLTSSL
+     QVRPFDFIRR TDPTHLLNFI QQEHPQTIAL ILAYLEPNKA SVILQNLPDE IQSDVARRIA
+     TMDRTSPDVL REVERVLEKK LSTLSSEDYT AAGGVQNIVD ILNLVDRSSE KSIVEALEDE
+     DPDLAEEIKK RMFVFEDIVM LDDRAIQKVL REVNMEELAK ALKVVDTEVQ DKIFRNMSKR
+     AGSMLKEEME YMGPTRLKDV EEAQQKVVSI IRHLEDSGDI VIARSEEDEM IV
+//
+ID   H6KVB9_TREPD            Unreviewed;       352 AA.
+AC   H6KVB9;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   20-JAN-2016, entry version 33.
+DE   RecName: Full=Flagellar motor switch protein FliG {ECO:0000256|PIRNR:PIRNR003161};
+GN   Name=fliG2 {ECO:0000313|EMBL:AEZ58591.1};
+GN   OrderedLocusNames=TPECDC2_0400 {ECO:0000313|EMBL:AEZ58591.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58591.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: FliG is one of three proteins (FliG, FliN, FliM) that
+CC       forms the rotor-mounted switch complex (C ring), located at the
+CC       base of the basal body. This complex interacts with the CheY and
+CC       CheZ chemotaxis proteins, in addition to contacting components of
+CC       the motor that determine the direction of flagellar rotation.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Peripheral membrane protein
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Cytoplasmic side
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SIMILARITY: Belongs to the FliG family.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58591.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881848.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVB9; -.
+DR   SMR; H6KVB9; 132-352.
+DR   EnsemblBacteria; AEZ58591; AEZ58591; TPECDC2_0400.
+DR   GeneID; 2610805; -.
+DR   KEGG; tpc:TPECDC2_0400; -.
+DR   KO; K02410; -.
+DR   OMA; TLQVRPF; -.
+DR   BioCyc; TPAL491079:GJCE-433-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.220.30; -; 3.
+DR   InterPro; IPR000090; Flg_Motor_Flig.
+DR   InterPro; IPR011002; FliG_a-hlx.
+DR   InterPro; IPR032779; FliG_M.
+DR   InterPro; IPR028263; FliG_N.
+DR   PANTHER; PTHR30534; PTHR30534; 1.
+DR   Pfam; PF14841; FliG_M; 1.
+DR   Pfam; PF14842; FliG_N; 1.
+DR   PIRSF; PIRSF003161; FliG; 1.
+DR   PRINTS; PR00954; FLGMOTORFLIG.
+DR   SUPFAM; SSF48029; SSF48029; 2.
+DR   TIGRFAMs; TIGR00207; fliG; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell inner membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell projection {ECO:0000313|EMBL:AEZ58591.1};
+KW   Chemotaxis {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cilium {ECO:0000313|EMBL:AEZ58591.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Flagellar rotation {ECO:0000256|PIRNR:PIRNR003161};
+KW   Flagellum {ECO:0000313|EMBL:AEZ58591.1};
+KW   Membrane {ECO:0000256|PIRNR:PIRNR003161}.
+FT   DOMAIN       23    125       FliG_N. {ECO:0000259|Pfam:PF14842}.
+SQ   SEQUENCE   352 AA;  39822 MW;  1DA9CC7E4FBE2794 CRC64;
+     MAVTSVKDKL ATGEKKQRDI KSLNGRQKAA IFLVSIGEEI SAKVMGELKE DEIEKLVFEI
+     ARTESVDAEL KDAVLEEFQE LMTAQNFITS GGIDYARGLL EKSLGSQKAI EIINRLTSSL
+     QVRPFDFIRR TDPTHLLNFI QQEHPQTIAL ILAYLEPNKA SVILQNLPDE IQSDVARRIA
+     TMDRTSPDVL REVERVLEKK LSTLSSEDYT AAGGVQNIVD ILNLVDRSSE KSIVEALEDE
+     DPDLAEEIKK RMFVFEDIVM LDDRAIQKVL REVNMEELAK ALKVVDTEVQ DKIFRNMSKR
+     AGSMLKEEME YMGPTRLKDV EEAQQKVVSI IRHLEDSGDI VIARSEEDEM IV
+//
+ID   A0A0H3BIS8_TREPS        Unreviewed;       352 AA.
+AC   A0A0H3BIS8;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   20-JAN-2016, entry version 5.
+DE   RecName: Full=Flagellar motor switch protein FliG {ECO:0000256|PIRNR:PIRNR003161};
+GN   Name=fliG2 {ECO:0000313|EMBL:ACD70826.1};
+GN   OrderedLocusNames=TPASS_0400 {ECO:0000313|EMBL:ACD70826.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70826.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70826.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70826.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: FliG is one of three proteins (FliG, FliN, FliM) that
+CC       forms the rotor-mounted switch complex (C ring), located at the
+CC       base of the basal body. This complex interacts with the CheY and
+CC       CheZ chemotaxis proteins, in addition to contacting components of
+CC       the motor that determine the direction of flagellar rotation.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Peripheral membrane protein
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Cytoplasmic side
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SIMILARITY: Belongs to the FliG family.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70826.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881848.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BIS8; -.
+DR   GeneID; 2610805; -.
+DR   KEGG; tpp:TPASS_0400; -.
+DR   KO; K02410; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.220.30; -; 3.
+DR   InterPro; IPR000090; Flg_Motor_Flig.
+DR   InterPro; IPR011002; FliG_a-hlx.
+DR   InterPro; IPR032779; FliG_M.
+DR   InterPro; IPR028263; FliG_N.
+DR   PANTHER; PTHR30534; PTHR30534; 1.
+DR   Pfam; PF14841; FliG_M; 1.
+DR   Pfam; PF14842; FliG_N; 1.
+DR   PIRSF; PIRSF003161; FliG; 1.
+DR   PRINTS; PR00954; FLGMOTORFLIG.
+DR   SUPFAM; SSF48029; SSF48029; 2.
+DR   TIGRFAMs; TIGR00207; fliG; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell inner membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell projection {ECO:0000313|EMBL:ACD70826.1};
+KW   Chemotaxis {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cilium {ECO:0000313|EMBL:ACD70826.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Flagellar rotation {ECO:0000256|PIRNR:PIRNR003161};
+KW   Flagellum {ECO:0000313|EMBL:ACD70826.1};
+KW   Membrane {ECO:0000256|PIRNR:PIRNR003161}.
+FT   DOMAIN       23    125       FliG_N. {ECO:0000259|Pfam:PF14842}.
+SQ   SEQUENCE   352 AA;  39822 MW;  1DA9CC7E4FBE2794 CRC64;
+     MAVTSVKDKL ATGEKKQRDI KSLNGRQKAA IFLVSIGEEI SAKVMGELKE DEIEKLVFEI
+     ARTESVDAEL KDAVLEEFQE LMTAQNFITS GGIDYARGLL EKSLGSQKAI EIINRLTSSL
+     QVRPFDFIRR TDPTHLLNFI QQEHPQTIAL ILAYLEPNKA SVILQNLPDE IQSDVARRIA
+     TMDRTSPDVL REVERVLEKK LSTLSSEDYT AAGGVQNIVD ILNLVDRSSE KSIVEALEDE
+     DPDLAEEIKK RMFVFEDIVM LDDRAIQKVL REVNMEELAK ALKVVDTEVQ DKIFRNMSKR
+     AGSMLKEEME YMGPTRLKDV EEAQQKVVSI IRHLEDSGDI VIARSEEDEM IV
+//
+ID   A0A0A7X2M2_TREPL        Unreviewed;       352 AA.
+AC   A0A0A7X2M2;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   20-JAN-2016, entry version 8.
+DE   RecName: Full=Flagellar motor switch protein FliG {ECO:0000256|PIRNR:PIRNR003161};
+GN   Name=fliG2 {ECO:0000313|EMBL:AJB40419.1};
+GN   ORFNames=TENDBA_0400 {ECO:0000313|EMBL:AJB40419.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40419.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40419.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40419.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: FliG is one of three proteins (FliG, FliN, FliM) that
+CC       forms the rotor-mounted switch complex (C ring), located at the
+CC       base of the basal body. This complex interacts with the CheY and
+CC       CheZ chemotaxis proteins, in addition to contacting components of
+CC       the motor that determine the direction of flagellar rotation.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Peripheral membrane protein
+CC       {ECO:0000256|PIRNR:PIRNR003161}; Cytoplasmic side
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -!- SIMILARITY: Belongs to the FliG family.
+CC       {ECO:0000256|PIRNR:PIRNR003161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40419.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881848.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2M2; -.
+DR   EnsemblBacteria; AJB40419; AJB40419; TENDBA_0400.
+DR   GeneID; 2610805; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0009425; C:bacterial-type flagellum basal body; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003774; F:motor activity; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:InterPro.
+DR   GO; GO:0006935; P:chemotaxis; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.220.30; -; 3.
+DR   InterPro; IPR000090; Flg_Motor_Flig.
+DR   InterPro; IPR011002; FliG_a-hlx.
+DR   InterPro; IPR032779; FliG_M.
+DR   InterPro; IPR028263; FliG_N.
+DR   PANTHER; PTHR30534; PTHR30534; 1.
+DR   Pfam; PF14841; FliG_M; 1.
+DR   Pfam; PF14842; FliG_N; 1.
+DR   PIRSF; PIRSF003161; FliG; 1.
+DR   PRINTS; PR00954; FLGMOTORFLIG.
+DR   SUPFAM; SSF48029; SSF48029; 2.
+DR   TIGRFAMs; TIGR00207; fliG; 1.
+PE   3: Inferred from homology;
+KW   Bacterial flagellum {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell inner membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell membrane {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cell projection {ECO:0000313|EMBL:AJB40419.1};
+KW   Chemotaxis {ECO:0000256|PIRNR:PIRNR003161};
+KW   Cilium {ECO:0000313|EMBL:AJB40419.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Flagellar rotation {ECO:0000256|PIRNR:PIRNR003161};
+KW   Flagellum {ECO:0000313|EMBL:AJB40419.1};
+KW   Membrane {ECO:0000256|PIRNR:PIRNR003161}.
+FT   DOMAIN       23    125       FliG_N. {ECO:0000259|Pfam:PF14842}.
+SQ   SEQUENCE   352 AA;  39822 MW;  1DA9CC7E4FBE2794 CRC64;
+     MAVTSVKDKL ATGEKKQRDI KSLNGRQKAA IFLVSIGEEI SAKVMGELKE DEIEKLVFEI
+     ARTESVDAEL KDAVLEEFQE LMTAQNFITS GGIDYARGLL EKSLGSQKAI EIINRLTSSL
+     QVRPFDFIRR TDPTHLLNFI QQEHPQTIAL ILAYLEPNKA SVILQNLPDE IQSDVARRIA
+     TMDRTSPDVL REVERVLEKK LSTLSSEDYT AAGGVQNIVD ILNLVDRSSE KSIVEALEDE
+     DPDLAEEIKK RMFVFEDIVM LDDRAIQKVL REVNMEELAK ALKVVDTEVQ DKIFRNMSKR
+     AGSMLKEEME YMGPTRLKDV EEAQQKVVSI IRHLEDSGDI VIARSEEDEM IV
+//

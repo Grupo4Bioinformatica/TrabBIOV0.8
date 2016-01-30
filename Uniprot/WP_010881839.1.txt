@@ -1,0 +1,423 @@
+ID   O83406_TREPA            Unreviewed;       306 AA.
+AC   O83406;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 111.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   Name=xerD1 {ECO:0000313|EMBL:AGN75585.1};
+GN   Synonyms=xerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   OrderedLocusNames=TP_0391 {ECO:0000313|EMBL:AAC65375.1};
+GN   ORFNames=TPANIC_0391 {ECO:0000313|EMBL:AGN75585.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65375.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65375.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65375.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75585.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75585.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. The XerC-XerD complex is essential to convert dimers of
+CC       the bacterial chromosome into monomers to permit their segregation
+CC       at cell division. It also contributes to the segregational
+CC       stability of plasmids. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD. {ECO:0000256|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+CC       ECO:0000256|SAAS:SAAS00345948}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65375.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75585.1; -; Genomic_DNA.
+DR   PIR; A71332; A71332.
+DR   RefSeq; WP_010881839.1; NC_021490.2.
+DR   STRING; 243276.TP0391; -.
+DR   EnsemblBacteria; AAC65375; AAC65375; TP_0391.
+DR   EnsemblBacteria; AGN75585; AGN75585; TPANIC_0391.
+DR   GeneID; 2610742; -.
+DR   KEGG; tpa:TP_0391; -.
+DR   KEGG; tpw:TPANIC_0391; -.
+DR   PATRIC; 20530791; VBITrePal57110_0415.
+DR   eggNOG; COG4974; LUCA.
+DR   eggNOG; ENOG4105C13; Bacteria.
+DR   KO; K04763; -.
+DR   OMA; FNGERMT; -.
+DR   OrthoDB; EOG6PZXFP; -.
+DR   BioCyc; TPAL243276:GC1H-417-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Chromosome partition {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019482};
+KW   DNA integration {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019141};
+KW   DNA recombination {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019433};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019121};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN        8     88       Phage_int_SAM_1.
+FT                                {ECO:0000259|Pfam:PF02899}.
+FT   DOMAIN      111    285       Phage_integrase.
+FT                                {ECO:0000259|Pfam:PF00589}.
+FT   ACT_SITE    147    147       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    171    171       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    246    246       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    249    249       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    272    272       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    281    281       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   306 AA;  34343 MW;  1553E38887B6D4A6 CRC64;
+     MKDVDIRVQS FYAYLISAEA HALLTARTYV TTLMLFQKNL DPPCNIESAN AHDCVRFIEK
+     RSAAGVSGKT IAKDMAALHA FYQFLILEQV RPDNPMQDVD APRRAYSLPR VLSPEQVNTF
+     LQSIPLCTPG GVRDRALFEL IYAAGLRVSE AVSLSLSDIF FAERLLKVTG KGNKERMAPF
+     GEQACYFLMQ YIREARVRFT SAKHPENSEK KGAVFLNRQG GRLSRKGIWK RLQDIEIRSG
+     VETHVHTFRH SYATHLLAGG VDLHSVQCLL GHADIATTQV YTHVENGQLE ACHRACFSSE
+     GLRDEN
+//
+ID   H6KVB0_TREPD            Unreviewed;       306 AA.
+AC   H6KVB0;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 30.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   Name=xerD1 {ECO:0000313|EMBL:AEZ58582.1};
+GN   Synonyms=xerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   OrderedLocusNames=TPECDC2_0391 {ECO:0000313|EMBL:AEZ58582.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58582.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. The XerC-XerD complex is essential to convert dimers of
+CC       the bacterial chromosome into monomers to permit their segregation
+CC       at cell division. It also contributes to the segregational
+CC       stability of plasmids. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD. {ECO:0000256|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+CC       ECO:0000256|SAAS:SAAS00345948}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58582.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881839.1; NC_016848.1.
+DR   ProteinModelPortal; H6KVB0; -.
+DR   EnsemblBacteria; AEZ58582; AEZ58582; TPECDC2_0391.
+DR   GeneID; 2610742; -.
+DR   KEGG; tpc:TPECDC2_0391; -.
+DR   KO; K04763; -.
+DR   OMA; FNGERMT; -.
+DR   BioCyc; TPAL491079:GJCE-424-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Chromosome partition {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019482};
+KW   DNA integration {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019141};
+KW   DNA recombination {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019433};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019121}.
+FT   DOMAIN        8     88       Phage_int_SAM_1.
+FT                                {ECO:0000259|Pfam:PF02899}.
+FT   DOMAIN      111    285       Phage_integrase.
+FT                                {ECO:0000259|Pfam:PF00589}.
+FT   ACT_SITE    147    147       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    171    171       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    246    246       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    249    249       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    272    272       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    281    281       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   306 AA;  34343 MW;  1553E38887B6D4A6 CRC64;
+     MKDVDIRVQS FYAYLISAEA HALLTARTYV TTLMLFQKNL DPPCNIESAN AHDCVRFIEK
+     RSAAGVSGKT IAKDMAALHA FYQFLILEQV RPDNPMQDVD APRRAYSLPR VLSPEQVNTF
+     LQSIPLCTPG GVRDRALFEL IYAAGLRVSE AVSLSLSDIF FAERLLKVTG KGNKERMAPF
+     GEQACYFLMQ YIREARVRFT SAKHPENSEK KGAVFLNRQG GRLSRKGIWK RLQDIEIRSG
+     VETHVHTFRH SYATHLLAGG VDLHSVQCLL GHADIATTQV YTHVENGQLE ACHRACFSSE
+     GLRDEN
+//
+ID   A0A0H3BJ34_TREPS        Unreviewed;       306 AA.
+AC   A0A0H3BJ34;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   Name=codV {ECO:0000313|EMBL:ACD70817.1};
+GN   Synonyms=xerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   OrderedLocusNames=TPASS_0391 {ECO:0000313|EMBL:ACD70817.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70817.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70817.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70817.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. The XerC-XerD complex is essential to convert dimers of
+CC       the bacterial chromosome into monomers to permit their segregation
+CC       at cell division. It also contributes to the segregational
+CC       stability of plasmids. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD. {ECO:0000256|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+CC       ECO:0000256|SAAS:SAAS00345948}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70817.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881839.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ34; -.
+DR   GeneID; 2610742; -.
+DR   KEGG; tpp:TPASS_0391; -.
+DR   KO; K04763; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Chromosome partition {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019482};
+KW   DNA integration {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019141};
+KW   DNA recombination {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019433};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019121}.
+FT   DOMAIN        8     88       Phage_int_SAM_1.
+FT                                {ECO:0000259|Pfam:PF02899}.
+FT   DOMAIN      111    285       Phage_integrase.
+FT                                {ECO:0000259|Pfam:PF00589}.
+FT   ACT_SITE    147    147       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    171    171       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    246    246       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    249    249       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    272    272       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    281    281       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   306 AA;  34343 MW;  1553E38887B6D4A6 CRC64;
+     MKDVDIRVQS FYAYLISAEA HALLTARTYV TTLMLFQKNL DPPCNIESAN AHDCVRFIEK
+     RSAAGVSGKT IAKDMAALHA FYQFLILEQV RPDNPMQDVD APRRAYSLPR VLSPEQVNTF
+     LQSIPLCTPG GVRDRALFEL IYAAGLRVSE AVSLSLSDIF FAERLLKVTG KGNKERMAPF
+     GEQACYFLMQ YIREARVRFT SAKHPENSEK KGAVFLNRQG GRLSRKGIWK RLQDIEIRSG
+     VETHVHTFRH SYATHLLAGG VDLHSVQCLL GHADIATTQV YTHVENGQLE ACHRACFSSE
+     GLRDEN
+//
+ID   A0A0A7X2I5_TREPL        Unreviewed;       306 AA.
+AC   A0A0A7X2I5;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   RecName: Full=Tyrosine recombinase XerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   Name=xerD1 {ECO:0000313|EMBL:AJB40410.1};
+GN   Synonyms=xerC {ECO:0000256|HAMAP-Rule:MF_01808};
+GN   ORFNames=TENDBA_0391 {ECO:0000313|EMBL:AJB40410.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40410.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40410.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40410.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Site-specific tyrosine recombinase, which acts by
+CC       catalyzing the cutting and rejoining of the recombining DNA
+CC       molecules. The XerC-XerD complex is essential to convert dimers of
+CC       the bacterial chromosome into monomers to permit their segregation
+CC       at cell division. It also contributes to the segregational
+CC       stability of plasmids. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -!- SUBUNIT: Forms a cyclic heterotetrameric complex composed of two
+CC       molecules of XerC and two molecules of XerD. {ECO:0000256|HAMAP-
+CC       Rule:MF_01808}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+CC       ECO:0000256|SAAS:SAAS00345948}.
+CC   -!- SIMILARITY: Belongs to the 'phage' integrase family. XerC
+CC       subfamily. {ECO:0000256|HAMAP-Rule:MF_01808}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40410.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881839.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2I5; -.
+DR   EnsemblBacteria; AJB40410; AJB40410; TENDBA_0391.
+DR   GeneID; 2610742; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0009037; F:tyrosine-based site-specific recombinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0007049; P:cell cycle; IEA:UniProtKB-KW.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0007059; P:chromosome segregation; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006313; P:transposition, DNA-mediated; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.150.130; -; 1.
+DR   Gene3D; 1.10.443.10; -; 1.
+DR   HAMAP; MF_01808; Recomb_XerC; 1.
+DR   InterPro; IPR011010; DNA_brk_join_enz.
+DR   InterPro; IPR013762; Integrase-like_cat.
+DR   InterPro; IPR002104; Integrase_catalytic.
+DR   InterPro; IPR023109; Integrase_recombinase_N.
+DR   InterPro; IPR004107; Integrase_SAM-like_N.
+DR   InterPro; IPR023009; Tyrosine_recombinase_XerC/XerD.
+DR   Pfam; PF02899; Phage_int_SAM_1; 1.
+DR   Pfam; PF00589; Phage_integrase; 1.
+DR   SUPFAM; SSF56349; SSF56349; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Cell division {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Chromosome partition {ECO:0000256|HAMAP-Rule:MF_01808};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019482};
+KW   DNA integration {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019141};
+KW   DNA recombination {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019433};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_01808,
+KW   ECO:0000256|SAAS:SAAS00019121}.
+FT   DOMAIN        8     88       Phage_int_SAM_1.
+FT                                {ECO:0000259|Pfam:PF02899}.
+FT   DOMAIN      111    285       Phage_integrase.
+FT                                {ECO:0000259|Pfam:PF00589}.
+FT   ACT_SITE    147    147       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    171    171       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    246    246       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    249    249       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    272    272       {ECO:0000256|HAMAP-Rule:MF_01808}.
+FT   ACT_SITE    281    281       O-(3'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000256|HAMAP-Rule:MF_01808}.
+SQ   SEQUENCE   306 AA;  34343 MW;  1553E38887B6D4A6 CRC64;
+     MKDVDIRVQS FYAYLISAEA HALLTARTYV TTLMLFQKNL DPPCNIESAN AHDCVRFIEK
+     RSAAGVSGKT IAKDMAALHA FYQFLILEQV RPDNPMQDVD APRRAYSLPR VLSPEQVNTF
+     LQSIPLCTPG GVRDRALFEL IYAAGLRVSE AVSLSLSDIF FAERLLKVTG KGNKERMAPF
+     GEQACYFLMQ YIREARVRFT SAKHPENSEK KGAVFLNRQG GRLSRKGIWK RLQDIEIRSG
+     VETHVHTFRH SYATHLLAGG VDLHSVQCLL GHADIATTQV YTHVENGQLE ACHRACFSSE
+     GLRDEN
+//

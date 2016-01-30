@@ -1,0 +1,212 @@
+ID   A0A0H3BIC9_TREPS        Unreviewed;       559 AA.
+AC   A0A0H3BIC9;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Apolipoprotein N-acyltransferase {ECO:0000256|HAMAP-Rule:MF_01148};
+DE            Short=ALP N-acyltransferase {ECO:0000256|HAMAP-Rule:MF_01148};
+DE            EC=2.3.1.- {ECO:0000256|HAMAP-Rule:MF_01148};
+GN   Name=cutE {ECO:0000313|EMBL:ACD70843.1};
+GN   Synonyms=lnt {ECO:0000256|HAMAP-Rule:MF_01148};
+GN   OrderedLocusNames=TPASS_0417 {ECO:0000313|EMBL:ACD70843.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70843.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70843.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70843.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Transfers the fatty acyl group on membrane lipoproteins.
+CC       {ECO:0000256|HAMAP-Rule:MF_01148}.
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (N-acyl
+CC       transfer). {ECO:0000256|HAMAP-Rule:MF_01148,
+CC       ECO:0000256|SAAS:SAAS00384680}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01148}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01148}.
+CC   -!- SIMILARITY: Belongs to the CN hydrolase family. Apolipoprotein N-
+CC       acyltransferase subfamily. {ECO:0000256|HAMAP-Rule:MF_01148}.
+CC   -!- SIMILARITY: Contains 1 CN hydrolase domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_01148}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70843.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881865.1; NC_010741.1.
+DR   ProteinModelPortal; A0A0H3BIC9; -.
+DR   GeneID; 2610888; -.
+DR   KEGG; tpp:TPASS_0417; -.
+DR   KO; K03820; -.
+DR   UniPathway; UPA00666; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016810; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds; IEA:InterPro.
+DR   GO; GO:0016410; F:N-acyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042158; P:lipoprotein biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006807; P:nitrogen compound metabolic process; IEA:InterPro.
+DR   Gene3D; 3.60.110.10; -; 1.
+DR   HAMAP; MF_01148; Lnt; 1.
+DR   InterPro; IPR004563; Apolipo_AcylTrfase.
+DR   InterPro; IPR003010; C-N_Hydrolase.
+DR   Pfam; PF00795; CN_hydrolase; 1.
+DR   SUPFAM; SSF56317; SSF56317; 1.
+DR   TIGRFAMs; TIGR00546; lnt; 1.
+DR   PROSITE; PS50263; CN_HYDROLASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase {ECO:0000256|HAMAP-Rule:MF_01148,
+KW   ECO:0000256|SAAS:SAAS00088951, ECO:0000313|EMBL:ACD70843.1};
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01148};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01148};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Lipoprotein {ECO:0000313|EMBL:ACD70843.1};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01148,
+KW   ECO:0000256|SAAS:SAAS00088952};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_01148,
+KW   ECO:0000256|SAAS:SAAS00088951, ECO:0000313|EMBL:ACD70843.1};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01148,
+KW   ECO:0000256|SAAS:SAAS00088952};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01148,
+KW   ECO:0000256|SAAS:SAAS00088952}.
+FT   TRANSMEM     27     47       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM     53     73       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM     86    106       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    114    134       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    153    173       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    187    207       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    519    539       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148}.
+FT   DOMAIN      221    546       CN hydrolase. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01148,
+FT                                ECO:0000259|PROSITE:PS50263}.
+SQ   SEQUENCE   559 AA;  61262 MW;  ADE09DF055713F7E CRC64;
+     MLCTAPLVSS AASAVLLAFA IPNEFWLAGS SVLGLGALVP LYVGFLLSPA KKHVACSYGL
+     FVALVHACSS FWLKNFQGFA LFTLGASTVG YFFYALPFGV AFACILRKQA PARACAFALV
+     WTLWEWVKST GILAYPWGTV PMTAHSLSHL IQIADITGVW GLSFLIPLAN ACVAESLHFF
+     IKKRDSVPVF RLWLLTGCLY CLCSLYGAYR IATLGAPRTT LALAIVQQNA DPWDTXSFEK
+     NLTTAIHLTE TALRTQTAPP LPTTPYRKEK TLTHASARAP VDMVVWSESS LRYPYEQYRH
+     VYNALPAARP FSAFLRTLGA PLLVGTPLRL SGNSTKGGYA NAVALLRPDG HVAQVYGKMQ
+     MVPFAEFIPW GHMTSVQRLA QMLAGFSESW TPGPGPRLFH VPCAAGGSVR FATPICYEDA
+     FPSLCAALHT QGSELLINLT NDSWSKTASA EWQHYVVSLF RAIELRTTLV RSTNSGYTVV
+     IGPEGKTRAA FPLFQATSAV LHVPVYPVVR TYYARMRDWV IVLCALIFFA EGVRMAVHTR
+     RHSTTQAESS LQQIRGEHV
+//
+ID   LNT2_TREPA              Reviewed;         559 AA.
+AC   O83432;
+DT   26-APR-2004, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 91.
+DE   RecName: Full=Apolipoprotein N-acyltransferase 2 {ECO:0000255|HAMAP-Rule:MF_01148};
+DE            Short=ALP N-acyltransferase 2 {ECO:0000255|HAMAP-Rule:MF_01148};
+DE            EC=2.3.1.- {ECO:0000255|HAMAP-Rule:MF_01148};
+GN   Name=lnt2 {ECO:0000255|HAMAP-Rule:MF_01148};
+GN   OrderedLocusNames=TP_0417;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Transfers the fatty acyl group on membrane lipoproteins.
+CC       {ECO:0000255|HAMAP-Rule:MF_01148}.
+CC   -!- PATHWAY: Protein modification; lipoprotein biosynthesis (N-acyl
+CC       transfer). {ECO:0000255|HAMAP-Rule:MF_01148}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01148}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01148}.
+CC   -!- SIMILARITY: Belongs to the CN hydrolase family. Apolipoprotein N-
+CC       acyltransferase subfamily. {ECO:0000255|HAMAP-Rule:MF_01148}.
+CC   -!- SIMILARITY: Contains 1 CN hydrolase domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_01148}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65404.1; -; Genomic_DNA.
+DR   PIR; G71327; G71327.
+DR   RefSeq; WP_010881865.1; NC_000919.1.
+DR   ProteinModelPortal; O83432; -.
+DR   STRING; 243276.TP0417; -.
+DR   EnsemblBacteria; AAC65404; AAC65404; TP_0417.
+DR   GeneID; 2610888; -.
+DR   KEGG; tpa:TP_0417; -.
+DR   PATRIC; 20530847; VBITrePal57110_0443.
+DR   eggNOG; ENOG4107R05; Bacteria.
+DR   eggNOG; COG0815; LUCA.
+DR   KO; K03820; -.
+DR   OMA; TAMRYDK; -.
+DR   OrthoDB; EOG6VTJXM; -.
+DR   BioCyc; TPAL243276:GC1H-443-MONOMER; -.
+DR   UniPathway; UPA00666; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016810; F:hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds; IEA:InterPro.
+DR   GO; GO:0016410; F:N-acyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042158; P:lipoprotein biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006807; P:nitrogen compound metabolic process; IEA:InterPro.
+DR   Gene3D; 3.60.110.10; -; 1.
+DR   HAMAP; MF_01148; Lnt; 1.
+DR   InterPro; IPR004563; Apolipo_AcylTrfase.
+DR   InterPro; IPR003010; C-N_Hydrolase.
+DR   Pfam; PF00795; CN_hydrolase; 1.
+DR   SUPFAM; SSF56317; SSF56317; 1.
+DR   TIGRFAMs; TIGR00546; lnt; 1.
+DR   PROSITE; PS50263; CN_HYDROLASE; 1.
+PE   3: Inferred from homology;
+KW   Acyltransferase; Cell inner membrane; Cell membrane;
+KW   Complete proteome; Membrane; Reference proteome; Transferase;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    559       Apolipoprotein N-acyltransferase 2.
+FT                                /FTId=PRO_0000178106.
+FT   TRANSMEM     25     47       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM     54     73       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM     83    105       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    117    139       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    159    181       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+FT   TRANSMEM    190    212       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+FT   DOMAIN      221    546       CN hydrolase. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01148}.
+SQ   SEQUENCE   559 AA;  61262 MW;  ADE09DF055713F7E CRC64;
+     MLCTAPLVSS AASAVLLAFA IPNEFWLAGS SVLGLGALVP LYVGFLLSPA KKHVACSYGL
+     FVALVHACSS FWLKNFQGFA LFTLGASTVG YFFYALPFGV AFACILRKQA PARACAFALV
+     WTLWEWVKST GILAYPWGTV PMTAHSLSHL IQIADITGVW GLSFLIPLAN ACVAESLHFF
+     IKKRDSVPVF RLWLLTGCLY CLCSLYGAYR IATLGAPRTT LALAIVQQNA DPWDTXSFEK
+     NLTTAIHLTE TALRTQTAPP LPTTPYRKEK TLTHASARAP VDMVVWSESS LRYPYEQYRH
+     VYNALPAARP FSAFLRTLGA PLLVGTPLRL SGNSTKGGYA NAVALLRPDG HVAQVYGKMQ
+     MVPFAEFIPW GHMTSVQRLA QMLAGFSESW TPGPGPRLFH VPCAAGGSVR FATPICYEDA
+     FPSLCAALHT QGSELLINLT NDSWSKTASA EWQHYVVSLF RAIELRTTLV RSTNSGYTVV
+     IGPEGKTRAA FPLFQATSAV LHVPVYPVVR TYYARMRDWV IVLCALIFFA EGVRMAVHTR
+     RHSTTQAESS LQQIRGEHV
+//

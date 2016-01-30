@@ -1,0 +1,487 @@
+ID   R9UVP7_TREPA            Unreviewed;       477 AA.
+AC   R9UVP7;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 21.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   ORFNames=TPANIC_0373 {ECO:0000313|EMBL:AGN75570.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75570.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75570.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75570.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine. {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine (By similarity).
+CC       {ECO:0000256|SAAS:SAAS00366489}.
+CC   -!- CATALYTIC ACTIVITY: (tRNA(Ile2))-cytidine(34) + L-lysine + ATP =
+CC       (tRNA(Ile2))-lysidine(34) + AMP + diphosphate + H(2)O.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161, ECO:0000256|SAAS:SAAS00366509}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161,
+CC       ECO:0000256|SAAS:SAAS00365426}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75570.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881821.1; NC_021490.2.
+DR   ProteinModelPortal; R9UVP7; -.
+DR   STRING; 243276.TP0373; -.
+DR   EnsemblBacteria; AGN75570; AGN75570; TPANIC_0373.
+DR   GeneID; 2611257; -.
+DR   KEGG; tpw:TPANIC_0373; -.
+DR   eggNOG; COG0037; LUCA.
+DR   eggNOG; ENOG4107THF; Bacteria.
+DR   KO; K04075; -.
+DR   OMA; SERDQEY; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR020825; Phe-tRNA_synthase_B3/B4.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   PANTHER; PTHR11807:SF2; PTHR11807:SF2; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF56037; SSF56037; 1.
+DR   TIGRFAMs; TIGR02433; lysidine_TilS_C; 1.
+DR   TIGRFAMs; TIGR02432; lysidine_TilS_N; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022540};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00290483};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022282};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022540};
+KW   tRNA processing {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00290769}.
+FT   DOMAIN      410    477       TilS_C. {ECO:0000259|SMART:SM00977}.
+FT   NP_BIND      36     41       ATP. {ECO:0000256|HAMAP-Rule:MF_01161}.
+SQ   SEQUENCE   477 AA;  52606 MW;  BAAECB430759DCF8 CRC64;
+     MSESRQKLHP LLVHVARSFG HFLVPRKPSC LLVAVSGGAD SLALLYAAHE LAPDFGVCAC
+     AVTVDHSLRA QEGALDARFV RALCARFSPP LPCFVQQISA GAVHACAKIR GRGVQDAARA
+     LRYKVFDHVA ARCGAQVVLT AHTRDDQYET LLMRLFQGAA ASALQGIRAA RGRYVRPLLK
+     VSRTCVEDFL QTRGVRWRED ASNTCRKYVR NRIRHELIPA LDAVLAGWRS GLDKTFAGIS
+     AEHSFCVAAL TRWREGCSHA WEPVPRALGT RLRMPRSDFL AAEFILRFFL LQEACVRLGV
+     SHRVPRGALE RCARFDGVRR IHVSGLQLER AGAYVLFSCI HASDTARETK KQDAGSPPSS
+     EKQGVSAIYV ARPGAYPCAC GTLLVEVRPA GVFVCCAQDH VGVGPFSFPF YIRTHRTGDT
+     ISIRGGHKGI RKMFSEWHVP LSDRTVLPMI EQDGVLRALY GAALGYQNRY AERTPHE
+//
+ID   H6KV93_TREPD            Unreviewed;       477 AA.
+AC   H6KV93;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   09-DEC-2015, entry version 29.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   OrderedLocusNames=TPECDC2_0373 {ECO:0000313|EMBL:AEZ58565.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58565.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine. {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine (By similarity).
+CC       {ECO:0000256|SAAS:SAAS00366489}.
+CC   -!- CATALYTIC ACTIVITY: (tRNA(Ile2))-cytidine(34) + L-lysine + ATP =
+CC       (tRNA(Ile2))-lysidine(34) + AMP + diphosphate + H(2)O.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161, ECO:0000256|SAAS:SAAS00366509}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161,
+CC       ECO:0000256|SAAS:SAAS00365426}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58565.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881821.1; NC_016848.1.
+DR   ProteinModelPortal; H6KV93; -.
+DR   EnsemblBacteria; AEZ58565; AEZ58565; TPECDC2_0373.
+DR   GeneID; 2611257; -.
+DR   KEGG; tpc:TPECDC2_0373; -.
+DR   KO; K04075; -.
+DR   OMA; SERDQEY; -.
+DR   BioCyc; TPAL491079:GJCE-407-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR020825; Phe-tRNA_synthase_B3/B4.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   PANTHER; PTHR11807:SF2; PTHR11807:SF2; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF56037; SSF56037; 1.
+DR   TIGRFAMs; TIGR02433; lysidine_TilS_C; 1.
+DR   TIGRFAMs; TIGR02432; lysidine_TilS_N; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022540};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00290483};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022282};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022540};
+KW   tRNA processing {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00290769}.
+FT   DOMAIN      410    477       TilS_C. {ECO:0000259|SMART:SM00977}.
+FT   NP_BIND      36     41       ATP. {ECO:0000256|HAMAP-Rule:MF_01161}.
+SQ   SEQUENCE   477 AA;  52606 MW;  BAAECB430759DCF8 CRC64;
+     MSESRQKLHP LLVHVARSFG HFLVPRKPSC LLVAVSGGAD SLALLYAAHE LAPDFGVCAC
+     AVTVDHSLRA QEGALDARFV RALCARFSPP LPCFVQQISA GAVHACAKIR GRGVQDAARA
+     LRYKVFDHVA ARCGAQVVLT AHTRDDQYET LLMRLFQGAA ASALQGIRAA RGRYVRPLLK
+     VSRTCVEDFL QTRGVRWRED ASNTCRKYVR NRIRHELIPA LDAVLAGWRS GLDKTFAGIS
+     AEHSFCVAAL TRWREGCSHA WEPVPRALGT RLRMPRSDFL AAEFILRFFL LQEACVRLGV
+     SHRVPRGALE RCARFDGVRR IHVSGLQLER AGAYVLFSCI HASDTARETK KQDAGSPPSS
+     EKQGVSAIYV ARPGAYPCAC GTLLVEVRPA GVFVCCAQDH VGVGPFSFPF YIRTHRTGDT
+     ISIRGGHKGI RKMFSEWHVP LSDRTVLPMI EQDGVLRALY GAALGYQNRY AERTPHE
+//
+ID   A0A0A7X2X0_TREPL        Unreviewed;       477 AA.
+AC   A0A0A7X2X0;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   09-DEC-2015, entry version 7.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000256|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000256|HAMAP-Rule:MF_01161};
+GN   ORFNames=TENDBA_0373 {ECO:0000313|EMBL:AJB40393.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40393.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40393.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40393.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine. {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine (By similarity).
+CC       {ECO:0000256|SAAS:SAAS00366489}.
+CC   -!- CATALYTIC ACTIVITY: (tRNA(Ile2))-cytidine(34) + L-lysine + ATP =
+CC       (tRNA(Ile2))-lysidine(34) + AMP + diphosphate + H(2)O.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161, ECO:0000256|SAAS:SAAS00366509}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161,
+CC       ECO:0000256|SAAS:SAAS00365426}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_01161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40393.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881821.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2X0; -.
+DR   EnsemblBacteria; AJB40393; AJB40393; TENDBA_0373.
+DR   GeneID; 2611257; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR020825; Phe-tRNA_synthase_B3/B4.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   PANTHER; PTHR11807:SF2; PTHR11807:SF2; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   SUPFAM; SSF56037; SSF56037; 1.
+DR   TIGRFAMs; TIGR02433; lysidine_TilS_C; 1.
+DR   TIGRFAMs; TIGR02432; lysidine_TilS_N; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022540};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00290483};
+KW   Ligase {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022282};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00022540};
+KW   tRNA processing {ECO:0000256|HAMAP-Rule:MF_01161,
+KW   ECO:0000256|SAAS:SAAS00290769}.
+FT   DOMAIN       31    216       ATP_bind_3. {ECO:0000259|Pfam:PF01171}.
+FT   NP_BIND      36     41       ATP. {ECO:0000256|HAMAP-Rule:MF_01161}.
+SQ   SEQUENCE   477 AA;  52606 MW;  BAAECB430759DCF8 CRC64;
+     MSESRQKLHP LLVHVARSFG HFLVPRKPSC LLVAVSGGAD SLALLYAAHE LAPDFGVCAC
+     AVTVDHSLRA QEGALDARFV RALCARFSPP LPCFVQQISA GAVHACAKIR GRGVQDAARA
+     LRYKVFDHVA ARCGAQVVLT AHTRDDQYET LLMRLFQGAA ASALQGIRAA RGRYVRPLLK
+     VSRTCVEDFL QTRGVRWRED ASNTCRKYVR NRIRHELIPA LDAVLAGWRS GLDKTFAGIS
+     AEHSFCVAAL TRWREGCSHA WEPVPRALGT RLRMPRSDFL AAEFILRFFL LQEACVRLGV
+     SHRVPRGALE RCARFDGVRR IHVSGLQLER AGAYVLFSCI HASDTARETK KQDAGSPPSS
+     EKQGVSAIYV ARPGAYPCAC GTLLVEVRPA GVFVCCAQDH VGVGPFSFPF YIRTHRTGDT
+     ISIRGGHKGI RKMFSEWHVP LSDRTVLPMI EQDGVLRALY GAALGYQNRY AERTPHE
+//
+ID   TILS_TREPA              Reviewed;         477 AA.
+AC   O83388;
+DT   15-JUL-1999, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 92.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   OrderedLocusNames=TP_0373;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine. {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- CATALYTIC ACTIVITY: (tRNA(Ile2))-cytidine(34) + L-lysine + ATP =
+CC       (tRNA(Ile2))-lysidine(34) + AMP + diphosphate + H(2)O.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65358.1; -; Genomic_DNA.
+DR   PIR; D71333; D71333.
+DR   RefSeq; WP_010881821.1; NC_021490.2.
+DR   ProteinModelPortal; O83388; -.
+DR   IntAct; O83388; 2.
+DR   STRING; 243276.TP0373; -.
+DR   EnsemblBacteria; AAC65358; AAC65358; TP_0373.
+DR   GeneID; 2611257; -.
+DR   KEGG; tpa:TP_0373; -.
+DR   PATRIC; 20530751; VBITrePal57110_0395.
+DR   eggNOG; ENOG4107THF; Bacteria.
+DR   eggNOG; COG0037; LUCA.
+DR   KO; K04075; -.
+DR   OMA; SERDQEY; -.
+DR   OrthoDB; EOG693GNP; -.
+DR   BioCyc; TPAL243276:GC1H-399-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR020825; Phe-tRNA_synthase_B3/B4.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   PANTHER; PTHR11807:SF2; PTHR11807:SF2; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF56037; SSF56037; 1.
+DR   TIGRFAMs; TIGR02433; lysidine_TilS_C; 1.
+DR   TIGRFAMs; TIGR02432; lysidine_TilS_N; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Ligase; Nucleotide-binding;
+KW   Reference proteome; tRNA processing.
+FT   CHAIN         1    477       tRNA(Ile)-lysidine synthase.
+FT                                /FTId=PRO_0000181796.
+FT   NP_BIND      36     41       ATP. {ECO:0000255|HAMAP-Rule:MF_01161}.
+SQ   SEQUENCE   477 AA;  52606 MW;  BAAECB430759DCF8 CRC64;
+     MSESRQKLHP LLVHVARSFG HFLVPRKPSC LLVAVSGGAD SLALLYAAHE LAPDFGVCAC
+     AVTVDHSLRA QEGALDARFV RALCARFSPP LPCFVQQISA GAVHACAKIR GRGVQDAARA
+     LRYKVFDHVA ARCGAQVVLT AHTRDDQYET LLMRLFQGAA ASALQGIRAA RGRYVRPLLK
+     VSRTCVEDFL QTRGVRWRED ASNTCRKYVR NRIRHELIPA LDAVLAGWRS GLDKTFAGIS
+     AEHSFCVAAL TRWREGCSHA WEPVPRALGT RLRMPRSDFL AAEFILRFFL LQEACVRLGV
+     SHRVPRGALE RCARFDGVRR IHVSGLQLER AGAYVLFSCI HASDTARETK KQDAGSPPSS
+     EKQGVSAIYV ARPGAYPCAC GTLLVEVRPA GVFVCCAQDH VGVGPFSFPF YIRTHRTGDT
+     ISIRGGHKGI RKMFSEWHVP LSDRTVLPMI EQDGVLRALY GAALGYQNRY AERTPHE
+//
+ID   TILS_TREPS              Reviewed;         477 AA.
+AC   B2S2X0;
+DT   14-APR-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-JUL-2008, sequence version 1.
+DT   11-NOV-2015, entry version 55.
+DE   RecName: Full=tRNA(Ile)-lysidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE            EC=6.3.4.19 {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-2-lysyl-cytidine synthase {ECO:0000255|HAMAP-Rule:MF_01161};
+DE   AltName: Full=tRNA(Ile)-lysidine synthetase {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   Name=tilS {ECO:0000255|HAMAP-Rule:MF_01161};
+GN   OrderedLocusNames=TPASS_0373;
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14;
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Ligates lysine onto the cytidine present at position 34
+CC       of the AUA codon-specific tRNA(Ile) that contains the anticodon
+CC       CAU, in an ATP-dependent manner. Cytidine is converted to
+CC       lysidine, thus changing the amino acid specificity of the tRNA
+CC       from methionine to isoleucine. {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- CATALYTIC ACTIVITY: (tRNA(Ile2))-cytidine(34) + L-lysine + ATP =
+CC       (tRNA(Ile2))-lysidine(34) + AMP + diphosphate + H(2)O.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -!- DOMAIN: The N-terminal region contains the highly conserved SGGXDS
+CC       motif, predicted to be a P-loop motif involved in ATP binding.
+CC   -!- SIMILARITY: Belongs to the tRNA(Ile)-lysidine synthase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01161}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70799.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881821.1; NC_021508.1.
+DR   ProteinModelPortal; B2S2X0; -.
+DR   EnsemblBacteria; ACD70799; ACD70799; TPASS_0373.
+DR   GeneID; 2611257; -.
+DR   KEGG; tpp:TPASS_0373; -.
+DR   PATRIC; 20528455; VBITrePal10923_0398.
+DR   HOGENOM; HOG000154589; -.
+DR   KO; K04075; -.
+DR   OMA; SERDQEY; -.
+DR   OrthoDB; EOG693GNP; -.
+DR   BioCyc; TPAL455434:GJ9E-398-MONOMER; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016879; F:ligase activity, forming carbon-nitrogen bonds; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006400; P:tRNA modification; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_01161; tRNA_Ile_lys_synt; 1.
+DR   InterPro; IPR012796; Lysidine-tRNA-synth_C.
+DR   InterPro; IPR020825; Phe-tRNA_synthase_B3/B4.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR011063; TilS/TtcA_N.
+DR   InterPro; IPR012094; tRNA_Ile_lys_synt.
+DR   InterPro; IPR012795; tRNA_Ile_lys_synt_N.
+DR   PANTHER; PTHR11807:SF2; PTHR11807:SF2; 1.
+DR   Pfam; PF01171; ATP_bind_3; 1.
+DR   SMART; SM00977; TilS_C; 1.
+DR   SUPFAM; SSF56037; SSF56037; 1.
+DR   TIGRFAMs; TIGR02433; lysidine_TilS_C; 1.
+DR   TIGRFAMs; TIGR02432; lysidine_TilS_N; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Cytoplasm; Ligase; Nucleotide-binding;
+KW   tRNA processing.
+FT   CHAIN         1    477       tRNA(Ile)-lysidine synthase.
+FT                                /FTId=PRO_1000137884.
+FT   NP_BIND      36     41       ATP. {ECO:0000255|HAMAP-Rule:MF_01161}.
+SQ   SEQUENCE   477 AA;  52606 MW;  BAAECB430759DCF8 CRC64;
+     MSESRQKLHP LLVHVARSFG HFLVPRKPSC LLVAVSGGAD SLALLYAAHE LAPDFGVCAC
+     AVTVDHSLRA QEGALDARFV RALCARFSPP LPCFVQQISA GAVHACAKIR GRGVQDAARA
+     LRYKVFDHVA ARCGAQVVLT AHTRDDQYET LLMRLFQGAA ASALQGIRAA RGRYVRPLLK
+     VSRTCVEDFL QTRGVRWRED ASNTCRKYVR NRIRHELIPA LDAVLAGWRS GLDKTFAGIS
+     AEHSFCVAAL TRWREGCSHA WEPVPRALGT RLRMPRSDFL AAEFILRFFL LQEACVRLGV
+     SHRVPRGALE RCARFDGVRR IHVSGLQLER AGAYVLFSCI HASDTARETK KQDAGSPPSS
+     EKQGVSAIYV ARPGAYPCAC GTLLVEVRPA GVFVCCAQDH VGVGPFSFPF YIRTHRTGDT
+     ISIRGGHKGI RKMFSEWHVP LSDRTVLPMI EQDGVLRALY GAALGYQNRY AERTPHE
+//

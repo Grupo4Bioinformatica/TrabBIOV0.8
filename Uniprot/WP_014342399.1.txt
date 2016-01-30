@@ -1,0 +1,40 @@
+ID   H6KV90_TREPD            Unreviewed;        93 AA.
+AC   H6KV90;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 17.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AEZ58562.1};
+GN   OrderedLocusNames=TPECDC2_0370 {ECO:0000313|EMBL:AEZ58562.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58562.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58562.1; -; Genomic_DNA.
+DR   RefSeq; WP_014342399.1; NC_016848.1.
+DR   EnsemblBacteria; AEZ58562; AEZ58562; TPECDC2_0370.
+DR   GeneID; 23365991; -.
+DR   KEGG; tpc:TPECDC2_0370; -.
+DR   BioCyc; TPAL491079:GJCE-403-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193}.
+FT   COILED       82     93       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   93 AA;  10869 MW;  248420E9173F3EA0 CRC64;
+     MCAPLYDPPL AFTIPQAEVS HMNERNKLLA RALYSCVPHV QGSDDYEDDF EDSDFQDGDF
+     DDFEDEDGFD DDDDFEDDDF EYEDEDNDLD FDE
+//

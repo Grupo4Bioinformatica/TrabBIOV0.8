@@ -1,0 +1,627 @@
+ID   R9UVU0_TREPA            Unreviewed;       583 AA.
+AC   R9UVU0;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 20.
+DE   RecName: Full=Protein translocase subunit SecD {ECO:0000256|HAMAP-Rule:MF_01463};
+GN   Name=secD {ECO:0000256|HAMAP-Rule:MF_01463,
+GN   ECO:0000313|EMBL:AGN75605.1};
+GN   ORFNames=TPANIC_0410 {ECO:0000313|EMBL:AGN75605.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75605.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75605.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75605.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75605.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881858.1; NC_021490.2.
+DR   ProteinModelPortal; R9UVU0; -.
+DR   STRING; 243276.TP0410; -.
+DR   EnsemblBacteria; AGN75605; AGN75605; TPANIC_0410.
+DR   GeneID; 2610862; -.
+DR   KEGG; tpw:TPANIC_0410; -.
+DR   eggNOG; COG0342; LUCA.
+DR   eggNOG; ENOG4107QN8; Bacteria.
+DR   KO; K03072; -.
+DR   OMA; RAWSAIW; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000313|EMBL:AGN75605.1};
+KW   Cell division {ECO:0000313|EMBL:AGN75605.1};
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Protein transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Translocation {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023}.
+FT   TRANSMEM      7     27       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    419    439       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    453    473       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    511    531       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    538    558       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+SQ   SEQUENCE   583 AA;  63861 MW;  9A787E64C4CFE1A1 CRC64;
+     MSKKARFGVV LVVLAACSGF LFPTLQWYFL TDAQTRQRAL SSREQIKEYA VQSAERDLAD
+     LTRLARAGSD EDISARYAPL VAAARQNLSY SGRPAPSRWT AAALVSAFPV KSEQGFVLYA
+     RPLMEQTYRE AVLKMKRRQA QAVKLGLDLS GGTSVVIKAD LSEVTKGVPD AERAAIRSEA
+     MALVLSTLEN RINRFGLSEP VIRRQGEDRV YVEIPGLTDR DRVHSIVMGR GVLAFHLVDD
+     DATQKLLDHY RNNPQGTFDA AHQLHDLSLV PEHTSVLGVY RKDSYGLDVR DGFLVVKKEP
+     ALEGRHIRDA TVSSGRANEP LVLFDLDHEG ARIFSELTTK EIGRRLAIVS DGKIRSAPAI
+     REPITAGSGS ISGFSAEEAQ NLKTALRSAW LNVALEIENQ QVVGASMGEE SIRQGTRALV
+     WGLCAVLLFM LVWYQEAGVN ACVAQLLNLY IMFGVLSAFN LTLTLSSIAG MILTIGMAVD
+     ANVVVFERIR EELALGKSRG AAVCSGFERA FWAIMDSNVT TFIAALFLSV LGTGPIKGFA
+     YSLAIGVVSS VFTALFVSRL MFDYGTEVLH KKTVRIGWRI ARV
+//
+ID   H6KT28_TREPD            Unreviewed;       583 AA.
+AC   H6KT28;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 26.
+DE   RecName: Full=Protein translocase subunit SecD {ECO:0000256|HAMAP-Rule:MF_01463};
+GN   Name=secD {ECO:0000256|HAMAP-Rule:MF_01463,
+GN   ECO:0000313|EMBL:AEZ58602.1};
+GN   OrderedLocusNames=TPECDC2_0410 {ECO:0000313|EMBL:AEZ58602.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58602.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58602.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881858.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT28; -.
+DR   EnsemblBacteria; AEZ58602; AEZ58602; TPECDC2_0410.
+DR   GeneID; 2610862; -.
+DR   KEGG; tpc:TPECDC2_0410; -.
+DR   KO; K03072; -.
+DR   OMA; RAWSAIW; -.
+DR   BioCyc; TPAL491079:GJCE-444-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000313|EMBL:AEZ58602.1};
+KW   Cell division {ECO:0000313|EMBL:AEZ58602.1};
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Protein transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Translocation {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023}.
+FT   TRANSMEM      7     27       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    419    439       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    453    473       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    511    531       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    538    558       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+SQ   SEQUENCE   583 AA;  63861 MW;  9A787E64C4CFE1A1 CRC64;
+     MSKKARFGVV LVVLAACSGF LFPTLQWYFL TDAQTRQRAL SSREQIKEYA VQSAERDLAD
+     LTRLARAGSD EDISARYAPL VAAARQNLSY SGRPAPSRWT AAALVSAFPV KSEQGFVLYA
+     RPLMEQTYRE AVLKMKRRQA QAVKLGLDLS GGTSVVIKAD LSEVTKGVPD AERAAIRSEA
+     MALVLSTLEN RINRFGLSEP VIRRQGEDRV YVEIPGLTDR DRVHSIVMGR GVLAFHLVDD
+     DATQKLLDHY RNNPQGTFDA AHQLHDLSLV PEHTSVLGVY RKDSYGLDVR DGFLVVKKEP
+     ALEGRHIRDA TVSSGRANEP LVLFDLDHEG ARIFSELTTK EIGRRLAIVS DGKIRSAPAI
+     REPITAGSGS ISGFSAEEAQ NLKTALRSAW LNVALEIENQ QVVGASMGEE SIRQGTRALV
+     WGLCAVLLFM LVWYQEAGVN ACVAQLLNLY IMFGVLSAFN LTLTLSSIAG MILTIGMAVD
+     ANVVVFERIR EELALGKSRG AAVCSGFERA FWAIMDSNVT TFIAALFLSV LGTGPIKGFA
+     YSLAIGVVSS VFTALFVSRL MFDYGTEVLH KKTVRIGWRI ARV
+//
+ID   F7XRD0_TREPU            Unreviewed;       583 AA.
+AC   F7XRD0;
+DT   21-SEP-2011, integrated into UniProtKB/TrEMBL.
+DT   21-SEP-2011, sequence version 1.
+DT   11-NOV-2015, entry version 28.
+DE   RecName: Full=Protein translocase subunit SecD {ECO:0000256|HAMAP-Rule:MF_01463};
+GN   Name=secD {ECO:0000256|HAMAP-Rule:MF_01463,
+GN   ECO:0000313|EMBL:AEH40353.1};
+GN   OrderedLocusNames=TPCCA_0410 {ECO:0000313|EMBL:AEH40353.1};
+OS   Treponema paraluiscuniculi (strain Cuniculi A).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=545776 {ECO:0000313|EMBL:AEH40353.1, ECO:0000313|Proteomes:UP000008317};
+RN   [1] {ECO:0000313|EMBL:AEH40353.1, ECO:0000313|Proteomes:UP000008317}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Cuniculi A {ECO:0000313|EMBL:AEH40353.1,
+RC   ECO:0000313|Proteomes:UP000008317};
+RX   PubMed=21655244; DOI=10.1371/journal.pone.0020415;
+RA   Smajs D., Zobanikova M., Strouhal M., Cejkova D., Dugan-Rocha S.,
+RA   Pospisilova P., Norris S.J., Albert T., Qin X., Hallsworth-Pepin K.,
+RA   Buhay C., Muzny D.M., Chen L., Gibbs R.A., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema paraluiscuniculi, strain
+RT   Cuniculi A: the loss of infectivity to humans is associated with
+RT   genome decay.";
+RL   PLoS ONE 6:E20415-E20415(2011).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002103; AEH40353.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881858.1; NC_015714.1.
+DR   ProteinModelPortal; F7XRD0; -.
+DR   EnsemblBacteria; AEH40353; AEH40353; TPCCA_0410.
+DR   GeneID; 2610862; -.
+DR   KEGG; tpl:TPCCA_0410; -.
+DR   KO; K03072; -.
+DR   OMA; RAWSAIW; -.
+DR   BioCyc; TPAR545776:GJC6-425-MONOMER; -.
+DR   Proteomes; UP000008317; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000313|EMBL:AEH40353.1};
+KW   Cell division {ECO:0000313|EMBL:AEH40353.1};
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008317};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Protein transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Translocation {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023}.
+FT   TRANSMEM      7     27       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    419    439       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    453    473       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    511    531       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    538    558       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+SQ   SEQUENCE   583 AA;  63861 MW;  9A787E64C4CFE1A1 CRC64;
+     MSKKARFGVV LVVLAACSGF LFPTLQWYFL TDAQTRQRAL SSREQIKEYA VQSAERDLAD
+     LTRLARAGSD EDISARYAPL VAAARQNLSY SGRPAPSRWT AAALVSAFPV KSEQGFVLYA
+     RPLMEQTYRE AVLKMKRRQA QAVKLGLDLS GGTSVVIKAD LSEVTKGVPD AERAAIRSEA
+     MALVLSTLEN RINRFGLSEP VIRRQGEDRV YVEIPGLTDR DRVHSIVMGR GVLAFHLVDD
+     DATQKLLDHY RNNPQGTFDA AHQLHDLSLV PEHTSVLGVY RKDSYGLDVR DGFLVVKKEP
+     ALEGRHIRDA TVSSGRANEP LVLFDLDHEG ARIFSELTTK EIGRRLAIVS DGKIRSAPAI
+     REPITAGSGS ISGFSAEEAQ NLKTALRSAW LNVALEIENQ QVVGASMGEE SIRQGTRALV
+     WGLCAVLLFM LVWYQEAGVN ACVAQLLNLY IMFGVLSAFN LTLTLSSIAG MILTIGMAVD
+     ANVVVFERIR EELALGKSRG AAVCSGFERA FWAIMDSNVT TFIAALFLSV LGTGPIKGFA
+     YSLAIGVVSS VFTALFVSRL MFDYGTEVLH KKTVRIGWRI ARV
+//
+ID   SECD_TREPA              Reviewed;         583 AA.
+AC   O83425;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 99.
+DE   RecName: Full=Protein translocase subunit SecD {ECO:0000255|HAMAP-Rule:MF_01463};
+GN   Name=secD {ECO:0000255|HAMAP-Rule:MF_01463};
+GN   OrderedLocusNames=TP_0410;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000255|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000255|HAMAP-Rule:MF_01463}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-
+CC       Rule:MF_01463}; Multi-pass membrane protein {ECO:0000255|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_01463}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65398.1; -; Genomic_DNA.
+DR   PIR; H71326; H71326.
+DR   RefSeq; WP_010881858.1; NC_021490.2.
+DR   ProteinModelPortal; O83425; -.
+DR   IntAct; O83425; 9.
+DR   STRING; 243276.TP0410; -.
+DR   EnsemblBacteria; AAC65398; AAC65398; TP_0410.
+DR   GeneID; 2610862; -.
+DR   KEGG; tpa:TP_0410; -.
+DR   PATRIC; 20530833; VBITrePal57110_0436.
+DR   eggNOG; ENOG4107QN8; Bacteria.
+DR   eggNOG; COG0342; LUCA.
+DR   KO; K03072; -.
+DR   OMA; RAWSAIW; -.
+DR   OrthoDB; EOG6N0HJT; -.
+DR   BioCyc; TPAL243276:GC1H-436-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane; Cell membrane; Complete proteome; Membrane;
+KW   Protein transport; Reference proteome; Translocation; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN         1    583       Protein translocase subunit SecD.
+FT                                /FTId=PRO_0000095973.
+FT   TRANSMEM      7     27       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    419    439       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    446    468       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    469    489       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    511    531       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    538    558       Helical. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01463}.
+SQ   SEQUENCE   583 AA;  63861 MW;  9A787E64C4CFE1A1 CRC64;
+     MSKKARFGVV LVVLAACSGF LFPTLQWYFL TDAQTRQRAL SSREQIKEYA VQSAERDLAD
+     LTRLARAGSD EDISARYAPL VAAARQNLSY SGRPAPSRWT AAALVSAFPV KSEQGFVLYA
+     RPLMEQTYRE AVLKMKRRQA QAVKLGLDLS GGTSVVIKAD LSEVTKGVPD AERAAIRSEA
+     MALVLSTLEN RINRFGLSEP VIRRQGEDRV YVEIPGLTDR DRVHSIVMGR GVLAFHLVDD
+     DATQKLLDHY RNNPQGTFDA AHQLHDLSLV PEHTSVLGVY RKDSYGLDVR DGFLVVKKEP
+     ALEGRHIRDA TVSSGRANEP LVLFDLDHEG ARIFSELTTK EIGRRLAIVS DGKIRSAPAI
+     REPITAGSGS ISGFSAEEAQ NLKTALRSAW LNVALEIENQ QVVGASMGEE SIRQGTRALV
+     WGLCAVLLFM LVWYQEAGVN ACVAQLLNLY IMFGVLSAFN LTLTLSSIAG MILTIGMAVD
+     ANVVVFERIR EELALGKSRG AAVCSGFERA FWAIMDSNVT TFIAALFLSV LGTGPIKGFA
+     YSLAIGVVSS VFTALFVSRL MFDYGTEVLH KKTVRIGWRI ARV
+//
+ID   A0A0A7X2K8_TREPL        Unreviewed;       583 AA.
+AC   A0A0A7X2K8;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   16-SEP-2015, entry version 6.
+DE   RecName: Full=Protein translocase subunit SecD {ECO:0000256|HAMAP-Rule:MF_01463};
+GN   Name=secD {ECO:0000256|HAMAP-Rule:MF_01463,
+GN   ECO:0000313|EMBL:AJB40430.1};
+GN   ORFNames=TENDBA_0410 {ECO:0000313|EMBL:AJB40430.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40430.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40430.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40430.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40430.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881858.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X2K8; -.
+DR   EnsemblBacteria; AJB40430; AJB40430; TENDBA_0410.
+DR   GeneID; 2610862; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0051301; P:cell division; IEA:UniProtKB-KW.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   3: Inferred from homology;
+KW   Cell cycle {ECO:0000313|EMBL:AJB40430.1};
+KW   Cell division {ECO:0000313|EMBL:AJB40430.1};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284047};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038, ECO:0000256|SAAS:SAAS00284047};
+KW   Protein transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Translocation {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023}.
+FT   TRANSMEM      7     27       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    419    439       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    453    473       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    511    531       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    538    558       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+SQ   SEQUENCE   583 AA;  63861 MW;  9A787E64C4CFE1A1 CRC64;
+     MSKKARFGVV LVVLAACSGF LFPTLQWYFL TDAQTRQRAL SSREQIKEYA VQSAERDLAD
+     LTRLARAGSD EDISARYAPL VAAARQNLSY SGRPAPSRWT AAALVSAFPV KSEQGFVLYA
+     RPLMEQTYRE AVLKMKRRQA QAVKLGLDLS GGTSVVIKAD LSEVTKGVPD AERAAIRSEA
+     MALVLSTLEN RINRFGLSEP VIRRQGEDRV YVEIPGLTDR DRVHSIVMGR GVLAFHLVDD
+     DATQKLLDHY RNNPQGTFDA AHQLHDLSLV PEHTSVLGVY RKDSYGLDVR DGFLVVKKEP
+     ALEGRHIRDA TVSSGRANEP LVLFDLDHEG ARIFSELTTK EIGRRLAIVS DGKIRSAPAI
+     REPITAGSGS ISGFSAEEAQ NLKTALRSAW LNVALEIENQ QVVGASMGEE SIRQGTRALV
+     WGLCAVLLFM LVWYQEAGVN ACVAQLLNLY IMFGVLSAFN LTLTLSSIAG MILTIGMAVD
+     ANVVVFERIR EELALGKSRG AAVCSGFERA FWAIMDSNVT TFIAALFLSV LGTGPIKGFA
+     YSLAIGVVSS VFTALFVSRL MFDYGTEVLH KKTVRIGWRI ARV
+//
+ID   A0A0H3BKH8_TREPS        Unreviewed;       583 AA.
+AC   A0A0H3BKH8;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Protein translocase subunit SecD {ECO:0000256|HAMAP-Rule:MF_01463};
+GN   Name=secD {ECO:0000256|HAMAP-Rule:MF_01463,
+GN   ECO:0000313|EMBL:ACD70836.1};
+GN   OrderedLocusNames=TPASS_0410 {ECO:0000313|EMBL:ACD70836.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70836.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70836.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70836.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Part of the Sec protein translocase complex. Interacts
+CC       with the SecYEG preprotein conducting channel. SecDF uses the
+CC       proton motive force (PMF) to complete protein translocation after
+CC       the ATP-dependent function of SecA. {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SUBUNIT: Forms a complex with SecF. Part of the essential Sec
+CC       protein translocation apparatus which comprises SecA, SecYEG and
+CC       auxiliary proteins SecDF. Other proteins may also be involved.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}; Multi-pass membrane protein {ECO:0000256|HAMAP-
+CC       Rule:MF_01463}.
+CC   -!- SIMILARITY: Belongs to the SecD/SecF family. SecD subfamily.
+CC       {ECO:0000256|HAMAP-Rule:MF_01463}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70836.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881858.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BKH8; -.
+DR   GeneID; 2610862; -.
+DR   KEGG; tpp:TPASS_0410; -.
+DR   KO; K03072; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0015450; F:P-P-bond-hydrolysis-driven protein transmembrane transporter activity; IEA:InterPro.
+DR   GO; GO:0065002; P:intracellular protein transmembrane transport; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006605; P:protein targeting; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0043952; P:protein transport by the Sec complex; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_01463_B; SecD_B; 1.
+DR   InterPro; IPR005791; SecD.
+DR   InterPro; IPR022813; SecD/SecF_arch_bac.
+DR   InterPro; IPR022645; SecD/SecF_bac.
+DR   Pfam; PF02355; SecD_SecF; 1.
+DR   TIGRFAMs; TIGR00916; 2A0604s01; 1.
+DR   TIGRFAMs; TIGR01129; secD; 1.
+PE   3: Inferred from homology;
+KW   Cell inner membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Cell membrane {ECO:0000256|HAMAP-Rule:MF_01463};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Membrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Protein transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Translocation {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023};
+KW   Transmembrane {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transmembrane helix {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284038};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_01463,
+KW   ECO:0000256|SAAS:SAAS00284023}.
+FT   TRANSMEM      7     27       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    419    439       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    453    473       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    511    531       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+FT   TRANSMEM    538    558       Helical. {ECO:0000256|HAMAP-
+FT                                Rule:MF_01463}.
+SQ   SEQUENCE   583 AA;  63861 MW;  9A787E64C4CFE1A1 CRC64;
+     MSKKARFGVV LVVLAACSGF LFPTLQWYFL TDAQTRQRAL SSREQIKEYA VQSAERDLAD
+     LTRLARAGSD EDISARYAPL VAAARQNLSY SGRPAPSRWT AAALVSAFPV KSEQGFVLYA
+     RPLMEQTYRE AVLKMKRRQA QAVKLGLDLS GGTSVVIKAD LSEVTKGVPD AERAAIRSEA
+     MALVLSTLEN RINRFGLSEP VIRRQGEDRV YVEIPGLTDR DRVHSIVMGR GVLAFHLVDD
+     DATQKLLDHY RNNPQGTFDA AHQLHDLSLV PEHTSVLGVY RKDSYGLDVR DGFLVVKKEP
+     ALEGRHIRDA TVSSGRANEP LVLFDLDHEG ARIFSELTTK EIGRRLAIVS DGKIRSAPAI
+     REPITAGSGS ISGFSAEEAQ NLKTALRSAW LNVALEIENQ QVVGASMGEE SIRQGTRALV
+     WGLCAVLLFM LVWYQEAGVN ACVAQLLNLY IMFGVLSAFN LTLTLSSIAG MILTIGMAVD
+     ANVVVFERIR EELALGKSRG AAVCSGFERA FWAIMDSNVT TFIAALFLSV LGTGPIKGFA
+     YSLAIGVVSS VFTALFVSRL MFDYGTEVLH KKTVRIGWRI ARV
+//

@@ -1,0 +1,385 @@
+ID   R9UT03_TREPA            Unreviewed;       206 AA.
+AC   R9UT03;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 18.
+DE   RecName: Full=V-type ATP synthase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+DE   AltName: Full=V-ATPase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   Name=ntpD1 {ECO:0000313|EMBL:AGN75622.1};
+GN   Synonyms=atpD {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   ORFNames=TPANIC_0428 {ECO:0000313|EMBL:AGN75622.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75622.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75622.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75622.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase D subunit family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75622.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881876.1; NC_021490.2.
+DR   ProteinModelPortal; R9UT03; -.
+DR   STRING; 243276.TP0428; -.
+DR   EnsemblBacteria; AGN75622; AGN75622; TPANIC_0428.
+DR   GeneID; 2610934; -.
+DR   KEGG; tpw:TPANIC_0428; -.
+DR   eggNOG; COG1394; LUCA.
+DR   eggNOG; ENOG4108WBK; Bacteria.
+DR   KO; K02120; -.
+DR   OMA; PTIKSKE; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00271; ATP_synth_D_arch; 1.
+DR   InterPro; IPR002699; V_ATPase_D.
+DR   PANTHER; PTHR11671; PTHR11671; 1.
+DR   Pfam; PF01813; ATP-synt_D; 1.
+DR   TIGRFAMs; TIGR00309; V_ATPase_subD; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Hydrogen ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_00271}.
+FT   COILED       31     58       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   206 AA;  23803 MW;  BC33C36FC5795483 CRC64;
+     MAVRLTKNEL KRQKETLKTF RRFLPTLQLK KQQLYAEIRA VEARASEVRS RADALRQDVQ
+     QWVAVFSESG VFDARLLRVQ EVKKTYASIA GVRIPCFLEV HFACPPYDLY RVPLWVDTAV
+     RKMQEVLSLD LEAHVLDEQA LLLGAELRTT TQRVNLFEKV KIPETRACIR KITVYLGDQQ
+     VAAVVRGKMS KKNLVDVSRM EQEDTR
+//
+ID   H6KT46_TREPD            Unreviewed;       206 AA.
+AC   H6KT46;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   11-NOV-2015, entry version 24.
+DE   RecName: Full=V-type ATP synthase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+DE   AltName: Full=V-ATPase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   Name=ntpD1 {ECO:0000313|EMBL:AEZ58620.1};
+GN   Synonyms=atpD {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   OrderedLocusNames=TPECDC2_0428 {ECO:0000313|EMBL:AEZ58620.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58620.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase D subunit family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58620.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881876.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT46; -.
+DR   EnsemblBacteria; AEZ58620; AEZ58620; TPECDC2_0428.
+DR   GeneID; 2610934; -.
+DR   KEGG; tpc:TPECDC2_0428; -.
+DR   KO; K02120; -.
+DR   OMA; PTIKSKE; -.
+DR   BioCyc; TPAL491079:GJCE-462-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00271; ATP_synth_D_arch; 1.
+DR   InterPro; IPR002699; V_ATPase_D.
+DR   PANTHER; PTHR11671; PTHR11671; 1.
+DR   Pfam; PF01813; ATP-synt_D; 1.
+DR   TIGRFAMs; TIGR00309; V_ATPase_subD; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Hydrogen ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_00271}.
+FT   COILED       31     58       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   206 AA;  23803 MW;  BC33C36FC5795483 CRC64;
+     MAVRLTKNEL KRQKETLKTF RRFLPTLQLK KQQLYAEIRA VEARASEVRS RADALRQDVQ
+     QWVAVFSESG VFDARLLRVQ EVKKTYASIA GVRIPCFLEV HFACPPYDLY RVPLWVDTAV
+     RKMQEVLSLD LEAHVLDEQA LLLGAELRTT TQRVNLFEKV KIPETRACIR KITVYLGDQQ
+     VAAVVRGKMS KKNLVDVSRM EQEDTR
+//
+ID   F7XSN8_TREPU            Unreviewed;       206 AA.
+AC   F7XSN8;
+DT   21-SEP-2011, integrated into UniProtKB/TrEMBL.
+DT   21-SEP-2011, sequence version 1.
+DT   11-NOV-2015, entry version 23.
+DE   RecName: Full=V-type ATP synthase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+DE   AltName: Full=V-ATPase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   Name=ntpD1 {ECO:0000313|EMBL:AEH40371.1};
+GN   Synonyms=atpD {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   OrderedLocusNames=TPCCA_0428 {ECO:0000313|EMBL:AEH40371.1};
+OS   Treponema paraluiscuniculi (strain Cuniculi A).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=545776 {ECO:0000313|EMBL:AEH40371.1, ECO:0000313|Proteomes:UP000008317};
+RN   [1] {ECO:0000313|EMBL:AEH40371.1, ECO:0000313|Proteomes:UP000008317}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Cuniculi A {ECO:0000313|EMBL:AEH40371.1,
+RC   ECO:0000313|Proteomes:UP000008317};
+RX   PubMed=21655244; DOI=10.1371/journal.pone.0020415;
+RA   Smajs D., Zobanikova M., Strouhal M., Cejkova D., Dugan-Rocha S.,
+RA   Pospisilova P., Norris S.J., Albert T., Qin X., Hallsworth-Pepin K.,
+RA   Buhay C., Muzny D.M., Chen L., Gibbs R.A., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema paraluiscuniculi, strain
+RT   Cuniculi A: the loss of infectivity to humans is associated with
+RT   genome decay.";
+RL   PLoS ONE 6:E20415-E20415(2011).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase D subunit family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002103; AEH40371.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881876.1; NC_015714.1.
+DR   ProteinModelPortal; F7XSN8; -.
+DR   EnsemblBacteria; AEH40371; AEH40371; TPCCA_0428.
+DR   GeneID; 2610934; -.
+DR   KEGG; tpl:TPCCA_0428; -.
+DR   KO; K02120; -.
+DR   OMA; PTIKSKE; -.
+DR   BioCyc; TPAR545776:GJC6-443-MONOMER; -.
+DR   Proteomes; UP000008317; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00271; ATP_synth_D_arch; 1.
+DR   InterPro; IPR002699; V_ATPase_D.
+DR   PANTHER; PTHR11671; PTHR11671; 1.
+DR   Pfam; PF01813; ATP-synt_D; 1.
+DR   TIGRFAMs; TIGR00309; V_ATPase_subD; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008317};
+KW   Hydrogen ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_00271}.
+FT   COILED       31     58       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   206 AA;  23803 MW;  BC33C36FC5795483 CRC64;
+     MAVRLTKNEL KRQKETLKTF RRFLPTLQLK KQQLYAEIRA VEARASEVRS RADALRQDVQ
+     QWVAVFSESG VFDARLLRVQ EVKKTYASIA GVRIPCFLEV HFACPPYDLY RVPLWVDTAV
+     RKMQEVLSLD LEAHVLDEQA LLLGAELRTT TQRVNLFEKV KIPETRACIR KITVYLGDQQ
+     VAAVVRGKMS KKNLVDVSRM EQEDTR
+//
+ID   A0A0H3BID9_TREPS        Unreviewed;       206 AA.
+AC   A0A0H3BID9;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=V-type ATP synthase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+DE   AltName: Full=V-ATPase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   Name=atpD1 {ECO:0000313|EMBL:ACD70854.1};
+GN   Synonyms=atpD {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   OrderedLocusNames=TPASS_0428 {ECO:0000313|EMBL:ACD70854.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70854.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70854.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70854.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase D subunit family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70854.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881876.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BID9; -.
+DR   GeneID; 2610934; -.
+DR   KEGG; tpp:TPASS_0428; -.
+DR   KO; K02120; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00271; ATP_synth_D_arch; 1.
+DR   InterPro; IPR002699; V_ATPase_D.
+DR   PANTHER; PTHR11671; PTHR11671; 1.
+DR   Pfam; PF01813; ATP-synt_D; 1.
+DR   TIGRFAMs; TIGR00309; V_ATPase_subD; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Hydrogen ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_00271}.
+FT   COILED       31     58       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   206 AA;  23803 MW;  BC33C36FC5795483 CRC64;
+     MAVRLTKNEL KRQKETLKTF RRFLPTLQLK KQQLYAEIRA VEARASEVRS RADALRQDVQ
+     QWVAVFSESG VFDARLLRVQ EVKKTYASIA GVRIPCFLEV HFACPPYDLY RVPLWVDTAV
+     RKMQEVLSLD LEAHVLDEQA LLLGAELRTT TQRVNLFEKV KIPETRACIR KITVYLGDQQ
+     VAAVVRGKMS KKNLVDVSRM EQEDTR
+//
+ID   A0A0A7X321_TREPL        Unreviewed;       206 AA.
+AC   A0A0A7X321;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   11-NOV-2015, entry version 8.
+DE   RecName: Full=V-type ATP synthase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+DE   AltName: Full=V-ATPase subunit D {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   Name=ntpD1 {ECO:0000313|EMBL:AJB40448.1};
+GN   Synonyms=atpD {ECO:0000256|HAMAP-Rule:MF_00271};
+GN   ORFNames=TENDBA_0428 {ECO:0000313|EMBL:AJB40448.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40448.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40448.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40448.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase D subunit family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00271}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40448.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881876.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X321; -.
+DR   EnsemblBacteria; AJB40448; AJB40448; TENDBA_0428.
+DR   GeneID; 2610934; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00271; ATP_synth_D_arch; 1.
+DR   InterPro; IPR002699; V_ATPase_D.
+DR   PANTHER; PTHR11671; PTHR11671; 1.
+DR   Pfam; PF01813; ATP-synt_D; 1.
+DR   TIGRFAMs; TIGR00309; V_ATPase_subD; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Hydrogen ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Ion transport {ECO:0000256|HAMAP-Rule:MF_00271};
+KW   Transport {ECO:0000256|HAMAP-Rule:MF_00271}.
+FT   COILED       31     58       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   206 AA;  23803 MW;  BC33C36FC5795483 CRC64;
+     MAVRLTKNEL KRQKETLKTF RRFLPTLQLK KQQLYAEIRA VEARASEVRS RADALRQDVQ
+     QWVAVFSESG VFDARLLRVQ EVKKTYASIA GVRIPCFLEV HFACPPYDLY RVPLWVDTAV
+     RKMQEVLSLD LEAHVLDEQA LLLGAELRTT TQRVNLFEKV KIPETRACIR KITVYLGDQQ
+     VAAVVRGKMS KKNLVDVSRM EQEDTR
+//
+ID   VATD1_TREPA             Reviewed;         206 AA.
+AC   O83443;
+DT   24-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 95.
+DE   RecName: Full=V-type ATP synthase subunit D 1;
+DE   AltName: Full=V-ATPase subunit D 1;
+GN   Name=atpD1; OrderedLocusNames=TP_0428;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Produces ATP from ADP in the presence of a proton
+CC       gradient across the membrane. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the V-ATPase D subunit family.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65414.1; -; Genomic_DNA.
+DR   PIR; A71326; A71326.
+DR   RefSeq; WP_010881876.1; NC_021490.2.
+DR   ProteinModelPortal; O83443; -.
+DR   STRING; 243276.TP0428; -.
+DR   TCDB; 3.A.2.3.3; the h(+)- or na(+)-translocating f-type, v-type and a-type atpase (f-atpase) superfamily.
+DR   EnsemblBacteria; AAC65414; AAC65414; TP_0428.
+DR   GeneID; 2610934; -.
+DR   KEGG; tpa:TP_0428; -.
+DR   PATRIC; 20530871; VBITrePal57110_0455.
+DR   eggNOG; ENOG4108WBK; Bacteria.
+DR   eggNOG; COG1394; LUCA.
+DR   KO; K02120; -.
+DR   OMA; PTIKSKE; -.
+DR   OrthoDB; EOG6KHFZP; -.
+DR   BioCyc; TPAL243276:GC1H-454-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0046933; F:proton-transporting ATP synthase activity, rotational mechanism; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042777; P:plasma membrane ATP synthesis coupled proton transport; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00271; ATP_synth_D_arch; 1.
+DR   InterPro; IPR002699; V_ATPase_D.
+DR   PANTHER; PTHR11671; PTHR11671; 1.
+DR   Pfam; PF01813; ATP-synt_D; 1.
+DR   TIGRFAMs; TIGR00309; V_ATPase_subD; 1.
+PE   3: Inferred from homology;
+KW   ATP synthesis; Complete proteome; Hydrogen ion transport;
+KW   Ion transport; Reference proteome; Transport.
+FT   CHAIN         1    206       V-type ATP synthase subunit D 1.
+FT                                /FTId=PRO_0000144273.
+SQ   SEQUENCE   206 AA;  23803 MW;  BC33C36FC5795483 CRC64;
+     MAVRLTKNEL KRQKETLKTF RRFLPTLQLK KQQLYAEIRA VEARASEVRS RADALRQDVQ
+     QWVAVFSESG VFDARLLRVQ EVKKTYASIA GVRIPCFLEV HFACPPYDLY RVPLWVDTAV
+     RKMQEVLSLD LEAHVLDEQA LLLGAELRTT TQRVNLFEKV KIPETRACIR KITVYLGDQQ
+     VAAVVRGKMS KKNLVDVSRM EQEDTR
+//

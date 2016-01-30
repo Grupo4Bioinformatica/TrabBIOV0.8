@@ -1,0 +1,94 @@
+ID   O83423_TREPA            Unreviewed;      1084 AA.
+AC   O83423;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 90.
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AAC65396.1};
+GN   OrderedLocusNames=TP_0408 {ECO:0000313|EMBL:AAC65396.1};
+GN   ORFNames=TPANIC_0408 {ECO:0000313|EMBL:AGN75602.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65396.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65396.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65396.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75602.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75602.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65396.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75602.1; -; Genomic_DNA.
+DR   PIR; G71329; G71329.
+DR   RefSeq; WP_010881856.1; NC_021490.2.
+DR   STRING; 243276.TP0408; -.
+DR   EnsemblBacteria; AAC65396; AAC65396; TP_0408.
+DR   EnsemblBacteria; AGN75602; AGN75602; TPANIC_0408.
+DR   GeneID; 2610853; -.
+DR   KEGG; tpa:TP_0408; -.
+DR   KEGG; tpw:TPANIC_0408; -.
+DR   PATRIC; 20530827; VBITrePal57110_0433.
+DR   eggNOG; ENOG4105FEI; Bacteria.
+DR   eggNOG; ENOG410XQGU; LUCA.
+DR   OMA; TPWAANG; -.
+DR   OrthoDB; EOG6N3CNZ; -.
+DR   BioCyc; TPAL243276:GC1H-434-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+PE   4: Predicted;
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   COILED      136    156       {ECO:0000256|SAM:Coils}.
+FT   COILED      180    200       {ECO:0000256|SAM:Coils}.
+FT   COILED      352    372       {ECO:0000256|SAM:Coils}.
+FT   COILED      387    407       {ECO:0000256|SAM:Coils}.
+FT   COILED      424    451       {ECO:0000256|SAM:Coils}.
+FT   COILED      723    754       {ECO:0000256|SAM:Coils}.
+FT   COILED      763    783       {ECO:0000256|SAM:Coils}.
+FT   COILED      794    821       {ECO:0000256|SAM:Coils}.
+FT   COILED      918    945       {ECO:0000256|SAM:Coils}.
+FT   COILED      953    973       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   1084 AA;  124015 MW;  C549B5501DB8F688 CRC64;
+     MEYFLTVVIA CAISLVMVAF SRQLDKGNRS LEKVKRYADY IKEDLESFSA EKIAMLKDAA
+     IELNVKQEQA IASVKKMDHL YDQFMKKSTA LAAANMAVEK IHREVQASEK DVCTLREQVA
+     VAQGLIAEVN KESSFVDSLS KRVAAAKTQL QQVSAAIPDM QNAFTRENTA LLHRVRDGVL
+     ADVHKELAVL QTRLEKAQGE SQSLFEVSAV KLRELYEGAF SEATVRAQVL EENGFGQLKV
+     QAENRLLQLQ EEFEGSLLSL QQHVMQRVEQ TDQHIQDCAS QWSVRAQTCE SDLSIRLADV
+     TACVDESVAQ LKEQITTQER EVRAHLEGIE QSLSGAESGL RERVHKSVTS FHENLNKIAE
+     ASDAQLQQYR KEMDGRCSKF DRELEGIDVL ESQLQLARER TEQKVREEFE AYAQDRERKQ
+     LAFEAQLQHS MDTVEHRMKQ LNDELRELKA SAYANASEKL QSVEDNFFEV LTKRSDSLHA
+     RFSEWSEGIE GRLTQLALES ESARKDLEDT YRKELHTRLK DFVEEYKGQC TKLGEQILAI
+     ESNVKQHMRA NDDLFQRHTE KFTIDVAALH DKAHNLIERE LEAVRQRLRD SLHVHSSMIE
+     TEVRDMNVLV QEIKQEAQGG CGSVKRDIEA WKAHTDKQFA DAKQLFEGKI AHLVNLSERA
+     IENLSARYDM QYEDFSQKNG ESLQSLRDEI GKMCDTMRTV KEELGGYVNT VTGQLHADGR
+     RESEALHKTV KEARAQVDRT LQETRDLVQD LRAEFGEAQV GLLTKLQGES DRFSQVLQEI
+     ERKQHEFIGQ TRIFDRADEL RENLEKDIER LTETVTRFEV YREAMDKLSL QYEKVKHFGE
+     EAEQRVEKFM QERKNIDLLE GEFSKLAALS DAMDKKIVEL TLANDDLQRY QVQIRKVKEG
+     LGDISTRYER LDKKGAVLDQ TVQDVDRAFE NLKELEKTLK NFRGELETVD PQLQRVRAEI
+     AVLLDNQEKA ERVRSRIECA DALLGEMESR IEKIQHAREW LAGTETRLQE ISKVSEGQLR
+     LLGDLMRQDP ANKIPGAGAP PLATRQNVVK LHKSGWSDDA IAHALKISKG EVQLILELPD
+     MDSF
+//

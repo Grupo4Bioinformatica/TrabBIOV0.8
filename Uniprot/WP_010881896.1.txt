@@ -1,0 +1,302 @@
+ID   UPP_TREPA               Reviewed;         360 AA.
+AC   O83462;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   20-JAN-2016, entry version 92.
+DE   RecName: Full=Putative uracil phosphoribosyltransferase;
+DE            EC=2.4.2.9;
+DE   AltName: Full=UMP pyrophosphorylase;
+DE   AltName: Full=UPRTase;
+GN   Name=upp; OrderedLocusNames=TP_0448;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the conversion of uracil and 5-phospho-alpha-
+CC       D-ribose 1-diphosphate (PRPP) to UMP and diphosphate.
+CC       {ECO:0000305}.
+CC   -!- CATALYTIC ACTIVITY: UMP + diphosphate = uracil + 5-phospho-alpha-
+CC       D-ribose 1-diphosphate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000305};
+CC       Note=Binds 1 Mg(2+) ion per subunit. The magnesium is bound as Mg-
+CC       PRPP. {ECO:0000305};
+CC   -!- ENZYME REGULATION: Allosterically activated by GTP. {ECO:0000305}.
+CC   -!- PATHWAY: Pyrimidine metabolism; UMP biosynthesis via salvage
+CC       pathway; UMP from uracil: step 1/1.
+CC   -!- SIMILARITY: Belongs to the UPRTase family. Highly divergent.
+CC       {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65434.1; -; Genomic_DNA.
+DR   PIR; H71324; H71324.
+DR   RefSeq; WP_010881896.1; NC_021490.2.
+DR   ProteinModelPortal; O83462; -.
+DR   STRING; 243276.TP0448; -.
+DR   EnsemblBacteria; AAC65434; AAC65434; TP_0448.
+DR   GeneID; 2611011; -.
+DR   KEGG; tpa:TP_0448; -.
+DR   PATRIC; 20530915; VBITrePal57110_0477.
+DR   eggNOG; ENOG4107V28; Bacteria.
+DR   eggNOG; COG0035; LUCA.
+DR   KO; K00761; -.
+DR   OMA; IQRAYEM; -.
+DR   OrthoDB; EOG6HF5WX; -.
+DR   BioCyc; TPAL243276:GC1H-474-MONOMER; -.
+DR   UniPathway; UPA00574; UER00636.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004845; F:uracil phosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0044206; P:UMP salvage; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+PE   3: Inferred from homology;
+KW   Allosteric enzyme; Complete proteome; Glycosyltransferase;
+KW   GTP-binding; Magnesium; Nucleotide-binding; Reference proteome;
+KW   Transferase.
+FT   CHAIN         1    360       Putative uracil
+FT                                phosphoribosyltransferase.
+FT                                /FTId=PRO_0000120907.
+FT   REGION      242    250       5-phospho-alpha-D-ribose 1-diphosphate
+FT                                binding. {ECO:0000250}.
+FT   REGION      312    314       Uracil binding. {ECO:0000250}.
+FT   BINDING     205    205       5-phospho-alpha-D-ribose 1-diphosphate.
+FT                                {ECO:0000250}.
+FT   BINDING     307    307       Uracil; via amide nitrogen.
+FT                                {ECO:0000250}.
+FT   BINDING     313    313       5-phospho-alpha-D-ribose 1-diphosphate.
+FT                                {ECO:0000250}.
+SQ   SEQUENCE   360 AA;  41018 MW;  9E2CAB2E2FA3768C CRC64;
+     MEGQTARRVI TEAKFLDDCL TERDSYYLSK LDELYSSAMS SFAQFEDQQN GARSARAEEN
+     IIATYDSIGN LMQEICKELP ALKVYSFETQ RENHAEVSRV VSKLRNIHTG YSEFIYYTQR
+     AFEMLFRLAY GGSHEEHKTY LITKTPVAFP VQNYAVHKIA NVDYKIENTV MCVMLRGALL
+     PSMIVSKEIE EYSSHGYVTP FALFKIKRDD LRDERDMQYV FDLDKSYFSA RELDGKDLVF
+     ADPMNATGGS LVTIVRYLQD LGVKPKSISC FHMISALKGA IRVVRSLENC TVYTLWMDPV
+     LNARAYIMPG LGDAGDRVNG VDVEDYPRNI IQLLADYGSN ISGLYRSQLR KIEETVLGSR
+//
+ID   R9UUM3_TREPA            Unreviewed;       360 AA.
+AC   R9UUM3;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   20-JAN-2016, entry version 17.
+DE   SubName: Full=Uracil phosphoribosyltransferase {ECO:0000313|EMBL:AGN75641.1};
+DE            EC=2.4.2.9 {ECO:0000313|EMBL:AGN75641.1};
+GN   Name=upp {ECO:0000313|EMBL:AGN75641.1};
+GN   ORFNames=TPANIC_0448 {ECO:0000313|EMBL:AGN75641.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75641.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75641.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75641.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75641.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881896.1; NC_021490.2.
+DR   ProteinModelPortal; R9UUM3; -.
+DR   STRING; 243276.TP0448; -.
+DR   EnsemblBacteria; AGN75641; AGN75641; TPANIC_0448.
+DR   GeneID; 2611011; -.
+DR   KEGG; tpw:TPANIC_0448; -.
+DR   eggNOG; COG0035; LUCA.
+DR   eggNOG; ENOG4107V28; Bacteria.
+DR   KO; K00761; -.
+DR   OMA; IQRAYEM; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0004845; F:uracil phosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   Glycosyltransferase {ECO:0000313|EMBL:AGN75641.1};
+KW   Transferase {ECO:0000313|EMBL:AGN75641.1}.
+SQ   SEQUENCE   360 AA;  41018 MW;  9E2CAB2E2FA3768C CRC64;
+     MEGQTARRVI TEAKFLDDCL TERDSYYLSK LDELYSSAMS SFAQFEDQQN GARSARAEEN
+     IIATYDSIGN LMQEICKELP ALKVYSFETQ RENHAEVSRV VSKLRNIHTG YSEFIYYTQR
+     AFEMLFRLAY GGSHEEHKTY LITKTPVAFP VQNYAVHKIA NVDYKIENTV MCVMLRGALL
+     PSMIVSKEIE EYSSHGYVTP FALFKIKRDD LRDERDMQYV FDLDKSYFSA RELDGKDLVF
+     ADPMNATGGS LVTIVRYLQD LGVKPKSISC FHMISALKGA IRVVRSLENC TVYTLWMDPV
+     LNARAYIMPG LGDAGDRVNG VDVEDYPRNI IQLLADYGSN ISGLYRSQLR KIEETVLGSR
+//
+ID   H6KT66_TREPD            Unreviewed;       360 AA.
+AC   H6KT66;
+DT   18-APR-2012, integrated into UniProtKB/TrEMBL.
+DT   18-APR-2012, sequence version 1.
+DT   20-JAN-2016, entry version 23.
+DE   SubName: Full=Uracil phosphoribosyltransferase {ECO:0000313|EMBL:AEZ58640.1};
+DE            EC=2.4.2.9 {ECO:0000313|EMBL:AEZ58640.1};
+GN   Name=upp {ECO:0000313|EMBL:AEZ58640.1};
+GN   OrderedLocusNames=TPECDC2_0448 {ECO:0000313|EMBL:AEZ58640.1};
+OS   Treponema pallidum subsp. pertenue (strain CDC2).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=491079 {ECO:0000313|EMBL:AEZ58640.1, ECO:0000313|Proteomes:UP000008193};
+RN   [1] {ECO:0000313|Proteomes:UP000008193}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=CDC2 {ECO:0000313|Proteomes:UP000008193};
+RX   PubMed=22292095; DOI=10.1371/journal.pntd.0001471;
+RA   Cejkova D., Zobanikova M., Chen L., Pospisilova P., Strouhal M.,
+RA   Qin X., Mikalova L., Norris S.J., Muzny D.M., Gibbs R.A., Fulton L.L.,
+RA   Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Whole genome sequences of three Treponema pallidum ssp. pertenue
+RT   strains: yaws and syphilis treponemes differ in less than 0.2% of the
+RT   genome sequence.";
+RL   PLoS Negl. Trop. Dis. 6:E1471-E1471(2012).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP002375; AEZ58640.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881896.1; NC_016848.1.
+DR   ProteinModelPortal; H6KT66; -.
+DR   EnsemblBacteria; AEZ58640; AEZ58640; TPECDC2_0448.
+DR   GeneID; 2611011; -.
+DR   KEGG; tpc:TPECDC2_0448; -.
+DR   KO; K00761; -.
+DR   OMA; IQRAYEM; -.
+DR   BioCyc; TPAL491079:GJCE-482-MONOMER; -.
+DR   Proteomes; UP000008193; Chromosome.
+DR   GO; GO:0004845; F:uracil phosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000008193};
+KW   Glycosyltransferase {ECO:0000313|EMBL:AEZ58640.1};
+KW   Transferase {ECO:0000313|EMBL:AEZ58640.1}.
+SQ   SEQUENCE   360 AA;  41018 MW;  9E2CAB2E2FA3768C CRC64;
+     MEGQTARRVI TEAKFLDDCL TERDSYYLSK LDELYSSAMS SFAQFEDQQN GARSARAEEN
+     IIATYDSIGN LMQEICKELP ALKVYSFETQ RENHAEVSRV VSKLRNIHTG YSEFIYYTQR
+     AFEMLFRLAY GGSHEEHKTY LITKTPVAFP VQNYAVHKIA NVDYKIENTV MCVMLRGALL
+     PSMIVSKEIE EYSSHGYVTP FALFKIKRDD LRDERDMQYV FDLDKSYFSA RELDGKDLVF
+     ADPMNATGGS LVTIVRYLQD LGVKPKSISC FHMISALKGA IRVVRSLENC TVYTLWMDPV
+     LNARAYIMPG LGDAGDRVNG VDVEDYPRNI IQLLADYGSN ISGLYRSQLR KIEETVLGSR
+//
+ID   A0A0A7X340_TREPL        Unreviewed;       360 AA.
+AC   A0A0A7X340;
+DT   04-MAR-2015, integrated into UniProtKB/TrEMBL.
+DT   04-MAR-2015, sequence version 1.
+DT   20-JAN-2016, entry version 6.
+DE   SubName: Full=Uracil phosphoribosyltransferase {ECO:0000313|EMBL:AJB40468.1};
+DE            EC=2.4.2.9 {ECO:0000313|EMBL:AJB40468.1};
+GN   Name=upp {ECO:0000313|EMBL:AJB40468.1};
+GN   ORFNames=TENDBA_0448 {ECO:0000313|EMBL:AJB40468.1};
+OS   Treponema pallidum subsp. endemicum str. Bosnia A.
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=1155776 {ECO:0000313|EMBL:AJB40468.1, ECO:0000313|Proteomes:UP000031112};
+RN   [1] {ECO:0000313|EMBL:AJB40468.1, ECO:0000313|Proteomes:UP000031112}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bosnia A {ECO:0000313|EMBL:AJB40468.1};
+RX   PubMed=25375929;
+RA   Staudova B., Strouhal M., Zobanikova M., Cejkova D., Fulton L.L.,
+RA   Chen L., Giacani L., Centurion-Lara A., Bruisten S.M., Sodergren E.,
+RA   Weinstock G.M., Smajs D.;
+RT   "Whole Genome Sequence of the Treponema pallidum subsp. endemicum
+RT   Strain Bosnia A: The Genome Is Related to Yaws Treponemes but Contains
+RT   Few Loci Similar to Syphilis Treponemes.";
+RL   PLoS Negl. Trop. Dis. 8:E3261-E3261(2014).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP007548; AJB40468.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881896.1; NZ_CP007548.1.
+DR   ProteinModelPortal; A0A0A7X340; -.
+DR   EnsemblBacteria; AJB40468; AJB40468; TENDBA_0448.
+DR   GeneID; 2611011; -.
+DR   Proteomes; UP000031112; Chromosome.
+DR   GO; GO:0004845; F:uracil phosphoribosyltransferase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000031112};
+KW   Glycosyltransferase {ECO:0000313|EMBL:AJB40468.1};
+KW   Transferase {ECO:0000313|EMBL:AJB40468.1}.
+SQ   SEQUENCE   360 AA;  41018 MW;  9E2CAB2E2FA3768C CRC64;
+     MEGQTARRVI TEAKFLDDCL TERDSYYLSK LDELYSSAMS SFAQFEDQQN GARSARAEEN
+     IIATYDSIGN LMQEICKELP ALKVYSFETQ RENHAEVSRV VSKLRNIHTG YSEFIYYTQR
+     AFEMLFRLAY GGSHEEHKTY LITKTPVAFP VQNYAVHKIA NVDYKIENTV MCVMLRGALL
+     PSMIVSKEIE EYSSHGYVTP FALFKIKRDD LRDERDMQYV FDLDKSYFSA RELDGKDLVF
+     ADPMNATGGS LVTIVRYLQD LGVKPKSISC FHMISALKGA IRVVRSLENC TVYTLWMDPV
+     LNARAYIMPG LGDAGDRVNG VDVEDYPRNI IQLLADYGSN ISGLYRSQLR KIEETVLGSR
+//
+ID   A0A0H3BJ81_TREPS        Unreviewed;       360 AA.
+AC   A0A0H3BJ81;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   20-JAN-2016, entry version 5.
+DE   SubName: Full=Possible uracil phosphoribosyltransferase {ECO:0000313|EMBL:ACD70873.1};
+GN   OrderedLocusNames=TPASS_0448 {ECO:0000313|EMBL:ACD70873.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70873.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70873.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70873.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70873.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881896.1; NC_021508.1.
+DR   ProteinModelPortal; A0A0H3BJ81; -.
+DR   GeneID; 2611011; -.
+DR   KEGG; tpp:TPASS_0448; -.
+DR   KO; K00761; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0016757; F:transferase activity, transferring glycosyl groups; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.2020; -; 1.
+DR   InterPro; IPR029057; PRTase-like.
+DR   Pfam; PF14681; UPRTase; 1.
+DR   SUPFAM; SSF53271; SSF53271; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Glycosyltransferase {ECO:0000313|EMBL:ACD70873.1};
+KW   Transferase {ECO:0000313|EMBL:ACD70873.1}.
+SQ   SEQUENCE   360 AA;  41018 MW;  9E2CAB2E2FA3768C CRC64;
+     MEGQTARRVI TEAKFLDDCL TERDSYYLSK LDELYSSAMS SFAQFEDQQN GARSARAEEN
+     IIATYDSIGN LMQEICKELP ALKVYSFETQ RENHAEVSRV VSKLRNIHTG YSEFIYYTQR
+     AFEMLFRLAY GGSHEEHKTY LITKTPVAFP VQNYAVHKIA NVDYKIENTV MCVMLRGALL
+     PSMIVSKEIE EYSSHGYVTP FALFKIKRDD LRDERDMQYV FDLDKSYFSA RELDGKDLVF
+     ADPMNATGGS LVTIVRYLQD LGVKPKSISC FHMISALKGA IRVVRSLENC TVYTLWMDPV
+     LNARAYIMPG LGDAGDRVNG VDVEDYPRNI IQLLADYGSN ISGLYRSQLR KIEETVLGSR
+//

@@ -1,0 +1,336 @@
+ID   TOP1_TREPA              Reviewed;         731 AA.
+AC   O83409;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 115.
+DE   RecName: Full=DNA topoisomerase 1 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE            EC=5.99.1.2 {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=DNA topoisomerase I {ECO:0000255|HAMAP-Rule:MF_00952};
+DE   AltName: Full=Omega-protein;
+DE   AltName: Full=Relaxing enzyme;
+DE   AltName: Full=Swivelase;
+DE   AltName: Full=Untwisting enzyme;
+GN   Name=topA {ECO:0000255|HAMAP-Rule:MF_00952};
+GN   OrderedLocusNames=TP_0394;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA,
+CC       which is introduced during the DNA replication and transcription,
+CC       by transiently cleaving and rejoining one strand of the DNA
+CC       duplex. Introduces a single-strand break via transesterification
+CC       at a target site in duplex DNA. The scissile phosphodiester is
+CC       attacked by the catalytic tyrosine of the enzyme, resulting in the
+CC       formation of a DNA-(5'-phosphotyrosyl)-enzyme intermediate and the
+CC       expulsion of a 3'-OH DNA strand. The free DNA strand then
+CC       undergoes passage around the unbroken strand, thus removing DNA
+CC       supercoils. Finally, in the religation step, the DNA 3'-OH attacks
+CC       the covalent intermediate to expel the active-site tyrosine and
+CC       restore the DNA phosphodiester backbone. {ECO:0000255|HAMAP-
+CC       Rule:MF_00952}.
+CC   -!- CATALYTIC ACTIVITY: ATP-independent breakage of single-stranded
+CC       DNA, followed by passage and rejoining. {ECO:0000255|HAMAP-
+CC       Rule:MF_00952}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00952};
+CC       Note=Binds two Mg(2+) per subunit. {ECO:0000255|HAMAP-
+CC       Rule:MF_00952};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Belongs to the type IA topoisomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Contains 1 Toprim domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00952}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65378.1; -; Genomic_DNA.
+DR   PIR; D71332; D71332.
+DR   RefSeq; WP_010881842.1; NC_021490.2.
+DR   ProteinModelPortal; O83409; -.
+DR   IntAct; O83409; 2.
+DR   STRING; 243276.TP0394; -.
+DR   EnsemblBacteria; AAC65378; AAC65378; TP_0394.
+DR   GeneID; 2610767; -.
+DR   KEGG; tpa:TP_0394; -.
+DR   PATRIC; 20530797; VBITrePal57110_0418.
+DR   eggNOG; ENOG4105C73; Bacteria.
+DR   eggNOG; COG0550; LUCA.
+DR   eggNOG; COG0551; LUCA.
+DR   KO; K03168; -.
+DR   OMA; VVECDKC; -.
+DR   OrthoDB; EOG6S7XQ9; -.
+DR   BioCyc; TPAL243276:GC1H-420-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003917; F:DNA topoisomerase type I activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006265; P:DNA topological change; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.460.10; -; 2.
+DR   Gene3D; 2.70.20.10; -; 2.
+DR   Gene3D; 3.40.50.140; -; 1.
+DR   HAMAP; MF_00952; Topoisom_1_prok; 1.
+DR   InterPro; IPR000380; Topo_IA.
+DR   InterPro; IPR003601; Topo_IA_2.
+DR   InterPro; IPR023406; Topo_IA_AS.
+DR   InterPro; IPR013497; Topo_IA_cen.
+DR   InterPro; IPR013824; Topo_IA_cen_sub1.
+DR   InterPro; IPR013825; Topo_IA_cen_sub2.
+DR   InterPro; IPR023405; Topo_IA_core_domain.
+DR   InterPro; IPR003602; Topo_IA_DNA-bd_dom.
+DR   InterPro; IPR013498; Topo_IA_Znf.
+DR   InterPro; IPR005733; TopoI_bac-type.
+DR   InterPro; IPR028612; Topoisom_1_IA.
+DR   InterPro; IPR006171; Toprim_domain.
+DR   PANTHER; PTHR11390; PTHR11390; 1.
+DR   Pfam; PF01131; Topoisom_bac; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   Pfam; PF01396; zf-C4_Topoisom; 2.
+DR   PRINTS; PR00417; PRTPISMRASEI.
+DR   SMART; SM00437; TOP1Ac; 1.
+DR   SMART; SM00436; TOP1Bc; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF56712; SSF56712; 1.
+DR   TIGRFAMs; TIGR01051; topA_bact; 1.
+DR   PROSITE; PS00396; TOPOISOMERASE_I_PROK; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; DNA-binding; Isomerase; Magnesium; Metal-binding;
+KW   Reference proteome; Repeat; Topoisomerase; Zinc; Zinc-finger.
+FT   CHAIN         1    731       DNA topoisomerase 1.
+FT                                /FTId=PRO_0000145170.
+FT   DOMAIN       17    130       Toprim. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   ZN_FING     591    617       C4-type 1.
+FT   ZN_FING     628    657       C4-type 2.
+FT   ZN_FING     670    696       C4-type 3.
+FT   REGION      178    183       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   ACT_SITE    312    312       O-(5'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00952}.
+FT   METAL        23     23       Magnesium 1; catalytic.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00952}.
+FT   METAL        96     96       Magnesium 1; catalytic.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00952}.
+FT   METAL        96     96       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   METAL        98     98       Magnesium 2. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE         47     47       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        154    154       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        155    155       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        158    158       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        163    163       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        170    170       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        314    314       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        501    501       Interaction with DNA. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00952}.
+SQ   SEQUENCE   731 AA;  82441 MW;  C0F0C6C3DDD16F29 CRC64;
+     MEVRGLQPKR QKTFARKHLV IVESPAKAQT IEKYLGTQYV VRASMGHVID LPKSRLAIDI
+     EHDFQPEYIT VRGRAQCLKE LRTLSKQSLQ VFLASDRDRE GEAIAYHLAQ SIQAYCDTPI
+     KRIVFNEITP HAIRAAIGHP VPIDTAKVNA QKARRVLDRL VGYHLCPLLW HKVKNGLSAG
+     RVQSVALRLI CEREVEVKRF VPEEYWTVEG TFEKDKKSFS ALLILIQGKK AVFKSKQEAT
+     SAIGLFSQSE ARVSQIRSFE KNVRPKQPFT TSTLQQCAAN RLGFTSRKTM QVAQQLYEGV
+     SLGTHRVGLI TYMRTDSVRV SEAAVKEVRA WIATHFSDAL PGTPNRYAAK GKSQDAHEAI
+     RPTYVAHTPE RIKAHLTRDQ IRLYTLIWER FVASQMTDAR VRSLTFEITA GPAVFSATET
+     QVIEQGFYRV LKMLSPKDLS KAVLPPTKEG EVVALHNVQS VQHFTQGPVR YTDASIVKML
+     EEKGIGRPST YAPTISVLLD RYYVTRIQKQ LMPTPLGKVI SDLLTTYFHD VVDVSFTARM
+     ESKLDEVEED KIKWNCVIAD FYPAFSEKVS TVMKDLNSMR GVFDEKTDVV CSQCGDTMVK
+     KLGRFGFFLA CGKFPECRNT QPVPLAKCPR PACDGNIVGK KTRGRKEFYG CTRFPVCDFV
+     THFKPTFAVC PQCRCFLVEK SNRRVGTYTA CVNPECRYVS PTRKNLSLGK EAVLDGSHRG
+     AQDKGAVQHY E
+//
+ID   R9UWK1_TREPA            Unreviewed;       731 AA.
+AC   R9UWK1;
+DT   18-SEP-2013, integrated into UniProtKB/TrEMBL.
+DT   18-SEP-2013, sequence version 1.
+DT   09-DEC-2015, entry version 24.
+DE   RecName: Full=DNA topoisomerase 1 {ECO:0000256|HAMAP-Rule:MF_00952};
+DE            EC=5.99.1.2 {ECO:0000256|HAMAP-Rule:MF_00952};
+DE   AltName: Full=DNA topoisomerase I {ECO:0000256|HAMAP-Rule:MF_00952};
+GN   Name=topA {ECO:0000256|HAMAP-Rule:MF_00952,
+GN   ECO:0000313|EMBL:AGN75588.1};
+GN   ORFNames=TPANIC_0394 {ECO:0000313|EMBL:AGN75588.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AGN75588.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AGN75588.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75588.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA,
+CC       which is introduced during the DNA replication and transcription,
+CC       by transiently cleaving and rejoining one strand of the DNA
+CC       duplex. Introduces a single-strand break via transesterification
+CC       at a target site in duplex DNA. The scissile phosphodiester is
+CC       attacked by the catalytic tyrosine of the enzyme, resulting in the
+CC       formation of a DNA-(5'-phosphotyrosyl)-enzyme intermediate and the
+CC       expulsion of a 3'-OH DNA strand. The free DNA strand then
+CC       undergoes passage around the unbroken strand, thus removing DNA
+CC       supercoils. Finally, in the religation step, the DNA 3'-OH attacks
+CC       the covalent intermediate to expel the active-site tyrosine and
+CC       restore the DNA phosphodiester backbone. {ECO:0000256|HAMAP-
+CC       Rule:MF_00952}.
+CC   -!- FUNCTION: Releases the supercoiling and torsional tension of DNA,
+CC       which is introduced during the DNA replication and transcription,
+CC       by transiently cleaving and rejoining one strand of the DNA
+CC       duplex. Introduces a single-strand break via transesterification
+CC       at a target site in duplex DNA. The scissile phosphodiester is
+CC       attacked by the catalytic tyrosine of the enzyme, resulting in the
+CC       formation of a DNA-(5'-phosphotyrosyl)-enzyme intermediate and the
+CC       expulsion of a 3'-OH DNA strand. The free DNA strand then
+CC       undergoes passage around the unbroken strand, thus removing DNA
+CC       supercoils. Finally, in the religation step, the DNA 3'-OH attacks
+CC       the covalent intermediate to expel the active-site tyrosine and
+CC       restore the DNA phosphodiester backbone (By similarity).
+CC       {ECO:0000256|SAAS:SAAS00344694}.
+CC   -!- CATALYTIC ACTIVITY: ATP-independent breakage of single-stranded
+CC       DNA, followed by passage and rejoining. {ECO:0000256|HAMAP-
+CC       Rule:MF_00952, ECO:0000256|SAAS:SAAS00362182}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000256|HAMAP-Rule:MF_00952};
+CC       Note=Binds two Mg(2+) per subunit. {ECO:0000256|HAMAP-
+CC       Rule:MF_00952};
+CC   -!- SUBUNIT: Monomer. {ECO:0000256|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Belongs to the type IA topoisomerase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00952}.
+CC   -!- SIMILARITY: Contains 1 Toprim domain. {ECO:0000256|HAMAP-
+CC       Rule:MF_00952}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP004010; AGN75588.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881842.1; NC_021490.2.
+DR   ProteinModelPortal; R9UWK1; -.
+DR   STRING; 243276.TP0394; -.
+DR   EnsemblBacteria; AGN75588; AGN75588; TPANIC_0394.
+DR   GeneID; 2610767; -.
+DR   KEGG; tpw:TPANIC_0394; -.
+DR   eggNOG; COG0550; LUCA.
+DR   eggNOG; COG0551; LUCA.
+DR   eggNOG; ENOG4105C73; Bacteria.
+DR   KO; K03168; -.
+DR   OMA; VVECDKC; -.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005694; C:chromosome; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; IEA:UniProtKB-KW.
+DR   GO; GO:0003917; F:DNA topoisomerase type I activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006265; P:DNA topological change; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.460.10; -; 2.
+DR   Gene3D; 2.70.20.10; -; 2.
+DR   Gene3D; 3.40.50.140; -; 1.
+DR   HAMAP; MF_00952; Topoisom_1_prok; 1.
+DR   InterPro; IPR000380; Topo_IA.
+DR   InterPro; IPR003601; Topo_IA_2.
+DR   InterPro; IPR023406; Topo_IA_AS.
+DR   InterPro; IPR013497; Topo_IA_cen.
+DR   InterPro; IPR013824; Topo_IA_cen_sub1.
+DR   InterPro; IPR013825; Topo_IA_cen_sub2.
+DR   InterPro; IPR023405; Topo_IA_core_domain.
+DR   InterPro; IPR003602; Topo_IA_DNA-bd_dom.
+DR   InterPro; IPR013498; Topo_IA_Znf.
+DR   InterPro; IPR005733; TopoI_bac-type.
+DR   InterPro; IPR028612; Topoisom_1_IA.
+DR   InterPro; IPR006171; Toprim_domain.
+DR   PANTHER; PTHR11390; PTHR11390; 1.
+DR   Pfam; PF01131; Topoisom_bac; 1.
+DR   Pfam; PF01751; Toprim; 1.
+DR   Pfam; PF01396; zf-C4_Topoisom; 2.
+DR   PRINTS; PR00417; PRTPISMRASEI.
+DR   SMART; SM00437; TOP1Ac; 1.
+DR   SMART; SM00436; TOP1Bc; 1.
+DR   SMART; SM00493; TOPRIM; 1.
+DR   SUPFAM; SSF56712; SSF56712; 1.
+DR   TIGRFAMs; TIGR01051; topA_bact; 1.
+DR   PROSITE; PS00396; TOPOISOMERASE_I_PROK; 1.
+DR   PROSITE; PS50880; TOPRIM; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000014259};
+KW   DNA-binding {ECO:0000256|HAMAP-Rule:MF_00952,
+KW   ECO:0000256|SAAS:SAAS00046586};
+KW   Isomerase {ECO:0000256|HAMAP-Rule:MF_00952,
+KW   ECO:0000256|SAAS:SAAS00046626};
+KW   Magnesium {ECO:0000256|HAMAP-Rule:MF_00952,
+KW   ECO:0000256|SAAS:SAAS00003507};
+KW   Metal-binding {ECO:0000256|HAMAP-Rule:MF_00952,
+KW   ECO:0000256|SAAS:SAAS00003578};
+KW   Topoisomerase {ECO:0000256|HAMAP-Rule:MF_00952,
+KW   ECO:0000256|SAAS:SAAS00046626}.
+FT   DOMAIN       17    130       Toprim. {ECO:0000256|HAMAP-Rule:MF_00952,
+FT                                ECO:0000259|PROSITE:PS50880}.
+FT   REGION      178    183       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   ACT_SITE    312    312       O-(5'-phospho-DNA)-tyrosine intermediate.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00952}.
+FT   METAL        23     23       Magnesium 1; catalytic.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00952}.
+FT   METAL        96     96       Magnesium 1; catalytic.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00952}.
+FT   METAL        96     96       Magnesium 2. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   METAL        98     98       Magnesium 2. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE         47     47       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        154    154       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        155    155       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        158    158       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        163    163       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        170    170       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        314    314       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+FT   SITE        501    501       Interaction with DNA. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00952}.
+SQ   SEQUENCE   731 AA;  82441 MW;  C0F0C6C3DDD16F29 CRC64;
+     MEVRGLQPKR QKTFARKHLV IVESPAKAQT IEKYLGTQYV VRASMGHVID LPKSRLAIDI
+     EHDFQPEYIT VRGRAQCLKE LRTLSKQSLQ VFLASDRDRE GEAIAYHLAQ SIQAYCDTPI
+     KRIVFNEITP HAIRAAIGHP VPIDTAKVNA QKARRVLDRL VGYHLCPLLW HKVKNGLSAG
+     RVQSVALRLI CEREVEVKRF VPEEYWTVEG TFEKDKKSFS ALLILIQGKK AVFKSKQEAT
+     SAIGLFSQSE ARVSQIRSFE KNVRPKQPFT TSTLQQCAAN RLGFTSRKTM QVAQQLYEGV
+     SLGTHRVGLI TYMRTDSVRV SEAAVKEVRA WIATHFSDAL PGTPNRYAAK GKSQDAHEAI
+     RPTYVAHTPE RIKAHLTRDQ IRLYTLIWER FVASQMTDAR VRSLTFEITA GPAVFSATET
+     QVIEQGFYRV LKMLSPKDLS KAVLPPTKEG EVVALHNVQS VQHFTQGPVR YTDASIVKML
+     EEKGIGRPST YAPTISVLLD RYYVTRIQKQ LMPTPLGKVI SDLLTTYFHD VVDVSFTARM
+     ESKLDEVEED KIKWNCVIAD FYPAFSEKVS TVMKDLNSMR GVFDEKTDVV CSQCGDTMVK
+     KLGRFGFFLA CGKFPECRNT QPVPLAKCPR PACDGNIVGK KTRGRKEFYG CTRFPVCDFV
+     THFKPTFAVC PQCRCFLVEK SNRRVGTYTA CVNPECRYVS PTRKNLSLGK EAVLDGSHRG
+     AQDKGAVQHY E
+//

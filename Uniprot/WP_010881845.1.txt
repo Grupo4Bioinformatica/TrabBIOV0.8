@@ -1,0 +1,148 @@
+ID   O83412_TREPA            Unreviewed;       129 AA.
+AC   O83412;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 90.
+DE   RecName: Full=Flagellar basal-body rod protein FlgC {ECO:0000256|RuleBase:RU362062};
+GN   Name=flgC {ECO:0000313|EMBL:AGN75591.1};
+GN   OrderedLocusNames=TP_0397 {ECO:0000313|EMBL:AAC65385.1};
+GN   ORFNames=TPANIC_0397 {ECO:0000313|EMBL:AGN75591.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65385.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65385.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65385.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75591.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75591.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- SUBUNIT: The basal body constitutes a major portion of the
+CC       flagellar organelle and consists of four rings (L,P,S, and M)
+CC       mounted on a central rod. The rod consists of about 26 subunits of
+CC       FlgG in the distal portion, and FlgB, FlgC and FlgF are thought to
+CC       build up the proximal portion of the rod with about 6 subunits
+CC       each. {ECO:0000256|RuleBase:RU362062}.
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|RuleBase:RU362062}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65385.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75591.1; -; Genomic_DNA.
+DR   PIR; D71328; D71328.
+DR   RefSeq; WP_010881845.1; NC_000919.1.
+DR   MINT; MINT-6479921; -.
+DR   STRING; 243276.TP0397; -.
+DR   EnsemblBacteria; AAC65385; AAC65385; TP_0397.
+DR   EnsemblBacteria; AGN75591; AGN75591; TPANIC_0397.
+DR   GeneID; 2610782; -.
+DR   KEGG; tpa:TP_0397; -.
+DR   KEGG; tpw:TPANIC_0397; -.
+DR   PATRIC; 20530803; VBITrePal57110_0421.
+DR   eggNOG; COG1558; LUCA.
+DR   eggNOG; ENOG4108ZC9; Bacteria.
+DR   KO; K02388; -.
+DR   OMA; TINHISA; -.
+DR   OrthoDB; EOG6KMB8P; -.
+DR   BioCyc; TPAL243276:GC1H-423-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0030694; C:bacterial-type flagellum basal body, rod; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:UniProtKB-UniRule.
+DR   InterPro; IPR010930; Flg_bb/hook_C_dom.
+DR   InterPro; IPR006299; FlgC.
+DR   Pfam; PF06429; Flg_bbr_C; 1.
+DR   TIGRFAMs; TIGR01395; FlgC; 1.
+PE   4: Predicted;
+KW   Bacterial flagellum {ECO:0000256|RuleBase:RU362062};
+KW   Cell projection {ECO:0000313|EMBL:AAC65385.1};
+KW   Cilium {ECO:0000313|EMBL:AAC65385.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Flagellum {ECO:0000313|EMBL:AAC65385.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN       82    126       Flg_bbr_C. {ECO:0000259|Pfam:PF06429}.
+SQ   SEQUENCE   129 AA;  14145 MW;  BCF8A56E06270027 CRC64;
+     MISDNIANAS STRTQEGGVF RRSRVVLAQK NPGIDWRIPF VPEQLDRGVG TGVRVVSIEK
+     DNAPSRLVYD PTHPDAILSG PKAGYVEYPN VDIVTEMVDL ISASRAYEAN ISVISGSKEM
+     FQRALEIAR
+//
+ID   A0A0H3BKE2_TREPS        Unreviewed;       129 AA.
+AC   A0A0H3BKE2;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 4.
+DE   RecName: Full=Flagellar basal-body rod protein FlgC {ECO:0000256|RuleBase:RU362062};
+GN   Name=flgC {ECO:0000313|EMBL:ACD70823.1};
+GN   OrderedLocusNames=TPASS_0397 {ECO:0000313|EMBL:ACD70823.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70823.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70823.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70823.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -!- SUBUNIT: The basal body constitutes a major portion of the
+CC       flagellar organelle and consists of four rings (L,P,S, and M)
+CC       mounted on a central rod. The rod consists of about 26 subunits of
+CC       FlgG in the distal portion, and FlgB, FlgC and FlgF are thought to
+CC       build up the proximal portion of the rod with about 6 subunits
+CC       each. {ECO:0000256|RuleBase:RU362062}.
+CC   -!- SUBCELLULAR LOCATION: Bacterial flagellum basal body
+CC       {ECO:0000256|RuleBase:RU362062}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70823.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881845.1; NC_010741.1.
+DR   ProteinModelPortal; A0A0H3BKE2; -.
+DR   GeneID; 2610782; -.
+DR   KEGG; tpp:TPASS_0397; -.
+DR   KO; K02388; -.
+DR   Proteomes; UP000001202; Chromosome.
+DR   GO; GO:0030694; C:bacterial-type flagellum basal body, rod; IEA:InterPro.
+DR   GO; GO:0071973; P:bacterial-type flagellum-dependent cell motility; IEA:UniProtKB-UniRule.
+DR   InterPro; IPR010930; Flg_bb/hook_C_dom.
+DR   InterPro; IPR006299; FlgC.
+DR   Pfam; PF06429; Flg_bbr_C; 1.
+DR   TIGRFAMs; TIGR01395; FlgC; 1.
+PE   4: Predicted;
+KW   Bacterial flagellum {ECO:0000256|RuleBase:RU362062};
+KW   Cell projection {ECO:0000313|EMBL:ACD70823.1};
+KW   Cilium {ECO:0000313|EMBL:ACD70823.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Flagellum {ECO:0000313|EMBL:ACD70823.1}.
+FT   DOMAIN       82    126       Flg_bbr_C. {ECO:0000259|Pfam:PF06429}.
+SQ   SEQUENCE   129 AA;  14145 MW;  BCF8A56E06270027 CRC64;
+     MISDNIANAS STRTQEGGVF RRSRVVLAQK NPGIDWRIPF VPEQLDRGVG TGVRVVSIEK
+     DNAPSRLVYD PTHPDAILSG PKAGYVEYPN VDIVTEMVDL ISASRAYEAN ISVISGSKEM
+     FQRALEIAR
+//

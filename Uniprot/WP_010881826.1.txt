@@ -1,0 +1,97 @@
+ID   O83393_TREPA            Unreviewed;       126 AA.
+AC   O83393;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 76.
+DE   SubName: Full=Flagellar protein, putative {ECO:0000313|EMBL:AAC65364.1};
+GN   OrderedLocusNames=TP_0378 {ECO:0000313|EMBL:AAC65364.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65364.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65364.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65364.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65364.1; -; Genomic_DNA.
+DR   PIR; D71330; D71330.
+DR   RefSeq; WP_010881826.1; NC_000919.1.
+DR   ProteinModelPortal; O83393; -.
+DR   IntAct; O83393; 2.
+DR   STRING; 243276.TP0378; -.
+DR   EnsemblBacteria; AAC65364; AAC65364; TP_0378.
+DR   GeneID; 2611267; -.
+DR   KEGG; tpa:TP_0378; -.
+DR   PATRIC; 20530761; VBITrePal57110_0400.
+DR   eggNOG; COG1580; LUCA.
+DR   eggNOG; ENOG4106XPW; Bacteria.
+DR   OMA; FFEELAG; -.
+DR   OrthoDB; EOG6GN73H; -.
+DR   BioCyc; TPAL243276:GC1H-404-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:AAC65364.1};
+KW   Cilium {ECO:0000313|EMBL:AAC65364.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Flagellum {ECO:0000313|EMBL:AAC65364.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+SQ   SEQUENCE   126 AA;  14337 MW;  9EE5B0ADEBA323CF CRC64;
+     MRTHSAPRET QTRRTTRGIA QRESAHAVYA ELGRLRALSA DKQPVSVIIT PLLQYPAADH
+     ALYEELVQKK EQLRRASLAW CAQHTAQELH MLGPEQLKIA LRDALNTQLS LGRVTHVFLE
+     EFIILF
+//
+ID   A0A0H3BIA0_TREPS        Unreviewed;       126 AA.
+AC   A0A0H3BIA0;
+DT   16-SEP-2015, integrated into UniProtKB/TrEMBL.
+DT   16-SEP-2015, sequence version 1.
+DT   09-DEC-2015, entry version 3.
+DE   SubName: Full=Possible flagellar protein {ECO:0000313|EMBL:ACD70804.1};
+GN   OrderedLocusNames=TPASS_0378 {ECO:0000313|EMBL:ACD70804.1};
+OS   Treponema pallidum subsp. pallidum (strain SS14).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=455434 {ECO:0000313|EMBL:ACD70804.1, ECO:0000313|Proteomes:UP000001202};
+RN   [1] {ECO:0000313|EMBL:ACD70804.1, ECO:0000313|Proteomes:UP000001202}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=SS14 {ECO:0000313|EMBL:ACD70804.1,
+RC   ECO:0000313|Proteomes:UP000001202};
+RX   PubMed=18482458; DOI=10.1186/1471-2180-8-76;
+RA   Matejkova P., Strouhal M., Smajs D., Norris S.J., Palzkill T.,
+RA   Petrosino J.F., Sodergren E., Norton J.E., Singh J., Richmond T.A.,
+RA   Molla M.N., Albert T.J., Weinstock G.M.;
+RT   "Complete genome sequence of Treponema pallidum ssp. pallidum strain
+RT   SS14 determined with oligonucleotide arrays.";
+RL   BMC Microbiol. 8:76-76(2008).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; CP000805; ACD70804.1; -; Genomic_DNA.
+DR   RefSeq; WP_010881826.1; NC_010741.1.
+DR   ProteinModelPortal; A0A0H3BIA0; -.
+DR   GeneID; 2611267; -.
+DR   KEGG; tpp:TPASS_0378; -.
+DR   Proteomes; UP000001202; Chromosome.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:ACD70804.1};
+KW   Cilium {ECO:0000313|EMBL:ACD70804.1};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000001202};
+KW   Flagellum {ECO:0000313|EMBL:ACD70804.1}.
+SQ   SEQUENCE   126 AA;  14337 MW;  9EE5B0ADEBA323CF CRC64;
+     MRTHSAPRET QTRRTTRGIA QRESAHAVYA ELGRLRALSA DKQPVSVIIT PLLQYPAADH
+     ALYEELVQKK EQLRRASLAW CAQHTAQELH MLGPEQLKIA LRDALNTQLS LGRVTHVFLE
+     EFIILF
+//
